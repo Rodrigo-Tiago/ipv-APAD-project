@@ -1,0 +1,101 @@
+CONTENT_ID,TYPE_ID,AGE_RESTRICTION_ID,DIRECTOR_ID,TITLE,RELEASE_DATE,DURATION
+1,5,4,49,Learn take low.,2021-07-31,60
+2,5,1,36,Able guess.,2023-01-12,155
+3,3,1,56,Campaign forward.,2024-05-23,158
+4,4,1,26,Glass allow president.,2022-11-20,66
+5,5,2,50,Rather.,2021-06-23,64
+6,2,4,7,Which administration mean.,2015-12-04,108
+7,1,1,47,Draw although.,2016-03-23,68
+8,5,2,8,Even relate.,2017-06-18,123
+9,4,3,58,Deal time.,2018-12-04,69
+10,1,1,96,Into but relationship.,2024-06-11,140
+11,4,1,59,Road data institution.,2015-07-21,82
+12,3,2,7,Area now.,2017-05-23,167
+13,5,3,63,Occur dark.,2020-09-04,139
+14,1,4,47,Believe system better.,2018-08-25,61
+15,1,1,69,Control late.,2018-02-27,85
+16,3,1,37,Kitchen.,2023-12-24,135
+17,2,1,15,Spend know baby.,2019-11-10,75
+18,1,3,10,Become whatever.,2017-01-09,61
+19,1,1,59,Year might.,2019-06-18,96
+20,3,4,13,Allow their property.,2017-10-13,125
+21,2,4,54,To night loss we.,2022-08-21,117
+22,5,4,36,Program.,2022-07-11,142
+23,5,3,40,Fact grow begin open.,2024-09-23,142
+24,1,3,78,Job crime class.,2023-08-23,77
+25,2,2,14,Manage option.,2021-09-23,148
+26,1,4,49,Century ball approach until.,2022-10-31,91
+27,2,2,78,Any after home.,2018-08-08,158
+28,3,3,79,Center former.,2017-09-19,140
+29,5,4,77,Provide own.,2020-10-15,83
+30,3,2,42,Item coach.,2018-12-22,143
+31,5,1,55,Action central.,2024-04-05,76
+32,1,3,97,So kind town.,2020-07-02,79
+33,1,3,36,Moment season.,2016-11-11,103
+34,4,2,63,Figure budget.,2019-04-11,83
+35,3,2,48,Industry.,2024-11-27,98
+36,3,1,57,Director thought program.,2021-10-30,127
+37,2,3,57,Build financial citizen.,2015-10-23,158
+38,3,4,13,Dinner stay.,2018-05-05,112
+39,5,4,60,Only activity.,2022-03-28,62
+40,4,3,25,Significant ahead environmental.,2019-12-15,95
+41,4,1,2,Happen continue I Mr.,2021-05-22,152
+42,1,2,90,Pass table program use.,2016-03-09,88
+43,3,3,2,Need.,2019-08-05,73
+44,4,1,60,Catch dark key.,2021-03-05,85
+45,4,4,47,Firm necessary.,2020-08-26,88
+46,2,4,92,Good relate.,2018-06-24,156
+47,2,3,56,Building establish just.,2019-09-13,152
+48,3,2,5,Budget court thus.,2016-04-22,128
+49,5,4,47,Reason piece will.,2017-03-01,73
+50,4,2,87,Vote affect.,2019-03-29,87
+51,3,1,1,Degree necessary so.,2018-03-08,163
+52,3,3,6,Space.,2024-06-04,126
+53,4,4,89,Under local order.,2021-11-15,75
+54,2,2,17,Baby page decide.,2024-10-11,106
+55,1,3,99,Possible young under.,2017-02-02,132
+56,1,4,87,Tonight fall discussion.,2016-08-19,146
+57,5,2,54,Various.,2015-06-27,82
+58,2,1,61,Heavy southern truth.,2015-07-23,119
+59,1,4,55,Clear full face.,2024-01-07,167
+60,1,4,74,Usually event always.,2021-03-15,154
+61,2,1,36,First but.,2022-03-17,95
+62,1,1,18,Force.,2020-10-05,89
+63,2,4,60,Reach trip.,2018-12-30,69
+64,5,3,52,Why meet spend.,2018-09-14,82
+65,1,2,94,Rate this old.,2018-10-05,155
+66,4,3,39,Green indeed.,2017-05-22,132
+67,5,3,23,Model early open.,2016-10-11,123
+68,4,1,32,Catch.,2019-02-14,92
+69,4,2,90,Front make bank.,2016-01-03,66
+70,1,2,77,Training oil expert none.,2018-09-16,80
+71,3,3,33,Bad step yard firm.,2015-06-05,150
+72,3,1,10,Cold movement what.,2022-04-20,122
+73,1,1,100,Often him decade.,2017-11-19,124
+74,3,3,76,Record station.,2021-12-12,153
+75,1,1,86,Task recognize method want.,2017-05-26,143
+76,1,1,22,Meet stuff project.,2023-10-19,91
+77,5,1,49,Political treat.,2017-04-26,126
+78,2,4,56,Cut last glass try.,2022-03-20,150
+79,2,4,98,Bank early large.,2018-04-05,155
+80,2,2,94,Front debate.,2022-09-18,174
+81,1,2,53,Follow each sit.,2015-07-03,109
+82,2,2,75,Southern newspaper.,2018-02-21,95
+83,5,3,38,Option later half rather.,2025-01-25,170
+84,5,1,87,Pull about almost.,2024-03-14,100
+85,3,4,79,Prepare.,2023-06-10,115
+86,5,3,5,Training technology college.,2021-03-22,145
+87,2,4,34,Husband official.,2024-10-25,166
+88,4,2,7,After coach.,2024-01-16,170
+89,2,2,72,Strategy.,2017-12-31,125
+90,3,4,41,Course behind them.,2018-11-25,117
+91,2,1,49,Quickly him little upon.,2015-10-14,102
+92,4,4,83,Recently may else.,2016-01-03,83
+93,4,1,4,Play financial drug.,2019-05-24,61
+94,1,1,62,Space month standard low.,2017-05-10,78
+95,1,2,58,Want play.,2022-08-25,96
+96,2,3,37,See move.,2021-10-17,72
+97,1,3,56,Race system man.,2021-09-26,125
+98,5,3,92,Music focus.,2022-02-12,75
+99,2,2,77,Enough suddenly Mr.,2022-02-20,133
+100,1,1,44,These decision.,2022-09-05,63
