@@ -1,0 +1,12 @@
+\COPY AGE_GROUPS FROM 'd:/Mestrado/1 Ano/2 Semestre/APAD/Projeto/Codigo/geracao_dados/csv_postgresql2/AGE_GROUPS.csv' DELIMITER ',' CSV HEADER;
+\COPY GENDERS FROM 'd:/Mestrado/1 Ano/2 Semestre/APAD/Projeto/Codigo/geracao_dados/csv_postgresql2/GENDERS.csv' DELIMITER ',' CSV HEADER;
+\COPY COUNTRIES FROM 'd:/Mestrado/1 Ano/2 Semestre/APAD/Projeto/Codigo/geracao_dados/csv_postgresql2/COUNTRIES.csv' DELIMITER ',' CSV HEADER;
+\COPY SUBSCRIPTION_STATUS FROM 'd:/Mestrado/1 Ano/2 Semestre/APAD/Projeto/Codigo/geracao_dados/csv_postgresql2/SUBSCRIPTION_STATUS.csv' DELIMITER ',' CSV HEADER;
+\COPY CATEGORIES FROM 'd:/Mestrado/1 Ano/2 Semestre/APAD/Projeto/Codigo/geracao_dados/csv_postgresql2/CATEGORIES.csv' DELIMITER ',' CSV HEADER;
+\COPY TYPES FROM 'd:/Mestrado/1 Ano/2 Semestre/APAD/Projeto/Codigo/geracao_dados/csv_postgresql2/TYPES.csv' DELIMITER ',' CSV HEADER;
+\COPY AGE_RESTRICTIONS FROM 'd:/Mestrado/1 Ano/2 Semestre/APAD/Projeto/Codigo/geracao_dados/csv_postgresql2/AGE_RESTRICTIONS.csv' DELIMITER ',' CSV HEADER;
+\COPY DIRECTORS FROM 'd:/Mestrado/1 Ano/2 Semestre/APAD/Projeto/Codigo/geracao_dados/csv_postgresql2/DIRECTORS.csv' DELIMITER ',' CSV HEADER;
+\COPY USERS FROM 'd:/Mestrado/1 Ano/2 Semestre/APAD/Projeto/Codigo/geracao_dados/csv_postgresql2/USERS.csv' DELIMITER ',' CSV HEADER;
+\COPY CONTENTS FROM 'd:/Mestrado/1 Ano/2 Semestre/APAD/Projeto/Codigo/geracao_dados/csv_postgresql2/CONTENTS.csv' DELIMITER ',' CSV HEADER;
+\COPY CONTENT_CATEGORIES FROM 'd:/Mestrado/1 Ano/2 Semestre/APAD/Projeto/Codigo/geracao_dados/csv_postgresql2/CONTENT_CATEGORIES.csv' DELIMITER ',' CSV HEADER;
+\COPY SESSIONS FROM 'd:/Mestrado/1 Ano/2 Semestre/APAD/Projeto/Codigo/geracao_dados/csv_postgresql2/SESSIONS.csv' DELIMITER ',' CSV HEADER;

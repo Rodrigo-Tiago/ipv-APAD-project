@@ -12,6 +12,9 @@ output_dir = os.path.join(os.path.dirname(__file__), 'csv_postgresql2')
 os.makedirs(output_dir, exist_ok=True)
 os.chdir(output_dir)
 
+# Caminho absoluto para usar no .sql
+path_csv_absoluto = output_dir.replace('\\', '/')  # Corrigir backslashes
+
 # Valores fixos
 AGE_GROUPS_LIST = ['0-9', '10-14', '15-19', '20-24', '25-34', '35-44', '45-54', '55-64', '65+']
 GENDERS_LIST = ['Man', 'Woman', 'Prefer not to say']
@@ -136,5 +139,13 @@ with open('SESSIONS.csv', 'w', newline='') as f:
             fake.date_time_between(start_date='-2y', end_date='now'),
             random.randint(10, 180)
         ])
+
+# Criar o ficheiro importar.sql automaticamente
+sql_path = os.path.join(output_dir, 'importar_postgresql2.sql')
+
+with open(sql_path, 'w') as sql_file:
+    tabelas = ['AGE_GROUPS', 'GENDERS', 'COUNTRIES', 'SUBSCRIPTION_STATUS', 'CATEGORIES', 'TYPES', 'AGE_RESTRICTIONS', 'DIRECTORS', 'USERS', 'CONTENTS', 'CONTENT_CATEGORIES', 'SESSIONS']
+    for tabela in tabelas:
+        sql_file.write(f"COPY {tabela} FROM '{path_csv_absoluto}/{tabela}.csv' DELIMITER ',' CSV HEADER;\n")
 
 print("CSVs gerados com sucesso para todas as tabelas!")
