@@ -29,6 +29,7 @@ services:
       MYSQL_DATABASE: db3
       MYSQL_USER: user3
       MYSQL_PASSWORD: password3
+    command: --local-infile=1
     ports:
       - "3307:3306"
 
