@@ -33,6 +33,21 @@ services:
     ports:
       - "3307:3306"
 
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver-dw
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Password123!"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+    networks:
+      - mynetwork
+
 networks:
-  default:
-    name: mynetwork
+  mynetwork:
+
+volumes:
+  sql_data:
