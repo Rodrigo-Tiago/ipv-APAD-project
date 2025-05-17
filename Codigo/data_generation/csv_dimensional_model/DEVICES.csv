@@ -1,0 +1,201 @@
+DEVICE_ID,DEVICE_TYPE,APP_VERSION,OS_NAME
+1,Game Console,v2.0.1,tvOS
+2,Game Console,v1.0.0,Linux
+3,Laptop,v2.1.0,tvOS
+4,Smart TV,v1.0.0,Windows
+5,Smartphone,v2.1.0,Windows
+6,Tablet,v2.1.0,macOS
+7,Desktop,v2.0.1,iOS
+8,Desktop,v2.1.0,iOS
+9,Smartphone,v2.1.0,iOS
+10,Smartphone,v1.0.0,Linux
+11,Laptop,v3.0.5,iOS
+12,Desktop,v3.0.5,FireOS
+13,Smart TV,v2.0.1,iOS
+14,Laptop,v1.2.3,Android
+15,Smart TV,v3.0.5,FireOS
+16,Laptop,v2.1.0,tvOS
+17,Game Console,v3.0.5,Linux
+18,Game Console,v2.0.1,Linux
+19,Smartphone,v3.0.5,tvOS
+20,Smart TV,v3.0.5,iOS
+21,Smartphone,v2.1.0,iOS
+22,Laptop,v2.1.0,iOS
+23,Tablet,v2.1.0,Windows
+24,Desktop,v1.2.3,Linux
+25,Smartphone,v3.0.5,FireOS
+26,Smart TV,v2.1.0,macOS
+27,Laptop,v2.0.1,Android
+28,Laptop,v2.1.0,Linux
+29,Smartphone,v3.0.5,Android
+30,Laptop,v2.1.0,FireOS
+31,Smartphone,v2.1.0,macOS
+32,Desktop,v3.0.5,tvOS
+33,Smartphone,v2.1.0,tvOS
+34,Laptop,v2.1.0,Android
+35,Game Console,v2.1.0,FireOS
+36,Desktop,v2.0.1,Android
+37,Tablet,v2.1.0,tvOS
+38,Tablet,v1.0.0,iOS
+39,Desktop,v2.1.0,Android
+40,Smart TV,v1.2.3,FireOS
+41,Tablet,v3.0.5,Windows
+42,Smartphone,v1.0.0,macOS
+43,Desktop,v2.0.1,FireOS
+44,Tablet,v1.0.0,tvOS
+45,Desktop,v2.1.0,Android
+46,Tablet,v3.0.5,iOS
+47,Smartphone,v1.2.3,tvOS
+48,Smart TV,v3.0.5,Android
+49,Laptop,v3.0.5,Linux
+50,Game Console,v1.0.0,FireOS
+51,Laptop,v1.2.3,Android
+52,Laptop,v1.2.3,macOS
+53,Tablet,v1.2.3,Android
+54,Desktop,v1.0.0,FireOS
+55,Smartphone,v2.1.0,tvOS
+56,Smartphone,v2.1.0,FireOS
+57,Laptop,v2.0.1,tvOS
+58,Laptop,v3.0.5,Android
+59,Laptop,v1.2.3,iOS
+60,Smart TV,v2.0.1,FireOS
+61,Game Console,v1.0.0,Linux
+62,Game Console,v2.1.0,macOS
+63,Game Console,v3.0.5,tvOS
+64,Desktop,v2.0.1,FireOS
+65,Desktop,v1.0.0,Linux
+66,Smartphone,v1.2.3,iOS
+67,Laptop,v2.1.0,Windows
+68,Tablet,v2.0.1,macOS
+69,Smartphone,v1.0.0,FireOS
+70,Smart TV,v3.0.5,Windows
+71,Laptop,v2.0.1,macOS
+72,Smartphone,v2.1.0,iOS
+73,Desktop,v1.0.0,FireOS
+74,Desktop,v1.2.3,Windows
+75,Tablet,v1.2.3,macOS
+76,Laptop,v1.0.0,Android
+77,Smart TV,v1.0.0,tvOS
+78,Smartphone,v2.1.0,Windows
+79,Desktop,v2.1.0,iOS
+80,Smartphone,v2.0.1,Windows
+81,Tablet,v1.0.0,Windows
+82,Tablet,v2.0.1,FireOS
+83,Tablet,v1.2.3,iOS
+84,Desktop,v2.0.1,iOS
+85,Game Console,v1.0.0,Android
+86,Smart TV,v1.2.3,tvOS
+87,Smartphone,v2.0.1,macOS
+88,Laptop,v1.2.3,Linux
+89,Tablet,v1.2.3,Android
+90,Laptop,v3.0.5,Android
+91,Smartphone,v1.0.0,Linux
+92,Smartphone,v1.0.0,tvOS
+93,Tablet,v2.1.0,Windows
+94,Tablet,v2.1.0,Windows
+95,Tablet,v2.0.1,macOS
+96,Game Console,v1.0.0,tvOS
+97,Tablet,v1.2.3,Android
+98,Laptop,v1.0.0,Android
+99,Smartphone,v1.0.0,Windows
+100,Smartphone,v1.0.0,Android
+101,Smartphone,v3.0.5,Windows
+102,Smartphone,v1.0.0,iOS
+103,Tablet,v1.2.3,tvOS
+104,Smartphone,v2.1.0,macOS
+105,Smartphone,v2.1.0,macOS
+106,Laptop,v2.1.0,macOS
+107,Smartphone,v2.1.0,FireOS
+108,Desktop,v2.0.1,iOS
+109,Tablet,v2.1.0,Android
+110,Smart TV,v2.1.0,Windows
+111,Tablet,v3.0.5,tvOS
+112,Laptop,v2.0.1,FireOS
+113,Tablet,v3.0.5,FireOS
+114,Smartphone,v2.0.1,iOS
+115,Game Console,v2.0.1,iOS
+116,Smart TV,v2.0.1,iOS
+117,Desktop,v1.0.0,tvOS
+118,Laptop,v1.0.0,macOS
+119,Game Console,v2.0.1,iOS
+120,Game Console,v1.2.3,Windows
+121,Smartphone,v2.0.1,iOS
+122,Laptop,v1.2.3,Linux
+123,Game Console,v3.0.5,macOS
+124,Smartphone,v2.1.0,Windows
+125,Game Console,v2.0.1,Linux
+126,Game Console,v1.2.3,macOS
+127,Game Console,v3.0.5,tvOS
+128,Smart TV,v2.1.0,tvOS
+129,Laptop,v3.0.5,macOS
+130,Game Console,v1.2.3,FireOS
+131,Laptop,v1.2.3,tvOS
+132,Game Console,v1.0.0,Linux
+133,Smartphone,v1.2.3,Linux
+134,Laptop,v1.2.3,FireOS
+135,Smartphone,v2.0.1,macOS
+136,Smartphone,v2.1.0,FireOS
+137,Desktop,v2.0.1,iOS
+138,Game Console,v3.0.5,iOS
+139,Desktop,v1.0.0,Android
+140,Game Console,v2.1.0,Linux
+141,Laptop,v3.0.5,iOS
+142,Tablet,v2.1.0,Linux
+143,Laptop,v2.0.1,FireOS
+144,Game Console,v1.0.0,macOS
+145,Smartphone,v3.0.5,Windows
+146,Desktop,v2.0.1,Windows
+147,Tablet,v1.0.0,Linux
+148,Smart TV,v1.2.3,Linux
+149,Desktop,v2.1.0,Windows
+150,Smartphone,v2.1.0,tvOS
+151,Game Console,v1.2.3,FireOS
+152,Game Console,v1.0.0,Linux
+153,Tablet,v2.0.1,Windows
+154,Desktop,v1.2.3,FireOS
+155,Tablet,v1.2.3,Windows
+156,Game Console,v2.1.0,Windows
+157,Desktop,v3.0.5,tvOS
+158,Tablet,v1.0.0,Linux
+159,Smart TV,v1.0.0,tvOS
+160,Laptop,v3.0.5,iOS
+161,Smart TV,v3.0.5,iOS
+162,Smartphone,v1.2.3,Linux
+163,Game Console,v2.0.1,FireOS
+164,Desktop,v3.0.5,tvOS
+165,Tablet,v2.0.1,tvOS
+166,Desktop,v3.0.5,Windows
+167,Desktop,v1.0.0,Android
+168,Laptop,v2.0.1,iOS
+169,Laptop,v1.0.0,iOS
+170,Laptop,v1.2.3,Windows
+171,Game Console,v2.1.0,iOS
+172,Tablet,v2.0.1,macOS
+173,Smart TV,v3.0.5,Windows
+174,Laptop,v2.0.1,Windows
+175,Desktop,v2.1.0,tvOS
+176,Desktop,v2.1.0,Android
+177,Laptop,v2.1.0,Windows
+178,Laptop,v1.0.0,macOS
+179,Tablet,v1.0.0,macOS
+180,Smartphone,v2.0.1,FireOS
+181,Tablet,v2.1.0,macOS
+182,Smartphone,v1.2.3,macOS
+183,Laptop,v1.2.3,Linux
+184,Desktop,v2.1.0,iOS
+185,Game Console,v2.1.0,iOS
+186,Laptop,v2.0.1,tvOS
+187,Smartphone,v2.0.1,Windows
+188,Smart TV,v1.0.0,iOS
+189,Laptop,v1.0.0,macOS
+190,Smartphone,v3.0.5,macOS
+191,Tablet,v3.0.5,Linux
+192,Game Console,v2.0.1,FireOS
+193,Tablet,v1.0.0,Windows
+194,Laptop,v3.0.5,FireOS
+195,Smartphone,v1.2.3,macOS
+196,Game Console,v1.0.0,FireOS
+197,Laptop,v2.1.0,Android
+198,Desktop,v3.0.5,Linux
+199,Desktop,v1.0.0,tvOS
+200,Desktop,v3.0.5,Android

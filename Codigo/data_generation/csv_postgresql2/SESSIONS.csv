@@ -1,0 +1,101 @@
+SESSION_ID,USER_ID,CONTENT_ID,DEVICE_TYPE,APP_VERSION,OS_NAME_,TIME_,WATCHED_DURATION
+1,25,2,Game Console,version 2.0.1,tvOS,2024-07-06 06:04:31,49
+2,22,4,Game Console,version 1.0.0,Linux,2024-05-28 05:57:04,164
+3,21,47,Laptop,version 2.1.0,tvOS,2024-11-05 19:55:06,103
+4,48,57,Smart TV,version 1.0.0,Windows,2025-03-26 08:38:31,79
+5,47,89,Smartphone,version 2.1.0,Windows,2024-03-09 05:31:35,72
+6,38,91,Tablet,version 2.1.0,macOS,2024-10-12 01:34:20,122
+7,40,95,Desktop,version 2.0.1,iOS,2025-01-27 09:26:35,124
+8,62,18,Desktop,version 2.1.0,iOS,2025-03-06 04:45:28,70
+9,88,100,Smartphone,version 2.1.0,iOS,2023-09-23 12:07:08,173
+10,93,69,Smartphone,version 1.0.0,Linux,2023-05-31 03:50:37,37
+11,90,79,Laptop,version 3.0.5,iOS,2023-07-30 03:35:15,137
+12,87,32,Desktop,version 3.0.5,FireOS,2024-03-09 17:18:02,19
+13,46,77,Smart TV,version 2.0.1,iOS,2025-01-20 13:46:32,158
+14,37,57,Laptop,version 1.2.3,Android,2024-03-19 09:37:50,86
+15,86,25,Smart TV,version 3.0.5,FireOS,2024-12-06 09:12:51,29
+16,56,58,Laptop,version 2.1.0,tvOS,2024-09-15 00:06:55,40
+17,31,93,Game Console,version 3.0.5,Linux,2024-03-22 16:59:21,38
+18,27,96,Game Console,version 2.0.1,Linux,2025-02-01 09:43:38,39
+19,67,2,Smartphone,version 3.0.5,tvOS,2024-08-01 01:12:14,166
+20,100,55,Smart TV,version 3.0.5,iOS,2024-09-23 19:31:15,51
+21,92,66,Smartphone,version 2.1.0,iOS,2024-07-02 17:08:38,55
+22,14,15,Laptop,version 2.1.0,iOS,2023-11-02 04:44:23,51
+23,16,51,Tablet,version 2.1.0,Windows,2024-06-28 02:41:35,152
+24,78,76,Desktop,version 1.2.3,Linux,2023-09-05 17:43:45,137
+25,85,13,Smartphone,version 3.0.5,FireOS,2024-10-15 06:54:32,104
+26,13,29,Smart TV,version 2.1.0,macOS,2024-09-21 16:29:43,113
+27,23,50,Laptop,version 2.0.1,Android,2023-11-29 12:07:52,140
+28,38,20,Laptop,version 2.1.0,Linux,2024-12-12 21:20:16,124
+29,14,68,Smartphone,version 3.0.5,Android,2025-01-03 05:02:43,124
+30,79,98,Laptop,version 2.1.0,FireOS,2024-04-18 22:28:29,61
+31,88,64,Smartphone,version 2.1.0,macOS,2024-07-22 19:43:02,53
+32,48,87,Desktop,version 3.0.5,tvOS,2023-10-13 12:16:13,73
+33,75,29,Smartphone,version 2.1.0,tvOS,2023-10-23 19:01:43,170
+34,17,83,Laptop,version 2.1.0,Android,2024-06-19 11:31:10,129
+35,48,86,Game Console,version 2.1.0,FireOS,2024-07-10 19:50:09,57
+36,45,26,Desktop,version 2.0.1,Android,2025-04-29 13:39:34,88
+37,91,80,Tablet,version 2.1.0,tvOS,2024-12-12 18:20:19,133
+38,5,30,Tablet,version 1.0.0,iOS,2025-01-14 20:39:50,121
+39,97,87,Desktop,version 2.1.0,Android,2025-01-18 21:33:16,131
+40,78,10,Smart TV,version 1.2.3,FireOS,2024-04-13 06:44:56,67
+41,21,87,Tablet,version 3.0.5,Windows,2024-04-29 09:35:12,119
+42,61,80,Smartphone,version 1.0.0,macOS,2023-11-04 00:38:31,64
+43,18,57,Desktop,version 2.0.1,FireOS,2024-07-02 21:23:36,111
+44,31,45,Tablet,version 1.0.0,tvOS,2024-07-14 05:31:00,175
+45,100,7,Desktop,version 2.1.0,Android,2023-09-20 07:19:04,70
+46,74,58,Tablet,version 3.0.5,iOS,2023-10-12 05:42:13,176
+47,1,55,Smartphone,version 1.2.3,tvOS,2024-06-16 02:58:23,112
+48,6,83,Smart TV,version 3.0.5,Android,2023-12-21 06:08:06,74
+49,56,50,Laptop,version 3.0.5,Linux,2025-01-03 18:40:30,55
+50,80,41,Game Console,version 1.0.0,FireOS,2024-08-17 22:43:00,77
+51,13,15,Laptop,version 1.2.3,Android,2025-04-27 23:59:06,119
+52,80,4,Laptop,version 1.2.3,macOS,2024-11-14 10:15:51,96
+53,21,73,Tablet,version 1.2.3,Android,2023-12-02 11:08:34,120
+54,56,12,Desktop,version 1.0.0,FireOS,2023-05-23 20:21:39,45
+55,9,48,Smartphone,version 2.1.0,tvOS,2024-07-18 05:09:13,61
+56,19,12,Smartphone,version 2.1.0,FireOS,2023-09-24 18:08:17,108
+57,87,13,Laptop,version 2.0.1,tvOS,2023-07-21 03:52:16,146
+58,15,79,Laptop,version 3.0.5,Android,2024-06-20 04:23:56,19
+59,94,69,Laptop,version 1.2.3,iOS,2024-09-10 23:40:51,81
+60,27,31,Smart TV,version 2.0.1,FireOS,2024-06-24 18:08:17,115
+61,14,73,Game Console,version 1.0.0,Linux,2024-10-02 19:32:59,69
+62,92,70,Game Console,version 2.1.0,macOS,2023-10-30 19:55:43,17
+63,36,64,Game Console,version 3.0.5,tvOS,2025-04-02 17:15:48,103
+64,57,11,Desktop,version 2.0.1,FireOS,2025-01-05 12:34:44,152
+65,41,58,Desktop,version 1.0.0,Linux,2025-03-18 05:52:17,37
+66,69,81,Smartphone,version 1.2.3,iOS,2023-06-11 21:57:52,91
+67,47,87,Laptop,version 2.1.0,Windows,2024-09-10 19:25:38,11
+68,3,31,Tablet,version 2.0.1,macOS,2023-10-28 07:12:14,33
+69,44,92,Smartphone,version 1.0.0,FireOS,2024-07-11 18:37:30,18
+70,93,62,Smart TV,version 3.0.5,Windows,2023-06-11 20:46:14,161
+71,8,53,Laptop,version 2.0.1,macOS,2023-06-02 22:45:51,126
+72,14,82,Smartphone,version 2.1.0,iOS,2024-12-11 00:31:20,67
+73,46,8,Desktop,version 1.0.0,FireOS,2025-05-12 14:17:45,149
+74,72,9,Desktop,version 1.2.3,Windows,2025-04-30 23:40:27,30
+75,73,92,Tablet,version 1.2.3,macOS,2023-10-31 11:36:37,75
+76,8,82,Laptop,version 1.0.0,Android,2023-10-27 21:32:29,116
+77,37,99,Smart TV,version 1.0.0,tvOS,2024-04-08 14:41:33,109
+78,54,9,Smartphone,version 2.1.0,Windows,2023-08-04 02:28:59,158
+79,82,68,Desktop,version 2.1.0,iOS,2024-02-04 13:56:51,20
+80,47,1,Smartphone,version 2.0.1,Windows,2023-07-13 09:11:25,20
+81,9,98,Tablet,version 1.0.0,Windows,2023-10-29 14:18:43,163
+82,73,25,Tablet,version 2.0.1,FireOS,2024-04-15 11:39:13,143
+83,48,21,Tablet,version 1.2.3,iOS,2024-05-05 11:05:00,126
+84,64,45,Desktop,version 2.0.1,iOS,2023-07-24 21:40:22,160
+85,48,43,Game Console,version 1.0.0,Android,2023-11-30 15:18:36,38
+86,30,81,Smart TV,version 1.2.3,tvOS,2023-10-18 00:32:51,144
+87,9,30,Smartphone,version 2.0.1,macOS,2024-01-20 19:17:59,128
+88,99,20,Laptop,version 1.2.3,Linux,2025-04-07 17:19:13,71
+89,76,20,Tablet,version 1.2.3,Android,2024-04-04 21:23:28,24
+90,60,60,Laptop,version 3.0.5,Android,2024-02-28 05:42:23,80
+91,76,52,Smartphone,version 1.0.0,Linux,2025-02-20 09:10:13,23
+92,18,76,Smartphone,version 1.0.0,tvOS,2024-11-29 04:08:29,149
+93,71,52,Tablet,version 2.1.0,Windows,2025-03-06 03:35:00,53
+94,86,67,Tablet,version 2.1.0,Windows,2024-11-08 05:21:21,13
+95,64,66,Tablet,version 2.0.1,macOS,2025-01-27 14:40:10,166
+96,94,39,Game Console,version 1.0.0,tvOS,2023-08-27 08:11:37,37
+97,80,47,Tablet,version 1.2.3,Android,2025-03-12 21:21:04,76
+98,29,71,Laptop,version 1.0.0,Android,2025-02-10 23:13:20,72
+99,86,98,Smartphone,version 1.0.0,Windows,2025-05-13 11:12:27,89
+100,85,26,Smartphone,version 1.0.0,Android,2023-08-04 05:54:37,97
