@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      Microsoft SQL Server 2022                    */
-/* Created on:     16/05/2025 14:33:09                          */
+/* Created on:     19/05/2025 16:07:09                          */
 /*==============================================================*/
 
 
@@ -95,9 +95,11 @@ if exists (select 1
 /*==============================================================*/
 create table CONTENTS (
    CONTENT_ID           int                  not null,
+   CONTENT_CODE         varchar(16)          not null,
+   SOURCE               varchar(15)          not null,
    TITLE                varchar(200)         not null,
-   GENRES               varchar(512)         not null,
-   RELEASE_DATE         date                 not null,
+   GENRES               text                 not null,
+   RELEASE_DATE         datetime             not null,
    TYPE                 varchar(20)          not null,
    DURATION             int                  not null,
    AGE_RATING           varchar(20)          not null,
@@ -110,9 +112,11 @@ create table CONTENTS (
 /*==============================================================*/
 create table DEVICES (
    DEVICE_ID            int                  not null,
+   PLATFORM             varchar(20)          not null,
    DEVICE_TYPE          varchar(20)          not null,
-   APP_VERSION          varchar(20)          not null,
+   OS_FAMILY            varchar(20)          not null,
    OS_NAME              varchar(20)          not null,
+   APP_VERSION          varchar(20)          not null,
    constraint PK_DEVICES primary key (DEVICE_ID)
 )
 
@@ -125,6 +129,7 @@ create table SESSIONS (
    CONTENT_ID           int                  not null,
    DEVICE_ID            int                  not null,
    TIME_ID              int                  not null,
+   SESSION_CODE         varchar(16)          not null,
    WATCHED_DURATION     int                  not null,
    WATCHED_PERCENT      float                not null,
    constraint PK_SESSIONS primary key (SESSION_ID)
@@ -187,12 +192,18 @@ create table TIMES (
 /*==============================================================*/
 create table USERS (
    USER_ID              int                  not null,
+   USER_CODE            varchar(16)          not null,
+   SOURCE               varchar(15)          not null,
    NAME                 varchar(100)         not null,
    AGE_GROUP            varchar(20)          not null,
    GENDER               varchar(20)          not null,
-   COUNTRY              varchar(20)          not null,
-   SIGNUP_DATE          date             not null,
+   SIGNUP_DATE          datetime             not null,
    SUBSCRIPTION_STATUS  varchar(20)          not null,
+   COUNTRY              varchar(20)          not null,
+   DISTRICT             varchar(50)          not null,
+   CITY                 varchar(50)          not null,
+   POSTAL_CODE          varchar(12)          not null,
+   STREET_ADDRESS       varchar(150)         not null,
    constraint PK_USERS primary key (USER_ID)
 )
 

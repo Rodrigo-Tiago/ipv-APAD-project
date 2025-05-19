@@ -18,6 +18,11 @@ GENDERS_LIST = ['Male', 'Female', 'Other']
 COUNTRIES_LIST = ['Portugal', 'Spain', 'France', 'Germany', 'Italy', 'Netherlands', 'United Kingdom', 'United States', 'Brazil', 'Canada', 'Venezuela']
 SUBSCRIPTION_STATUS_LIST = ['Active', 'Cancelled', 'Expired']
 
+# Função para gerar códigos
+def generate_code(prefix, num, total_length=16):
+    num_str = str(num).zfill(total_length - len(prefix) - 1)  # -1 para o underscore
+    return f"{prefix}_{num_str}"
+
 # AGE_GROUPS
 with open('AGE_GROUPS.csv', 'w', newline='') as f:
     writer = csv.writer(f)
@@ -49,17 +54,21 @@ with open('SUBSCRIPTION_STATUS.csv', 'w', newline='') as f:
 # USERS
 with open('USERS.csv', 'w', newline='') as f:
     writer = csv.writer(f)
-    writer.writerow(['USER_ID', 'AGE_GROUP_ID', 'GENDER_ID', 'COUNTRY_ID', 'SUBSCRIPTION_STATUS_ID', 'NAME', 'EMAIL', 'SIGNUP_DATE'])
+    writer.writerow(['USER_CODE', 'AGE_GROUP_ID', 'GENDER_ID', 'COUNTRY_ID', 'SUBSCRIPTION_STATUS_ID', 'NAME', 'EMAIL', 'SIGNUP_DATE', 'DISTRICT', 'CITY', 'POSTAL_CODE', 'STREET_ADDRESS'])
     for i in range(1, NUM_USERS + 1):
         writer.writerow([
-            i,
+            generate_code('USER', i),
             random.randint(1, len(AGE_GROUPS_LIST)),
             random.randint(1, len(GENDERS_LIST)),
             random.randint(1, len(COUNTRIES_LIST)),
             random.randint(1, len(SUBSCRIPTION_STATUS_LIST)),
             fake.name(),
             fake.email(),
-            fake.date_between(start_date='-5y', end_date='today')
+            fake.date_between(start_date='-5y', end_date='today'),
+            fake.state(),
+            fake.city(),
+            fake.postcode(),
+            fake.street_address()
         ])
 
 print("CSVs gerados com sucesso para todas as tabelas!")

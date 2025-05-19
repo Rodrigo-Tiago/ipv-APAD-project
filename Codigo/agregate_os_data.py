@@ -1,6 +1,5 @@
 import os
 import pandas as pd
-from datetime import datetime
 import numpy as np
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -52,10 +51,10 @@ def map_genres(value):
 def normalize_genres(genres_str):
     if pd.isna(genres_str):
         return 'Unknown'
-    genres = [g.strip() for g in genres_str.split(',')]
+    genres = [g.strip() for g in genres_str.split(';')]
     mapped_genres = [map_genres(g) for g in genres]
     # Remove duplicados e junta de novo
-    return ','.join(sorted(set(mapped_genres)))
+    return ';'.join(sorted(set(mapped_genres)))
 
 def map_types(value):
     mapping = {
@@ -77,32 +76,18 @@ def map_age_ratings(value):
     }
     return mapping.get(value, 'Unknown')
 
-def map_age_groups(value):
-    valid_groups = ['0-9', '10-14', '15-19', '20-24', '25-34', '35-44', '45-54', '55-64', '65+']
-    return value if value in valid_groups else 'Unknown'
-
-def map_countries(value):
-    valid_countries = ['Portugal', 'Spain', 'France', 'Germany', 'Italy', 'Netherlands', 'United Kingdom', 'United States', 'Brazil', 'Canada', 'Venezuela']
-    return value if value in valid_countries else 'Unknown'
-
-def map_device_types(value):
-    valid_devices = ['Desktop', 'Laptop', 'Smartphone', 'Tablet', 'Smart TV', 'Game Console']
-    return value if value in valid_devices else 'Unknown'
-
-def map_os_names(value):
-    valid_devices = ['Windows', 'macOS', 'Linux', 'Tablet', 'Android', 'iOS', 'tvOS', 'FireOS']
-    return value if value in valid_devices else 'Unknown'
-
 # --- USERS ---
 def process_users():
     # Ler os CSVs dos users e das tabelas auxiliares
     df_pg1_users = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql1/USERS.csv'))
+    df_pg1_users['SOURCE'] = 'postgresql1'
     df_pg1_age = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql1/AGE_GROUPS.csv'))
     df_pg1_gender = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql1/GENDERS.csv'))
     df_pg1_country = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql1/COUNTRIES.csv'))
     df_pg1_subs = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql1/SUBSCRIPTION_STATUS.csv'))
 
     df_pg2_users = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/USERS.csv'))
+    df_pg2_users['SOURCE'] = 'postgresql2'
     df_pg2_age = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/AGE_GROUPS.csv'))
     df_pg2_gender = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/GENDERS.csv'))
     df_pg2_country = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/COUNTRIES.csv'))
@@ -120,8 +105,11 @@ def process_users():
         # Normalizar os valores
         df['GENDER'] = df['GENDER_DESIGNATION'].apply(map_genders)
         df['SUBSCRIPTION_STATUS'] = df['SUBSCRIPTION_STATUS_DESIGNATION'].apply(map_subscription_status)
-        df['AGE_GROUP'] = df['AGE_GROUP_DESIGNATION'].apply(map_age_groups)
-        df['COUNTRY'] = df['COUNTRY_DESIGNATION'].apply(map_countries)
+
+        df.rename(columns={
+            'AGE_GROUP_DESIGNATION': 'AGE_GROUP',
+            'COUNTRY_DESIGNATION': 'COUNTRY',
+        }, inplace=True)
 
         return df
 
@@ -135,7 +123,7 @@ def process_users():
     df_users['USER_ID'] = df_users.index + 1
 
     # Selecionar colunas finais para o CSV
-    df_users_final = df_users[['USER_ID', 'NAME', 'AGE_GROUP', 'GENDER', 'COUNTRY', 'SIGNUP_DATE', 'SUBSCRIPTION_STATUS']]
+    df_users_final = df_users[['USER_ID', 'USER_CODE', 'SOURCE', 'NAME', 'AGE_GROUP', 'GENDER', 'SIGNUP_DATE', 'SUBSCRIPTION_STATUS', 'COUNTRY', 'DISTRICT', 'CITY', 'POSTAL_CODE', 'STREET_ADDRESS']]
 
     output_path = os.path.join(output_dir, 'USERS.csv')
     df_users_final.to_csv(output_path, index=False)
@@ -147,18 +135,8 @@ def process_users():
 def process_devices():
     # Ler os CSVs dos devices
     df_pg2_sessions = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/SESSIONS.csv'))
-    df_csv_sesions = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_csv/SESSIONS.csv'))
-
-    # Normalizar os nomes de colunas
-    df_pg2_sessions.rename(columns={
-        'OS_NAME_': 'OS_NAME'
-    }, inplace=True)
-
-    df_csv_sesions.rename(columns={
-        'device_type': 'DEVICE_TYPE',
-        'app_version': 'APP_VERSION',
-        'os_name': 'OS_NAME',
-    }, inplace=True)
+    
+    df_csv_sessions = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_csv/SESSIONS.csv'))
 
     def expand_devices(df_devices):
             df = df_devices.copy()
@@ -169,7 +147,7 @@ def process_devices():
             return df
     
     df_pg2_expanded = expand_devices(df_pg2_sessions)
-    df_csv_expanded = expand_devices(df_csv_sesions)
+    df_csv_expanded = expand_devices(df_csv_sessions)
 
     # Concatenar e limpar duplicados
     df_devices = pd.concat([df_pg2_expanded, df_csv_expanded], ignore_index=True).drop_duplicates().reset_index(drop=True)
@@ -178,7 +156,7 @@ def process_devices():
     df_devices['DEVICE_ID'] = df_devices.index + 1
 
     # Selecionar colunas finais para o CSV
-    df_devices_final = df_devices[['DEVICE_ID', 'DEVICE_TYPE', 'APP_VERSION', 'OS_NAME']]
+    df_devices_final = df_devices[['DEVICE_ID', 'PLATFORM', 'DEVICE_TYPE', 'OS_FAMILY', 'OS_NAME', 'APP_VERSION']]
 
     output_path = os.path.join(output_dir, 'DEVICES.csv')
     df_devices_final.to_csv(output_path, index=False)
@@ -190,6 +168,7 @@ def process_devices():
 def process_contents():
     # Ler os CSVs dos contents e das tabelas auxiliares
     df_pg2_contents = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/CONTENTS.csv'))
+    df_pg2_contents['SOURCE'] = 'postgresql2'
     df_pg2_categories = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/CATEGORIES.csv'))
     df_pg2_types = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/TYPES.csv'))
     df_pg2_age_restrictions = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/AGE_RESTRICTIONS.csv'))
@@ -197,6 +176,7 @@ def process_contents():
     df_pg2_content_categories = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/CONTENT_CATEGORIES.csv'))
 
     df_mysql_contents = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_mysql/CONTENTS.csv'))
+    df_mysql_contents['SOURCE'] = 'postgresql1'
     df_mysql_genres = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_mysql/GENRES.csv'))
     df_mysql_types = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_mysql/TYPES.csv'))
     df_mysql_age_ratings = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_mysql/AGE_RATINGS.csv'))
@@ -210,14 +190,14 @@ def process_contents():
         if is_postgres:
             # PostgreSQL usa CONTENT_CATEGORIES, CATEGORIES e AGE_RESTRICTIONS
             df_cat_names = df_content_cat_or_genres.merge(df_cat_or_genres, left_on='CATEGORY_ID', right_on='CATEGORY_ID', how='left')
-            df_agg = df_cat_names.groupby('CONTENT_ID')['CATEGORY_DESIGNATION'].apply(lambda x: ','.join(sorted(set(x)))).reset_index()
-            df = df.merge(df_agg, on='CONTENT_ID', how='left')
+            df_agg = df_cat_names.groupby('CONTENT_CODE')['CATEGORY_DESIGNATION'].apply(lambda x: ';'.join(sorted(set(x)))).reset_index()
+            df = df.merge(df_agg, on='CONTENT_CODE', how='left')
             df = df.merge(df_age_ratings[['AGE_RESTRICTION_ID', 'AGE_RESTRICTION_DESIGNATION']], on='AGE_RESTRICTION_ID', how='left')
         else:
             # MySQL usa CONTENT_GENRES, GENRES e AGE_RATINGS
             df_genre_names = df_content_cat_or_genres.merge(df_cat_or_genres, left_on='GENRE_ID', right_on='GENRE_ID', how='left')
-            df_agg = df_genre_names.groupby('CONTENT_ID')['GENRE_DESIGNATION'].apply(lambda x: ','.join(sorted(set(x)))).reset_index()
-            df = df.merge(df_agg, on='CONTENT_ID', how='left')
+            df_agg = df_genre_names.groupby('CONTENT_CODE')['GENRE_DESIGNATION'].apply(lambda x: ';'.join(sorted(set(x)))).reset_index()
+            df = df.merge(df_agg, on='CONTENT_CODE', how='left')
             df = df.merge(df_age_ratings[['AGE_RATING_ID', 'AGE_RATING_DESIGNATION']], on='AGE_RATING_ID', how='left')
 
         # Fazer merge para trazer os valores descritivos para os IDs
@@ -244,14 +224,13 @@ def process_contents():
     df_mysql_expanded = expand_contents(df_mysql_contents, df_mysql_genres, df_mysql_content_genres, df_mysql_types, df_mysql_age_ratings, df_mysql_directors, is_postgres=False)
 
     # Concatenar e limpar duplicados
-    df_contents = pd.concat([df_pg2_expanded.reset_index(drop=True), df_mysql_expanded.reset_index(drop=True)
-], ignore_index=True).drop_duplicates().reset_index(drop=True)
+    df_contents = pd.concat([df_pg2_expanded.reset_index(drop=True), df_mysql_expanded.reset_index(drop=True)], ignore_index=True).drop_duplicates().reset_index(drop=True)
 
     # Gerar CONTENT_ID sequencial
     df_contents['CONTENT_ID'] = df_contents.index + 1
 
     # Selecionar colunas finais para o CSV
-    df_contents_final = df_contents[['CONTENT_ID', 'TITLE', 'GENRES', 'RELEASE_DATE', 'TYPE', 'DURATION', 'AGE_RATING', 'DIRECTOR']]
+    df_contents_final = df_contents[['CONTENT_ID', 'CONTENT_CODE', 'SOURCE', 'TITLE', 'GENRES', 'RELEASE_DATE', 'TYPE', 'DURATION', 'AGE_RATING', 'DIRECTOR']]
 
     output_path = os.path.join(output_dir, 'CONTENTS.csv')
     df_contents_final.to_csv(output_path, index=False)
@@ -289,10 +268,72 @@ def process_times(start_date='2023-01-01', end_date='2025-12-31'):
     return df_times_final
 
 # --- SESSIONS ---
+def process_sessions():
+    # Ler os CSVs das sessions
+    df_csv_sessions = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_csv/SESSIONS.csv'))
+    df_csv_sessions['SOURCE'] = 'postgresql1'
+    df_pg2_sessions = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/SESSIONS.csv'))
+    df_pg2_sessions['SOURCE'] = 'postgresql2'
 
-# --- Chamar para testar ---
-# process_users()
-# process_devices()
-# process_contents()
-# process_times()
-# process_sessions()
+    # Normalizar os nomes de colunas
+    df_pg2_sessions.rename(columns={
+        'TIME_': 'TIME'
+    }, inplace=True)
+
+    # Concatenar sessões
+    df_sessions = pd.concat([df_pg2_sessions, df_csv_sessions], ignore_index=True)
+
+    # Normalizar os valores
+    df_sessions['APP_VERSION'] = df_sessions['APP_VERSION'].apply(map_app_versions)
+
+    # Carregar dimensões
+    df_users = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_dimensional_model/USERS.csv'))
+    df_devices = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_dimensional_model/DEVICES.csv'))
+    df_contents = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_dimensional_model/CONTENTS.csv'))
+    df_times = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_dimensional_model/TIMES.csv'))
+
+    # Tratar do USER_ID
+    df_sessions = df_sessions.merge(df_users[['USER_ID', 'USER_CODE', 'SOURCE']], on=['USER_CODE', 'SOURCE'], how='left')
+
+    # Tratar do CONTENT_ID
+    df_sessions = df_sessions.merge(df_contents[['CONTENT_ID', 'CONTENT_CODE', 'SOURCE']], on=['CONTENT_CODE', 'SOURCE'], how='left')
+
+    # Tratar do DEVICE_ID
+    df_sessions = df_sessions.merge(df_devices[['DEVICE_ID', 'PLATFORM', 'DEVICE_TYPE', 'OS_FAMILY', 'OS_NAME', 'APP_VERSION']], on=['PLATFORM', 'DEVICE_TYPE', 'OS_FAMILY', 'OS_NAME', 'APP_VERSION'], how='left')
+
+    # Tratar do TIME_ID
+    df_sessions['DATETIME'] = pd.to_datetime(df_sessions['TIME'], errors='coerce')
+    df_sessions['DAY'] = df_sessions['DATETIME'].dt.day
+    df_sessions['MONTH'] = df_sessions['DATETIME'].dt.month
+    df_sessions['YEAR'] = df_sessions['DATETIME'].dt.year
+    df_sessions['HOUR'] = df_sessions['DATETIME'].dt.hour
+    df_sessions['MINUTE'] = df_sessions['DATETIME'].dt.minute
+
+    df_sessions = df_sessions.merge(df_times[['TIME_ID', 'DAY', 'MONTH', 'YEAR', 'HOUR', 'MINUTE']], on=['DAY', 'MONTH', 'YEAR', 'HOUR', 'MINUTE'], how='left')
+
+    # Calcular a percentagem assistida
+    df_sessions = df_sessions.merge(df_contents[['CONTENT_ID', 'DURATION']], on='CONTENT_ID', how='left')
+    
+    df_sessions['WATCHED_PERCENT'] = (df_sessions['WATCHED_DURATION'] / df_sessions['DURATION']) * 100
+
+    # Limpar duplicados
+    df_sessions = df_sessions.drop_duplicates().reset_index(drop=True)
+
+    # Gerar SESSION_ID sequencial
+    df_sessions['SESSION_ID'] = df_sessions.index + 1
+
+    # Selecionar colunas finais para o CSV
+    df_sessions_final = df_sessions[['SESSION_ID', 'USER_ID', 'CONTENT_ID', 'DEVICE_ID', 'TIME_ID', 'SESSION_CODE', 'WATCHED_DURATION', 'WATCHED_PERCENT']]
+
+    output_path = os.path.join(output_dir, 'SESSIONS.csv')
+    df_sessions_final.to_csv(output_path, index=False)
+    print(f"SESSIONS.csv criado em {output_path}")
+
+    return df_sessions_final
+
+# --- Chamar ---
+process_users()
+process_devices()
+process_contents()
+process_times()
+process_sessions()

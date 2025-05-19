@@ -156,6 +156,22 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
     print(f"\nCriar tabelas em SQL Server: {dbname}")
     executar_script_sql(script_path, conn)
 
+    # Importar dados CSV para cada tabela
+    for table in table_list:
+        file_path = os.path.abspath(os.path.join(csv_dir, f"{table}.csv"))
+        print(f"A importar: {table} ← {file_path}")
+
+        with open(file_path, 'r', encoding='utf-8') as f:
+            columns = f.readline().strip().split(',')
+            for line in f:
+                values = [v.strip().strip('"') for v in line.strip().split(',')]
+                placeholders = ','.join('?' for _ in values)
+                query = f"INSERT INTO {table} ({','.join(columns)}) VALUES ({placeholders})"
+                try:
+                    cur.execute(query, values)
+                except Exception as e:
+                    print(f"Erro ao importar para {table}: {e}")
+
     cur.close()
     conn.close()
     print(f"Importação concluída para SQL Server: {dbname}")
@@ -165,7 +181,7 @@ base_dir = os.path.dirname(os.path.abspath(__file__))
 csv_pg1 = os.path.join(base_dir, 'data_generation/csv_postgresql1')
 csv_pg2 = os.path.join(base_dir, 'data_generation/csv_postgresql2')
 csv_mysql = os.path.join(base_dir, 'data_generation/csv_mysql')
-csv_dimensional_model = os.path.join(base_dir, 'data_generation/csv_mysql')
+csv_dimensional_model = os.path.join(base_dir, 'data_generation/csv_dimensional_model')
 
 sql_pg1 = os.path.join(base_dir, 'sql_scripts/PostgreSQL1.sql')
 sql_pg2 = os.path.join(base_dir, 'sql_scripts/PostgreSQL2.sql')

@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      PostgreSQL 14.x                              */
-/* Created on:     23/04/2025 14:58:14                          */
+/* Created on:     19/05/2025 15:47:34                          */
 /*==============================================================*/
 
 /*==============================================================*/
@@ -71,7 +71,7 @@ SUBSCRIPTION_STATUS_ID
 /* Table: USERS                                                 */
 /*==============================================================*/
 create table USERS (
-   USER_ID              integer              not null,
+   USER_CODE            varchar(16)          not null,
    AGE_GROUP_ID         integer              not null,
    GENDER_ID            integer              not null,
    COUNTRY_ID           integer              not null,
@@ -79,14 +79,18 @@ create table USERS (
    NAME                 varchar(100)         not null,
    EMAIL                varchar(150)         not null,
    SIGNUP_DATE          date                 not null,
-   constraint PK_USERS primary key (USER_ID)
+   DISTRICT             varchar(50)          not null,
+   CITY                 varchar(50)          not null,
+   POSTAL_CODE          varchar(12)          not null,
+   STREET_ADDRESS       varchar(150)         not null,
+   constraint PK_USERS primary key (USER_CODE)
 );
 
 /*==============================================================*/
 /* Index: USERS_PK                                              */
 /*==============================================================*/
 create unique index USERS_PK on USERS (
-USER_ID
+USER_CODE
 );
 
 /*==============================================================*/
@@ -136,3 +140,4 @@ alter table USERS
    add constraint FK_USERS_USER_SUBS_SUBSCRIP foreign key (SUBSCRIPTION_STATUS_ID)
       references SUBSCRIPTION_STATUS (SUBSCRIPTION_STATUS_ID)
       on delete restrict on update restrict;
+

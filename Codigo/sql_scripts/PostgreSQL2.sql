@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      PostgreSQL 14.x                              */
-/* Created on:     23/04/2025 14:59:08                          */
+/* Created on:     19/05/2025 15:51:21                          */
 /*==============================================================*/
 
 /*==============================================================*/
@@ -55,21 +55,21 @@ CATEGORY_ID
 /* Table: CONTENTS                                              */
 /*==============================================================*/
 create table CONTENTS (
-   CONTENT_ID           integer              not null,
+   CONTENT_CODE         varchar(16)          not null,
    TYPE_ID              integer              not null,
    AGE_RESTRICTION_ID   integer              not null,
    DIRECTOR_ID          integer              not null,
    TITLE                varchar(200)         not null,
    RELEASE_DATE         date                 not null,
    DURATION             integer              not null,
-   constraint PK_CONTENTS primary key (CONTENT_ID)
+   constraint PK_CONTENTS primary key (CONTENT_CODE)
 );
 
 /*==============================================================*/
 /* Index: CONTENTS_PK                                           */
 /*==============================================================*/
 create unique index CONTENTS_PK on CONTENTS (
-CONTENT_ID
+CONTENT_CODE
 );
 
 /*==============================================================*/
@@ -98,8 +98,8 @@ DIRECTOR_ID
 /*==============================================================*/
 create table CONTENT_CATEGORIES (
    CATEGORY_ID          integer              not null,
-   CONTENT_ID           integer              not null,
-   constraint PK_CONTENT_CATEGORIES primary key (CATEGORY_ID, CONTENT_ID)
+   CONTENT_CODE         varchar(16)          not null,
+   constraint PK_CONTENT_CATEGORIES primary key (CATEGORY_ID, CONTENT_CODE)
 );
 
 /*==============================================================*/
@@ -107,14 +107,14 @@ create table CONTENT_CATEGORIES (
 /*==============================================================*/
 create unique index CONTENT_CATEGORIES_PK on CONTENT_CATEGORIES (
 CATEGORY_ID,
-CONTENT_ID
+CONTENT_CODE
 );
 
 /*==============================================================*/
 /* Index: CONTENT_CATEGORIES2_FK                                */
 /*==============================================================*/
 create  index CONTENT_CATEGORIES2_FK on CONTENT_CATEGORIES (
-CONTENT_ID
+CONTENT_CODE
 );
 
 /*==============================================================*/
@@ -176,36 +176,38 @@ GENDER_ID
 /* Table: SESSIONS                                              */
 /*==============================================================*/
 create table SESSIONS (
-   SESSION_ID           integer              not null,
-   USER_ID              integer              not null,
-   CONTENT_ID           integer              not null,
-   DEVICE_TYPE          varchar(20)          not null,
-   APP_VERSION          varchar(20)          not null,
-   OS_NAME_             varchar(20)          not null,
+   SESSION_CODE         varchar(16)          not null,
+   USER_CODE            varchar(16)          not null,
+   CONTENT_CODE         varchar(16)          not null,
    TIME_                timestamp            not null,
    WATCHED_DURATION     integer              not null,
-   constraint PK_SESSIONS primary key (SESSION_ID)
+   PLATFORM             varchar(20)          not null,
+   DEVICE_TYPE          varchar(20)          not null,
+   OS_FAMILY            varchar(20)          not null,
+   OS_NAME              varchar(20)          not null,
+   APP_VERSION          varchar(20)          not null,
+   constraint PK_SESSIONS primary key (SESSION_CODE)
 );
 
 /*==============================================================*/
 /* Index: SESSIONS_PK                                           */
 /*==============================================================*/
 create unique index SESSIONS_PK on SESSIONS (
-SESSION_ID
+SESSION_CODE
 );
 
 /*==============================================================*/
 /* Index: SESSION_USER_FK                                       */
 /*==============================================================*/
 create  index SESSION_USER_FK on SESSIONS (
-USER_ID
+USER_CODE
 );
 
 /*==============================================================*/
 /* Index: SESSION_CONTENT_FK                                    */
 /*==============================================================*/
 create  index SESSION_CONTENT_FK on SESSIONS (
-CONTENT_ID
+CONTENT_CODE
 );
 
 /*==============================================================*/
@@ -244,7 +246,7 @@ TYPE_ID
 /* Table: USERS                                                 */
 /*==============================================================*/
 create table USERS (
-   USER_ID              integer              not null,
+   USER_CODE            varchar(16)          not null,
    AGE_GROUP_ID         integer              not null,
    GENDER_ID            integer              not null,
    COUNTRY_ID           integer              not null,
@@ -252,14 +254,18 @@ create table USERS (
    NAME                 varchar(100)         not null,
    EMAIL                varchar(150)         not null,
    SIGNUP_DATE          date                 not null,
-   constraint PK_USERS primary key (USER_ID)
+   DISTRICT             varchar(50)          not null,
+   CITY                 varchar(50)          not null,
+   POSTAL_CODE          varchar(12)          not null,
+   STREET_ADDRESS       varchar(150)         not null,
+   constraint PK_USERS primary key (USER_CODE)
 );
 
 /*==============================================================*/
 /* Index: USERS_PK                                              */
 /*==============================================================*/
 create unique index USERS_PK on USERS (
-USER_ID
+USER_CODE
 );
 
 /*==============================================================*/
@@ -311,18 +317,18 @@ alter table CONTENT_CATEGORIES
       on delete restrict on update restrict;
 
 alter table CONTENT_CATEGORIES
-   add constraint FK_CONTENT__CONTENT_C_CONTENTS foreign key (CONTENT_ID)
-      references CONTENTS (CONTENT_ID)
+   add constraint FK_CONTENT__CONTENT_C_CONTENTS foreign key (CONTENT_CODE)
+      references CONTENTS (CONTENT_CODE)
       on delete restrict on update restrict;
 
 alter table SESSIONS
-   add constraint FK_SESSIONS_SESSION_C_CONTENTS foreign key (CONTENT_ID)
-      references CONTENTS (CONTENT_ID)
+   add constraint FK_SESSIONS_SESSION_C_CONTENTS foreign key (CONTENT_CODE)
+      references CONTENTS (CONTENT_CODE)
       on delete restrict on update restrict;
 
 alter table SESSIONS
-   add constraint FK_SESSIONS_SESSION_U_USERS foreign key (USER_ID)
-      references USERS (USER_ID)
+   add constraint FK_SESSIONS_SESSION_U_USERS foreign key (USER_CODE)
+      references USERS (USER_CODE)
       on delete restrict on update restrict;
 
 alter table USERS
@@ -344,3 +350,4 @@ alter table USERS
    add constraint FK_USERS_USER_SUBS_SUBSCRIP foreign key (SUBSCRIPTION_STATUS_ID)
       references SUBSCRIPTION_STATUS (SUBSCRIPTION_STATUS_ID)
       on delete restrict on update restrict;
+
