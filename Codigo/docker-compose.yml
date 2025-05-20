@@ -43,6 +43,7 @@ services:
       - "1433:1433"
     volumes:
       - sql_data:/var/opt/mssql
+      - ./data_generation/csv_dimensional_model:/csv_dimensional_model
     networks:
       - mynetwork
 
