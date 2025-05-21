@@ -1,4 +1,4 @@
-SUBSCRIPTION_STATUS_ID,SUBSCRIPTION_STATUS_DESIGNATION
-1,Subscribed
-2,Terminated
-3,Lapsed
+subscription_status_id,subscription_status_designation,is_up_to_date
+1,Subscribed,0
+2,Terminated,0
+3,Lapsed,0

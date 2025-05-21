@@ -1,12 +1,12 @@
-COUNTRY_ID,COUNTRY_DESIGNATION
-1,Portugal
-2,Spain
-3,France
-4,Germany
-5,Italy
-6,Netherlands
-7,United Kingdom
-8,United States
-9,Brazil
-10,Canada
-11,Venezuela
+country_id,country_designation,is_up_to_date
+1,Portugal,0
+2,Spain,0
+3,France,0
+4,Germany,0
+5,Italy,0
+6,Netherlands,0
+7,United Kingdom,0
+8,United States,0
+9,Brazil,0
+10,Canada,0
+11,Venezuela,0

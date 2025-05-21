@@ -1,11 +1,11 @@
-CATEGORY_ID,CATEGORY_DESIGNATION
-1,Adventure
-2,Humor
-3,Melodrama
-4,Suspense
-5,Terror
-6,Love Story
-7,Nonfiction
-8,Cartoon
-9,Science Fiction
-10,Fiction
+category_id,category_designation,is_up_to_date
+1,Adventure,0
+2,Humor,0
+3,Melodrama,0
+4,Suspense,0
+5,Terror,0
+6,Love Story,0
+7,Nonfiction,0
+8,Cartoon,0
+9,Science Fiction,0
+10,Fiction,0

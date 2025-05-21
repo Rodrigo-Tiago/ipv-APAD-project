@@ -1,6 +1,6 @@
-TYPE_ID,TYPE_DESIGNATION
-1,Movie
-2,Series
-3,Short Film
-4,Documentary
-5,Special
+TYPE_ID,TYPE_DESIGNATION,IS_UP_TO_DATE
+1,"Movie",1
+2,"Series",1
+3,"Short Film",1
+4,"Documentary",1
+5,"Special",1

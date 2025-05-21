@@ -1,4 +1,4 @@
-GENDER_ID,GENDER_DESIGNATION
-1,Male
-2,Female
-3,Other
+gender_id,gender_designation,is_up_to_date
+1,Male,0
+2,Female,0
+3,Other,0

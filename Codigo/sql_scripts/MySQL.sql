@@ -33,8 +33,8 @@ create table CONTENTS
 /*==============================================================*/
 create table CONTENT_GENRES
 (
-   CONTENT_CODE         varchar(16) not null  comment '',
    GENRE_ID             int not null  comment '',
+   CONTENT_CODE         varchar(16) not null  comment '',
    primary key (CONTENT_CODE, GENRE_ID)
 );
 
