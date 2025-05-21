@@ -88,7 +88,7 @@ def executar_sql_mysql(path_script):
     conn.commit()
     cursor.close()
     conn.close()
-    print("→ Script MySQL executado.\n")
+    print("Script MySQL executado.\n")
 
 # Função para executar script PostgreSQL
 def executar_sql_postgres(path_script, dbname, user, port):
@@ -110,7 +110,7 @@ def executar_sql_postgres(path_script, dbname, user, port):
     conn.commit()
     cursor.close()
     conn.close()
-    print(f"→ Script PostgreSQL ({dbname}) executado.\n")
+    print(f"Script PostgreSQL ({dbname}) executado.\n")
 
 # Executar os scripts
 executar_sql_mysql(scripts['mysql'])

@@ -68,7 +68,7 @@ if 'IS_UP_TO_DATE' not in fieldnames:
         conn.commit()
         cursor.close()
         conn.close()
-        print("→ Script MySQL executado.")
+        print("Script MySQL executado.")
 
     def executar_sql_postgres(script_path, dbname, user, port):
         with open(script_path, 'r', encoding='utf-8') as f:
@@ -85,7 +85,7 @@ if 'IS_UP_TO_DATE' not in fieldnames:
         conn.commit()
         cursor.close()
         conn.close()
-        print(f"→ Script PostgreSQL ({dbname}) executado.")
+        print(f"Script PostgreSQL ({dbname}) executado.")
 
     # Executar os scripts
     print("A executar script: Alter_MySQL.sql")
@@ -143,7 +143,9 @@ def exportar_tabelas_mysql():
         print(f"Exportado: {tabela.upper()}.csv")
 
         try:
+            cursor.execute("SET @DISABLE_IS_UP_TO_DATE_TRIGGER = 1")
             cursor.execute(f"UPDATE {tabela} SET IS_UP_TO_DATE = 1")
+            cursor.execute("SET @DISABLE_IS_UP_TO_DATE_TRIGGER = 0")
             conn.commit()
         except mysql.connector.Error as err:
             print(f"Erro ao atualizar IS_UP_TO_DATE em {tabela}: {err}")
