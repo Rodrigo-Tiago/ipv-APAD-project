@@ -75,6 +75,6 @@ SET
     PLATFORM = 'Computer',
     DEVICE_TYPE = 'Laptop',
     OS_FAMILY = 'Windows',
-    OS_NAME = 'Windows 11',
+    OS_NAME = 'iOS 16',
     APP_VERSION = 'version 2.1.0'
 WHERE SESSION_CODE = 'SESSION_00000001';

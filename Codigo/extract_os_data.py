@@ -3,10 +3,12 @@ import csv
 import mysql.connector
 import psycopg2
 import pandas as pd
+import warnings
 
 # Caminho base
 base_dir = os.path.dirname(os.path.abspath(__file__))
 csv_path = os.path.join(base_dir, 'data_generation/csv_csv', 'SESSIONS.csv')
+warnings.filterwarnings("ignore", message=".*pandas only supports SQLAlchemy.*")
 
 # Ler dados existentes
 with open(csv_path, 'r', newline='') as f:
@@ -63,7 +65,7 @@ if 'IS_UP_TO_DATE' not in fieldnames:
             try:
                 cursor.execute(stmt)
             except mysql.connector.Error as err:
-                print(f"Erro ao executar: {stmt}\n→ {err}")
+                print(f"Erro ao executar: {stmt}\n {err}")
 
         conn.commit()
         cursor.close()
@@ -99,31 +101,10 @@ if 'IS_UP_TO_DATE' not in fieldnames:
 
 else:
     print("A coluna IS_UP_TO_DATE já existe no CSV. Nenhuma alteração feita.")
-
-# Apagar CSVs desatualizados das pastas MySQL e PostgreSQL
-dirs_to_clean = [
-    os.path.join(base_dir, 'data_generation', 'csv_mysql'),
-    os.path.join(base_dir, 'data_generation', 'csv_postgresql1'),
-    os.path.join(base_dir, 'data_generation', 'csv_postgresql2'),
-    os.path.join(base_dir, 'data_generation', 'csv_dimensional_model')
-]
-
-for dir_path in dirs_to_clean:
-    if os.path.exists(dir_path):
-        for filename in os.listdir(dir_path):
-            if filename.endswith('.csv'):
-                full_path = os.path.join(dir_path, filename)
-                try:
-                    os.remove(full_path)
-                    print(f"→ Apagado: {full_path}")
-                except Exception as e:
-                    print(f"Erro ao apagar {full_path}: {e}")
-    else:
-        print(f"Pasta não encontrada: {dir_path}")
-
+    
 # Exportar tabelas de MySQL
 def exportar_tabelas_mysql():
-    print("\n→ A exportar tabelas do MySQL...")
+    print("\n A exportar tabelas do MySQL...")
     conn = mysql.connector.connect(
         host='localhost',
         port=3307,
@@ -139,6 +120,8 @@ def exportar_tabelas_mysql():
 
     for tabela in tabelas:
         df = pd.read_sql(f"SELECT * FROM {tabela}", conn)
+        for col in df.select_dtypes(include=['object']):
+            df[col] = df[col].astype(str).str.replace(r'\r\n|\r|\n', '', regex=True)
         df.to_csv(os.path.join(output_dir, f"{tabela.upper()}.csv"), index=False)
         print(f"Exportado: {tabela.upper()}.csv")
 
@@ -155,7 +138,7 @@ def exportar_tabelas_mysql():
 
 # Exportar tabelas de PostgreSQL
 def exportar_tabelas_postgres(dbname, user, port, pasta_destino):
-    print(f"\n→ A exportar tabelas do PostgreSQL: {dbname}...")
+    print(f"\nA exportar tabelas do PostgreSQL: {dbname}...")
     conn = psycopg2.connect(
         host='localhost',
         port=port,

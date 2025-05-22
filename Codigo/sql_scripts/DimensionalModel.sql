@@ -111,7 +111,7 @@ create table CONTENTS (
 /* Table: DEVICES                                               */
 /*==============================================================*/
 create table DEVICES (
-   DEVICE_ID            int                  not null,
+   DEVICE_ID            int  identity(1,1)   not null,
    PLATFORM             varchar(20)          not null,
    DEVICE_TYPE          varchar(20)          not null,
    OS_FAMILY            varchar(20)          not null,
@@ -130,6 +130,7 @@ create table SESSIONS (
    DEVICE_ID            int                  not null,
    TIME_ID              int                  not null,
    SESSION_CODE         varchar(16)          not null,
+   SOURCE               varchar(15)          not null,
    WATCHED_DURATION     int                  not null,
    WATCHED_PERCENT      float                not null,
    constraint PK_SESSIONS primary key (SESSION_ID)

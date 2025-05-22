@@ -4,9 +4,9 @@
 
 <Workspace>
 	<Local Expanded="Yes" Selected="Yes">
-		<Model Expanded="Yes" ID="{6654EE5C-CFCA-434A-BA63-184F30511796}" Name="ConceptualDataModel_2" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="ConceptualDataModel_2.cdm"/>
-		<Model Expanded="Yes" ID="{8727C19F-63AB-4B15-90A6-55AAE87D27EA}" Name="ConceptualDataModel_2" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" URL="../PostgreSQL2/ConceptualDataModel_2.ldm"/>
-		<Model Expanded="Yes" ID="{C3227421-56E5-4DAF-AB38-FD58DFE9934D}" Name="ConceptualDataModel_2" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="../PostgreSQL2/ConceptualDataModel_2.pdm"/>
+		<Model ID="{6654EE5C-CFCA-434A-BA63-184F30511796}" Name="MySQL" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="MySQL.cdm"/>
+		<Model Expanded="Yes" ID="{335AA539-58A9-4535-8556-390082F781C0}" Name="MySQL" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" URL="MySQL.ldm"/>
+		<Model Expanded="Yes" ID="{738C5478-BDB9-4014-8102-D67310A2D318}" Name="MySQL" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="MySQL.pdm"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
