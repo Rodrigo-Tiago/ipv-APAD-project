@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      Microsoft SQL Server 2022                    */
-/* Created on:     19/05/2025 16:07:09                          */
+/* Created on:     26/05/2025 19:19:12                          */
 /*==============================================================*/
 
 
@@ -94,7 +94,7 @@ if exists (select 1
 /* Table: CONTENTS                                              */
 /*==============================================================*/
 create table CONTENTS (
-   CONTENT_ID           int                  not null,
+   CONTENT_ID           int  identity(1,1)   not null,
    CONTENT_CODE         varchar(16)          not null,
    SOURCE               varchar(15)          not null,
    TITLE                varchar(200)         not null,
@@ -104,6 +104,9 @@ create table CONTENTS (
    DURATION             int                  not null,
    AGE_RATING           varchar(20)          not null,
    DIRECTOR             varchar(100)         not null,
+   INITIAL_DATE         datetime             not null,
+   FINAL_DATE           datetime             null,
+   ACTIVE               bit                  not null,
    constraint PK_CONTENTS primary key (CONTENT_ID)
 )
 
@@ -111,7 +114,7 @@ create table CONTENTS (
 /* Table: DEVICES                                               */
 /*==============================================================*/
 create table DEVICES (
-   DEVICE_ID            int  identity(1,1)   not null,
+   DEVICE_ID            int   identity(1,1)  not null,
    PLATFORM             varchar(20)          not null,
    DEVICE_TYPE          varchar(20)          not null,
    OS_FAMILY            varchar(20)          not null,
@@ -192,7 +195,7 @@ create table TIMES (
 /* Table: USERS                                                 */
 /*==============================================================*/
 create table USERS (
-   USER_ID              int                  not null,
+   USER_ID              int  identity(1,1)   not null,
    USER_CODE            varchar(16)          not null,
    SOURCE               varchar(15)          not null,
    NAME                 varchar(100)         not null,
@@ -205,6 +208,9 @@ create table USERS (
    CITY                 varchar(50)          not null,
    POSTAL_CODE          varchar(12)          not null,
    STREET_ADDRESS       varchar(150)         not null,
+   INITIAL_DATE         datetime             not null,
+   FINAL_DATE           datetime             null,
+   ACTIVE               bit                  not null,
    constraint PK_USERS primary key (USER_ID)
 )
 
@@ -223,3 +229,4 @@ alter table SESSIONS
 alter table SESSIONS
    add constraint FK_SESSIONS_SESSION_U_USERS foreign key (USER_ID)
       references USERS (USER_ID)
+

@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import mysql.connector
 import pyodbc
+import csv
+from datetime import datetime
 
 # Caminhos relativos ao repositório
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -478,10 +480,22 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
 
     print(f"\nLigado ao SQL Server: {dbname}")
 
+    scd_type_23_columns = {
+        'USERS': ['name', 'age_group', 'gender', 'subscription_status', 'country', 'district', 'city', 'postal_code', 'street_address'],
+        'CONTENTS': ['title', 'genres', 'type', 'age_rating'],
+    }
+
+    composite_keys = {
+        'USERS': ['user_code', 'source'],
+        'CONTENTS': ['content_code', 'source'],
+        'DEVICES': ['platform', 'device_type', 'os_family', 'os_name', 'app_version'],
+        'SESSIONS': ['session_code', 'source'],
+    }
+
     # Importar dados CSV para cada tabela
     for table in table_list:
         file_path = os.path.abspath(os.path.join(csv_dir, f"{table}.csv"))
-        print(f"A importar: {table}")
+        imported_count, updated_count = 0, 0
 
         if table == "TIMES":
             if not should_generate_times(server, dbname, user, password, script_path=sql_dimensional_model):
@@ -489,6 +503,7 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
                 continue
             else:
                 # Caminho no container (montado via volume)
+                print(f"A importar: {table}")
                 container_path = f"/csv_dimensional_model/{table}.csv"
                 bulk_query = f"""
                 BULK INSERT {table}
@@ -508,7 +523,8 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
                     print(f"Erro no BULK INSERT para {table}: {e}")
         elif table == "DEVICES":
             with open(file_path, 'r', encoding='utf-8') as f:
-                columns = f.readline().strip().split(',')
+                reader = csv.reader(f)
+                columns = next(reader)
                 if 'is_up_to_date' in columns:
                     is_up_to_date_index = columns.index('is_up_to_date')
                     columns.remove('is_up_to_date')
@@ -516,8 +532,7 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
                 # Remover DEVICE_ID do INSERT pois é gerado automaticamente
                 insert_columns = [col for col in columns if col != 'device_id']
 
-                for line in f:
-                    raw_values = [v.strip().strip('"') for v in line.strip().split(',')]
+                for raw_values in reader:
                     if raw_values[is_up_to_date_index] != '0':
                         continue
 
@@ -535,52 +550,147 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
                         placeholders = ','.join('?' for _ in insert_columns)
                         insert_sql = f"INSERT INTO DEVICES ({','.join(insert_columns)}) VALUES ({placeholders})"
                         cur.execute(insert_sql, insert_values)
-        else:
+                        imported_count += 1
+            print(f"Importados {imported_count} Atualizados {updated_count} para {table}")
+        elif table == "SESSIONS":
+            # Criar dicionário com os DEVICE_ID reais
+            cur.execute("SELECT device_id, platform, device_type, os_family, os_name, app_version FROM DEVICES")
+            device_rows = cur.fetchall()
+            device_lookup = {
+                (r[1], r[2], r[3], r[4], r[5]): r[0]
+                for r in device_rows
+            }
+
             with open(file_path, 'r', encoding='utf-8') as f:
-                columns = f.readline().strip().split(',')
+                reader = csv.reader(f)
+                columns = next(reader)
                 if 'is_up_to_date' in columns:
                     is_up_to_date_index = columns.index('is_up_to_date')
                     columns.remove('is_up_to_date')
-                
-                composite_keys = {
-                    'USERS': ['user_code', 'source'],
-                    'CONTENTS': ['content_code', 'source'],
-                    'DEVICES': ['platform', 'device_type', 'os_family', 'os_name', 'app_version'],
-                    'SESSIONS': ['session_code', 'source'],
-                }
-                print(f"tou antes do line {table}")
-                for line in f:
-                    print(f"tou dps do line {table}")
-                    raw_values = [v.strip().strip('"') for v in line.strip().split(',')]
-                    print(f"Raw values: {raw_values}")
-                    if raw_values[is_up_to_date_index] != '0':
-                        continue  # Ignorar registos que já estão atualizados
-                    print(f"tou dps do raw {table}")
 
+                device_id_index = columns.index('device_id')
+
+                for raw_values in reader:
+                    if raw_values[is_up_to_date_index] != '0':
+                        continue
+
+                    # Substituir o device_id temporário pelo real
+                    # Primeiro, carregar CSV dos devices para obter os campos identificadores
+                    device_csv_path = os.path.join(csv_dir, 'DEVICES.csv')
+                    with open(device_csv_path, 'r', encoding='utf-8') as dev_f:
+                        dev_reader = csv.reader(dev_f)
+                        dev_columns = next(dev_reader)
+                        dev_index = {name: idx for idx, name in enumerate(dev_columns)}
+
+                        temp_device_id = raw_values[device_id_index]
+
+                        for dev_row in dev_reader:
+                            if dev_row[dev_index['device_id']] == temp_device_id:
+                                key = (
+                                    dev_row[dev_index['platform']],
+                                    dev_row[dev_index['device_type']],
+                                    dev_row[dev_index['os_family']],
+                                    dev_row[dev_index['os_name']],
+                                    dev_row[dev_index['app_version']],
+                                )
+                                real_device_id = device_lookup.get(key)
+                                if real_device_id:
+                                    raw_values[device_id_index] = str(real_device_id)
+                                break
+
+                    # Processamento normal (igual ao resto das tabelas)
                     values = [v for i, v in enumerate(raw_values) if i != is_up_to_date_index]
                     placeholders = ','.join('?' for _ in values)
 
-                    # Chave primária desta tabela
-                    key_columns = composite_keys.get(table)
-                    if key_columns is None or not all(col in columns for col in key_columns):
-                        print(f"Chave composta inválida ou incompleta para a tabela {table}")
-                        continue
-
                     values_dict = dict(zip(columns, values))
+                    key_columns = composite_keys['SESSIONS']
                     key_values = [values_dict[col] for col in key_columns]
                     where_clause = ' AND '.join([f"{col} = ?" for col in key_columns])
-                    cur.execute(f"SELECT COUNT(*) FROM {table} WHERE {where_clause}", key_values)
+                    cur.execute(f"SELECT COUNT(*) FROM SESSIONS WHERE {where_clause}", key_values)
                     exists = cur.fetchone()[0] > 0
 
                     if exists:
                         update_columns = [col for col in columns if col not in key_columns]
                         update_clause = ', '.join([f"{col} = ?" for col in update_columns])
                         update_values = [values[columns.index(col)] for col in update_columns] + key_values
-                        update_sql = f"UPDATE {table} SET {update_clause} WHERE {where_clause}"
+                        update_sql = f"UPDATE SESSIONS SET {update_clause} WHERE {where_clause}"
                         cur.execute(update_sql, update_values)
+                        updated_count += 1
                     else:
-                        insert_sql = f"INSERT INTO {table} ({','.join(columns)}) VALUES ({placeholders})"
+                        insert_sql = f"INSERT INTO SESSIONS ({','.join(columns)}) VALUES ({placeholders})"
                         cur.execute(insert_sql, values)
+                        imported_count += 1
+
+            print(f"Importados {imported_count} Atualizados {updated_count} para {table}")
+        else: # USERS e CONTENTS
+            with open(file_path, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                columns = next(reader)
+                if 'is_up_to_date' in columns:
+                    is_up_to_date_index = columns.index('is_up_to_date')
+                    columns.remove('is_up_to_date')
+
+                scd_cols = scd_type_23_columns.get(table, [])
+                key_columns = composite_keys.get(table)
+
+                for raw_values in reader:
+                    if raw_values[is_up_to_date_index] != '0':
+                        continue  # Ignorar registos que já estão atualizados
+
+                    values = [v for i, v in enumerate(raw_values) if i != is_up_to_date_index]
+                    values_dict = dict(zip(columns, values))
+
+                    if not key_columns or not all(col in columns for col in key_columns):
+                        print(f"Chave composta inválida ou incompleta para a tabela {table}")
+                        continue
+
+                    key_values = [values_dict[col] for col in key_columns]
+                    where_clause = ' AND '.join([f"{col} = ?" for col in key_columns])
+                    cur.execute(f"SELECT * FROM {table} WHERE {where_clause} AND ACTIVE = 1", key_values)
+                    row = cur.fetchone()
+
+                    pk_col = 'user_id' if table == 'USERS' else 'content_id'
+
+                    if row: # Se o registo já existe
+                        db_columns = [desc[0] for desc in cur.description]
+                        db_row_dict = dict(zip(db_columns, row))
+
+                        # Verificar alterações tipo 2.3 (que implicam novo registo)
+                        has_scd23_change = any(values_dict[col] != str(db_row_dict.get(col, '')) for col in scd_cols)
+
+                        if has_scd23_change:
+                            # Inativar registo atual
+                            cur.execute(
+                                f"UPDATE {table} SET ACTIVE = 0, FINAL_DATE = ? WHERE {where_clause} AND ACTIVE = 1",
+                                [datetime.now().strftime("%Y-%m-%d %H:%M:%S")] + key_values
+                            )
+
+                            # Preparar colunas e valores para novo registo (com atualizações tipo 1 e 2.3)
+                            insert_columns = [col for col in columns if col != pk_col] + ['ACTIVE', 'INITIAL_DATE', 'FINAL_DATE']
+                            insert_values = [values_dict[col] for col in columns if col != pk_col] + ['1', datetime.now().strftime("%Y-%m-%d %H:%M:%S"), None]
+                            placeholders = ','.join('?' for _ in insert_values)
+
+                            insert_sql = f"INSERT INTO {table} ({','.join(insert_columns)}) VALUES ({placeholders})"
+                            cur.execute(insert_sql, insert_values)
+                            imported_count += 1
+                        else:
+                            # Atualizações apenas de campos tipo 1 (no mesmo registo ativo)
+                            update_cols = [col for col in columns if col not in scd_cols + key_columns and values_dict[col] != str(db_row_dict.get(col, ''))]
+
+                            if update_cols:
+                                update_clause = ', '.join([f"{col} = ?" for col in update_cols])
+                                update_values = [values_dict[col] for col in update_cols] + key_values
+                                update_sql = f"UPDATE {table} SET {update_clause} WHERE {where_clause} AND ACTIVE = 1"
+                                cur.execute(update_sql, update_values)
+                            updated_count += 1
+                    else:
+                        insert_columns = [col for col in columns if col != pk_col] + ['ACTIVE', 'INITIAL_DATE', 'FINAL_DATE']
+                        insert_values = [values_dict[col] for col in columns if col != pk_col] + ['1', datetime.now().strftime("%Y-%m-%d %H:%M:%S"), None]
+                        placeholders = ','.join('?' for _ in insert_values)
+                        insert_sql = f"INSERT INTO {table} ({','.join(insert_columns)}) VALUES ({placeholders})"
+                        cur.execute(insert_sql, insert_values)
+                        imported_count += 1
+                print(f"Importados {imported_count} Atualizados {updated_count} para {table}")
 
     cur.close()
     conn.close()

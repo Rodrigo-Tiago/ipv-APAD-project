@@ -1812,7 +1812,6 @@ DESTINATION 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -1833,7 +1832,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -1854,7 +1852,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -1875,7 +1872,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -1896,7 +1892,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -2965,12 +2960,12 @@ DAT 1748283469</a:History>
 <a:Code>MODELO_DIMENSIONAL</a:Code>
 <a:CreationDate>1748283491</a:CreationDate>
 <a:Creator>rtg4m</a:Creator>
-<a:ModificationDate>1748283551</a:ModificationDate>
+<a:ModificationDate>1748283503</a:ModificationDate>
 <a:Modifier>rtg4m</a:Modifier>
 <a:TargetModelURL>file:///D|/Mestrado/1 Ano/2 Semestre/APAD/Projeto/Sistemas Operacionais/Modelo Dimensional/Modelo_Dimensional.pdm</a:TargetModelURL>
 <a:TargetModelID>5A7ABADD-8D58-4A7F-9B2E-E501283447C1</a:TargetModelID>
 <a:TargetModelClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetModelClassID>
-<a:TargetModelLastModificationDate>1748283551</a:TargetModelLastModificationDate>
+<a:TargetModelLastModificationDate>1748283491</a:TargetModelLastModificationDate>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
