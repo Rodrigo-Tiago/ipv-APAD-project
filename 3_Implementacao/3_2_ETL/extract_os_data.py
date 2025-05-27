@@ -7,7 +7,7 @@ import warnings
 
 # Caminho base
 base_dir = os.path.dirname(os.path.abspath(__file__))
-csv_path = os.path.join(base_dir, 'data_generation/csv_csv', 'SESSIONS.csv')
+csv_path = os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_1_CSV', 'SESSIONS.csv')
 warnings.filterwarnings("ignore", message=".*pandas only supports SQLAlchemy.*")
 
 # Ler dados existentes
@@ -32,7 +32,7 @@ if 'IS_UP_TO_DATE' not in fieldnames:
     print("Coluna IS_UP_TO_DATE adicionada ao CSV.")
 
     # Caminhos dos scripts
-    sql_dir = os.path.join(base_dir, 'sql_scripts')
+    sql_dir = os.path.join(base_dir, 'scripts_sql')
     scripts = {
         'mysql': os.path.join(sql_dir, 'Alter_MySQL.sql'),
         'pg1': os.path.join(sql_dir, 'Alter_PostgreSQL1.sql'),
@@ -115,7 +115,7 @@ def exportar_tabelas_mysql():
     cursor = conn.cursor()
     cursor.execute("SHOW TABLES")
     tabelas = [row[0] for row in cursor.fetchall()]
-    output_dir = os.path.join(base_dir, 'data_generation', 'csv_mysql')
+    output_dir = os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_2_MySQL')
     os.makedirs(output_dir, exist_ok=True)
 
     for tabela in tabelas:
@@ -154,7 +154,7 @@ def exportar_tabelas_postgres(dbname, user, port, pasta_destino):
           AND table_type = 'BASE TABLE'
     """)
     tabelas = [row[0] for row in cursor.fetchall()]
-    output_dir = os.path.join(base_dir, 'data_generation', pasta_destino)
+    output_dir = os.path.join(base_dir, '..', '3_1_Dados_Fonte', pasta_destino)
     os.makedirs(output_dir, exist_ok=True)
 
     for tabela in tabelas:
@@ -175,5 +175,5 @@ def exportar_tabelas_postgres(dbname, user, port, pasta_destino):
 
 # Executar exportações
 exportar_tabelas_mysql()
-exportar_tabelas_postgres(dbname='db1', user='user1', port=5434, pasta_destino='csv_postgresql1')
-exportar_tabelas_postgres(dbname='db2', user='user2', port=5435, pasta_destino='csv_postgresql2')
+exportar_tabelas_postgres(dbname='db1', user='user1', port=5434, pasta_destino='3_1_3_PostgreSQL1')
+exportar_tabelas_postgres(dbname='db2', user='user2', port=5435, pasta_destino='3_1_4_PostgreSQL2')

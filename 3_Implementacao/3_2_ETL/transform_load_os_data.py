@@ -8,10 +8,10 @@ from datetime import datetime
 
 # Caminhos relativos ao repositório
 base_dir = os.path.dirname(os.path.abspath(__file__))
-output_dir = os.path.join(base_dir, 'data_generation/csv_dimensional_model')
+output_dir = os.path.join(base_dir, '..', '3_3_DM')
 os.makedirs(output_dir, exist_ok=True)
-csv_dimensional_model = os.path.join(base_dir, 'data_generation/csv_dimensional_model') # Dados
-sql_dimensional_model = os.path.join(base_dir, 'sql_scripts/DimensionalModel.sql') # Tabelas
+csv_dimensional_model = os.path.join(base_dir, '..', '3_3_DM') # Dados
+sql_dimensional_model = os.path.join(base_dir, 'scripts_sql/DimensionalModel.sql') # Tabelas
 
 ordered_tables_dimensional_model = [
     'CONTENTS',
@@ -148,19 +148,19 @@ def map_age_ratings(value):
 # --- USERS ---
 def process_users():
     # Ler os CSVs dos users e das tabelas auxiliares
-    df_pg1_users = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql1/USERS.csv'))
+    df_pg1_users = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_3_PostgreSQL1', 'USERS.csv'))
     df_pg1_users['source'] = 'postgresql1'
-    df_pg1_age = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql1/AGE_GROUPS.csv')).drop(columns=['is_up_to_date'], errors='ignore')
-    df_pg1_gender = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql1/GENDERS.csv')).drop(columns=['is_up_to_date'], errors='ignore')
-    df_pg1_country = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql1/COUNTRIES.csv')).drop(columns=['is_up_to_date'], errors='ignore')
-    df_pg1_subs = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql1/SUBSCRIPTION_STATUS.csv')).drop(columns=['is_up_to_date'], errors='ignore')
+    df_pg1_age = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_3_PostgreSQL1', 'AGE_GROUPS.csv')).drop(columns=['is_up_to_date'], errors='ignore')
+    df_pg1_gender = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_3_PostgreSQL1', 'GENDERS.csv')).drop(columns=['is_up_to_date'], errors='ignore')
+    df_pg1_country = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_3_PostgreSQL1', 'COUNTRIES.csv')).drop(columns=['is_up_to_date'], errors='ignore')
+    df_pg1_subs = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_3_PostgreSQL1', 'SUBSCRIPTION_STATUS.csv')).drop(columns=['is_up_to_date'], errors='ignore')
 
-    df_pg2_users = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/USERS.csv'))
+    df_pg2_users = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2', 'USERS.csv'))
     df_pg2_users['source'] = 'postgresql2'
-    df_pg2_age = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/AGE_GROUPS.csv')).drop(columns=['is_up_to_date'], errors='ignore')
-    df_pg2_gender = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/GENDERS.csv')).drop(columns=['is_up_to_date'], errors='ignore')
-    df_pg2_country = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/COUNTRIES.csv')).drop(columns=['is_up_to_date'], errors='ignore')
-    df_pg2_subs = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/SUBSCRIPTION_STATUS.csv')).drop(columns=['is_up_to_date'], errors='ignore')
+    df_pg2_age = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2', 'AGE_GROUPS.csv')).drop(columns=['is_up_to_date'], errors='ignore')
+    df_pg2_gender = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2', 'GENDERS.csv')).drop(columns=['is_up_to_date'], errors='ignore')
+    df_pg2_country = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2', 'COUNTRIES.csv')).drop(columns=['is_up_to_date'], errors='ignore')
+    df_pg2_subs = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2', 'SUBSCRIPTION_STATUS.csv')).drop(columns=['is_up_to_date'], errors='ignore')
 
     def expand_users(df_users, df_age, df_gender, df_country, df_subs):
         df = df_users.copy()
@@ -206,9 +206,9 @@ def process_users():
 # --- DEVICES ---
 def process_devices():
     # Ler os CSVs dos devices
-    df_pg2_sessions = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/SESSIONS.csv'))
+    df_pg2_sessions = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2', 'SESSIONS.csv'))
     
-    df_csv_sessions = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_csv/SESSIONS.csv'))
+    df_csv_sessions = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_1_CSV', 'SESSIONS.csv'))
     df_csv_sessions.columns = df_csv_sessions.columns.str.lower() # Colocar as colunas em minúsculas
 
     def expand_devices(df_devices):
@@ -243,26 +243,26 @@ def process_devices():
 # --- CONTENTS ---
 def process_contents():
     # Ler os CSVs dos contents e das tabelas auxiliares
-    df_pg2_contents = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/CONTENTS.csv'))
+    df_pg2_contents = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2', 'CONTENTS.csv'))
     df_pg2_contents['source'] = 'postgresql2'
-    df_pg2_categories = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/CATEGORIES.csv'))
-    df_pg2_types = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/TYPES.csv'))
-    df_pg2_age_restrictions = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/AGE_RESTRICTIONS.csv'))
-    df_pg2_directors = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/DIRECTORS.csv'))
-    df_pg2_content_categories = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/CONTENT_CATEGORIES.csv'))
+    df_pg2_categories = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2', 'CATEGORIES.csv'))
+    df_pg2_types = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2', 'TYPES.csv'))
+    df_pg2_age_restrictions = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2', 'AGE_RESTRICTIONS.csv'))
+    df_pg2_directors = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2', 'DIRECTORS.csv'))
+    df_pg2_content_categories = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2', 'CONTENT_CATEGORIES.csv'))
 
-    df_mysql_contents = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_mysql/CONTENTS.csv'))
+    df_mysql_contents = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_2_MySQL', 'CONTENTS.csv'))
     df_mysql_contents.columns = df_mysql_contents.columns.str.lower()
     df_mysql_contents['source'] = 'postgresql1'
-    df_mysql_genres = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_mysql/GENRES.csv'))
+    df_mysql_genres = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_2_MySQL', 'GENRES.csv'))
     df_mysql_genres.columns = df_mysql_genres.columns.str.lower()
-    df_mysql_types = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_mysql/TYPES.csv'))
+    df_mysql_types = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_2_MySQL', 'TYPES.csv'))
     df_mysql_types.columns = df_mysql_types.columns.str.lower()
-    df_mysql_age_ratings = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_mysql/AGE_RATINGS.csv'))
+    df_mysql_age_ratings = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_2_MySQL', 'AGE_RATINGS.csv'))
     df_mysql_age_ratings.columns = df_mysql_age_ratings.columns.str.lower()
-    df_mysql_directors = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_mysql/DIRECTORS.csv'))
+    df_mysql_directors = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_2_MySQL', 'DIRECTORS.csv'))
     df_mysql_directors.columns = df_mysql_directors.columns.str.lower()
-    df_mysql_content_genres = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_mysql/CONTENT_GENRES.csv'))
+    df_mysql_content_genres = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_2_MySQL', 'CONTENT_GENRES.csv'))
     df_mysql_content_genres.columns = df_mysql_content_genres.columns.str.lower()
 
     def expand_contents(df_contents, df_cat_or_genres, df_content_cat_or_genres, df_types, df_age_ratings, df_directors, is_postgres):
@@ -356,23 +356,23 @@ def process_times(start_date='2023-01-01', end_date='2025-12-31'):
 # --- SESSIONS ---
 def process_sessions():
     # Ler os CSVs das sessions
-    df_csv_sessions = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_csv/SESSIONS.csv'))
+    df_csv_sessions = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_1_CSV', 'SESSIONS.csv'))
     df_csv_sessions.columns = df_csv_sessions.columns.str.lower()
     df_csv_sessions['source'] = 'postgresql1'
-
+    
     # Atualizar o campo is_up_to_date para 1 no ficheiro original (SESSIONS.csv)
-    original_csv_path = os.path.join(base_dir, 'data_generation/csv_csv/SESSIONS.csv')
+    original_csv_path = os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_1_CSV', 'SESSIONS.csv')
     if os.path.exists(original_csv_path):
         df_original = pd.read_csv(original_csv_path)
         if 'IS_UP_TO_DATE' in df_original.columns:
             df_original['IS_UP_TO_DATE'] = 1
             df_original.to_csv(original_csv_path, index=False)
             print("Campo IS_UP_TO_DATE atualizado para 1 no ficheiro original SESSIONS.csv")
-
-    df_pg2_sessions = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_postgresql2/SESSIONS.csv'))
+    
+    df_pg2_sessions = pd.read_csv(os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2', 'SESSIONS.csv'))
     df_pg2_sessions['source'] = 'postgresql2'
 
-    # Normalizar os nomes de colunas
+    # Normalizar os nomes das colunas
     df_pg2_sessions.rename(columns={
         'time_': 'time'
     }, inplace=True)
@@ -383,11 +383,11 @@ def process_sessions():
     # Normalizar os valores
     df_sessions['app_version'] = df_sessions['app_version'].apply(map_app_versions)
 
-    # Carregar dimensões
-    df_users = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_dimensional_model/USERS.csv'))
-    df_devices = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_dimensional_model/DEVICES.csv'))
-    df_contents = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_dimensional_model/CONTENTS.csv'))
-    df_times = pd.read_csv(os.path.join(base_dir, 'data_generation/csv_dimensional_model/TIMES.csv'))
+    # Carregar dimensões    
+    df_users = pd.read_csv(os.path.join(base_dir, '..', '3_3_DM', 'USERS.csv'))
+    df_devices = pd.read_csv(os.path.join(base_dir, '..', '3_3_DM', 'DEVICES.csv'))
+    df_contents = pd.read_csv(os.path.join(base_dir, '..', '3_3_DM', 'CONTENTS.csv'))
+    df_times = pd.read_csv(os.path.join(base_dir, '..', '3_3_DM', 'TIMES.csv'))
 
     # Tratar do USER_ID
     df_sessions = df_sessions.merge(df_users[['user_id', 'user_code', 'source']], on=['user_code', 'source'], how='left')
@@ -504,7 +504,7 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
             else:
                 # Caminho no container (montado via volume)
                 print(f"A importar: {table}")
-                container_path = f"/csv_dimensional_model/{table}.csv"
+                container_path = f"/3_3_DM/{table}.csv"
                 bulk_query = f"""
                 BULK INSERT {table}
                 FROM '{container_path}'
@@ -551,7 +551,7 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
                         insert_sql = f"INSERT INTO DEVICES ({','.join(insert_columns)}) VALUES ({placeholders})"
                         cur.execute(insert_sql, insert_values)
                         imported_count += 1
-            print(f"Importados {imported_count} Atualizados {updated_count} para {table}")
+            print(f"{imported_count} Importados {updated_count} Atualizados para {table}")
         elif table == "SESSIONS":
             # Criar dicionário com os DEVICE_ID reais
             cur.execute("SELECT device_id, platform, device_type, os_family, os_name, app_version FROM DEVICES")
@@ -621,7 +621,7 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
                         cur.execute(insert_sql, values)
                         imported_count += 1
 
-            print(f"Importados {imported_count} Atualizados {updated_count} para {table}")
+            print(f"{imported_count} Importados {updated_count} Atualizados para {table}")
         else: # USERS e CONTENTS
             with open(file_path, 'r', encoding='utf-8') as f:
                 reader = csv.reader(f)
@@ -690,7 +690,7 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
                         insert_sql = f"INSERT INTO {table} ({','.join(insert_columns)}) VALUES ({placeholders})"
                         cur.execute(insert_sql, insert_values)
                         imported_count += 1
-                print(f"Importados {imported_count} Atualizados {updated_count} para {table}")
+                print(f"{imported_count} Importados {updated_count} Atualizados para {table}")
 
     cur.close()
     conn.close()

@@ -5,10 +5,10 @@ from faker import Faker
 from datetime import datetime
 
 fake = Faker()
-NUM_RECORDS = 100  # Registos a gerar por tabela
+NUM_RECORDS = 1000  # Registos a gerar por tabela
 
 # Definir o diretório para os arquivos CSV
-output_dir = os.path.join(os.path.dirname(__file__), 'csv_postgresql2')
+output_dir = os.path.join(os.path.dirname(__file__), '3_1_4_PostgreSQL2')
 os.makedirs(output_dir, exist_ok=True)
 os.chdir(output_dir)
 

@@ -66,7 +66,7 @@ def import_postgres(csv_dir, dbname, user, password, port, table_list, script_pa
     for table in table_list:
         file = f"{table}.csv"
         path = os.path.join(csv_dir, file).replace('\\', '/')
-        print(f"A importar: {table} ← {path}")
+        print(f"A importar: {table}")
         with open(path, 'r', encoding='utf-8') as f:
             cur.copy_expert(f"COPY {table} FROM STDIN WITH CSV HEADER", f)
 
@@ -93,7 +93,7 @@ def import_mysql(csv_dir, dbname, user, password, port, table_list, script_path)
     for table in table_list:
         file = f"{table}.csv"
         path = os.path.abspath(os.path.join(csv_dir, file)).replace('\\', '/')
-        print(f"A importar: {table} ← {path}")
+        print(f"A importar: {table}")
         cur.execute(f"""
             LOAD DATA LOCAL INFILE '{path}'
             INTO TABLE {table}
@@ -110,13 +110,13 @@ def import_mysql(csv_dir, dbname, user, password, port, table_list, script_path)
 
 # Caminhos relativos ao repositório
 base_dir = os.path.dirname(os.path.abspath(__file__))
-csv_pg1 = os.path.join(base_dir, 'data_generation/csv_postgresql1')
-csv_pg2 = os.path.join(base_dir, 'data_generation/csv_postgresql2')
-csv_mysql = os.path.join(base_dir, 'data_generation/csv_mysql')
+csv_pg1 = os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_3_PostgreSQL1')
+csv_pg2 = os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_4_PostgreSQL2')
+csv_mysql = os.path.join(base_dir, '..', '3_1_Dados_Fonte', '3_1_2_MySQL')
 
-sql_pg1 = os.path.join(base_dir, 'sql_scripts/PostgreSQL1.sql')
-sql_pg2 = os.path.join(base_dir, 'sql_scripts/PostgreSQL2.sql')
-sql_mysql = os.path.join(base_dir, 'sql_scripts/MySQL.sql')
+sql_pg1 = os.path.join(base_dir, '..', '..', '2_Analise', 'scripts_criar_bd', 'PostgreSQL1.sql')
+sql_pg2 = os.path.join(base_dir, '..', '..', '2_Analise', 'scripts_criar_bd', 'PostgreSQL2.sql')
+sql_mysql = os.path.join(base_dir, '..', '..', '2_Analise', 'scripts_criar_bd', 'MySQL.sql')
 
 # Executar importações
 import_postgres(csv_pg1, dbname='db1', user='user1', password='password1', port=5434, table_list=ordered_tables_pg1, script_path=sql_pg1)

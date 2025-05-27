@@ -5,12 +5,12 @@ from faker import Faker
 from datetime import datetime
 
 fake = Faker()
-NUM_SESSIONS = 100  # Número sessões a gerar
-MAX_USER_ID = 100   # Máximo users permitido
-MAX_CONTENT_ID = 100  # Máximo contents permitido
+NUM_SESSIONS = 1000  # Número sessões a gerar
+MAX_USER_ID = 1000   # Máximo users permitido
+MAX_CONTENT_ID = 1000  # Máximo contents permitido
 
 # Diretório de saída dinâmico
-output_dir = os.path.join(os.path.dirname(__file__), 'csv_csv')
+output_dir = os.path.join(os.path.dirname(__file__), '3_1_1_CSV')
 os.makedirs(output_dir, exist_ok=True)
 os.chdir(output_dir)
 

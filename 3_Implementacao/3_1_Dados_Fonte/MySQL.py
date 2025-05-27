@@ -5,10 +5,10 @@ from faker import Faker
 from datetime import datetime
 
 fake = Faker()
-NUM_CONTENTS = 100  # Conteúdos a gerar
+NUM_CONTENTS = 1000  # Conteúdos a gerar
 
 # Diretório de saída dinâmico
-output_dir = os.path.join(os.path.dirname(__file__), 'csv_mysql')
+output_dir = os.path.join(os.path.dirname(__file__), '3_1_2_MySQL')
 os.makedirs(output_dir, exist_ok=True)
 os.chdir(output_dir)
 

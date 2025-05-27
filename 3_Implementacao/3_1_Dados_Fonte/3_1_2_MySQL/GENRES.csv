@@ -1,0 +1,11 @@
+GENRE_ID,GENRE_DESIGNATION,IS_UP_TO_DATE
+1,Action,0
+2,Comedy,0
+3,Drama,0
+4,Thriller,0
+5,Horror,0
+6,Romance,0
+7,Documentary,0
+8,Animation,0
+9,Sci-Fi,0
+10,Fantasy,0

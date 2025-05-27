@@ -1,0 +1,4 @@
+subscription_status_id,subscription_status_designation,is_up_to_date
+1,Active,0
+2,Cancelled,0
+3,Expired,0

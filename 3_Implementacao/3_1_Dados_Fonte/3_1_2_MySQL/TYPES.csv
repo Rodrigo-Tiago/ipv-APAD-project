@@ -1,0 +1,6 @@
+TYPE_ID,TYPE_DESIGNATION,IS_UP_TO_DATE
+1,Movie,0
+2,Series,0
+3,Short Film,0
+4,Documentary,0
+5,Special,0
