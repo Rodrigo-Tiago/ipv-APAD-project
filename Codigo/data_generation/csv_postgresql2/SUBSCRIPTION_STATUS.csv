@@ -1,4 +1,0 @@
-subscription_status_id,subscription_status_designation,is_up_to_date
-1,Subscribed,1
-2,Terminated,1
-3,Lapsed,1

@@ -1,0 +1,6 @@
+# Ignorar ficheiros da pasta bin/
+bin/
+*.db
+*.idf
+*.tbl
+*.prt
