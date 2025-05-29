@@ -1,4 +1,4 @@
 gender_id,gender_designation,is_up_to_date
-1,Male,0
-2,Female,0
-3,Other,0
+1,Male,1
+2,Female,1
+3,Other,1

@@ -1,0 +1,8 @@
+C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\3_Implementacao\3_4_Consulta_Visualizacao\CuboStreamFlix\CuboStreamFlix\bin\Model.asdatabase
+C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\3_Implementacao\3_4_Consulta_Visualizacao\CuboStreamFlix\CuboStreamFlix\bin\Model.deploymenttargets
+C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\3_Implementacao\3_4_Consulta_Visualizacao\CuboStreamFlix\CuboStreamFlix\bin\Model.deploymentoptions
+C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\3_Implementacao\3_4_Consulta_Visualizacao\CuboStreamFlix\CuboStreamFlix\obj\Development\CuboStreamFlix.smproj.AssemblyReference.cache
+C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\3_Implementacao\3_4_Consulta_Visualizacao\CuboStreamFlix\CuboStreamFlix\obj\Development\CuboStreamFlix.smproj.CoreCompileInputs.cache
+C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\3_Implementacao\3_4_Consulta_Visualizacao\CuboStreamFlix\CuboStreamFlix\obj\Development\Model.asdatabase
+C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\3_Implementacao\3_4_Consulta_Visualizacao\CuboStreamFlix\CuboStreamFlix\obj\Development\Model.deploymentoptions
+C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\3_Implementacao\3_4_Consulta_Visualizacao\CuboStreamFlix\CuboStreamFlix\obj\Development\Model.deploymenttargets

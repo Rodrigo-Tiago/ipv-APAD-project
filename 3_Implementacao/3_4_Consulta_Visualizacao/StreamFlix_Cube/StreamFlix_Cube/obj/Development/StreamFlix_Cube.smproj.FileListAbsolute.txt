@@ -1,8 +1,0 @@
-C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\OLAP\StreamFlix_Cube\StreamFlix_Cube\bin\Model.asdatabase
-C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\OLAP\StreamFlix_Cube\StreamFlix_Cube\bin\Model.deploymenttargets
-C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\OLAP\StreamFlix_Cube\StreamFlix_Cube\bin\Model.deploymentoptions
-C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\OLAP\StreamFlix_Cube\StreamFlix_Cube\obj\Development\StreamFlix_Cube.smproj.AssemblyReference.cache
-C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\OLAP\StreamFlix_Cube\StreamFlix_Cube\obj\Development\StreamFlix_Cube.smproj.CoreCompileInputs.cache
-C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\OLAP\StreamFlix_Cube\StreamFlix_Cube\obj\Development\Model.asdatabase
-C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\OLAP\StreamFlix_Cube\StreamFlix_Cube\obj\Development\Model.deploymentoptions
-C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\OLAP\StreamFlix_Cube\StreamFlix_Cube\obj\Development\Model.deploymenttargets

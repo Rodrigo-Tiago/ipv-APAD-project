@@ -8,14 +8,14 @@
     <AssemblyName>MyAssemblyName</AssemblyName>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
     <OutputPath>bin\</OutputPath>
-    <Name>StreamFlix_Cube</Name>
+    <Name>CuboStreamFlix</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Development' ">
     <OutputPath>bin\</OutputPath>
     <DeploymentServerName>localhost</DeploymentServerName>
     <DeploymentServerEdition>Developer</DeploymentServerEdition>
     <DeploymentServerVersion>Unknown</DeploymentServerVersion>
-    <DeploymentServerDatabase>StreamFlix_Cube</DeploymentServerDatabase>
+    <DeploymentServerDatabase>CuboStreamFlix</DeploymentServerDatabase>
     <DeploymentServerCubeName>Modelo</DeploymentServerCubeName>
     <DeploymentOptionProcessing>Default</DeploymentOptionProcessing>
     <DeploymentOptionTransactionalDeployment>False</DeploymentOptionTransactionalDeployment>
@@ -27,7 +27,7 @@
     <DeploymentServerName>localhost</DeploymentServerName>
     <DeploymentServerEdition>Developer</DeploymentServerEdition>
     <DeploymentServerVersion>Unknown</DeploymentServerVersion>
-    <DeploymentServerDatabase>StreamFlix_Cube</DeploymentServerDatabase>
+    <DeploymentServerDatabase>CuboStreamFlix</DeploymentServerDatabase>
     <DeploymentServerCubeName>Modelo</DeploymentServerCubeName>
     <DeploymentOptionProcessing>Default</DeploymentOptionProcessing>
     <DeploymentOptionTransactionalDeployment>False</DeploymentOptionTransactionalDeployment>

@@ -4,7 +4,7 @@ INSERT INTO USERS (
     USER_CODE, AGE_GROUP_ID, GENDER_ID, COUNTRY_ID, SUBSCRIPTION_STATUS_ID,
     NAME, EMAIL, SIGNUP_DATE, DISTRICT, CITY, POSTAL_CODE, STREET_ADDRESS
 ) VALUES (
-    'USER_00000000101', 2, 1, 3, 1,
+    'USER_00000001001', 2, 1, 3, 1,
     'João Silva', 'joao.silva@example.com', '2024-05-01',
     'Lisboa', 'Lisboa', '1000-001', 'Rua das Flores, 25'
 );

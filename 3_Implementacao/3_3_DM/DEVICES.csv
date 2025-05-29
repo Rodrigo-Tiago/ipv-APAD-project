@@ -1,1893 +1,1882 @@
 device_id,platform,device_type,os_family,os_name,app_version,is_up_to_date
-1,Computer,Desktop,Android,FireOS 6,v2.0.1,0
-2,Computer,Desktop,Android,FireOS 6,v2.1.0,0
-3,Computer,Desktop,FireOS,PS5,v1.2.3,0
-4,Computer,Desktop,FireOS,iOS 16,v2.0.1,1
-5,Computer,Desktop,FireOS,iPadOS 15,v3.0.5,0
-6,Computer,Desktop,FireOS,macOS Ventura,v1.0.0,1
-7,Computer,Desktop,FireOS,macOS Ventura,v2.0.1,0
-8,Computer,Desktop,Linux,Android 13,v2.0.1,0
-9,Computer,Desktop,Linux,PS5,v1.0.0,0
-10,Computer,Desktop,Linux,Switch,v1.2.3,1
-11,Computer,Desktop,Linux,Ubuntu 22.04,v2.0.1,0
-12,Computer,Desktop,Linux,Ubuntu 22.04,v3.0.5,0
-13,Computer,Desktop,Linux,Windows 11,v3.0.5,1
-14,Computer,Desktop,Linux,iOS 16,v1.2.3,0
-15,Computer,Desktop,Linux,iOS 16,v3.0.5,0
-16,Computer,Desktop,Linux,iPadOS 15,v3.0.5,0
-17,Computer,Desktop,Linux,macOS Ventura,v3.0.5,1
-18,Computer,Desktop,Nintendo,Android 13,v1.0.0,0
-19,Computer,Desktop,Nintendo,Android 13,v2.1.0,0
-20,Computer,Desktop,Nintendo,Android 13,v3.0.5,0
-21,Computer,Desktop,Nintendo,PS5,v1.2.3,1
-22,Computer,Desktop,Nintendo,Ubuntu 22.04,v1.0.0,0
-23,Computer,Desktop,Nintendo,iOS 16,v3.0.5,0
-24,Computer,Desktop,Nintendo,iPadOS 15,v2.1.0,1
-25,Computer,Desktop,Nintendo,tvOS 14,v2.1.0,1
-26,Computer,Desktop,Playstation,FireOS 6,v3.0.5,1
-27,Computer,Desktop,Playstation,iOS 16,v1.2.3,0
-28,Computer,Desktop,Playstation,iOS 16,v3.0.5,1
-29,Computer,Desktop,Windows,Android 13,v1.0.0,0
-30,Computer,Desktop,Windows,FireOS 6,v3.0.5,1
-31,Computer,Desktop,Windows,PS5,v1.0.0,1
-32,Computer,Desktop,Windows,PS5,v2.0.1,0
-33,Computer,Desktop,Windows,Ubuntu 22.04,v1.2.3,0
-34,Computer,Desktop,Xbox,Ubuntu 22.04,v1.2.3,1
-35,Computer,Desktop,Xbox,Ubuntu 22.04,v3.0.5,0
-36,Computer,Desktop,Xbox,Windows 11,v1.2.3,1
-37,Computer,Desktop,Xbox,macOS Ventura,v3.0.5,0
-38,Computer,Desktop,Xbox,tvOS 14,v2.0.1,1
-39,Computer,Desktop,iOS,Android 13,v2.1.0,0
-40,Computer,Desktop,iOS,FireOS 6,v1.0.0,1
-41,Computer,Desktop,iOS,FireOS 6,v2.0.1,0
-42,Computer,Desktop,iOS,Windows 11,v1.0.0,0
-43,Computer,Desktop,iOS,Windows 11,v1.2.3,1
-44,Computer,Desktop,iOS,Xbox,v2.1.0,1
-45,Computer,Desktop,iOS,tvOS 14,v1.2.3,1
-46,Computer,Desktop,macOS,Android 13,v2.0.1,0
-47,Computer,Desktop,macOS,FireOS 6,v2.0.1,0
-48,Computer,Desktop,macOS,Xbox,v1.0.0,1
-49,Computer,Desktop,macOS,Xbox,v3.0.5,0
-50,Computer,Desktop,macOS,iOS 16,v1.0.0,0
-51,Computer,Desktop,tvOS,FireOS 6,v3.0.5,0
-52,Computer,Desktop,tvOS,Ubuntu 22.04,v1.0.0,0
-53,Computer,Desktop,tvOS,Xbox,v2.1.0,1
-54,Computer,Desktop,tvOS,Xbox,v3.0.5,1
-55,Computer,Desktop,tvOS,macOS Ventura,v3.0.5,1
-56,Computer,Desktop,tvOS,tvOS 14,v3.0.5,1
-57,Computer,Game Console,Android,FireOS 6,v2.0.1,0
-58,Computer,Game Console,Android,Switch,v1.2.3,0
-59,Computer,Game Console,Android,Ubuntu 22.04,v2.0.1,0
-60,Computer,Game Console,Android,Windows 11,v1.2.3,1
-61,Computer,Game Console,Android,Xbox,v1.2.3,1
-62,Computer,Game Console,Android,Xbox,v3.0.5,1
-63,Computer,Game Console,Android,iOS 16,v2.0.1,1
-64,Computer,Game Console,FireOS,Ubuntu 22.04,v1.0.0,0
-65,Computer,Game Console,FireOS,Windows 11,v2.0.1,0
-66,Computer,Game Console,FireOS,Windows 11,v3.0.5,1
-67,Computer,Game Console,FireOS,Xbox,v2.0.1,1
-68,Computer,Game Console,FireOS,iOS 16,v2.1.0,1
-69,Computer,Game Console,Linux,Ubuntu 22.04,v2.0.1,0
-70,Computer,Game Console,Linux,Ubuntu 22.04,v2.1.0,1
-71,Computer,Game Console,Linux,Windows 11,v1.2.3,1
-72,Computer,Game Console,Linux,Xbox,v2.1.0,0
-73,Computer,Game Console,Linux,iOS 16,v2.0.1,1
-74,Computer,Game Console,Linux,iPadOS 15,v1.0.0,1
-75,Computer,Game Console,Linux,macOS Ventura,v2.0.1,1
-76,Computer,Game Console,Nintendo,Android 13,v2.0.1,0
-77,Computer,Game Console,Nintendo,FireOS 6,v1.2.3,0
-78,Computer,Game Console,Nintendo,Switch,v2.0.1,1
-79,Computer,Game Console,Nintendo,Ubuntu 22.04,v2.1.0,0
-80,Computer,Game Console,Nintendo,Windows 11,v2.1.0,1
-81,Computer,Game Console,Playstation,Switch,v1.0.0,1
-82,Computer,Game Console,Playstation,Switch,v3.0.5,1
-83,Computer,Game Console,Playstation,tvOS 14,v3.0.5,0
-84,Computer,Game Console,Windows,Android 13,v2.1.0,0
-85,Computer,Game Console,Windows,Android 13,v3.0.5,0
-86,Computer,Game Console,Windows,FireOS 6,v2.0.1,1
-87,Computer,Game Console,Windows,iOS 16,v1.2.3,1
-88,Computer,Game Console,Windows,iPadOS 15,v2.1.0,1
-89,Computer,Game Console,Windows,iPadOS 15,v3.0.5,1
-90,Computer,Game Console,Xbox,Android 13,v2.1.0,1
-91,Computer,Game Console,Xbox,FireOS 6,v1.2.3,1
-92,Computer,Game Console,Xbox,Switch,v2.1.0,0
-93,Computer,Game Console,Xbox,Ubuntu 22.04,v3.0.5,0
-94,Computer,Game Console,Xbox,Windows 11,v2.1.0,1
-95,Computer,Game Console,Xbox,iPadOS 15,v1.0.0,0
-96,Computer,Game Console,Xbox,macOS Ventura,v1.0.0,0
-97,Computer,Game Console,Xbox,macOS Ventura,v1.2.3,0
-98,Computer,Game Console,iOS,Windows 11,v1.0.0,0
-99,Computer,Game Console,iOS,iPadOS 15,v3.0.5,1
-100,Computer,Game Console,macOS,Switch,v3.0.5,0
-101,Computer,Game Console,macOS,Xbox,v1.0.0,1
-102,Computer,Game Console,macOS,Xbox,v1.2.3,1
-103,Computer,Game Console,macOS,iOS 16,v2.0.1,0
-104,Computer,Game Console,macOS,iPadOS 15,v1.2.3,0
-105,Computer,Game Console,macOS,iPadOS 15,v3.0.5,1
-106,Computer,Game Console,macOS,macOS Ventura,v2.0.1,0
-107,Computer,Game Console,macOS,tvOS 14,v3.0.5,1
-108,Computer,Game Console,tvOS,Android 13,v2.0.1,0
-109,Computer,Game Console,tvOS,Switch,v3.0.5,0
-110,Computer,Game Console,tvOS,Xbox,v3.0.5,0
-111,Computer,Game Console,tvOS,iPadOS 15,v2.0.1,0
-112,Computer,Game Console,tvOS,macOS Ventura,v1.0.0,0
-113,Computer,Laptop,Android,Switch,v1.0.0,0
-114,Computer,Laptop,Android,Xbox,v1.0.0,0
-115,Computer,Laptop,Android,iOS 16,v2.0.1,0
-116,Computer,Laptop,Android,iPadOS 15,v3.0.5,0
-117,Computer,Laptop,Android,macOS Ventura,v3.0.5,1
-118,Computer,Laptop,FireOS,Android 13,v2.0.1,0
-119,Computer,Laptop,FireOS,FireOS 6,v1.2.3,1
-120,Computer,Laptop,FireOS,PS5,v1.0.0,0
-121,Computer,Laptop,FireOS,Switch,v1.0.0,1
-122,Computer,Laptop,FireOS,Windows 11,v1.2.3,1
-123,Computer,Laptop,FireOS,Windows 11,v3.0.5,0
-124,Computer,Laptop,FireOS,Xbox,v2.1.0,1
-125,Computer,Laptop,FireOS,Xbox,v3.0.5,0
-126,Computer,Laptop,Linux,FireOS 6,v1.0.0,1
-127,Computer,Laptop,Linux,FireOS 6,v2.0.1,1
-128,Computer,Laptop,Linux,Switch,v1.0.0,1
-129,Computer,Laptop,Linux,Ubuntu 22.04,v1.2.3,0
-130,Computer,Laptop,Linux,Xbox,v1.0.0,1
-131,Computer,Laptop,Nintendo,Android 13,v1.2.3,0
-132,Computer,Laptop,Nintendo,FireOS 6,v2.0.1,0
-133,Computer,Laptop,Nintendo,PS5,v2.0.1,1
-134,Computer,Laptop,Nintendo,Xbox,v2.0.1,1
-135,Computer,Laptop,Nintendo,Xbox,v3.0.5,0
-136,Computer,Laptop,Playstation,Android 13,v1.0.0,0
-137,Computer,Laptop,Playstation,FireOS 6,v2.0.1,0
-138,Computer,Laptop,Playstation,PS5,v1.2.3,1
-139,Computer,Laptop,Playstation,PS5,v2.0.1,0
-140,Computer,Laptop,Playstation,Ubuntu 22.04,v1.2.3,1
-141,Computer,Laptop,Playstation,Windows 11,v3.0.5,0
-142,Computer,Laptop,Playstation,iOS 16,v1.2.3,1
-143,Computer,Laptop,Windows,Android 13,v1.2.3,1
-144,Computer,Laptop,Windows,PS5,v3.0.5,0
-145,Computer,Laptop,Windows,iOS 16,v1.2.3,1
-146,Computer,Laptop,Windows,iPadOS 15,v1.2.3,0
-147,Computer,Laptop,Windows,macOS Ventura,v2.0.1,0
-148,Computer,Laptop,Xbox,Android 13,v2.1.0,0
-149,Computer,Laptop,Xbox,Xbox,v2.0.1,1
-150,Computer,Laptop,iOS,FireOS 6,v3.0.5,0
-151,Computer,Laptop,iOS,Switch,v2.0.1,1
-152,Computer,Laptop,iOS,Ubuntu 22.04,v3.0.5,1
-153,Computer,Laptop,iOS,Xbox,v3.0.5,1
-154,Computer,Laptop,iOS,iOS 16,v1.2.3,1
-155,Computer,Laptop,macOS,Android 13,v1.0.0,1
-156,Computer,Laptop,macOS,FireOS 6,v1.0.0,0
-157,Computer,Laptop,macOS,PS5,v3.0.5,1
-158,Computer,Laptop,macOS,Windows 11,v1.2.3,0
-159,Computer,Laptop,macOS,Xbox,v1.0.0,0
-160,Computer,Laptop,macOS,tvOS 14,v1.2.3,1
-161,Computer,Laptop,tvOS,Android 13,v2.1.0,1
-162,Computer,Laptop,tvOS,Switch,v3.0.5,1
-163,Computer,Laptop,tvOS,Ubuntu 22.04,v2.1.0,1
-164,Computer,Laptop,tvOS,Xbox,v1.2.3,1
-165,Computer,Laptop,tvOS,Xbox,v3.0.5,1
-166,Computer,Laptop,tvOS,iOS 16,v1.2.3,0
-167,Computer,Smart TV,Android,PS5,v2.0.1,1
-168,Computer,Smart TV,Android,Ubuntu 22.04,v3.0.5,0
-169,Computer,Smart TV,Android,Windows 11,v1.2.3,1
-170,Computer,Smart TV,Android,tvOS 14,v3.0.5,0
-171,Computer,Smart TV,FireOS,PS5,v3.0.5,1
-172,Computer,Smart TV,FireOS,Windows 11,v2.0.1,1
-173,Computer,Smart TV,FireOS,Windows 11,v2.1.0,0
-174,Computer,Smart TV,FireOS,Xbox,v2.0.1,0
-175,Computer,Smart TV,FireOS,iPadOS 15,v2.0.1,1
-176,Computer,Smart TV,FireOS,macOS Ventura,v2.1.0,0
-177,Computer,Smart TV,FireOS,tvOS 14,v1.2.3,0
-178,Computer,Smart TV,Linux,Android 13,v2.0.1,0
-179,Computer,Smart TV,Linux,FireOS 6,v1.2.3,1
-180,Computer,Smart TV,Linux,FireOS 6,v2.0.1,0
-181,Computer,Smart TV,Linux,Ubuntu 22.04,v1.0.0,0
-182,Computer,Smart TV,Linux,Xbox,v2.0.1,1
-183,Computer,Smart TV,Linux,iOS 16,v2.1.0,0
-184,Computer,Smart TV,Linux,iPadOS 15,v2.0.1,0
-185,Computer,Smart TV,Linux,macOS Ventura,v1.2.3,1
-186,Computer,Smart TV,Linux,tvOS 14,v2.1.0,1
-187,Computer,Smart TV,Nintendo,Switch,v1.0.0,0
-188,Computer,Smart TV,Nintendo,Ubuntu 22.04,v1.0.0,0
-189,Computer,Smart TV,Nintendo,Xbox,v3.0.5,1
-190,Computer,Smart TV,Nintendo,tvOS 14,v1.2.3,0
-191,Computer,Smart TV,Nintendo,tvOS 14,v2.1.0,1
-192,Computer,Smart TV,Playstation,Windows 11,v1.0.0,1
-193,Computer,Smart TV,Playstation,iPadOS 15,v1.0.0,0
-194,Computer,Smart TV,Windows,Android 13,v3.0.5,0
-195,Computer,Smart TV,Windows,Switch,v2.0.1,0
-196,Computer,Smart TV,Windows,Windows 11,v3.0.5,1
-197,Computer,Smart TV,Windows,Xbox,v2.1.0,1
-198,Computer,Smart TV,Windows,iPadOS 15,v1.0.0,1
-199,Computer,Smart TV,Windows,iPadOS 15,v2.1.0,1
-200,Computer,Smart TV,Xbox,PS5,v1.0.0,1
-201,Computer,Smart TV,Xbox,Switch,v1.0.0,1
-202,Computer,Smart TV,Xbox,Windows 11,v2.1.0,1
-203,Computer,Smart TV,Xbox,macOS Ventura,v2.0.1,0
-204,Computer,Smart TV,iOS,PS5,v1.0.0,1
-205,Computer,Smart TV,iOS,iOS 16,v2.1.0,0
-206,Computer,Smart TV,iOS,iPadOS 15,v2.0.1,0
-207,Computer,Smart TV,macOS,Android 13,v3.0.5,0
-208,Computer,Smart TV,macOS,FireOS 6,v1.2.3,1
-209,Computer,Smart TV,macOS,Switch,v1.0.0,0
-210,Computer,Smart TV,macOS,Windows 11,v2.1.0,1
-211,Computer,Smart TV,macOS,Windows 11,v3.0.5,0
-212,Computer,Smart TV,macOS,iOS 16,v2.1.0,1
-213,Computer,Smart TV,macOS,iPadOS 15,v3.0.5,0
-214,Computer,Smart TV,macOS,tvOS 14,v1.2.3,0
-215,Computer,Smart TV,tvOS,FireOS 6,v1.0.0,0
-216,Computer,Smartphone,Android,Ubuntu 22.04,v3.0.5,1
-217,Computer,Smartphone,Android,macOS Ventura,v1.2.3,0
-218,Computer,Smartphone,Android,macOS Ventura,v2.1.0,0
-219,Computer,Smartphone,Android,macOS Ventura,v3.0.5,0
-220,Computer,Smartphone,FireOS,PS5,v3.0.5,1
-221,Computer,Smartphone,FireOS,Switch,v2.0.1,0
-222,Computer,Smartphone,FireOS,Windows 11,v3.0.5,0
-223,Computer,Smartphone,FireOS,Xbox,v2.1.0,0
-224,Computer,Smartphone,FireOS,macOS Ventura,v1.0.0,0
-225,Computer,Smartphone,Linux,Android 13,v1.0.0,1
-226,Computer,Smartphone,Linux,PS5,v1.2.3,1
-227,Computer,Smartphone,Linux,PS5,v3.0.5,0
-228,Computer,Smartphone,Linux,iOS 16,v2.0.1,1
-229,Computer,Smartphone,Linux,iPadOS 15,v2.1.0,0
-230,Computer,Smartphone,Linux,macOS Ventura,v2.0.1,1
-231,Computer,Smartphone,Nintendo,Android 13,v2.0.1,0
-232,Computer,Smartphone,Nintendo,FireOS 6,v1.2.3,1
-233,Computer,Smartphone,Nintendo,Ubuntu 22.04,v1.2.3,1
-234,Computer,Smartphone,Nintendo,Ubuntu 22.04,v2.1.0,0
-235,Computer,Smartphone,Nintendo,Ubuntu 22.04,v3.0.5,1
-236,Computer,Smartphone,Nintendo,iPadOS 15,v1.0.0,1
-237,Computer,Smartphone,Nintendo,macOS Ventura,v2.0.1,1
-238,Computer,Smartphone,Playstation,Android 13,v1.0.0,0
-239,Computer,Smartphone,Playstation,FireOS 6,v2.0.1,1
-240,Computer,Smartphone,Playstation,FireOS 6,v3.0.5,0
-241,Computer,Smartphone,Playstation,PS5,v2.1.0,1
-242,Computer,Smartphone,Playstation,Windows 11,v1.2.3,1
-243,Computer,Smartphone,Playstation,Xbox,v2.0.1,0
-244,Computer,Smartphone,Playstation,iPadOS 15,v1.2.3,0
-245,Computer,Smartphone,Playstation,iPadOS 15,v3.0.5,0
-246,Computer,Smartphone,Playstation,macOS Ventura,v1.2.3,1
-247,Computer,Smartphone,Playstation,macOS Ventura,v3.0.5,0
-248,Computer,Smartphone,Playstation,tvOS 14,v1.2.3,1
-249,Computer,Smartphone,Windows,FireOS 6,v1.0.0,1
-250,Computer,Smartphone,Windows,FireOS 6,v2.0.1,0
-251,Computer,Smartphone,Windows,PS5,v1.2.3,1
-252,Computer,Smartphone,Windows,Switch,v3.0.5,0
-253,Computer,Smartphone,Windows,Ubuntu 22.04,v2.0.1,0
-254,Computer,Smartphone,Windows,Windows 11,v2.1.0,1
-255,Computer,Smartphone,Windows,Xbox,v1.2.3,0
-256,Computer,Smartphone,Windows,iOS 16,v2.0.1,0
-257,Computer,Smartphone,Windows,iPadOS 15,v3.0.5,1
-258,Computer,Smartphone,Windows,tvOS 14,v1.0.0,0
-259,Computer,Smartphone,Xbox,iOS 16,v1.2.3,0
-260,Computer,Smartphone,Xbox,iOS 16,v2.1.0,0
-261,Computer,Smartphone,Xbox,iPadOS 15,v1.2.3,1
-262,Computer,Smartphone,Xbox,iPadOS 15,v2.0.1,0
-263,Computer,Smartphone,iOS,FireOS 6,v1.0.0,1
-264,Computer,Smartphone,iOS,FireOS 6,v1.2.3,1
-265,Computer,Smartphone,iOS,Ubuntu 22.04,v1.0.0,1
-266,Computer,Smartphone,iOS,Windows 11,v1.2.3,1
-267,Computer,Smartphone,iOS,Windows 11,v3.0.5,0
-268,Computer,Smartphone,iOS,iOS 16,v3.0.5,0
-269,Computer,Smartphone,iOS,iPadOS 15,v2.1.0,0
-270,Computer,Smartphone,iOS,macOS Ventura,v1.0.0,0
-271,Computer,Smartphone,macOS,Android 13,v2.0.1,1
-272,Computer,Smartphone,macOS,Android 13,v3.0.5,0
-273,Computer,Smartphone,macOS,FireOS 6,v1.2.3,0
-274,Computer,Smartphone,macOS,Switch,v3.0.5,0
-275,Computer,Smartphone,macOS,Windows 11,v1.0.0,0
-276,Computer,Smartphone,macOS,Windows 11,v2.0.1,1
-277,Computer,Smartphone,macOS,Windows 11,v3.0.5,1
-278,Computer,Smartphone,macOS,Xbox,v1.2.3,1
-279,Computer,Smartphone,macOS,Xbox,v2.0.1,1
-280,Computer,Smartphone,macOS,macOS Ventura,v1.2.3,0
-281,Computer,Smartphone,tvOS,Android 13,v2.0.1,1
-282,Computer,Smartphone,tvOS,Switch,v2.1.0,0
-283,Computer,Smartphone,tvOS,Ubuntu 22.04,v1.0.0,1
-284,Computer,Smartphone,tvOS,Ubuntu 22.04,v2.1.0,1
-285,Computer,Smartphone,tvOS,Windows 11,v1.0.0,0
-286,Computer,Smartphone,tvOS,Windows 11,v3.0.5,0
-287,Computer,Smartphone,tvOS,iPadOS 15,v1.2.3,0
-288,Computer,Tablet,Android,Android 13,v2.0.1,0
-289,Computer,Tablet,Android,iOS 16,v2.0.1,0
-290,Computer,Tablet,Android,iOS 16,v2.1.0,0
-291,Computer,Tablet,Android,iPadOS 15,v1.0.0,1
-292,Computer,Tablet,Android,tvOS 14,v1.2.3,1
-293,Computer,Tablet,FireOS,Android 13,v1.2.3,0
-294,Computer,Tablet,FireOS,PS5,v2.0.1,1
-295,Computer,Tablet,FireOS,PS5,v3.0.5,1
-296,Computer,Tablet,FireOS,Switch,v1.0.0,1
-297,Computer,Tablet,FireOS,Ubuntu 22.04,v3.0.5,0
-298,Computer,Tablet,FireOS,iOS 16,v2.1.0,0
-299,Computer,Tablet,Linux,Android 13,v1.2.3,1
-300,Computer,Tablet,Linux,Android 13,v2.0.1,1
-301,Computer,Tablet,Linux,PS5,v1.0.0,0
-302,Computer,Tablet,Linux,Ubuntu 22.04,v2.1.0,0
-303,Computer,Tablet,Linux,Windows 11,v1.2.3,0
-304,Computer,Tablet,Linux,Windows 11,v2.0.1,0
-305,Computer,Tablet,Linux,iOS 16,v2.1.0,0
-306,Computer,Tablet,Linux,iPadOS 15,v2.1.0,1
-307,Computer,Tablet,Linux,tvOS 14,v2.1.0,1
-308,Computer,Tablet,Nintendo,PS5,v2.0.1,1
-309,Computer,Tablet,Nintendo,Switch,v1.0.0,0
-310,Computer,Tablet,Nintendo,Ubuntu 22.04,v2.0.1,0
-311,Computer,Tablet,Nintendo,Xbox,v2.0.1,1
-312,Computer,Tablet,Nintendo,iOS 16,v1.2.3,1
-313,Computer,Tablet,Nintendo,iPadOS 15,v1.0.0,1
-314,Computer,Tablet,Nintendo,tvOS 14,v1.0.0,1
-315,Computer,Tablet,Playstation,Android 13,v1.2.3,0
-316,Computer,Tablet,Playstation,FireOS 6,v2.0.1,0
-317,Computer,Tablet,Playstation,PS5,v2.0.1,0
-318,Computer,Tablet,Playstation,Ubuntu 22.04,v1.2.3,0
-319,Computer,Tablet,Playstation,Ubuntu 22.04,v3.0.5,1
-320,Computer,Tablet,Playstation,iPadOS 15,v3.0.5,1
-321,Computer,Tablet,Playstation,macOS Ventura,v2.1.0,0
-322,Computer,Tablet,Playstation,tvOS 14,v2.1.0,0
-323,Computer,Tablet,Windows,Windows 11,v1.0.0,1
-324,Computer,Tablet,Windows,Windows 11,v2.0.1,1
-325,Computer,Tablet,Windows,macOS Ventura,v2.1.0,1
-326,Computer,Tablet,Windows,tvOS 14,v3.0.5,1
-327,Computer,Tablet,Xbox,FireOS 6,v1.0.0,0
-328,Computer,Tablet,Xbox,PS5,v1.2.3,0
-329,Computer,Tablet,Xbox,PS5,v3.0.5,1
-330,Computer,Tablet,Xbox,Switch,v1.2.3,1
-331,Computer,Tablet,Xbox,Switch,v3.0.5,0
-332,Computer,Tablet,Xbox,Ubuntu 22.04,v1.2.3,0
-333,Computer,Tablet,Xbox,Windows 11,v1.0.0,0
-334,Computer,Tablet,Xbox,iPadOS 15,v2.0.1,0
-335,Computer,Tablet,Xbox,iPadOS 15,v3.0.5,1
-336,Computer,Tablet,iOS,Android 13,v1.0.0,0
-337,Computer,Tablet,iOS,FireOS 6,v1.0.0,1
-338,Computer,Tablet,iOS,PS5,v3.0.5,0
-339,Computer,Tablet,iOS,Switch,v2.0.1,1
-340,Computer,Tablet,iOS,Switch,v2.1.0,0
-341,Computer,Tablet,iOS,Windows 11,v2.0.1,1
-342,Computer,Tablet,iOS,Xbox,v2.1.0,1
-343,Computer,Tablet,iOS,iPadOS 15,v3.0.5,0
-344,Computer,Tablet,iOS,macOS Ventura,v2.0.1,0
-345,Computer,Tablet,macOS,FireOS 6,v1.0.0,0
-346,Computer,Tablet,macOS,PS5,v1.0.0,1
-347,Computer,Tablet,macOS,PS5,v1.2.3,1
-348,Computer,Tablet,macOS,PS5,v2.0.1,1
-349,Computer,Tablet,macOS,Windows 11,v2.0.1,0
-350,Computer,Tablet,macOS,tvOS 14,v1.2.3,1
-351,Computer,Tablet,tvOS,FireOS 6,v2.0.1,1
-352,Computer,Tablet,tvOS,FireOS 6,v3.0.5,1
-353,Computer,Tablet,tvOS,Switch,v3.0.5,0
-354,Computer,Tablet,tvOS,Ubuntu 22.04,v1.0.0,0
-355,Computer,Tablet,tvOS,Windows 11,v1.2.3,0
-356,Computer,Tablet,tvOS,iOS 16,v2.0.1,1
-357,Computer,Tablet,tvOS,macOS Ventura,v2.0.1,0
-358,Console,Desktop,Android,Windows 11,v2.0.1,0
-359,Console,Desktop,Android,Xbox,v1.2.3,0
-360,Console,Desktop,Android,tvOS 14,v2.1.0,1
-361,Console,Desktop,FireOS,Android 13,v1.2.3,0
-362,Console,Desktop,FireOS,PS5,v1.0.0,1
-363,Console,Desktop,FireOS,Xbox,v3.0.5,1
-364,Console,Desktop,FireOS,iOS 16,v2.1.0,0
-365,Console,Desktop,FireOS,iPadOS 15,v3.0.5,1
-366,Console,Desktop,FireOS,macOS Ventura,v1.2.3,0
-367,Console,Desktop,FireOS,tvOS 14,v1.0.0,0
-368,Console,Desktop,FireOS,tvOS 14,v1.2.3,1
-369,Console,Desktop,Linux,Android 13,v1.2.3,1
-370,Console,Desktop,Linux,Switch,v2.0.1,0
-371,Console,Desktop,Linux,Ubuntu 22.04,v2.0.1,0
-372,Console,Desktop,Linux,Windows 11,v1.2.3,1
-373,Console,Desktop,Nintendo,Android 13,v1.0.0,0
-374,Console,Desktop,Nintendo,FireOS 6,v1.2.3,1
-375,Console,Desktop,Nintendo,FireOS 6,v2.1.0,0
-376,Console,Desktop,Nintendo,PS5,v1.0.0,1
-377,Console,Desktop,Nintendo,Switch,v2.0.1,0
-378,Console,Desktop,Nintendo,Ubuntu 22.04,v2.0.1,0
-379,Console,Desktop,Nintendo,Ubuntu 22.04,v3.0.5,1
-380,Console,Desktop,Nintendo,Windows 11,v2.1.0,0
-381,Console,Desktop,Nintendo,iOS 16,v2.0.1,1
-382,Console,Desktop,Nintendo,iPadOS 15,v2.1.0,1
-383,Console,Desktop,Nintendo,macOS Ventura,v3.0.5,0
-384,Console,Desktop,Playstation,Android 13,v1.2.3,1
-385,Console,Desktop,Playstation,FireOS 6,v3.0.5,0
-386,Console,Desktop,Playstation,PS5,v1.0.0,1
-387,Console,Desktop,Playstation,PS5,v2.0.1,0
-388,Console,Desktop,Playstation,PS5,v2.1.0,0
-389,Console,Desktop,Playstation,Switch,v3.0.5,0
-390,Console,Desktop,Playstation,Windows 11,v2.0.1,0
-391,Console,Desktop,Playstation,Windows 11,v2.1.0,0
-392,Console,Desktop,Playstation,iPadOS 15,v1.2.3,0
-393,Console,Desktop,Playstation,tvOS 14,v3.0.5,0
-394,Console,Desktop,Windows,Switch,v2.1.0,1
-395,Console,Desktop,Windows,Ubuntu 22.04,v2.0.1,1
-396,Console,Desktop,Windows,Ubuntu 22.04,v2.1.0,0
-397,Console,Desktop,Windows,Windows 11,v2.0.1,0
-398,Console,Desktop,Windows,Xbox,v1.0.0,1
-399,Console,Desktop,Xbox,Switch,v1.0.0,0
-400,Console,Desktop,Xbox,Xbox,v3.0.5,1
-401,Console,Desktop,Xbox,iOS 16,v1.2.3,0
-402,Console,Desktop,Xbox,iPadOS 15,v1.0.0,0
-403,Console,Desktop,Xbox,macOS Ventura,v1.2.3,1
-404,Console,Desktop,iOS,Android 13,v3.0.5,0
-405,Console,Desktop,iOS,PS5,v1.2.3,0
-406,Console,Desktop,iOS,Ubuntu 22.04,v2.0.1,0
-407,Console,Desktop,iOS,Xbox,v1.0.0,1
-408,Console,Desktop,iOS,Xbox,v2.1.0,1
-409,Console,Desktop,iOS,macOS Ventura,v1.0.0,0
-410,Console,Desktop,iOS,tvOS 14,v1.2.3,0
-411,Console,Desktop,macOS,PS5,v2.1.0,0
-412,Console,Desktop,macOS,Windows 11,v1.2.3,0
-413,Console,Desktop,macOS,macOS Ventura,v2.1.0,1
-414,Console,Desktop,tvOS,FireOS 6,v2.1.0,0
-415,Console,Desktop,tvOS,PS5,v3.0.5,1
-416,Console,Desktop,tvOS,Xbox,v2.0.1,1
-417,Console,Desktop,tvOS,Xbox,v2.1.0,1
-418,Console,Desktop,tvOS,iOS 16,v1.2.3,0
-419,Console,Desktop,tvOS,iPadOS 15,v1.2.3,0
-420,Console,Game Console,Android,Switch,v2.1.0,1
-421,Console,Game Console,Android,iOS 16,v1.2.3,1
-422,Console,Game Console,Android,iOS 16,v2.0.1,1
-423,Console,Game Console,Android,iPadOS 15,v1.2.3,0
-424,Console,Game Console,Android,iPadOS 15,v2.0.1,1
-425,Console,Game Console,Android,iPadOS 15,v2.1.0,0
-426,Console,Game Console,FireOS,Android 13,v2.0.1,0
-427,Console,Game Console,FireOS,Android 13,v3.0.5,0
-428,Console,Game Console,FireOS,PS5,v2.0.1,1
-429,Console,Game Console,FireOS,Ubuntu 22.04,v1.0.0,0
-430,Console,Game Console,FireOS,Windows 11,v3.0.5,0
-431,Console,Game Console,FireOS,macOS Ventura,v2.1.0,0
-432,Console,Game Console,Linux,Android 13,v2.0.1,0
-433,Console,Game Console,Linux,FireOS 6,v1.2.3,0
-434,Console,Game Console,Linux,PS5,v2.0.1,0
-435,Console,Game Console,Linux,Switch,v2.1.0,1
-436,Console,Game Console,Linux,iPadOS 15,v1.0.0,0
-437,Console,Game Console,Nintendo,FireOS 6,v1.0.0,0
-438,Console,Game Console,Nintendo,PS5,v2.0.1,0
-439,Console,Game Console,Nintendo,Windows 11,v1.0.0,1
-440,Console,Game Console,Nintendo,iPadOS 15,v2.0.1,1
-441,Console,Game Console,Nintendo,tvOS 14,v2.1.0,0
-442,Console,Game Console,Playstation,PS5,v1.0.0,0
-443,Console,Game Console,Playstation,PS5,v1.2.3,1
-444,Console,Game Console,Playstation,Switch,v2.0.1,0
-445,Console,Game Console,Playstation,Switch,v3.0.5,0
-446,Console,Game Console,Playstation,Windows 11,v1.2.3,1
-447,Console,Game Console,Playstation,iOS 16,v1.2.3,0
-448,Console,Game Console,Playstation,tvOS 14,v3.0.5,1
-449,Console,Game Console,Windows,Xbox,v1.0.0,1
-450,Console,Game Console,Windows,iOS 16,v2.1.0,0
-451,Console,Game Console,Windows,iPadOS 15,v2.1.0,0
-452,Console,Game Console,Windows,macOS Ventura,v1.2.3,0
-453,Console,Game Console,Windows,tvOS 14,v2.1.0,0
-454,Console,Game Console,Xbox,Android 13,v1.0.0,1
-455,Console,Game Console,Xbox,FireOS 6,v1.0.0,1
-456,Console,Game Console,Xbox,FireOS 6,v1.2.3,0
-457,Console,Game Console,Xbox,FireOS 6,v2.0.1,0
-458,Console,Game Console,Xbox,PS5,v1.2.3,1
-459,Console,Game Console,Xbox,Windows 11,v2.1.0,1
-460,Console,Game Console,Xbox,macOS Ventura,v1.2.3,1
-461,Console,Game Console,Xbox,macOS Ventura,v2.1.0,0
-462,Console,Game Console,Xbox,tvOS 14,v1.2.3,0
-463,Console,Game Console,iOS,Android 13,v2.1.0,0
-464,Console,Game Console,iOS,Switch,v1.0.0,0
-465,Console,Game Console,iOS,iOS 16,v1.2.3,0
-466,Console,Game Console,iOS,macOS Ventura,v3.0.5,1
-467,Console,Game Console,iOS,tvOS 14,v1.0.0,0
-468,Console,Game Console,macOS,FireOS 6,v1.2.3,0
-469,Console,Game Console,macOS,FireOS 6,v2.1.0,1
-470,Console,Game Console,macOS,Switch,v1.2.3,1
-471,Console,Game Console,macOS,Switch,v2.0.1,0
-472,Console,Game Console,macOS,iOS 16,v1.0.0,0
-473,Console,Game Console,macOS,macOS Ventura,v2.0.1,1
-474,Console,Game Console,macOS,tvOS 14,v1.2.3,1
-475,Console,Game Console,tvOS,Switch,v3.0.5,1
-476,Console,Game Console,tvOS,Windows 11,v2.1.0,1
-477,Console,Game Console,tvOS,iOS 16,v1.2.3,0
-478,Console,Game Console,tvOS,iOS 16,v2.1.0,1
-479,Console,Game Console,tvOS,iPadOS 15,v1.0.0,1
-480,Console,Game Console,tvOS,tvOS 14,v2.1.0,1
-481,Console,Laptop,Android,Android 13,v1.0.0,0
-482,Console,Laptop,Android,FireOS 6,v2.1.0,1
-483,Console,Laptop,Android,Switch,v1.0.0,1
-484,Console,Laptop,Android,Ubuntu 22.04,v1.2.3,1
-485,Console,Laptop,FireOS,Switch,v2.1.0,0
-486,Console,Laptop,FireOS,iOS 16,v3.0.5,1
-487,Console,Laptop,FireOS,iPadOS 15,v1.2.3,1
-488,Console,Laptop,FireOS,iPadOS 15,v2.1.0,1
-489,Console,Laptop,FireOS,iPadOS 15,v3.0.5,0
-490,Console,Laptop,Linux,Android 13,v3.0.5,1
-491,Console,Laptop,Linux,Switch,v1.0.0,0
-492,Console,Laptop,Linux,Switch,v3.0.5,0
-493,Console,Laptop,Linux,Xbox,v2.0.1,1
-494,Console,Laptop,Linux,Xbox,v3.0.5,0
-495,Console,Laptop,Nintendo,PS5,v1.2.3,0
-496,Console,Laptop,Nintendo,Ubuntu 22.04,v1.2.3,1
-497,Console,Laptop,Nintendo,Xbox,v2.0.1,1
-498,Console,Laptop,Nintendo,iOS 16,v2.0.1,1
-499,Console,Laptop,Nintendo,iOS 16,v2.1.0,0
-500,Console,Laptop,Playstation,FireOS 6,v2.0.1,0
-501,Console,Laptop,Playstation,Xbox,v1.0.0,1
-502,Console,Laptop,Playstation,Xbox,v1.2.3,1
-503,Console,Laptop,Windows,FireOS 6,v1.2.3,1
-504,Console,Laptop,Windows,FireOS 6,v2.0.1,1
-505,Console,Laptop,Windows,PS5,v1.0.0,1
-506,Console,Laptop,Windows,PS5,v1.2.3,1
-507,Console,Laptop,Windows,Switch,v1.2.3,0
-508,Console,Laptop,Windows,Windows 11,v2.0.1,1
-509,Console,Laptop,Windows,iPadOS 15,v1.0.0,0
-510,Console,Laptop,Windows,macOS Ventura,v1.0.0,1
-511,Console,Laptop,Windows,tvOS 14,v1.0.0,1
-512,Console,Laptop,Windows,tvOS 14,v1.2.3,0
-513,Console,Laptop,Xbox,Ubuntu 22.04,v1.2.3,1
-514,Console,Laptop,Xbox,Ubuntu 22.04,v2.0.1,0
-515,Console,Laptop,Xbox,Ubuntu 22.04,v3.0.5,1
-516,Console,Laptop,Xbox,Windows 11,v2.0.1,0
-517,Console,Laptop,Xbox,Windows 11,v3.0.5,0
-518,Console,Laptop,Xbox,iOS 16,v1.2.3,1
-519,Console,Laptop,Xbox,iPadOS 15,v1.0.0,1
-520,Console,Laptop,Xbox,iPadOS 15,v1.2.3,0
-521,Console,Laptop,Xbox,iPadOS 15,v2.1.0,0
-522,Console,Laptop,Xbox,macOS Ventura,v2.0.1,1
-523,Console,Laptop,Xbox,tvOS 14,v2.0.1,1
-524,Console,Laptop,iOS,Android 13,v2.1.0,0
-525,Console,Laptop,iOS,PS5,v2.1.0,1
-526,Console,Laptop,iOS,Switch,v1.2.3,0
-527,Console,Laptop,iOS,Switch,v2.0.1,1
-528,Console,Laptop,iOS,Switch,v3.0.5,1
-529,Console,Laptop,iOS,Ubuntu 22.04,v3.0.5,0
-530,Console,Laptop,iOS,iOS 16,v1.0.0,0
-531,Console,Laptop,iOS,iOS 16,v2.0.1,1
-532,Console,Laptop,iOS,iPadOS 15,v1.2.3,0
-533,Console,Laptop,iOS,iPadOS 15,v2.0.1,1
-534,Console,Laptop,iOS,macOS Ventura,v3.0.5,0
-535,Console,Laptop,iOS,tvOS 14,v3.0.5,0
-536,Console,Laptop,macOS,FireOS 6,v2.1.0,1
-537,Console,Laptop,macOS,PS5,v2.1.0,1
-538,Console,Laptop,macOS,Switch,v2.1.0,1
-539,Console,Laptop,macOS,Ubuntu 22.04,v3.0.5,1
-540,Console,Laptop,macOS,Windows 11,v2.0.1,0
-541,Console,Laptop,macOS,Xbox,v1.0.0,0
-542,Console,Laptop,macOS,tvOS 14,v1.2.3,0
-543,Console,Laptop,macOS,tvOS 14,v2.1.0,1
-544,Console,Laptop,tvOS,Windows 11,v3.0.5,1
-545,Console,Laptop,tvOS,iOS 16,v2.0.1,0
-546,Console,Laptop,tvOS,iPadOS 15,v1.0.0,1
-547,Console,Laptop,tvOS,iPadOS 15,v1.2.3,0
-548,Console,Laptop,tvOS,tvOS 14,v2.0.1,1
-549,Console,Smart TV,Android,FireOS 6,v2.0.1,0
-550,Console,Smart TV,Android,Ubuntu 22.04,v3.0.5,0
-551,Console,Smart TV,Android,Xbox,v2.1.0,0
-552,Console,Smart TV,Android,iPadOS 15,v1.2.3,1
-553,Console,Smart TV,Android,macOS Ventura,v2.0.1,0
-554,Console,Smart TV,Android,macOS Ventura,v2.1.0,0
-555,Console,Smart TV,FireOS,PS5,v1.0.0,1
-556,Console,Smart TV,FireOS,PS5,v2.1.0,0
-557,Console,Smart TV,FireOS,Windows 11,v3.0.5,1
-558,Console,Smart TV,Linux,Android 13,v1.0.0,1
-559,Console,Smart TV,Linux,FireOS 6,v3.0.5,0
-560,Console,Smart TV,Linux,Windows 11,v3.0.5,1
-561,Console,Smart TV,Linux,Xbox,v1.2.3,1
-562,Console,Smart TV,Linux,macOS Ventura,v1.2.3,1
-563,Console,Smart TV,Nintendo,FireOS 6,v1.0.0,0
-564,Console,Smart TV,Nintendo,FireOS 6,v2.0.1,1
-565,Console,Smart TV,Nintendo,PS5,v1.2.3,1
-566,Console,Smart TV,Nintendo,Switch,v2.0.1,1
-567,Console,Smart TV,Nintendo,Windows 11,v1.0.0,0
-568,Console,Smart TV,Nintendo,iPadOS 15,v1.0.0,1
-569,Console,Smart TV,Nintendo,macOS Ventura,v1.0.0,1
-570,Console,Smart TV,Nintendo,macOS Ventura,v1.2.3,0
-571,Console,Smart TV,Playstation,Android 13,v1.2.3,0
-572,Console,Smart TV,Playstation,Android 13,v2.0.1,1
-573,Console,Smart TV,Playstation,Switch,v2.0.1,1
-574,Console,Smart TV,Playstation,Xbox,v3.0.5,1
-575,Console,Smart TV,Playstation,iOS 16,v1.0.0,1
-576,Console,Smart TV,Playstation,macOS Ventura,v1.0.0,1
-577,Console,Smart TV,Playstation,tvOS 14,v1.0.0,0
-578,Console,Smart TV,Playstation,tvOS 14,v3.0.5,0
-579,Console,Smart TV,Windows,Android 13,v2.0.1,0
-580,Console,Smart TV,Windows,FireOS 6,v3.0.5,0
-581,Console,Smart TV,Windows,Switch,v1.0.0,0
-582,Console,Smart TV,Windows,Ubuntu 22.04,v1.0.0,1
-583,Console,Smart TV,Windows,Windows 11,v1.2.3,0
-584,Console,Smart TV,Windows,Xbox,v1.0.0,1
-585,Console,Smart TV,Xbox,FireOS 6,v1.0.0,0
-586,Console,Smart TV,Xbox,Ubuntu 22.04,v2.0.1,0
-587,Console,Smart TV,Xbox,macOS Ventura,v3.0.5,1
-588,Console,Smart TV,iOS,Android 13,v1.0.0,1
-589,Console,Smart TV,iOS,Android 13,v2.0.1,0
-590,Console,Smart TV,iOS,Switch,v1.2.3,1
-591,Console,Smart TV,iOS,Switch,v3.0.5,1
-592,Console,Smart TV,iOS,Windows 11,v1.2.3,1
-593,Console,Smart TV,iOS,Xbox,v1.2.3,0
-594,Console,Smart TV,iOS,iPadOS 15,v3.0.5,1
-595,Console,Smart TV,iOS,macOS Ventura,v1.2.3,0
-596,Console,Smart TV,iOS,macOS Ventura,v2.0.1,1
-597,Console,Smart TV,iOS,macOS Ventura,v3.0.5,0
-598,Console,Smart TV,macOS,FireOS 6,v2.0.1,1
-599,Console,Smart TV,macOS,Switch,v2.1.0,1
-600,Console,Smart TV,macOS,Windows 11,v3.0.5,1
-601,Console,Smart TV,macOS,macOS Ventura,v1.2.3,1
-602,Console,Smart TV,macOS,macOS Ventura,v2.1.0,1
-603,Console,Smart TV,macOS,macOS Ventura,v3.0.5,0
-604,Console,Smart TV,macOS,tvOS 14,v1.0.0,0
-605,Console,Smart TV,tvOS,Android 13,v3.0.5,1
-606,Console,Smart TV,tvOS,FireOS 6,v1.2.3,1
-607,Console,Smart TV,tvOS,PS5,v1.2.3,1
-608,Console,Smart TV,tvOS,PS5,v2.0.1,0
-609,Console,Smart TV,tvOS,PS5,v3.0.5,1
-610,Console,Smart TV,tvOS,Xbox,v1.0.0,1
-611,Console,Smart TV,tvOS,iOS 16,v3.0.5,0
-612,Console,Smart TV,tvOS,iPadOS 15,v1.2.3,1
-613,Console,Smart TV,tvOS,tvOS 14,v3.0.5,1
-614,Console,Smartphone,Android,Android 13,v1.0.0,0
-615,Console,Smartphone,Android,Android 13,v2.1.0,0
-616,Console,Smartphone,Android,Android 13,v3.0.5,0
-617,Console,Smartphone,Android,Ubuntu 22.04,v1.0.0,1
-618,Console,Smartphone,Android,iOS 16,v2.1.0,1
-619,Console,Smartphone,Android,tvOS 14,v1.0.0,1
-620,Console,Smartphone,Android,tvOS 14,v1.2.3,0
-621,Console,Smartphone,Android,tvOS 14,v3.0.5,1
-622,Console,Smartphone,FireOS,Android 13,v3.0.5,1
-623,Console,Smartphone,FireOS,FireOS 6,v2.1.0,0
-624,Console,Smartphone,FireOS,Ubuntu 22.04,v3.0.5,0
-625,Console,Smartphone,FireOS,Windows 11,v2.0.1,1
-626,Console,Smartphone,FireOS,Xbox,v2.1.0,1
-627,Console,Smartphone,FireOS,iOS 16,v1.2.3,0
-628,Console,Smartphone,FireOS,iOS 16,v2.1.0,0
-629,Console,Smartphone,FireOS,iPadOS 15,v1.0.0,1
-630,Console,Smartphone,FireOS,iPadOS 15,v1.2.3,0
-631,Console,Smartphone,FireOS,iPadOS 15,v3.0.5,0
-632,Console,Smartphone,FireOS,macOS Ventura,v2.1.0,0
-633,Console,Smartphone,FireOS,tvOS 14,v1.0.0,1
-634,Console,Smartphone,Linux,Android 13,v1.2.3,0
-635,Console,Smartphone,Linux,Android 13,v2.0.1,0
-636,Console,Smartphone,Linux,Switch,v1.0.0,1
-637,Console,Smartphone,Linux,Switch,v2.0.1,0
-638,Console,Smartphone,Linux,Switch,v3.0.5,1
-639,Console,Smartphone,Linux,Windows 11,v2.1.0,1
-640,Console,Smartphone,Linux,Xbox,v2.0.1,0
-641,Console,Smartphone,Nintendo,FireOS 6,v2.0.1,1
-642,Console,Smartphone,Nintendo,Switch,v2.0.1,1
-643,Console,Smartphone,Nintendo,Switch,v2.1.0,0
-644,Console,Smartphone,Nintendo,Xbox,v3.0.5,0
-645,Console,Smartphone,Nintendo,iOS 16,v2.0.1,0
-646,Console,Smartphone,Nintendo,macOS Ventura,v2.0.1,0
-647,Console,Smartphone,Nintendo,tvOS 14,v3.0.5,0
-648,Console,Smartphone,Playstation,Android 13,v1.0.0,0
-649,Console,Smartphone,Playstation,Ubuntu 22.04,v2.0.1,1
-650,Console,Smartphone,Playstation,Windows 11,v2.0.1,1
-651,Console,Smartphone,Playstation,Xbox,v1.0.0,1
-652,Console,Smartphone,Playstation,Xbox,v3.0.5,1
-653,Console,Smartphone,Playstation,iOS 16,v2.0.1,1
-654,Console,Smartphone,Playstation,macOS Ventura,v1.0.0,1
-655,Console,Smartphone,Playstation,tvOS 14,v1.0.0,1
-656,Console,Smartphone,Playstation,tvOS 14,v2.0.1,0
-657,Console,Smartphone,Playstation,tvOS 14,v3.0.5,1
-658,Console,Smartphone,Windows,Android 13,v2.0.1,0
-659,Console,Smartphone,Windows,FireOS 6,v3.0.5,0
-660,Console,Smartphone,Windows,Switch,v1.2.3,1
-661,Console,Smartphone,Windows,Windows 11,v1.0.0,0
-662,Console,Smartphone,Windows,Xbox,v2.1.0,1
-663,Console,Smartphone,Windows,iPadOS 15,v2.1.0,1
-664,Console,Smartphone,Windows,tvOS 14,v1.0.0,0
-665,Console,Smartphone,Xbox,PS5,v1.2.3,0
-666,Console,Smartphone,Xbox,iOS 16,v2.0.1,0
-667,Console,Smartphone,Xbox,iPadOS 15,v2.1.0,1
-668,Console,Smartphone,Xbox,tvOS 14,v2.1.0,0
-669,Console,Smartphone,iOS,FireOS 6,v1.0.0,0
-670,Console,Smartphone,iOS,Ubuntu 22.04,v1.0.0,1
-671,Console,Smartphone,iOS,Windows 11,v3.0.5,0
-672,Console,Smartphone,iOS,Xbox,v2.0.1,0
-673,Console,Smartphone,iOS,iPadOS 15,v2.1.0,0
-674,Console,Smartphone,iOS,macOS Ventura,v3.0.5,0
-675,Console,Smartphone,macOS,Android 13,v2.0.1,1
-676,Console,Smartphone,macOS,FireOS 6,v2.1.0,1
-677,Console,Smartphone,macOS,Switch,v1.0.0,0
-678,Console,Smartphone,macOS,tvOS 14,v1.2.3,0
-679,Console,Smartphone,tvOS,FireOS 6,v1.2.3,0
-680,Console,Smartphone,tvOS,PS5,v1.2.3,0
-681,Console,Smartphone,tvOS,PS5,v2.0.1,1
-682,Console,Smartphone,tvOS,Switch,v2.1.0,0
-683,Console,Smartphone,tvOS,Windows 11,v1.2.3,0
-684,Console,Smartphone,tvOS,Windows 11,v2.1.0,1
-685,Console,Smartphone,tvOS,Xbox,v1.0.0,0
-686,Console,Tablet,Android,Switch,v1.2.3,1
-687,Console,Tablet,Android,Switch,v2.0.1,0
-688,Console,Tablet,Android,Switch,v3.0.5,1
-689,Console,Tablet,Android,Windows 11,v2.0.1,0
-690,Console,Tablet,Android,Xbox,v1.0.0,1
-691,Console,Tablet,Android,Xbox,v3.0.5,0
-692,Console,Tablet,Android,iOS 16,v3.0.5,1
-693,Console,Tablet,Android,iPadOS 15,v3.0.5,1
-694,Console,Tablet,Android,macOS Ventura,v1.0.0,1
-695,Console,Tablet,Android,macOS Ventura,v1.2.3,1
-696,Console,Tablet,FireOS,Android 13,v1.0.0,1
-697,Console,Tablet,FireOS,tvOS 14,v1.2.3,0
-698,Console,Tablet,Linux,PS5,v1.0.0,0
-699,Console,Tablet,Linux,PS5,v2.1.0,1
-700,Console,Tablet,Linux,Switch,v1.0.0,0
-701,Console,Tablet,Linux,Ubuntu 22.04,v2.0.1,1
-702,Console,Tablet,Linux,iOS 16,v2.1.0,1
-703,Console,Tablet,Linux,macOS Ventura,v1.0.0,0
-704,Console,Tablet,Linux,tvOS 14,v1.0.0,0
-705,Console,Tablet,Linux,tvOS 14,v1.2.3,1
-706,Console,Tablet,Linux,tvOS 14,v3.0.5,1
-707,Console,Tablet,Nintendo,Android 13,v2.1.0,1
-708,Console,Tablet,Nintendo,Android 13,v3.0.5,1
-709,Console,Tablet,Nintendo,PS5,v1.0.0,1
-710,Console,Tablet,Nintendo,PS5,v1.2.3,0
-711,Console,Tablet,Nintendo,Xbox,v2.0.1,0
-712,Console,Tablet,Nintendo,iPadOS 15,v1.0.0,1
-713,Console,Tablet,Nintendo,tvOS 14,v3.0.5,1
-714,Console,Tablet,Playstation,Android 13,v3.0.5,0
-715,Console,Tablet,Playstation,Windows 11,v2.1.0,0
-716,Console,Tablet,Playstation,Xbox,v2.0.1,1
-717,Console,Tablet,Playstation,iOS 16,v2.1.0,0
-718,Console,Tablet,Windows,Android 13,v1.2.3,0
-719,Console,Tablet,Windows,FireOS 6,v1.2.3,1
-720,Console,Tablet,Windows,Switch,v1.0.0,0
-721,Console,Tablet,Windows,Switch,v1.2.3,1
-722,Console,Tablet,Windows,Ubuntu 22.04,v1.2.3,1
-723,Console,Tablet,Windows,Ubuntu 22.04,v2.0.1,0
-724,Console,Tablet,Windows,Windows 11,v3.0.5,1
-725,Console,Tablet,Windows,tvOS 14,v3.0.5,1
-726,Console,Tablet,Xbox,FireOS 6,v1.2.3,1
-727,Console,Tablet,Xbox,FireOS 6,v2.0.1,0
-728,Console,Tablet,Xbox,FireOS 6,v3.0.5,1
-729,Console,Tablet,Xbox,Windows 11,v2.1.0,0
-730,Console,Tablet,Xbox,iOS 16,v3.0.5,1
-731,Console,Tablet,Xbox,iPadOS 15,v2.1.0,0
-732,Console,Tablet,Xbox,tvOS 14,v1.0.0,0
-733,Console,Tablet,Xbox,tvOS 14,v1.2.3,0
-734,Console,Tablet,Xbox,tvOS 14,v2.0.1,1
-735,Console,Tablet,iOS,PS5,v1.0.0,0
-736,Console,Tablet,iOS,PS5,v3.0.5,1
-737,Console,Tablet,iOS,Windows 11,v3.0.5,0
-738,Console,Tablet,iOS,Xbox,v3.0.5,0
-739,Console,Tablet,iOS,iPadOS 15,v2.0.1,0
-740,Console,Tablet,iOS,macOS Ventura,v2.0.1,0
-741,Console,Tablet,macOS,FireOS 6,v2.0.1,0
-742,Console,Tablet,macOS,Switch,v1.2.3,1
-743,Console,Tablet,macOS,Switch,v2.0.1,1
-744,Console,Tablet,macOS,Switch,v2.1.0,1
-745,Console,Tablet,macOS,Ubuntu 22.04,v2.0.1,0
-746,Console,Tablet,macOS,Xbox,v1.0.0,0
-747,Console,Tablet,macOS,iOS 16,v2.0.1,0
-748,Console,Tablet,macOS,tvOS 14,v2.0.1,1
-749,Console,Tablet,tvOS,FireOS 6,v1.0.0,0
-750,Console,Tablet,tvOS,PS5,v2.0.1,1
-751,Console,Tablet,tvOS,Switch,v2.1.0,0
-752,Console,Tablet,tvOS,Windows 11,v2.0.1,1
-753,Console,Tablet,tvOS,iPadOS 15,v1.2.3,1
-754,Console,Tablet,tvOS,iPadOS 15,v2.0.1,1
-755,Console,Tablet,tvOS,iPadOS 15,v3.0.5,1
-756,Console,Tablet,tvOS,macOS Ventura,v1.0.0,1
-757,Console,Tablet,tvOS,tvOS 14,v3.0.5,0
-758,Mobile,Desktop,Android,Switch,v2.1.0,1
-759,Mobile,Desktop,Android,Ubuntu 22.04,v2.1.0,1
-760,Mobile,Desktop,Android,iOS 16,v3.0.5,1
-761,Mobile,Desktop,Android,macOS Ventura,v1.0.0,1
-762,Mobile,Desktop,Android,macOS Ventura,v2.1.0,0
-763,Mobile,Desktop,Android,tvOS 14,v2.0.1,0
-764,Mobile,Desktop,FireOS,Switch,v1.0.0,0
-765,Mobile,Desktop,FireOS,Ubuntu 22.04,v2.1.0,0
-766,Mobile,Desktop,FireOS,iOS 16,v3.0.5,0
-767,Mobile,Desktop,FireOS,iPadOS 15,v3.0.5,1
-768,Mobile,Desktop,Linux,PS5,v2.1.0,0
-769,Mobile,Desktop,Linux,Switch,v3.0.5,1
-770,Mobile,Desktop,Linux,Xbox,v1.0.0,0
-771,Mobile,Desktop,Linux,iPadOS 15,v1.2.3,1
-772,Mobile,Desktop,Linux,iPadOS 15,v2.1.0,0
-773,Mobile,Desktop,Linux,macOS Ventura,v3.0.5,0
-774,Mobile,Desktop,Linux,tvOS 14,v2.1.0,0
-775,Mobile,Desktop,Nintendo,Android 13,v2.0.1,1
-776,Mobile,Desktop,Nintendo,FireOS 6,v1.0.0,1
-777,Mobile,Desktop,Nintendo,PS5,v2.0.1,1
-778,Mobile,Desktop,Nintendo,iOS 16,v1.2.3,1
-779,Mobile,Desktop,Nintendo,macOS Ventura,v1.2.3,1
-780,Mobile,Desktop,Nintendo,macOS Ventura,v2.0.1,1
-781,Mobile,Desktop,Nintendo,macOS Ventura,v2.1.0,1
-782,Mobile,Desktop,Nintendo,tvOS 14,v3.0.5,0
-783,Mobile,Desktop,Playstation,Android 13,v1.0.0,1
-784,Mobile,Desktop,Playstation,Android 13,v2.1.0,1
-785,Mobile,Desktop,Playstation,PS5,v1.0.0,1
-786,Mobile,Desktop,Playstation,Ubuntu 22.04,v2.0.1,1
-787,Mobile,Desktop,Playstation,Ubuntu 22.04,v2.1.0,0
-788,Mobile,Desktop,Playstation,Xbox,v1.0.0,1
-789,Mobile,Desktop,Playstation,iOS 16,v1.0.0,1
-790,Mobile,Desktop,Playstation,iPadOS 15,v3.0.5,0
-791,Mobile,Desktop,Playstation,macOS Ventura,v1.0.0,0
-792,Mobile,Desktop,Windows,Android 13,v2.1.0,1
-793,Mobile,Desktop,Windows,PS5,v1.0.0,1
-794,Mobile,Desktop,Windows,Switch,v2.1.0,0
-795,Mobile,Desktop,Windows,tvOS 14,v2.1.0,1
-796,Mobile,Desktop,Xbox,Android 13,v2.0.1,0
-797,Mobile,Desktop,Xbox,Switch,v2.0.1,0
-798,Mobile,Desktop,Xbox,Windows 11,v1.2.3,1
-799,Mobile,Desktop,Xbox,Xbox,v2.1.0,0
-800,Mobile,Desktop,Xbox,iPadOS 15,v1.0.0,0
-801,Mobile,Desktop,Xbox,macOS Ventura,v3.0.5,0
-802,Mobile,Desktop,Xbox,tvOS 14,v1.2.3,0
-803,Mobile,Desktop,iOS,Android 13,v1.0.0,0
-804,Mobile,Desktop,iOS,FireOS 6,v2.1.0,0
-805,Mobile,Desktop,iOS,Switch,v1.0.0,1
-806,Mobile,Desktop,iOS,Windows 11,v3.0.5,1
-807,Mobile,Desktop,iOS,Xbox,v2.1.0,1
-808,Mobile,Desktop,iOS,iOS 16,v1.2.3,0
-809,Mobile,Desktop,iOS,iOS 16,v2.0.1,0
-810,Mobile,Desktop,iOS,iPadOS 15,v1.2.3,0
-811,Mobile,Desktop,iOS,macOS Ventura,v2.0.1,0
-812,Mobile,Desktop,iOS,tvOS 14,v1.0.0,0
-813,Mobile,Desktop,macOS,FireOS 6,v2.0.1,0
-814,Mobile,Desktop,macOS,FireOS 6,v2.1.0,0
-815,Mobile,Desktop,macOS,Switch,v1.0.0,0
-816,Mobile,Desktop,macOS,Switch,v1.2.3,0
-817,Mobile,Desktop,macOS,Switch,v3.0.5,0
-818,Mobile,Desktop,macOS,macOS Ventura,v1.0.0,0
-819,Mobile,Desktop,macOS,macOS Ventura,v2.0.1,1
-820,Mobile,Desktop,macOS,tvOS 14,v1.2.3,1
-821,Mobile,Desktop,macOS,tvOS 14,v2.1.0,1
-822,Mobile,Desktop,tvOS,PS5,v2.1.0,1
-823,Mobile,Desktop,tvOS,Switch,v1.2.3,0
-824,Mobile,Desktop,tvOS,Ubuntu 22.04,v1.0.0,1
-825,Mobile,Desktop,tvOS,Windows 11,v1.0.0,0
-826,Mobile,Desktop,tvOS,Windows 11,v3.0.5,1
-827,Mobile,Desktop,tvOS,Xbox,v2.0.1,1
-828,Mobile,Desktop,tvOS,iPadOS 15,v2.0.1,0
-829,Mobile,Desktop,tvOS,tvOS 14,v1.0.0,0
-830,Mobile,Desktop,tvOS,tvOS 14,v2.0.1,0
-831,Mobile,Game Console,Android,PS5,v1.2.3,1
-832,Mobile,Game Console,Android,Ubuntu 22.04,v1.2.3,1
-833,Mobile,Game Console,Android,Ubuntu 22.04,v2.1.0,1
-834,Mobile,Game Console,Android,iPadOS 15,v1.2.3,0
-835,Mobile,Game Console,Android,macOS Ventura,v2.1.0,1
-836,Mobile,Game Console,Android,tvOS 14,v1.0.0,0
-837,Mobile,Game Console,Android,tvOS 14,v3.0.5,0
-838,Mobile,Game Console,FireOS,PS5,v1.2.3,1
-839,Mobile,Game Console,FireOS,Switch,v1.2.3,0
-840,Mobile,Game Console,FireOS,Switch,v2.1.0,1
-841,Mobile,Game Console,FireOS,Ubuntu 22.04,v1.0.0,1
-842,Mobile,Game Console,FireOS,Ubuntu 22.04,v2.0.1,0
-843,Mobile,Game Console,FireOS,Windows 11,v1.2.3,1
-844,Mobile,Game Console,FireOS,iPadOS 15,v1.2.3,0
-845,Mobile,Game Console,FireOS,tvOS 14,v1.0.0,1
-846,Mobile,Game Console,FireOS,tvOS 14,v1.2.3,1
-847,Mobile,Game Console,Linux,Android 13,v1.2.3,1
-848,Mobile,Game Console,Linux,Android 13,v2.1.0,1
-849,Mobile,Game Console,Linux,Switch,v2.1.0,1
-850,Mobile,Game Console,Linux,Ubuntu 22.04,v1.2.3,1
-851,Mobile,Game Console,Linux,Xbox,v1.0.0,1
-852,Mobile,Game Console,Linux,Xbox,v2.0.1,1
-853,Mobile,Game Console,Linux,Xbox,v3.0.5,1
-854,Mobile,Game Console,Linux,iOS 16,v2.0.1,0
-855,Mobile,Game Console,Linux,iPadOS 15,v1.2.3,0
-856,Mobile,Game Console,Linux,tvOS 14,v2.1.0,1
-857,Mobile,Game Console,Nintendo,Android 13,v1.0.0,0
-858,Mobile,Game Console,Nintendo,Xbox,v1.0.0,1
-859,Mobile,Game Console,Nintendo,Xbox,v2.0.1,1
-860,Mobile,Game Console,Nintendo,iOS 16,v2.1.0,0
-861,Mobile,Game Console,Nintendo,iPadOS 15,v3.0.5,0
-862,Mobile,Game Console,Nintendo,macOS Ventura,v1.2.3,0
-863,Mobile,Game Console,Playstation,Android 13,v2.1.0,1
-864,Mobile,Game Console,Playstation,FireOS 6,v2.0.1,0
-865,Mobile,Game Console,Playstation,Ubuntu 22.04,v1.0.0,1
-866,Mobile,Game Console,Playstation,Ubuntu 22.04,v1.2.3,0
-867,Mobile,Game Console,Playstation,Ubuntu 22.04,v2.0.1,0
-868,Mobile,Game Console,Playstation,iOS 16,v1.0.0,1
-869,Mobile,Game Console,Playstation,iPadOS 15,v1.0.0,0
-870,Mobile,Game Console,Playstation,macOS Ventura,v2.1.0,0
-871,Mobile,Game Console,Playstation,tvOS 14,v3.0.5,0
-872,Mobile,Game Console,Windows,Android 13,v1.2.3,1
-873,Mobile,Game Console,Windows,Switch,v1.2.3,1
-874,Mobile,Game Console,Windows,Ubuntu 22.04,v1.2.3,0
-875,Mobile,Game Console,Windows,Ubuntu 22.04,v2.0.1,1
-876,Mobile,Game Console,Windows,Xbox,v1.0.0,0
-877,Mobile,Game Console,Windows,iOS 16,v3.0.5,0
-878,Mobile,Game Console,Windows,iPadOS 15,v2.1.0,1
-879,Mobile,Game Console,Windows,tvOS 14,v1.0.0,0
-880,Mobile,Game Console,Xbox,PS5,v1.0.0,1
-881,Mobile,Game Console,Xbox,PS5,v2.0.1,0
-882,Mobile,Game Console,Xbox,PS5,v2.1.0,1
-883,Mobile,Game Console,Xbox,Switch,v1.0.0,1
-884,Mobile,Game Console,Xbox,Xbox,v1.0.0,0
-885,Mobile,Game Console,Xbox,macOS Ventura,v3.0.5,1
-886,Mobile,Game Console,Xbox,tvOS 14,v2.0.1,0
-887,Mobile,Game Console,Xbox,tvOS 14,v3.0.5,1
-888,Mobile,Game Console,iOS,Android 13,v2.1.0,0
-889,Mobile,Game Console,iOS,Switch,v1.0.0,0
-890,Mobile,Game Console,iOS,Windows 11,v3.0.5,0
-891,Mobile,Game Console,iOS,Xbox,v1.0.0,0
-892,Mobile,Game Console,iOS,iPadOS 15,v3.0.5,1
-893,Mobile,Game Console,macOS,Android 13,v1.2.3,1
-894,Mobile,Game Console,macOS,Android 13,v2.0.1,1
-895,Mobile,Game Console,macOS,Switch,v2.0.1,0
-896,Mobile,Game Console,macOS,Switch,v3.0.5,1
-897,Mobile,Game Console,macOS,Ubuntu 22.04,v1.0.0,1
-898,Mobile,Game Console,macOS,Xbox,v2.1.0,1
-899,Mobile,Game Console,macOS,iOS 16,v1.0.0,1
-900,Mobile,Game Console,macOS,iOS 16,v2.1.0,1
-901,Mobile,Game Console,macOS,iPadOS 15,v1.0.0,0
-902,Mobile,Game Console,macOS,iPadOS 15,v2.1.0,0
-903,Mobile,Game Console,macOS,tvOS 14,v3.0.5,0
-904,Mobile,Game Console,tvOS,Switch,v1.2.3,1
-905,Mobile,Game Console,tvOS,Switch,v3.0.5,0
-906,Mobile,Game Console,tvOS,Windows 11,v2.1.0,0
-907,Mobile,Game Console,tvOS,Xbox,v1.2.3,1
-908,Mobile,Game Console,tvOS,Xbox,v2.1.0,0
-909,Mobile,Game Console,tvOS,iOS 16,v3.0.5,0
-910,Mobile,Game Console,tvOS,macOS Ventura,v2.1.0,1
-911,Mobile,Laptop,Android,Android 13,v1.2.3,0
-912,Mobile,Laptop,Android,FireOS 6,v1.2.3,1
-913,Mobile,Laptop,Android,PS5,v3.0.5,0
-914,Mobile,Laptop,Android,Ubuntu 22.04,v1.2.3,1
-915,Mobile,Laptop,Android,Ubuntu 22.04,v3.0.5,1
-916,Mobile,Laptop,Android,Windows 11,v1.0.0,1
-917,Mobile,Laptop,Android,iPadOS 15,v1.0.0,1
-918,Mobile,Laptop,Android,macOS Ventura,v2.0.1,0
-919,Mobile,Laptop,Android,tvOS 14,v2.0.1,1
-920,Mobile,Laptop,FireOS,Ubuntu 22.04,v3.0.5,0
-921,Mobile,Laptop,FireOS,Windows 11,v2.1.0,0
-922,Mobile,Laptop,FireOS,Xbox,v2.0.1,0
-923,Mobile,Laptop,FireOS,iOS 16,v2.1.0,0
-924,Mobile,Laptop,FireOS,iPadOS 15,v2.0.1,1
-925,Mobile,Laptop,FireOS,macOS Ventura,v3.0.5,1
-926,Mobile,Laptop,Linux,Android 13,v3.0.5,1
-927,Mobile,Laptop,Linux,FireOS 6,v1.2.3,1
-928,Mobile,Laptop,Linux,FireOS 6,v2.0.1,1
-929,Mobile,Laptop,Linux,FireOS 6,v2.1.0,0
-930,Mobile,Laptop,Linux,PS5,v2.1.0,0
-931,Mobile,Laptop,Linux,Switch,v2.1.0,0
-932,Mobile,Laptop,Linux,Xbox,v3.0.5,0
-933,Mobile,Laptop,Linux,macOS Ventura,v2.1.0,0
-934,Mobile,Laptop,Nintendo,FireOS 6,v2.1.0,1
-935,Mobile,Laptop,Nintendo,tvOS 14,v1.2.3,0
-936,Mobile,Laptop,Playstation,Android 13,v3.0.5,1
-937,Mobile,Laptop,Playstation,Windows 11,v1.0.0,1
-938,Mobile,Laptop,Playstation,Windows 11,v1.2.3,0
-939,Mobile,Laptop,Playstation,iOS 16,v3.0.5,1
-940,Mobile,Laptop,Playstation,tvOS 14,v2.1.0,0
-941,Mobile,Laptop,Windows,Android 13,v2.1.0,0
-942,Mobile,Laptop,Windows,Switch,v1.2.3,1
-943,Mobile,Laptop,Windows,Ubuntu 22.04,v1.0.0,0
-944,Mobile,Laptop,Windows,Ubuntu 22.04,v2.1.0,0
-945,Mobile,Laptop,Windows,Windows 11,v1.2.3,1
-946,Mobile,Laptop,Windows,Windows 11,v2.0.1,1
-947,Mobile,Laptop,Windows,iOS 16,v1.2.3,0
-948,Mobile,Laptop,Xbox,Android 13,v2.0.1,0
-949,Mobile,Laptop,Xbox,FireOS 6,v3.0.5,1
-950,Mobile,Laptop,Xbox,PS5,v1.0.0,1
-951,Mobile,Laptop,Xbox,Switch,v3.0.5,1
-952,Mobile,Laptop,Xbox,Ubuntu 22.04,v1.2.3,0
-953,Mobile,Laptop,Xbox,Windows 11,v1.0.0,0
-954,Mobile,Laptop,Xbox,macOS Ventura,v3.0.5,1
-955,Mobile,Laptop,iOS,PS5,v1.0.0,0
-956,Mobile,Laptop,iOS,Switch,v1.0.0,1
-957,Mobile,Laptop,iOS,Xbox,v1.0.0,0
-958,Mobile,Laptop,iOS,iOS 16,v1.2.3,1
-959,Mobile,Laptop,iOS,iOS 16,v2.0.1,0
-960,Mobile,Laptop,iOS,iPadOS 15,v2.0.1,1
-961,Mobile,Laptop,macOS,Android 13,v2.1.0,0
-962,Mobile,Laptop,macOS,PS5,v2.1.0,1
-963,Mobile,Laptop,macOS,Switch,v1.0.0,1
-964,Mobile,Laptop,macOS,Switch,v2.0.1,1
-965,Mobile,Laptop,macOS,Switch,v2.1.0,1
-966,Mobile,Laptop,macOS,Ubuntu 22.04,v1.0.0,1
-967,Mobile,Laptop,macOS,Xbox,v2.1.0,0
-968,Mobile,Laptop,macOS,iOS 16,v1.0.0,0
-969,Mobile,Laptop,macOS,iOS 16,v2.0.1,1
-970,Mobile,Laptop,macOS,iPadOS 15,v1.2.3,0
-971,Mobile,Laptop,macOS,iPadOS 15,v2.1.0,1
-972,Mobile,Laptop,macOS,macOS Ventura,v1.0.0,0
-973,Mobile,Laptop,macOS,tvOS 14,v2.0.1,1
-974,Mobile,Laptop,tvOS,Android 13,v3.0.5,0
-975,Mobile,Laptop,tvOS,Ubuntu 22.04,v1.2.3,1
-976,Mobile,Laptop,tvOS,Ubuntu 22.04,v2.1.0,0
-977,Mobile,Laptop,tvOS,Xbox,v2.1.0,0
-978,Mobile,Laptop,tvOS,iPadOS 15,v2.1.0,1
-979,Mobile,Laptop,tvOS,macOS Ventura,v2.1.0,1
-980,Mobile,Smart TV,Android,Android 13,v2.1.0,1
-981,Mobile,Smart TV,Android,Windows 11,v1.2.3,1
-982,Mobile,Smart TV,Android,Xbox,v2.1.0,0
-983,Mobile,Smart TV,Android,iOS 16,v1.0.0,1
-984,Mobile,Smart TV,Android,tvOS 14,v2.0.1,0
-985,Mobile,Smart TV,FireOS,FireOS 6,v1.0.0,0
-986,Mobile,Smart TV,FireOS,FireOS 6,v1.2.3,1
-987,Mobile,Smart TV,FireOS,PS5,v1.0.0,0
-988,Mobile,Smart TV,FireOS,PS5,v2.0.1,0
-989,Mobile,Smart TV,FireOS,Switch,v1.2.3,1
-990,Mobile,Smart TV,FireOS,Windows 11,v1.0.0,0
-991,Mobile,Smart TV,FireOS,Xbox,v1.0.0,0
-992,Mobile,Smart TV,FireOS,Xbox,v3.0.5,1
-993,Mobile,Smart TV,FireOS,macOS Ventura,v2.0.1,1
-994,Mobile,Smart TV,Linux,FireOS 6,v2.0.1,0
-995,Mobile,Smart TV,Linux,iOS 16,v3.0.5,1
-996,Mobile,Smart TV,Nintendo,Android 13,v2.0.1,1
-997,Mobile,Smart TV,Nintendo,FireOS 6,v1.0.0,0
-998,Mobile,Smart TV,Nintendo,Ubuntu 22.04,v1.2.3,0
-999,Mobile,Smart TV,Nintendo,macOS Ventura,v1.0.0,1
-1000,Mobile,Smart TV,Playstation,FireOS 6,v1.0.0,0
-1001,Mobile,Smart TV,Playstation,PS5,v2.0.1,1
-1002,Mobile,Smart TV,Playstation,Switch,v1.0.0,0
-1003,Mobile,Smart TV,Playstation,Switch,v2.0.1,1
-1004,Mobile,Smart TV,Playstation,Windows 11,v2.1.0,0
-1005,Mobile,Smart TV,Playstation,Xbox,v1.0.0,1
-1006,Mobile,Smart TV,Playstation,macOS Ventura,v1.0.0,1
-1007,Mobile,Smart TV,Playstation,tvOS 14,v1.2.3,1
-1008,Mobile,Smart TV,Windows,Android 13,v1.0.0,0
-1009,Mobile,Smart TV,Windows,Android 13,v2.1.0,1
-1010,Mobile,Smart TV,Windows,Android 13,v3.0.5,0
-1011,Mobile,Smart TV,Windows,FireOS 6,v1.0.0,0
-1012,Mobile,Smart TV,Windows,FireOS 6,v2.1.0,1
-1013,Mobile,Smart TV,Windows,FireOS 6,v3.0.5,0
-1014,Mobile,Smart TV,Windows,Ubuntu 22.04,v2.0.1,1
-1015,Mobile,Smart TV,Windows,Windows 11,v1.2.3,1
-1016,Mobile,Smart TV,Windows,Xbox,v2.1.0,1
-1017,Mobile,Smart TV,Windows,iPadOS 15,v1.2.3,1
-1018,Mobile,Smart TV,Windows,iPadOS 15,v3.0.5,1
-1019,Mobile,Smart TV,Windows,tvOS 14,v3.0.5,1
-1020,Mobile,Smart TV,Xbox,Switch,v1.0.0,1
-1021,Mobile,Smart TV,Xbox,Switch,v2.0.1,1
-1022,Mobile,Smart TV,Xbox,Windows 11,v3.0.5,1
-1023,Mobile,Smart TV,Xbox,Xbox,v1.2.3,0
-1024,Mobile,Smart TV,Xbox,Xbox,v3.0.5,0
-1025,Mobile,Smart TV,Xbox,iOS 16,v2.1.0,0
-1026,Mobile,Smart TV,iOS,Android 13,v3.0.5,0
-1027,Mobile,Smart TV,iOS,PS5,v2.1.0,0
-1028,Mobile,Smart TV,iOS,Ubuntu 22.04,v1.0.0,0
-1029,Mobile,Smart TV,iOS,Windows 11,v2.1.0,0
-1030,Mobile,Smart TV,iOS,iOS 16,v1.2.3,1
-1031,Mobile,Smart TV,iOS,iOS 16,v2.0.1,0
-1032,Mobile,Smart TV,iOS,tvOS 14,v2.1.0,0
-1033,Mobile,Smart TV,macOS,Android 13,v1.2.3,0
-1034,Mobile,Smart TV,macOS,Ubuntu 22.04,v1.2.3,1
-1035,Mobile,Smart TV,macOS,Windows 11,v1.0.0,0
-1036,Mobile,Smart TV,macOS,Xbox,v3.0.5,0
-1037,Mobile,Smart TV,macOS,macOS Ventura,v1.2.3,1
-1038,Mobile,Smart TV,tvOS,Android 13,v2.1.0,0
-1039,Mobile,Smart TV,tvOS,FireOS 6,v3.0.5,1
-1040,Mobile,Smart TV,tvOS,PS5,v2.0.1,0
-1041,Mobile,Smart TV,tvOS,Windows 11,v1.2.3,1
-1042,Mobile,Smart TV,tvOS,Xbox,v2.1.0,0
-1043,Mobile,Smartphone,Android,Android 13,v2.1.0,0
-1044,Mobile,Smartphone,Android,Windows 11,v2.0.1,1
-1045,Mobile,Smartphone,Android,Xbox,v2.1.0,0
-1046,Mobile,Smartphone,Android,iOS 16,v2.0.1,0
-1047,Mobile,Smartphone,Android,iOS 16,v3.0.5,1
-1048,Mobile,Smartphone,Android,iPadOS 15,v2.0.1,0
-1049,Mobile,Smartphone,Android,macOS Ventura,v1.0.0,0
-1050,Mobile,Smartphone,Android,tvOS 14,v2.0.1,0
-1051,Mobile,Smartphone,FireOS,Android 13,v2.0.1,0
-1052,Mobile,Smartphone,FireOS,Android 13,v2.1.0,0
-1053,Mobile,Smartphone,FireOS,Switch,v2.1.0,0
-1054,Mobile,Smartphone,FireOS,Switch,v3.0.5,0
-1055,Mobile,Smartphone,FireOS,Ubuntu 22.04,v2.0.1,1
-1056,Mobile,Smartphone,FireOS,iPadOS 15,v2.1.0,0
-1057,Mobile,Smartphone,Linux,Android 13,v1.2.3,0
-1058,Mobile,Smartphone,Linux,Ubuntu 22.04,v1.2.3,1
-1059,Mobile,Smartphone,Linux,Xbox,v1.2.3,1
-1060,Mobile,Smartphone,Linux,iOS 16,v1.2.3,0
-1061,Mobile,Smartphone,Linux,macOS Ventura,v1.0.0,1
-1062,Mobile,Smartphone,Linux,macOS Ventura,v2.1.0,0
-1063,Mobile,Smartphone,Nintendo,Switch,v2.0.1,0
-1064,Mobile,Smartphone,Nintendo,iPadOS 15,v1.2.3,1
-1065,Mobile,Smartphone,Playstation,FireOS 6,v2.1.0,0
-1066,Mobile,Smartphone,Playstation,PS5,v2.0.1,0
-1067,Mobile,Smartphone,Playstation,Switch,v3.0.5,1
-1068,Mobile,Smartphone,Playstation,Ubuntu 22.04,v2.1.0,1
-1069,Mobile,Smartphone,Playstation,Windows 11,v2.1.0,1
-1070,Mobile,Smartphone,Playstation,Windows 11,v3.0.5,0
-1071,Mobile,Smartphone,Playstation,iPadOS 15,v1.2.3,0
-1072,Mobile,Smartphone,Playstation,macOS Ventura,v1.0.0,1
-1073,Mobile,Smartphone,Windows,Ubuntu 22.04,v2.1.0,1
-1074,Mobile,Smartphone,Windows,Xbox,v2.0.1,1
-1075,Mobile,Smartphone,Windows,Xbox,v3.0.5,1
-1076,Mobile,Smartphone,Windows,macOS Ventura,v1.2.3,0
-1077,Mobile,Smartphone,Windows,tvOS 14,v1.0.0,0
-1078,Mobile,Smartphone,Xbox,PS5,v2.0.1,1
-1079,Mobile,Smartphone,Xbox,Windows 11,v2.1.0,0
-1080,Mobile,Smartphone,Xbox,tvOS 14,v2.0.1,1
-1081,Mobile,Smartphone,Xbox,tvOS 14,v2.1.0,0
-1082,Mobile,Smartphone,iOS,FireOS 6,v3.0.5,1
-1083,Mobile,Smartphone,iOS,Ubuntu 22.04,v2.0.1,0
-1084,Mobile,Smartphone,iOS,Windows 11,v1.0.0,0
-1085,Mobile,Smartphone,iOS,Xbox,v3.0.5,0
-1086,Mobile,Smartphone,iOS,macOS Ventura,v1.2.3,1
-1087,Mobile,Smartphone,macOS,Android 13,v1.2.3,1
-1088,Mobile,Smartphone,macOS,Android 13,v2.0.1,0
-1089,Mobile,Smartphone,macOS,FireOS 6,v2.0.1,0
-1090,Mobile,Smartphone,macOS,PS5,v1.0.0,0
-1091,Mobile,Smartphone,macOS,iOS 16,v2.0.1,1
-1092,Mobile,Smartphone,macOS,macOS Ventura,v2.1.0,0
-1093,Mobile,Smartphone,macOS,macOS Ventura,v3.0.5,0
-1094,Mobile,Smartphone,tvOS,Android 13,v2.0.1,0
-1095,Mobile,Smartphone,tvOS,Android 13,v3.0.5,0
-1096,Mobile,Smartphone,tvOS,Ubuntu 22.04,v3.0.5,1
-1097,Mobile,Smartphone,tvOS,Windows 11,v3.0.5,0
-1098,Mobile,Smartphone,tvOS,Xbox,v2.0.1,0
-1099,Mobile,Tablet,Android,FireOS 6,v1.0.0,1
-1100,Mobile,Tablet,Android,PS5,v3.0.5,0
-1101,Mobile,Tablet,Android,Windows 11,v1.0.0,1
-1102,Mobile,Tablet,Android,Windows 11,v1.2.3,1
-1103,Mobile,Tablet,Android,Windows 11,v2.0.1,0
-1104,Mobile,Tablet,Android,iOS 16,v2.0.1,1
-1105,Mobile,Tablet,Android,tvOS 14,v1.2.3,1
-1106,Mobile,Tablet,FireOS,FireOS 6,v2.0.1,0
-1107,Mobile,Tablet,FireOS,FireOS 6,v3.0.5,0
-1108,Mobile,Tablet,FireOS,PS5,v2.0.1,1
-1109,Mobile,Tablet,FireOS,Switch,v1.2.3,0
-1110,Mobile,Tablet,FireOS,Xbox,v1.2.3,1
-1111,Mobile,Tablet,FireOS,iPadOS 15,v1.2.3,1
-1112,Mobile,Tablet,FireOS,iPadOS 15,v3.0.5,0
-1113,Mobile,Tablet,Linux,Android 13,v3.0.5,1
-1114,Mobile,Tablet,Linux,PS5,v2.0.1,0
-1115,Mobile,Tablet,Linux,Ubuntu 22.04,v1.2.3,1
-1116,Mobile,Tablet,Linux,macOS Ventura,v1.0.0,0
-1117,Mobile,Tablet,Linux,tvOS 14,v2.1.0,0
-1118,Mobile,Tablet,Nintendo,Android 13,v2.1.0,0
-1119,Mobile,Tablet,Nintendo,Android 13,v3.0.5,1
-1120,Mobile,Tablet,Nintendo,Windows 11,v2.1.0,0
-1121,Mobile,Tablet,Nintendo,macOS Ventura,v2.0.1,1
-1122,Mobile,Tablet,Nintendo,macOS Ventura,v3.0.5,1
-1123,Mobile,Tablet,Nintendo,tvOS 14,v2.1.0,1
-1124,Mobile,Tablet,Playstation,FireOS 6,v1.2.3,0
-1125,Mobile,Tablet,Playstation,PS5,v1.0.0,1
-1126,Mobile,Tablet,Playstation,Ubuntu 22.04,v2.1.0,0
-1127,Mobile,Tablet,Playstation,Xbox,v2.0.1,0
-1128,Mobile,Tablet,Playstation,macOS Ventura,v1.2.3,1
-1129,Mobile,Tablet,Windows,FireOS 6,v1.0.0,0
-1130,Mobile,Tablet,Windows,Xbox,v1.2.3,1
-1131,Mobile,Tablet,Windows,Xbox,v3.0.5,0
-1132,Mobile,Tablet,Windows,iOS 16,v2.0.1,1
-1133,Mobile,Tablet,Windows,macOS Ventura,v2.0.1,1
-1134,Mobile,Tablet,Xbox,PS5,v2.1.0,0
-1135,Mobile,Tablet,Xbox,Ubuntu 22.04,v2.0.1,1
-1136,Mobile,Tablet,Xbox,Windows 11,v2.0.1,1
-1137,Mobile,Tablet,Xbox,Xbox,v2.0.1,0
-1138,Mobile,Tablet,Xbox,macOS Ventura,v1.2.3,1
-1139,Mobile,Tablet,Xbox,tvOS 14,v2.0.1,1
-1140,Mobile,Tablet,iOS,Android 13,v1.2.3,1
-1141,Mobile,Tablet,iOS,Android 13,v3.0.5,1
-1142,Mobile,Tablet,iOS,FireOS 6,v1.2.3,1
-1143,Mobile,Tablet,iOS,FireOS 6,v2.1.0,1
-1144,Mobile,Tablet,iOS,PS5,v1.0.0,1
-1145,Mobile,Tablet,iOS,iOS 16,v2.0.1,1
-1146,Mobile,Tablet,iOS,macOS Ventura,v3.0.5,0
-1147,Mobile,Tablet,iOS,tvOS 14,v2.0.1,0
-1148,Mobile,Tablet,macOS,PS5,v1.2.3,1
-1149,Mobile,Tablet,macOS,PS5,v2.0.1,1
-1150,Mobile,Tablet,macOS,Switch,v2.0.1,1
-1151,Mobile,Tablet,macOS,Ubuntu 22.04,v2.0.1,1
-1152,Mobile,Tablet,macOS,Windows 11,v2.1.0,0
-1153,Mobile,Tablet,macOS,iPadOS 15,v2.1.0,0
-1154,Mobile,Tablet,macOS,tvOS 14,v2.0.1,0
-1155,Mobile,Tablet,tvOS,PS5,v1.2.3,0
-1156,Mobile,Tablet,tvOS,PS5,v2.1.0,0
-1157,Mobile,Tablet,tvOS,Xbox,v2.0.1,1
-1158,Mobile,Tablet,tvOS,iOS 16,v1.2.3,0
-1159,Mobile,Tablet,tvOS,iOS 16,v2.0.1,0
-1160,Mobile,Tablet,tvOS,iPadOS 15,v2.0.1,1
-1161,Mobile,Tablet,tvOS,iPadOS 15,v2.1.0,1
-1162,Mobile,Tablet,tvOS,macOS Ventura,v3.0.5,0
-1163,Mobile,Tablet,tvOS,tvOS 14,v2.1.0,1
-1164,TV,Desktop,Android,PS5,v1.2.3,0
-1165,TV,Desktop,Android,Windows 11,v1.0.0,1
-1166,TV,Desktop,Android,macOS Ventura,v2.1.0,0
-1167,TV,Desktop,FireOS,Android 13,v2.0.1,1
-1168,TV,Desktop,FireOS,FireOS 6,v1.0.0,1
-1169,TV,Desktop,FireOS,FireOS 6,v3.0.5,1
-1170,TV,Desktop,FireOS,Switch,v2.0.1,0
-1171,TV,Desktop,FireOS,macOS Ventura,v1.2.3,0
-1172,TV,Desktop,Linux,FireOS 6,v1.0.0,0
-1173,TV,Desktop,Linux,PS5,v1.0.0,1
-1174,TV,Desktop,Linux,Windows 11,v2.0.1,0
-1175,TV,Desktop,Linux,iPadOS 15,v1.2.3,1
-1176,TV,Desktop,Linux,tvOS 14,v3.0.5,1
-1177,TV,Desktop,Nintendo,PS5,v2.1.0,0
-1178,TV,Desktop,Nintendo,Switch,v3.0.5,1
-1179,TV,Desktop,Nintendo,iOS 16,v1.0.0,0
-1180,TV,Desktop,Nintendo,iOS 16,v2.0.1,0
-1181,TV,Desktop,Nintendo,macOS Ventura,v2.0.1,0
-1182,TV,Desktop,Playstation,FireOS 6,v1.2.3,0
-1183,TV,Desktop,Playstation,Switch,v2.1.0,0
-1184,TV,Desktop,Playstation,Switch,v3.0.5,0
-1185,TV,Desktop,Playstation,Ubuntu 22.04,v2.1.0,1
-1186,TV,Desktop,Windows,Android 13,v3.0.5,0
-1187,TV,Desktop,Windows,FireOS 6,v1.0.0,1
-1188,TV,Desktop,Windows,PS5,v1.2.3,1
-1189,TV,Desktop,Windows,PS5,v2.1.0,1
-1190,TV,Desktop,Windows,Xbox,v1.0.0,0
-1191,TV,Desktop,Windows,iOS 16,v3.0.5,1
-1192,TV,Desktop,Windows,iPadOS 15,v2.1.0,1
-1193,TV,Desktop,Xbox,Android 13,v2.0.1,1
-1194,TV,Desktop,Xbox,Android 13,v2.1.0,0
-1195,TV,Desktop,Xbox,FireOS 6,v2.0.1,1
-1196,TV,Desktop,Xbox,Windows 11,v1.0.0,1
-1197,TV,Desktop,Xbox,Windows 11,v2.1.0,0
-1198,TV,Desktop,Xbox,iPadOS 15,v2.1.0,0
-1199,TV,Desktop,Xbox,iPadOS 15,v3.0.5,0
-1200,TV,Desktop,iOS,Android 13,v1.0.0,1
-1201,TV,Desktop,iOS,PS5,v2.0.1,0
-1202,TV,Desktop,iOS,Switch,v2.1.0,1
-1203,TV,Desktop,iOS,iOS 16,v2.1.0,0
-1204,TV,Desktop,iOS,iOS 16,v3.0.5,1
-1205,TV,Desktop,iOS,iPadOS 15,v3.0.5,1
-1206,TV,Desktop,iOS,macOS Ventura,v2.1.0,1
-1207,TV,Desktop,macOS,Xbox,v1.0.0,0
-1208,TV,Desktop,macOS,iPadOS 15,v2.1.0,1
-1209,TV,Desktop,macOS,iPadOS 15,v3.0.5,0
-1210,TV,Desktop,tvOS,FireOS 6,v2.1.0,1
-1211,TV,Desktop,tvOS,PS5,v3.0.5,0
-1212,TV,Desktop,tvOS,Ubuntu 22.04,v1.0.0,1
-1213,TV,Desktop,tvOS,Ubuntu 22.04,v2.0.1,1
-1214,TV,Desktop,tvOS,iOS 16,v3.0.5,0
-1215,TV,Game Console,Android,Android 13,v3.0.5,0
-1216,TV,Game Console,Android,FireOS 6,v1.2.3,0
-1217,TV,Game Console,Android,PS5,v1.2.3,1
-1218,TV,Game Console,Android,Switch,v1.0.0,0
-1219,TV,Game Console,Android,Ubuntu 22.04,v1.0.0,0
-1220,TV,Game Console,Android,Xbox,v3.0.5,0
-1221,TV,Game Console,Android,iPadOS 15,v1.0.0,0
-1222,TV,Game Console,FireOS,Android 13,v2.0.1,0
-1223,TV,Game Console,FireOS,PS5,v3.0.5,0
-1224,TV,Game Console,FireOS,Switch,v2.1.0,1
-1225,TV,Game Console,FireOS,Switch,v3.0.5,0
-1226,TV,Game Console,FireOS,Windows 11,v2.1.0,1
-1227,TV,Game Console,FireOS,iPadOS 15,v2.1.0,0
-1228,TV,Game Console,FireOS,macOS Ventura,v2.0.1,1
-1229,TV,Game Console,FireOS,tvOS 14,v1.2.3,1
-1230,TV,Game Console,Linux,Android 13,v1.0.0,1
-1231,TV,Game Console,Linux,PS5,v3.0.5,0
-1232,TV,Game Console,Linux,Switch,v1.2.3,0
-1233,TV,Game Console,Linux,Windows 11,v1.2.3,1
-1234,TV,Game Console,Linux,Xbox,v2.0.1,0
-1235,TV,Game Console,Linux,Xbox,v3.0.5,0
-1236,TV,Game Console,Linux,iPadOS 15,v2.1.0,0
-1237,TV,Game Console,Linux,macOS Ventura,v3.0.5,0
-1238,TV,Game Console,Linux,tvOS 14,v2.0.1,1
-1239,TV,Game Console,Nintendo,PS5,v1.0.0,1
-1240,TV,Game Console,Nintendo,Switch,v2.0.1,1
-1241,TV,Game Console,Nintendo,Switch,v2.1.0,1
-1242,TV,Game Console,Nintendo,Ubuntu 22.04,v2.1.0,1
-1243,TV,Game Console,Nintendo,iPadOS 15,v3.0.5,0
-1244,TV,Game Console,Nintendo,macOS Ventura,v2.0.1,1
-1245,TV,Game Console,Nintendo,tvOS 14,v2.0.1,0
-1246,TV,Game Console,Playstation,Android 13,v1.2.3,1
-1247,TV,Game Console,Playstation,Switch,v1.0.0,0
-1248,TV,Game Console,Playstation,Windows 11,v2.1.0,0
-1249,TV,Game Console,Playstation,iOS 16,v1.2.3,0
-1250,TV,Game Console,Playstation,iOS 16,v2.1.0,1
-1251,TV,Game Console,Playstation,iPadOS 15,v1.2.3,1
-1252,TV,Game Console,Playstation,iPadOS 15,v2.1.0,0
-1253,TV,Game Console,Windows,PS5,v1.0.0,1
-1254,TV,Game Console,Windows,PS5,v2.0.1,1
-1255,TV,Game Console,Windows,Xbox,v2.0.1,0
-1256,TV,Game Console,Windows,iOS 16,v2.0.1,1
-1257,TV,Game Console,Windows,iPadOS 15,v1.2.3,0
-1258,TV,Game Console,Windows,iPadOS 15,v2.1.0,1
-1259,TV,Game Console,Windows,tvOS 14,v1.0.0,0
-1260,TV,Game Console,Windows,tvOS 14,v3.0.5,0
-1261,TV,Game Console,Xbox,FireOS 6,v2.1.0,0
-1262,TV,Game Console,Xbox,PS5,v3.0.5,0
-1263,TV,Game Console,Xbox,iOS 16,v2.0.1,1
-1264,TV,Game Console,Xbox,iPadOS 15,v2.1.0,1
-1265,TV,Game Console,Xbox,tvOS 14,v1.2.3,1
-1266,TV,Game Console,iOS,Android 13,v2.0.1,0
-1267,TV,Game Console,macOS,FireOS 6,v2.1.0,0
-1268,TV,Game Console,macOS,PS5,v3.0.5,0
-1269,TV,Game Console,macOS,Switch,v2.0.1,1
-1270,TV,Game Console,macOS,Windows 11,v1.2.3,0
-1271,TV,Game Console,macOS,Xbox,v1.0.0,1
-1272,TV,Game Console,macOS,iOS 16,v2.1.0,1
-1273,TV,Game Console,macOS,tvOS 14,v1.0.0,1
-1274,TV,Game Console,macOS,tvOS 14,v3.0.5,1
-1275,TV,Game Console,tvOS,FireOS 6,v3.0.5,1
-1276,TV,Game Console,tvOS,PS5,v1.0.0,0
-1277,TV,Game Console,tvOS,PS5,v2.0.1,1
-1278,TV,Game Console,tvOS,PS5,v2.1.0,1
-1279,TV,Game Console,tvOS,Switch,v1.2.3,1
-1280,TV,Game Console,tvOS,Switch,v2.0.1,1
-1281,TV,Game Console,tvOS,iOS 16,v1.0.0,0
-1282,TV,Game Console,tvOS,tvOS 14,v1.0.0,0
-1283,TV,Game Console,tvOS,tvOS 14,v1.2.3,0
-1284,TV,Laptop,Android,Android 13,v1.2.3,0
-1285,TV,Laptop,Android,Xbox,v1.2.3,0
-1286,TV,Laptop,Android,Xbox,v2.0.1,0
-1287,TV,Laptop,Android,iOS 16,v3.0.5,0
-1288,TV,Laptop,FireOS,FireOS 6,v3.0.5,1
-1289,TV,Laptop,FireOS,Switch,v1.0.0,1
-1290,TV,Laptop,FireOS,Ubuntu 22.04,v1.0.0,1
-1291,TV,Laptop,FireOS,Ubuntu 22.04,v1.2.3,0
-1292,TV,Laptop,FireOS,Ubuntu 22.04,v2.0.1,1
-1293,TV,Laptop,FireOS,Windows 11,v2.0.1,1
-1294,TV,Laptop,FireOS,Xbox,v1.0.0,1
-1295,TV,Laptop,Linux,Android 13,v2.0.1,0
-1296,TV,Laptop,Linux,Android 13,v3.0.5,0
-1297,TV,Laptop,Linux,FireOS 6,v3.0.5,0
-1298,TV,Laptop,Linux,PS5,v2.1.0,1
-1299,TV,Laptop,Linux,Switch,v2.1.0,0
-1300,TV,Laptop,Linux,Windows 11,v3.0.5,1
-1301,TV,Laptop,Linux,Xbox,v2.0.1,1
-1302,TV,Laptop,Linux,iOS 16,v1.0.0,0
-1303,TV,Laptop,Linux,iPadOS 15,v1.0.0,1
-1304,TV,Laptop,Linux,iPadOS 15,v2.1.0,0
-1305,TV,Laptop,Nintendo,PS5,v1.0.0,0
-1306,TV,Laptop,Playstation,Switch,v1.0.0,1
-1307,TV,Laptop,Playstation,Ubuntu 22.04,v2.0.1,0
-1308,TV,Laptop,Playstation,Xbox,v3.0.5,1
-1309,TV,Laptop,Playstation,iPadOS 15,v1.0.0,1
-1310,TV,Laptop,Playstation,tvOS 14,v1.0.0,0
-1311,TV,Laptop,Playstation,tvOS 14,v2.1.0,1
-1312,TV,Laptop,Windows,Android 13,v2.1.0,0
-1313,TV,Laptop,Windows,Ubuntu 22.04,v3.0.5,1
-1314,TV,Laptop,Windows,Xbox,v1.2.3,1
-1315,TV,Laptop,Windows,Xbox,v2.0.1,1
-1316,TV,Laptop,Windows,iPadOS 15,v1.2.3,0
-1317,TV,Laptop,Windows,macOS Ventura,v1.0.0,0
-1318,TV,Laptop,Xbox,Android 13,v1.2.3,0
-1319,TV,Laptop,Xbox,Ubuntu 22.04,v1.0.0,0
-1320,TV,Laptop,Xbox,Windows 11,v2.0.1,1
-1321,TV,Laptop,Xbox,Windows 11,v2.1.0,0
-1322,TV,Laptop,Xbox,Xbox,v1.2.3,0
-1323,TV,Laptop,Xbox,macOS Ventura,v3.0.5,0
-1324,TV,Laptop,Xbox,tvOS 14,v3.0.5,1
-1325,TV,Laptop,iOS,FireOS 6,v1.2.3,1
-1326,TV,Laptop,iOS,FireOS 6,v2.1.0,0
-1327,TV,Laptop,iOS,Switch,v3.0.5,0
-1328,TV,Laptop,iOS,Windows 11,v1.2.3,0
-1329,TV,Laptop,iOS,iPadOS 15,v1.2.3,0
-1330,TV,Laptop,macOS,FireOS 6,v1.0.0,1
-1331,TV,Laptop,macOS,Switch,v1.2.3,0
-1332,TV,Laptop,macOS,Ubuntu 22.04,v2.0.1,0
-1333,TV,Laptop,macOS,Ubuntu 22.04,v3.0.5,0
-1334,TV,Laptop,macOS,iOS 16,v1.0.0,0
-1335,TV,Laptop,tvOS,Switch,v2.0.1,1
-1336,TV,Laptop,tvOS,Xbox,v1.0.0,1
-1337,TV,Laptop,tvOS,iOS 16,v1.0.0,1
-1338,TV,Laptop,tvOS,tvOS 14,v3.0.5,1
-1339,TV,Smart TV,Android,FireOS 6,v2.0.1,0
-1340,TV,Smart TV,Android,PS5,v1.0.0,0
-1341,TV,Smart TV,Android,PS5,v1.2.3,1
-1342,TV,Smart TV,Android,PS5,v2.1.0,0
-1343,TV,Smart TV,Android,Ubuntu 22.04,v1.2.3,1
-1344,TV,Smart TV,Android,Ubuntu 22.04,v2.1.0,0
-1345,TV,Smart TV,Android,iOS 16,v2.0.1,0
-1346,TV,Smart TV,Android,iOS 16,v3.0.5,0
-1347,TV,Smart TV,FireOS,Android 13,v1.0.0,0
-1348,TV,Smart TV,FireOS,FireOS 6,v1.0.0,0
-1349,TV,Smart TV,FireOS,Ubuntu 22.04,v3.0.5,0
-1350,TV,Smart TV,FireOS,Windows 11,v2.0.1,1
-1351,TV,Smart TV,FireOS,Xbox,v1.0.0,1
-1352,TV,Smart TV,FireOS,iPadOS 15,v2.0.1,0
-1353,TV,Smart TV,FireOS,macOS Ventura,v3.0.5,1
-1354,TV,Smart TV,Linux,Android 13,v1.2.3,1
-1355,TV,Smart TV,Linux,PS5,v1.2.3,1
-1356,TV,Smart TV,Linux,Switch,v1.0.0,0
-1357,TV,Smart TV,Linux,Switch,v1.2.3,1
-1358,TV,Smart TV,Linux,Xbox,v2.0.1,0
-1359,TV,Smart TV,Linux,macOS Ventura,v2.1.0,1
-1360,TV,Smart TV,Nintendo,Ubuntu 22.04,v2.0.1,0
-1361,TV,Smart TV,Nintendo,Ubuntu 22.04,v3.0.5,0
-1362,TV,Smart TV,Nintendo,iOS 16,v2.0.1,1
-1363,TV,Smart TV,Nintendo,iPadOS 15,v3.0.5,1
-1364,TV,Smart TV,Nintendo,tvOS 14,v2.1.0,0
-1365,TV,Smart TV,Playstation,FireOS 6,v1.2.3,0
-1366,TV,Smart TV,Playstation,FireOS 6,v2.1.0,1
-1367,TV,Smart TV,Playstation,Switch,v1.2.3,1
-1368,TV,Smart TV,Playstation,Ubuntu 22.04,v2.1.0,1
-1369,TV,Smart TV,Playstation,Windows 11,v1.0.0,1
-1370,TV,Smart TV,Playstation,Xbox,v1.0.0,1
-1371,TV,Smart TV,Windows,Android 13,v2.0.1,0
-1372,TV,Smart TV,Windows,Ubuntu 22.04,v1.2.3,0
-1373,TV,Smart TV,Windows,Ubuntu 22.04,v3.0.5,0
-1374,TV,Smart TV,Windows,Windows 11,v1.0.0,0
-1375,TV,Smart TV,Windows,iOS 16,v2.1.0,0
-1376,TV,Smart TV,Windows,iOS 16,v3.0.5,1
-1377,TV,Smart TV,Xbox,PS5,v1.0.0,0
-1378,TV,Smart TV,Xbox,PS5,v3.0.5,0
-1379,TV,Smart TV,Xbox,Switch,v1.0.0,1
-1380,TV,Smart TV,Xbox,Switch,v2.1.0,1
-1381,TV,Smart TV,Xbox,Xbox,v2.1.0,0
-1382,TV,Smart TV,Xbox,macOS Ventura,v1.0.0,0
-1383,TV,Smart TV,Xbox,tvOS 14,v1.2.3,0
-1384,TV,Smart TV,iOS,PS5,v2.0.1,1
-1385,TV,Smart TV,iOS,Windows 11,v3.0.5,1
-1386,TV,Smart TV,iOS,iOS 16,v1.2.3,0
-1387,TV,Smart TV,macOS,Android 13,v1.0.0,0
-1388,TV,Smart TV,macOS,tvOS 14,v2.1.0,0
-1389,TV,Smart TV,tvOS,PS5,v2.0.1,1
-1390,TV,Smart TV,tvOS,Switch,v1.2.3,0
-1391,TV,Smart TV,tvOS,Switch,v3.0.5,1
-1392,TV,Smart TV,tvOS,Ubuntu 22.04,v2.1.0,1
-1393,TV,Smart TV,tvOS,Windows 11,v3.0.5,0
-1394,TV,Smartphone,Android,Ubuntu 22.04,v2.1.0,0
-1395,TV,Smartphone,Android,Xbox,v3.0.5,0
-1396,TV,Smartphone,Android,iPadOS 15,v2.0.1,1
-1397,TV,Smartphone,Android,macOS Ventura,v2.0.1,0
-1398,TV,Smartphone,FireOS,Android 13,v1.0.0,1
-1399,TV,Smartphone,FireOS,Android 13,v2.0.1,1
-1400,TV,Smartphone,FireOS,PS5,v1.0.0,1
-1401,TV,Smartphone,FireOS,Ubuntu 22.04,v3.0.5,1
-1402,TV,Smartphone,FireOS,iPadOS 15,v1.0.0,0
-1403,TV,Smartphone,FireOS,macOS Ventura,v2.0.1,0
-1404,TV,Smartphone,Linux,FireOS 6,v2.0.1,0
-1405,TV,Smartphone,Linux,Ubuntu 22.04,v2.1.0,0
-1406,TV,Smartphone,Linux,Xbox,v2.0.1,1
-1407,TV,Smartphone,Linux,iPadOS 15,v1.2.3,0
-1408,TV,Smartphone,Nintendo,Android 13,v2.0.1,1
-1409,TV,Smartphone,Nintendo,FireOS 6,v1.2.3,0
-1410,TV,Smartphone,Nintendo,FireOS 6,v3.0.5,0
-1411,TV,Smartphone,Nintendo,PS5,v1.0.0,1
-1412,TV,Smartphone,Nintendo,Ubuntu 22.04,v2.1.0,0
-1413,TV,Smartphone,Nintendo,Xbox,v2.0.1,1
-1414,TV,Smartphone,Nintendo,iOS 16,v1.2.3,0
-1415,TV,Smartphone,Nintendo,macOS Ventura,v1.0.0,1
-1416,TV,Smartphone,Nintendo,tvOS 14,v1.2.3,0
-1417,TV,Smartphone,Nintendo,tvOS 14,v3.0.5,0
-1418,TV,Smartphone,Playstation,Switch,v1.2.3,0
-1419,TV,Smartphone,Playstation,Windows 11,v2.1.0,0
-1420,TV,Smartphone,Playstation,Xbox,v1.2.3,1
-1421,TV,Smartphone,Playstation,iPadOS 15,v2.0.1,0
-1422,TV,Smartphone,Windows,Android 13,v3.0.5,0
-1423,TV,Smartphone,Windows,FireOS 6,v2.1.0,1
-1424,TV,Smartphone,Windows,PS5,v3.0.5,0
-1425,TV,Smartphone,Windows,Ubuntu 22.04,v1.0.0,0
-1426,TV,Smartphone,Windows,Xbox,v1.0.0,1
-1427,TV,Smartphone,Windows,iPadOS 15,v2.0.1,0
-1428,TV,Smartphone,Windows,tvOS 14,v1.0.0,1
-1429,TV,Smartphone,Xbox,Android 13,v1.2.3,1
-1430,TV,Smartphone,Xbox,Android 13,v3.0.5,1
-1431,TV,Smartphone,Xbox,Xbox,v1.2.3,1
-1432,TV,Smartphone,Xbox,Xbox,v2.0.1,1
-1433,TV,Smartphone,Xbox,Xbox,v2.1.0,0
-1434,TV,Smartphone,Xbox,iOS 16,v2.1.0,1
-1435,TV,Smartphone,Xbox,iPadOS 15,v3.0.5,0
-1436,TV,Smartphone,iOS,FireOS 6,v3.0.5,1
-1437,TV,Smartphone,iOS,iPadOS 15,v2.0.1,0
-1438,TV,Smartphone,iOS,macOS Ventura,v1.2.3,0
-1439,TV,Smartphone,iOS,macOS Ventura,v2.1.0,0
-1440,TV,Smartphone,macOS,Android 13,v1.2.3,0
-1441,TV,Smartphone,macOS,FireOS 6,v1.0.0,0
-1442,TV,Smartphone,macOS,Ubuntu 22.04,v1.0.0,0
-1443,TV,Smartphone,tvOS,Android 13,v1.2.3,1
-1444,TV,Smartphone,tvOS,Android 13,v2.0.1,1
-1445,TV,Smartphone,tvOS,FireOS 6,v1.2.3,1
-1446,TV,Smartphone,tvOS,FireOS 6,v2.0.1,0
-1447,TV,Smartphone,tvOS,FireOS 6,v2.1.0,0
-1448,TV,Smartphone,tvOS,Ubuntu 22.04,v2.0.1,0
-1449,TV,Smartphone,tvOS,Windows 11,v2.1.0,0
-1450,TV,Smartphone,tvOS,Xbox,v2.1.0,1
-1451,TV,Smartphone,tvOS,iPadOS 15,v2.0.1,1
-1452,TV,Smartphone,tvOS,iPadOS 15,v2.1.0,0
-1453,TV,Smartphone,tvOS,macOS Ventura,v1.0.0,0
-1454,TV,Smartphone,tvOS,macOS Ventura,v1.2.3,1
-1455,TV,Tablet,Android,Android 13,v2.0.1,0
-1456,TV,Tablet,Android,Ubuntu 22.04,v2.1.0,0
-1457,TV,Tablet,Android,Windows 11,v1.0.0,1
-1458,TV,Tablet,Android,Windows 11,v1.2.3,1
-1459,TV,Tablet,Android,Windows 11,v3.0.5,0
-1460,TV,Tablet,Android,Xbox,v2.0.1,1
-1461,TV,Tablet,Android,iOS 16,v1.2.3,1
-1462,TV,Tablet,FireOS,Android 13,v1.2.3,0
-1463,TV,Tablet,FireOS,Windows 11,v1.0.0,1
-1464,TV,Tablet,FireOS,Windows 11,v3.0.5,0
-1465,TV,Tablet,FireOS,iOS 16,v2.0.1,1
-1466,TV,Tablet,FireOS,macOS Ventura,v2.1.0,1
-1467,TV,Tablet,FireOS,tvOS 14,v3.0.5,1
-1468,TV,Tablet,Linux,Android 13,v2.0.1,0
-1469,TV,Tablet,Linux,PS5,v2.0.1,1
-1470,TV,Tablet,Linux,Switch,v1.0.0,0
-1471,TV,Tablet,Linux,macOS Ventura,v1.0.0,0
-1472,TV,Tablet,Nintendo,FireOS 6,v2.0.1,1
-1473,TV,Tablet,Nintendo,Windows 11,v2.1.0,1
-1474,TV,Tablet,Nintendo,Xbox,v2.1.0,1
-1475,TV,Tablet,Nintendo,iOS 16,v3.0.5,0
-1476,TV,Tablet,Nintendo,macOS Ventura,v3.0.5,0
-1477,TV,Tablet,Playstation,Android 13,v2.1.0,1
-1478,TV,Tablet,Playstation,PS5,v3.0.5,0
-1479,TV,Tablet,Playstation,Xbox,v1.2.3,1
-1480,TV,Tablet,Playstation,Xbox,v2.1.0,0
-1481,TV,Tablet,Playstation,iOS 16,v2.0.1,1
-1482,TV,Tablet,Playstation,iPadOS 15,v1.2.3,1
-1483,TV,Tablet,Windows,FireOS 6,v2.0.1,0
-1484,TV,Tablet,Windows,PS5,v3.0.5,0
-1485,TV,Tablet,Windows,Ubuntu 22.04,v3.0.5,1
-1486,TV,Tablet,Windows,Windows 11,v1.2.3,1
-1487,TV,Tablet,Windows,iOS 16,v3.0.5,1
-1488,TV,Tablet,Windows,iPadOS 15,v1.2.3,1
-1489,TV,Tablet,Windows,macOS Ventura,v1.0.0,0
-1490,TV,Tablet,Windows,macOS Ventura,v1.2.3,1
-1491,TV,Tablet,Xbox,FireOS 6,v1.2.3,1
-1492,TV,Tablet,Xbox,Switch,v1.2.3,0
-1493,TV,Tablet,Xbox,iPadOS 15,v2.0.1,0
-1494,TV,Tablet,Xbox,macOS Ventura,v3.0.5,0
-1495,TV,Tablet,iOS,FireOS 6,v1.2.3,0
-1496,TV,Tablet,iOS,Switch,v3.0.5,0
-1497,TV,Tablet,iOS,Windows 11,v2.1.0,1
-1498,TV,Tablet,iOS,iOS 16,v3.0.5,0
-1499,TV,Tablet,macOS,FireOS 6,v2.1.0,1
-1500,TV,Tablet,macOS,Ubuntu 22.04,v1.2.3,0
-1501,TV,Tablet,macOS,Ubuntu 22.04,v2.0.1,0
-1502,TV,Tablet,macOS,Windows 11,v3.0.5,1
-1503,TV,Tablet,macOS,Xbox,v2.1.0,1
-1504,TV,Tablet,macOS,tvOS 14,v1.0.0,1
-1505,TV,Tablet,tvOS,Android 13,v1.2.3,1
-1506,TV,Tablet,tvOS,Ubuntu 22.04,v1.2.3,0
-1507,TV,Tablet,tvOS,Windows 11,v1.0.0,0
-1508,TV,Tablet,tvOS,macOS Ventura,v1.0.0,1
-1509,TV,Tablet,tvOS,macOS Ventura,v2.1.0,0
-1510,Tablet,Desktop,Android,Android 13,v2.0.1,0
-1511,Tablet,Desktop,Android,FireOS 6,v2.0.1,0
-1512,Tablet,Desktop,Android,PS5,v2.0.1,0
-1513,Tablet,Desktop,Android,Switch,v1.0.0,0
-1514,Tablet,Desktop,Android,Xbox,v1.0.0,0
-1515,Tablet,Desktop,Android,Xbox,v2.1.0,0
-1516,Tablet,Desktop,Android,iOS 16,v2.0.1,0
-1517,Tablet,Desktop,Android,tvOS 14,v1.2.3,0
-1518,Tablet,Desktop,FireOS,FireOS 6,v1.2.3,1
-1519,Tablet,Desktop,FireOS,PS5,v2.0.1,0
-1520,Tablet,Desktop,FireOS,Ubuntu 22.04,v3.0.5,1
-1521,Tablet,Desktop,Linux,PS5,v1.0.0,0
-1522,Tablet,Desktop,Linux,PS5,v2.1.0,0
-1523,Tablet,Desktop,Linux,Switch,v3.0.5,0
-1524,Tablet,Desktop,Linux,Windows 11,v1.0.0,0
-1525,Tablet,Desktop,Linux,Xbox,v1.2.3,1
-1526,Tablet,Desktop,Linux,macOS Ventura,v1.2.3,0
-1527,Tablet,Desktop,Linux,tvOS 14,v1.0.0,0
-1528,Tablet,Desktop,Linux,tvOS 14,v1.2.3,1
-1529,Tablet,Desktop,Linux,tvOS 14,v2.0.1,0
-1530,Tablet,Desktop,Linux,tvOS 14,v3.0.5,0
-1531,Tablet,Desktop,Nintendo,Android 13,v2.0.1,1
-1532,Tablet,Desktop,Nintendo,macOS Ventura,v1.2.3,1
-1533,Tablet,Desktop,Nintendo,macOS Ventura,v2.0.1,0
-1534,Tablet,Desktop,Playstation,Android 13,v2.1.0,1
-1535,Tablet,Desktop,Playstation,FireOS 6,v2.0.1,0
-1536,Tablet,Desktop,Playstation,FireOS 6,v3.0.5,0
-1537,Tablet,Desktop,Playstation,Switch,v2.1.0,0
-1538,Tablet,Desktop,Playstation,iOS 16,v1.0.0,1
-1539,Tablet,Desktop,Playstation,iOS 16,v2.0.1,1
-1540,Tablet,Desktop,Playstation,iOS 16,v2.1.0,1
-1541,Tablet,Desktop,Playstation,iPadOS 15,v2.0.1,1
-1542,Tablet,Desktop,Playstation,tvOS 14,v2.1.0,1
-1543,Tablet,Desktop,Windows,Switch,v2.0.1,1
-1544,Tablet,Desktop,Windows,Windows 11,v2.1.0,0
-1545,Tablet,Desktop,Windows,iOS 16,v2.1.0,0
-1546,Tablet,Desktop,Windows,iPadOS 15,v1.2.3,0
-1547,Tablet,Desktop,Windows,iPadOS 15,v2.1.0,0
-1548,Tablet,Desktop,Windows,iPadOS 15,v3.0.5,0
-1549,Tablet,Desktop,Windows,macOS Ventura,v1.2.3,1
-1550,Tablet,Desktop,Windows,tvOS 14,v2.0.1,0
-1551,Tablet,Desktop,Windows,tvOS 14,v3.0.5,1
-1552,Tablet,Desktop,Xbox,FireOS 6,v1.2.3,1
-1553,Tablet,Desktop,Xbox,Ubuntu 22.04,v2.1.0,1
-1554,Tablet,Desktop,Xbox,iPadOS 15,v3.0.5,0
-1555,Tablet,Desktop,Xbox,macOS Ventura,v1.0.0,1
-1556,Tablet,Desktop,Xbox,macOS Ventura,v3.0.5,0
-1557,Tablet,Desktop,Xbox,tvOS 14,v1.2.3,1
-1558,Tablet,Desktop,Xbox,tvOS 14,v3.0.5,1
-1559,Tablet,Desktop,iOS,Android 13,v2.0.1,0
-1560,Tablet,Desktop,iOS,Xbox,v2.0.1,1
-1561,Tablet,Desktop,iOS,tvOS 14,v3.0.5,0
-1562,Tablet,Desktop,macOS,Switch,v2.1.0,0
-1563,Tablet,Desktop,macOS,Ubuntu 22.04,v1.0.0,0
-1564,Tablet,Desktop,tvOS,FireOS 6,v2.0.1,1
-1565,Tablet,Desktop,tvOS,macOS Ventura,v1.0.0,1
-1566,Tablet,Desktop,tvOS,macOS Ventura,v2.0.1,0
-1567,Tablet,Game Console,Android,PS5,v3.0.5,0
-1568,Tablet,Game Console,Android,Switch,v2.0.1,1
-1569,Tablet,Game Console,Android,Windows 11,v1.0.0,1
-1570,Tablet,Game Console,Android,Windows 11,v3.0.5,1
-1571,Tablet,Game Console,FireOS,Android 13,v2.1.0,1
-1572,Tablet,Game Console,FireOS,FireOS 6,v2.1.0,0
-1573,Tablet,Game Console,FireOS,PS5,v1.0.0,1
-1574,Tablet,Game Console,FireOS,Switch,v2.1.0,0
-1575,Tablet,Game Console,FireOS,Ubuntu 22.04,v2.0.1,1
-1576,Tablet,Game Console,FireOS,Windows 11,v1.2.3,0
-1577,Tablet,Game Console,FireOS,iPadOS 15,v1.0.0,1
-1578,Tablet,Game Console,FireOS,macOS Ventura,v1.2.3,1
-1579,Tablet,Game Console,FireOS,macOS Ventura,v3.0.5,0
-1580,Tablet,Game Console,FireOS,tvOS 14,v3.0.5,0
-1581,Tablet,Game Console,Linux,Android 13,v2.0.1,0
-1582,Tablet,Game Console,Linux,Android 13,v3.0.5,1
-1583,Tablet,Game Console,Linux,Xbox,v2.0.1,1
-1584,Tablet,Game Console,Linux,iPadOS 15,v2.1.0,1
-1585,Tablet,Game Console,Linux,iPadOS 15,v3.0.5,0
-1586,Tablet,Game Console,Linux,macOS Ventura,v1.0.0,0
-1587,Tablet,Game Console,Linux,tvOS 14,v2.0.1,0
-1588,Tablet,Game Console,Nintendo,PS5,v1.0.0,0
-1589,Tablet,Game Console,Nintendo,Switch,v1.0.0,0
-1590,Tablet,Game Console,Nintendo,Xbox,v2.1.0,1
-1591,Tablet,Game Console,Nintendo,iPadOS 15,v2.1.0,0
-1592,Tablet,Game Console,Nintendo,iPadOS 15,v3.0.5,1
-1593,Tablet,Game Console,Nintendo,macOS Ventura,v2.0.1,1
-1594,Tablet,Game Console,Nintendo,tvOS 14,v3.0.5,1
-1595,Tablet,Game Console,Playstation,PS5,v1.0.0,0
-1596,Tablet,Game Console,Playstation,Ubuntu 22.04,v2.1.0,0
-1597,Tablet,Game Console,Playstation,Xbox,v2.0.1,1
-1598,Tablet,Game Console,Playstation,tvOS 14,v1.2.3,1
-1599,Tablet,Game Console,Playstation,tvOS 14,v2.0.1,1
-1600,Tablet,Game Console,Windows,FireOS 6,v1.0.0,1
-1601,Tablet,Game Console,Windows,PS5,v2.0.1,0
-1602,Tablet,Game Console,Windows,tvOS 14,v1.2.3,1
-1603,Tablet,Game Console,Xbox,Android 13,v2.0.1,1
-1604,Tablet,Game Console,Xbox,PS5,v2.1.0,0
-1605,Tablet,Game Console,Xbox,Switch,v1.0.0,0
-1606,Tablet,Game Console,Xbox,macOS Ventura,v2.1.0,1
-1607,Tablet,Game Console,Xbox,tvOS 14,v3.0.5,1
-1608,Tablet,Game Console,iOS,FireOS 6,v1.2.3,0
-1609,Tablet,Game Console,iOS,FireOS 6,v3.0.5,0
-1610,Tablet,Game Console,iOS,PS5,v2.0.1,1
-1611,Tablet,Game Console,iOS,Switch,v2.0.1,0
-1612,Tablet,Game Console,iOS,Switch,v2.1.0,1
-1613,Tablet,Game Console,iOS,Windows 11,v1.0.0,0
-1614,Tablet,Game Console,iOS,Windows 11,v2.0.1,1
-1615,Tablet,Game Console,iOS,Xbox,v2.0.1,1
-1616,Tablet,Game Console,iOS,iOS 16,v1.2.3,1
-1617,Tablet,Game Console,macOS,Android 13,v2.1.0,1
-1618,Tablet,Game Console,macOS,Android 13,v3.0.5,1
-1619,Tablet,Game Console,macOS,FireOS 6,v3.0.5,1
-1620,Tablet,Game Console,macOS,Xbox,v1.2.3,0
-1621,Tablet,Game Console,macOS,tvOS 14,v2.1.0,0
-1622,Tablet,Game Console,tvOS,Android 13,v1.2.3,1
-1623,Tablet,Game Console,tvOS,FireOS 6,v1.0.0,1
-1624,Tablet,Game Console,tvOS,FireOS 6,v2.1.0,1
-1625,Tablet,Game Console,tvOS,FireOS 6,v3.0.5,0
-1626,Tablet,Game Console,tvOS,PS5,v2.1.0,0
-1627,Tablet,Game Console,tvOS,Xbox,v1.0.0,0
-1628,Tablet,Game Console,tvOS,Xbox,v3.0.5,1
-1629,Tablet,Game Console,tvOS,iPadOS 15,v1.2.3,1
-1630,Tablet,Game Console,tvOS,iPadOS 15,v2.0.1,1
-1631,Tablet,Game Console,tvOS,macOS Ventura,v2.0.1,0
-1632,Tablet,Game Console,tvOS,tvOS 14,v2.1.0,0
-1633,Tablet,Laptop,Android,FireOS 6,v2.0.1,0
-1634,Tablet,Laptop,Android,Ubuntu 22.04,v1.0.0,1
-1635,Tablet,Laptop,Android,Ubuntu 22.04,v2.1.0,0
-1636,Tablet,Laptop,Android,iOS 16,v2.0.1,1
-1637,Tablet,Laptop,Android,macOS Ventura,v1.0.0,0
-1638,Tablet,Laptop,FireOS,iOS 16,v2.1.0,1
-1639,Tablet,Laptop,Linux,PS5,v3.0.5,0
-1640,Tablet,Laptop,Linux,Ubuntu 22.04,v3.0.5,0
-1641,Tablet,Laptop,Linux,Windows 11,v1.0.0,1
-1642,Tablet,Laptop,Linux,Xbox,v1.0.0,1
-1643,Tablet,Laptop,Linux,iOS 16,v1.2.3,0
-1644,Tablet,Laptop,Linux,iOS 16,v2.1.0,0
-1645,Tablet,Laptop,Linux,tvOS 14,v1.2.3,1
-1646,Tablet,Laptop,Nintendo,PS5,v3.0.5,0
-1647,Tablet,Laptop,Nintendo,Ubuntu 22.04,v1.0.0,1
-1648,Tablet,Laptop,Nintendo,Ubuntu 22.04,v2.1.0,0
-1649,Tablet,Laptop,Nintendo,Ubuntu 22.04,v3.0.5,1
-1650,Tablet,Laptop,Nintendo,iOS 16,v2.1.0,1
-1651,Tablet,Laptop,Nintendo,iPadOS 15,v1.0.0,1
-1652,Tablet,Laptop,Nintendo,macOS Ventura,v1.0.0,0
-1653,Tablet,Laptop,Playstation,Android 13,v1.0.0,0
-1654,Tablet,Laptop,Playstation,Android 13,v2.1.0,1
-1655,Tablet,Laptop,Playstation,PS5,v2.1.0,0
-1656,Tablet,Laptop,Playstation,Switch,v2.1.0,1
-1657,Tablet,Laptop,Playstation,Windows 11,v1.0.0,1
-1658,Tablet,Laptop,Playstation,iOS 16,v1.0.0,1
-1659,Tablet,Laptop,Playstation,iOS 16,v2.1.0,1
-1660,Tablet,Laptop,Playstation,macOS Ventura,v1.0.0,0
-1661,Tablet,Laptop,Windows,FireOS 6,v2.0.1,0
-1662,Tablet,Laptop,Windows,PS5,v1.0.0,1
-1663,Tablet,Laptop,Windows,PS5,v2.1.0,1
-1664,Tablet,Laptop,Windows,Windows 11,v1.2.3,1
-1665,Tablet,Laptop,Windows,Xbox,v1.2.3,1
-1666,Tablet,Laptop,Windows,iPadOS 15,v1.2.3,0
-1667,Tablet,Laptop,Windows,iPadOS 15,v3.0.5,0
-1668,Tablet,Laptop,Windows,macOS Ventura,v1.2.3,0
-1669,Tablet,Laptop,Xbox,Switch,v2.1.0,0
-1670,Tablet,Laptop,Xbox,Switch,v3.0.5,1
-1671,Tablet,Laptop,Xbox,Windows 11,v2.0.1,1
-1672,Tablet,Laptop,Xbox,Xbox,v2.0.1,1
-1673,Tablet,Laptop,Xbox,tvOS 14,v1.0.0,0
-1674,Tablet,Laptop,iOS,Ubuntu 22.04,v1.0.0,0
-1675,Tablet,Laptop,iOS,Xbox,v2.0.1,1
-1676,Tablet,Laptop,iOS,iPadOS 15,v2.1.0,1
-1677,Tablet,Laptop,iOS,macOS Ventura,v1.2.3,1
-1678,Tablet,Laptop,iOS,tvOS 14,v2.1.0,0
-1679,Tablet,Laptop,macOS,Xbox,v2.0.1,0
-1680,Tablet,Laptop,tvOS,Android 13,v2.1.0,1
-1681,Tablet,Laptop,tvOS,Switch,v1.0.0,0
-1682,Tablet,Laptop,tvOS,Switch,v2.0.1,0
-1683,Tablet,Laptop,tvOS,Switch,v3.0.5,1
-1684,Tablet,Laptop,tvOS,Ubuntu 22.04,v2.0.1,0
-1685,Tablet,Laptop,tvOS,iPadOS 15,v2.1.0,0
-1686,Tablet,Laptop,tvOS,macOS Ventura,v1.2.3,1
-1687,Tablet,Laptop,tvOS,tvOS 14,v2.1.0,0
-1688,Tablet,Smart TV,Android,PS5,v1.2.3,0
-1689,Tablet,Smart TV,Android,Ubuntu 22.04,v2.1.0,0
-1690,Tablet,Smart TV,Android,Windows 11,v3.0.5,1
-1691,Tablet,Smart TV,Android,Xbox,v1.0.0,1
-1692,Tablet,Smart TV,Android,Xbox,v2.0.1,1
-1693,Tablet,Smart TV,Android,iOS 16,v2.1.0,1
-1694,Tablet,Smart TV,Android,iPadOS 15,v1.2.3,0
-1695,Tablet,Smart TV,Android,iPadOS 15,v2.1.0,1
-1696,Tablet,Smart TV,Android,macOS Ventura,v1.2.3,1
-1697,Tablet,Smart TV,FireOS,FireOS 6,v2.1.0,1
-1698,Tablet,Smart TV,FireOS,Switch,v1.0.0,0
-1699,Tablet,Smart TV,FireOS,Windows 11,v1.0.0,0
-1700,Tablet,Smart TV,FireOS,iOS 16,v2.0.1,0
-1701,Tablet,Smart TV,FireOS,iPadOS 15,v3.0.5,0
-1702,Tablet,Smart TV,FireOS,macOS Ventura,v1.2.3,0
-1703,Tablet,Smart TV,FireOS,tvOS 14,v2.1.0,1
-1704,Tablet,Smart TV,Linux,Android 13,v1.0.0,0
-1705,Tablet,Smart TV,Linux,Android 13,v1.2.3,1
-1706,Tablet,Smart TV,Linux,Android 13,v3.0.5,0
-1707,Tablet,Smart TV,Linux,FireOS 6,v2.0.1,1
-1708,Tablet,Smart TV,Linux,Ubuntu 22.04,v1.2.3,0
-1709,Tablet,Smart TV,Linux,Windows 11,v1.2.3,1
-1710,Tablet,Smart TV,Linux,Xbox,v3.0.5,1
-1711,Tablet,Smart TV,Linux,iOS 16,v1.2.3,1
-1712,Tablet,Smart TV,Linux,macOS Ventura,v1.2.3,0
-1713,Tablet,Smart TV,Linux,macOS Ventura,v3.0.5,1
-1714,Tablet,Smart TV,Nintendo,Android 13,v2.0.1,0
-1715,Tablet,Smart TV,Nintendo,PS5,v2.0.1,1
-1716,Tablet,Smart TV,Nintendo,PS5,v3.0.5,0
-1717,Tablet,Smart TV,Nintendo,Xbox,v2.0.1,0
-1718,Tablet,Smart TV,Nintendo,iPadOS 15,v3.0.5,1
-1719,Tablet,Smart TV,Playstation,FireOS 6,v1.0.0,0
-1720,Tablet,Smart TV,Playstation,PS5,v2.1.0,0
-1721,Tablet,Smart TV,Playstation,Windows 11,v1.2.3,0
-1722,Tablet,Smart TV,Playstation,iPadOS 15,v2.0.1,1
-1723,Tablet,Smart TV,Playstation,iPadOS 15,v3.0.5,0
-1724,Tablet,Smart TV,Playstation,macOS Ventura,v2.0.1,1
-1725,Tablet,Smart TV,Windows,PS5,v2.0.1,1
-1726,Tablet,Smart TV,Windows,Switch,v1.2.3,1
-1727,Tablet,Smart TV,Windows,Switch,v2.0.1,0
-1728,Tablet,Smart TV,Windows,Xbox,v1.0.0,1
-1729,Tablet,Smart TV,Windows,Xbox,v2.1.0,1
-1730,Tablet,Smart TV,Windows,macOS Ventura,v1.2.3,0
-1731,Tablet,Smart TV,Windows,macOS Ventura,v2.1.0,1
-1732,Tablet,Smart TV,Windows,tvOS 14,v1.0.0,0
-1733,Tablet,Smart TV,Windows,tvOS 14,v2.0.1,1
-1734,Tablet,Smart TV,Windows,tvOS 14,v3.0.5,1
-1735,Tablet,Smart TV,Xbox,FireOS 6,v1.0.0,0
-1736,Tablet,Smart TV,Xbox,FireOS 6,v3.0.5,0
-1737,Tablet,Smart TV,Xbox,PS5,v1.0.0,1
-1738,Tablet,Smart TV,Xbox,PS5,v2.0.1,1
-1739,Tablet,Smart TV,Xbox,Switch,v1.2.3,1
-1740,Tablet,Smart TV,Xbox,Switch,v2.0.1,1
-1741,Tablet,Smart TV,Xbox,iOS 16,v2.0.1,0
-1742,Tablet,Smart TV,Xbox,macOS Ventura,v1.0.0,0
-1743,Tablet,Smart TV,Xbox,tvOS 14,v3.0.5,1
-1744,Tablet,Smart TV,iOS,Android 13,v1.0.0,1
-1745,Tablet,Smart TV,iOS,FireOS 6,v1.0.0,1
-1746,Tablet,Smart TV,iOS,PS5,v1.0.0,0
-1747,Tablet,Smart TV,iOS,Ubuntu 22.04,v1.2.3,1
-1748,Tablet,Smart TV,iOS,Ubuntu 22.04,v2.1.0,0
-1749,Tablet,Smart TV,macOS,Android 13,v3.0.5,1
-1750,Tablet,Smart TV,macOS,FireOS 6,v2.0.1,1
-1751,Tablet,Smart TV,macOS,Windows 11,v1.2.3,0
-1752,Tablet,Smart TV,macOS,Xbox,v1.2.3,1
-1753,Tablet,Smart TV,macOS,Xbox,v2.1.0,0
-1754,Tablet,Smart TV,macOS,iPadOS 15,v2.0.1,0
-1755,Tablet,Smart TV,tvOS,Android 13,v2.1.0,0
-1756,Tablet,Smart TV,tvOS,Switch,v1.2.3,1
-1757,Tablet,Smart TV,tvOS,Ubuntu 22.04,v1.2.3,0
-1758,Tablet,Smart TV,tvOS,Windows 11,v1.2.3,1
-1759,Tablet,Smart TV,tvOS,Xbox,v3.0.5,1
-1760,Tablet,Smart TV,tvOS,iOS 16,v1.0.0,1
-1761,Tablet,Smart TV,tvOS,iOS 16,v1.2.3,0
-1762,Tablet,Smart TV,tvOS,tvOS 14,v2.0.1,0
-1763,Tablet,Smartphone,Android,Ubuntu 22.04,v3.0.5,1
-1764,Tablet,Smartphone,Android,Windows 11,v2.0.1,1
-1765,Tablet,Smartphone,Android,iPadOS 15,v1.0.0,0
-1766,Tablet,Smartphone,Android,iPadOS 15,v2.0.1,0
-1767,Tablet,Smartphone,FireOS,FireOS 6,v1.0.0,0
-1768,Tablet,Smartphone,FireOS,PS5,v1.2.3,1
-1769,Tablet,Smartphone,FireOS,PS5,v3.0.5,0
-1770,Tablet,Smartphone,FireOS,iOS 16,v1.0.0,0
-1771,Tablet,Smartphone,FireOS,tvOS 14,v1.0.0,1
-1772,Tablet,Smartphone,FireOS,tvOS 14,v3.0.5,0
-1773,Tablet,Smartphone,Linux,Switch,v2.0.1,0
-1774,Tablet,Smartphone,Linux,Windows 11,v2.0.1,0
-1775,Tablet,Smartphone,Linux,Xbox,v2.0.1,1
-1776,Tablet,Smartphone,Linux,tvOS 14,v2.1.0,0
-1777,Tablet,Smartphone,Nintendo,Windows 11,v2.0.1,1
-1778,Tablet,Smartphone,Nintendo,iOS 16,v3.0.5,1
-1779,Tablet,Smartphone,Nintendo,macOS Ventura,v2.0.1,0
-1780,Tablet,Smartphone,Playstation,Android 13,v1.2.3,0
-1781,Tablet,Smartphone,Playstation,Xbox,v1.0.0,0
-1782,Tablet,Smartphone,Playstation,macOS Ventura,v2.1.0,0
-1783,Tablet,Smartphone,Windows,Android 13,v1.0.0,0
-1784,Tablet,Smartphone,Windows,Switch,v2.0.1,0
-1785,Tablet,Smartphone,Windows,iPadOS 15,v1.0.0,1
-1786,Tablet,Smartphone,Windows,macOS Ventura,v1.2.3,0
-1787,Tablet,Smartphone,Xbox,Android 13,v1.2.3,1
-1788,Tablet,Smartphone,Xbox,Android 13,v3.0.5,0
-1789,Tablet,Smartphone,Xbox,FireOS 6,v2.0.1,0
-1790,Tablet,Smartphone,Xbox,Switch,v3.0.5,1
-1791,Tablet,Smartphone,Xbox,Ubuntu 22.04,v2.0.1,1
-1792,Tablet,Smartphone,Xbox,Xbox,v1.0.0,0
-1793,Tablet,Smartphone,Xbox,Xbox,v2.1.0,0
-1794,Tablet,Smartphone,Xbox,iOS 16,v1.2.3,0
-1795,Tablet,Smartphone,Xbox,iPadOS 15,v2.0.1,0
-1796,Tablet,Smartphone,Xbox,tvOS 14,v2.1.0,0
-1797,Tablet,Smartphone,iOS,Switch,v1.0.0,0
-1798,Tablet,Smartphone,iOS,Windows 11,v3.0.5,0
-1799,Tablet,Smartphone,iOS,Xbox,v1.2.3,0
-1800,Tablet,Smartphone,iOS,iOS 16,v1.2.3,0
-1801,Tablet,Smartphone,iOS,iPadOS 15,v1.0.0,0
-1802,Tablet,Smartphone,macOS,FireOS 6,v1.0.0,1
-1803,Tablet,Smartphone,macOS,PS5,v1.0.0,1
-1804,Tablet,Smartphone,macOS,Switch,v1.0.0,0
-1805,Tablet,Smartphone,macOS,Switch,v1.2.3,0
-1806,Tablet,Smartphone,macOS,iOS 16,v1.2.3,0
-1807,Tablet,Smartphone,macOS,iOS 16,v2.0.1,1
-1808,Tablet,Smartphone,macOS,iOS 16,v2.1.0,1
-1809,Tablet,Smartphone,macOS,iPadOS 15,v1.2.3,1
-1810,Tablet,Smartphone,macOS,iPadOS 15,v2.1.0,0
-1811,Tablet,Smartphone,tvOS,Android 13,v1.0.0,1
-1812,Tablet,Smartphone,tvOS,FireOS 6,v2.0.1,0
-1813,Tablet,Smartphone,tvOS,Xbox,v3.0.5,0
-1814,Tablet,Smartphone,tvOS,macOS Ventura,v1.2.3,1
-1815,Tablet,Smartphone,tvOS,macOS Ventura,v2.1.0,1
-1816,Tablet,Smartphone,tvOS,tvOS 14,v1.0.0,1
-1817,Tablet,Tablet,Android,FireOS 6,v1.2.3,1
-1818,Tablet,Tablet,Android,PS5,v1.0.0,1
-1819,Tablet,Tablet,Android,PS5,v2.1.0,1
-1820,Tablet,Tablet,Android,PS5,v3.0.5,0
-1821,Tablet,Tablet,Android,Switch,v1.2.3,1
-1822,Tablet,Tablet,Android,Switch,v2.0.1,0
-1823,Tablet,Tablet,Android,Ubuntu 22.04,v2.0.1,1
-1824,Tablet,Tablet,Android,iOS 16,v2.0.1,0
-1825,Tablet,Tablet,Android,iOS 16,v2.1.0,0
-1826,Tablet,Tablet,Android,iOS 16,v3.0.5,1
-1827,Tablet,Tablet,Android,tvOS 14,v1.2.3,1
-1828,Tablet,Tablet,FireOS,FireOS 6,v3.0.5,1
-1829,Tablet,Tablet,FireOS,PS5,v1.0.0,1
-1830,Tablet,Tablet,FireOS,Ubuntu 22.04,v1.2.3,1
-1831,Tablet,Tablet,FireOS,Windows 11,v2.0.1,1
-1832,Tablet,Tablet,FireOS,Windows 11,v3.0.5,0
-1833,Tablet,Tablet,FireOS,Xbox,v1.2.3,0
-1834,Tablet,Tablet,FireOS,iPadOS 15,v1.2.3,1
-1835,Tablet,Tablet,Linux,Android 13,v2.0.1,0
-1836,Tablet,Tablet,Linux,FireOS 6,v1.2.3,1
-1837,Tablet,Tablet,Linux,Ubuntu 22.04,v2.1.0,1
-1838,Tablet,Tablet,Linux,Ubuntu 22.04,v3.0.5,0
-1839,Tablet,Tablet,Linux,iOS 16,v1.2.3,1
-1840,Tablet,Tablet,Linux,iOS 16,v2.1.0,1
-1841,Tablet,Tablet,Linux,iPadOS 15,v3.0.5,0
-1842,Tablet,Tablet,Linux,macOS Ventura,v2.0.1,0
-1843,Tablet,Tablet,Nintendo,Android 13,v2.0.1,0
-1844,Tablet,Tablet,Nintendo,Windows 11,v1.0.0,0
-1845,Tablet,Tablet,Nintendo,Windows 11,v2.1.0,1
-1846,Tablet,Tablet,Nintendo,iOS 16,v3.0.5,0
-1847,Tablet,Tablet,Nintendo,macOS Ventura,v3.0.5,1
-1848,Tablet,Tablet,Nintendo,tvOS 14,v1.0.0,1
-1849,Tablet,Tablet,Nintendo,tvOS 14,v2.1.0,0
-1850,Tablet,Tablet,Playstation,Android 13,v2.1.0,1
-1851,Tablet,Tablet,Playstation,FireOS 6,v1.2.3,0
-1852,Tablet,Tablet,Playstation,Ubuntu 22.04,v1.0.0,1
-1853,Tablet,Tablet,Playstation,Windows 11,v3.0.5,1
-1854,Tablet,Tablet,Playstation,Xbox,v3.0.5,1
-1855,Tablet,Tablet,Playstation,iOS 16,v1.2.3,0
-1856,Tablet,Tablet,Playstation,iPadOS 15,v1.0.0,1
-1857,Tablet,Tablet,Windows,Android 13,v3.0.5,0
-1858,Tablet,Tablet,Windows,Switch,v1.2.3,1
-1859,Tablet,Tablet,Windows,Ubuntu 22.04,v3.0.5,1
-1860,Tablet,Tablet,Windows,Windows 11,v1.2.3,1
-1861,Tablet,Tablet,Windows,Xbox,v2.1.0,1
-1862,Tablet,Tablet,Windows,iOS 16,v3.0.5,1
-1863,Tablet,Tablet,Windows,iPadOS 15,v3.0.5,1
-1864,Tablet,Tablet,Xbox,Android 13,v2.0.1,1
-1865,Tablet,Tablet,Xbox,FireOS 6,v1.2.3,0
-1866,Tablet,Tablet,Xbox,PS5,v1.2.3,0
-1867,Tablet,Tablet,Xbox,PS5,v3.0.5,1
-1868,Tablet,Tablet,Xbox,Switch,v1.0.0,0
-1869,Tablet,Tablet,Xbox,Switch,v2.0.1,1
-1870,Tablet,Tablet,Xbox,Switch,v3.0.5,0
-1871,Tablet,Tablet,Xbox,Windows 11,v2.1.0,0
-1872,Tablet,Tablet,Xbox,Windows 11,v3.0.5,0
-1873,Tablet,Tablet,Xbox,Xbox,v3.0.5,1
-1874,Tablet,Tablet,Xbox,iPadOS 15,v2.1.0,0
-1875,Tablet,Tablet,iOS,Android 13,v3.0.5,1
-1876,Tablet,Tablet,iOS,FireOS 6,v2.0.1,0
-1877,Tablet,Tablet,iOS,PS5,v1.2.3,0
-1878,Tablet,Tablet,iOS,iOS 16,v1.0.0,0
-1879,Tablet,Tablet,iOS,iPadOS 15,v1.2.3,1
-1880,Tablet,Tablet,iOS,iPadOS 15,v2.1.0,1
-1881,Tablet,Tablet,iOS,macOS Ventura,v1.2.3,0
-1882,Tablet,Tablet,iOS,tvOS 14,v1.0.0,1
-1883,Tablet,Tablet,iOS,tvOS 14,v2.1.0,0
-1884,Tablet,Tablet,macOS,FireOS 6,v2.1.0,0
-1885,Tablet,Tablet,macOS,Ubuntu 22.04,v1.2.3,1
-1886,Tablet,Tablet,macOS,Windows 11,v3.0.5,0
-1887,Tablet,Tablet,tvOS,FireOS 6,v3.0.5,0
-1888,Tablet,Tablet,tvOS,Switch,v1.2.3,1
-1889,Tablet,Tablet,tvOS,Switch,v3.0.5,1
-1890,Tablet,Tablet,tvOS,iPadOS 15,v3.0.5,1
-1891,Tablet,Tablet,tvOS,tvOS 14,v1.2.3,0
-1892,Tablet,Tablet,tvOS,tvOS 14,v2.0.1,1
+1,Computer,Desktop,Android,FireOS 6,v1.0.0,1
+2,Computer,Desktop,Android,PS5,v2.1.0,1
+3,Computer,Desktop,Android,macOS Ventura,v1.0.0,1
+4,Computer,Desktop,Android,tvOS 14,v2.1.0,1
+5,Computer,Desktop,FireOS,FireOS 6,v2.1.0,1
+6,Computer,Desktop,FireOS,Ubuntu 22.04,v1.0.0,1
+7,Computer,Desktop,FireOS,Xbox,v1.0.0,1
+8,Computer,Desktop,FireOS,iPadOS 15,v2.1.0,1
+9,Computer,Desktop,FireOS,macOS Ventura,v1.2.3,1
+10,Computer,Desktop,Linux,Android 13,v2.0.1,1
+11,Computer,Desktop,Linux,Switch,v1.2.3,1
+12,Computer,Desktop,Linux,Ubuntu 22.04,v2.1.0,1
+13,Computer,Desktop,Linux,Windows 11,v2.0.1,1
+14,Computer,Desktop,Linux,iPadOS 15,v2.1.0,1
+15,Computer,Desktop,Linux,tvOS 14,v1.2.3,1
+16,Computer,Desktop,Linux,tvOS 14,v2.0.1,1
+17,Computer,Desktop,Nintendo,Ubuntu 22.04,v2.1.0,1
+18,Computer,Desktop,Nintendo,iOS 16,v2.0.1,1
+19,Computer,Desktop,Nintendo,tvOS 14,v1.0.0,1
+20,Computer,Desktop,Playstation,Android 13,v1.0.0,1
+21,Computer,Desktop,Playstation,Android 13,v2.1.0,1
+22,Computer,Desktop,Playstation,PS5,v1.0.0,1
+23,Computer,Desktop,Playstation,PS5,v1.2.3,1
+24,Computer,Desktop,Playstation,Switch,v2.0.1,1
+25,Computer,Desktop,Playstation,Switch,v3.0.5,1
+26,Computer,Desktop,Playstation,Ubuntu 22.04,v2.1.0,1
+27,Computer,Desktop,Playstation,Windows 11,v1.0.0,1
+28,Computer,Desktop,Playstation,iPadOS 15,v2.0.1,1
+29,Computer,Desktop,Playstation,tvOS 14,v2.0.1,1
+30,Computer,Desktop,Playstation,tvOS 14,v3.0.5,1
+31,Computer,Desktop,Windows,Android 13,v2.1.0,1
+32,Computer,Desktop,Windows,FireOS 6,v3.0.5,1
+33,Computer,Desktop,Windows,PS5,v1.2.3,1
+34,Computer,Desktop,Windows,Xbox,v1.2.3,1
+35,Computer,Desktop,Windows,Xbox,v2.0.1,1
+36,Computer,Desktop,Windows,iPadOS 15,v1.0.0,1
+37,Computer,Desktop,Windows,iPadOS 15,v1.2.3,1
+38,Computer,Desktop,Windows,iPadOS 15,v2.0.1,1
+39,Computer,Desktop,Windows,macOS Ventura,v2.0.1,1
+40,Computer,Desktop,Windows,tvOS 14,v2.1.0,1
+41,Computer,Desktop,Windows,tvOS 14,v3.0.5,1
+42,Computer,Desktop,Xbox,Android 13,v2.0.1,1
+43,Computer,Desktop,Xbox,PS5,v1.2.3,1
+44,Computer,Desktop,Xbox,Switch,v1.0.0,1
+45,Computer,Desktop,Xbox,Switch,v2.1.0,1
+46,Computer,Desktop,Xbox,Switch,v3.0.5,1
+47,Computer,Desktop,Xbox,Xbox,v2.0.1,1
+48,Computer,Desktop,Xbox,tvOS 14,v1.2.3,1
+49,Computer,Desktop,iOS,Android 13,v1.2.3,1
+50,Computer,Desktop,iOS,FireOS 6,v1.2.3,1
+51,Computer,Desktop,iOS,PS5,v1.2.3,1
+52,Computer,Desktop,iOS,PS5,v2.0.1,1
+53,Computer,Desktop,iOS,Windows 11,v3.0.5,1
+54,Computer,Desktop,macOS,Switch,v2.0.1,1
+55,Computer,Desktop,macOS,Windows 11,v2.1.0,1
+56,Computer,Desktop,tvOS,FireOS 6,v1.0.0,1
+57,Computer,Desktop,tvOS,Ubuntu 22.04,v2.1.0,1
+58,Computer,Desktop,tvOS,Windows 11,v1.0.0,1
+59,Computer,Desktop,tvOS,Windows 11,v3.0.5,1
+60,Computer,Desktop,tvOS,Xbox,v2.0.1,1
+61,Computer,Game Console,Android,FireOS 6,v3.0.5,1
+62,Computer,Game Console,Android,Ubuntu 22.04,v1.0.0,1
+63,Computer,Game Console,Android,Xbox,v1.0.0,1
+64,Computer,Game Console,Android,Xbox,v1.2.3,1
+65,Computer,Game Console,Android,iPadOS 15,v1.2.3,1
+66,Computer,Game Console,Android,macOS Ventura,v2.0.1,1
+67,Computer,Game Console,FireOS,PS5,v3.0.5,1
+68,Computer,Game Console,FireOS,Windows 11,v2.1.0,1
+69,Computer,Game Console,Linux,Android 13,v1.0.0,1
+70,Computer,Game Console,Linux,FireOS 6,v1.0.0,1
+71,Computer,Game Console,Linux,PS5,v1.0.0,1
+72,Computer,Game Console,Linux,Switch,v1.0.0,1
+73,Computer,Game Console,Linux,Switch,v2.1.0,1
+74,Computer,Game Console,Linux,Windows 11,v2.0.1,1
+75,Computer,Game Console,Linux,Windows 11,v2.1.0,1
+76,Computer,Game Console,Linux,Xbox,v3.0.5,1
+77,Computer,Game Console,Linux,iOS 16,v2.1.0,1
+78,Computer,Game Console,Linux,iPadOS 15,v1.0.0,1
+79,Computer,Game Console,Linux,iPadOS 15,v3.0.5,1
+80,Computer,Game Console,Linux,macOS Ventura,v1.0.0,1
+81,Computer,Game Console,Linux,tvOS 14,v1.2.3,1
+82,Computer,Game Console,Linux,tvOS 14,v2.1.0,1
+83,Computer,Game Console,Nintendo,Android 13,v2.0.1,1
+84,Computer,Game Console,Nintendo,PS5,v3.0.5,1
+85,Computer,Game Console,Nintendo,Ubuntu 22.04,v1.0.0,1
+86,Computer,Game Console,Nintendo,iOS 16,v3.0.5,1
+87,Computer,Game Console,Nintendo,macOS Ventura,v3.0.5,1
+88,Computer,Game Console,Playstation,Android 13,v1.0.0,1
+89,Computer,Game Console,Playstation,FireOS 6,v1.0.0,1
+90,Computer,Game Console,Playstation,Ubuntu 22.04,v2.0.1,1
+91,Computer,Game Console,Playstation,Xbox,v1.0.0,1
+92,Computer,Game Console,Playstation,iOS 16,v2.0.1,1
+93,Computer,Game Console,Windows,Switch,v2.1.0,1
+94,Computer,Game Console,Windows,Ubuntu 22.04,v1.0.0,1
+95,Computer,Game Console,Windows,Ubuntu 22.04,v1.2.3,1
+96,Computer,Game Console,Windows,Windows 11,v3.0.5,1
+97,Computer,Game Console,Windows,iOS 16,v1.0.0,1
+98,Computer,Game Console,Windows,iOS 16,v3.0.5,1
+99,Computer,Game Console,Windows,iPadOS 15,v1.2.3,1
+100,Computer,Game Console,Windows,tvOS 14,v3.0.5,1
+101,Computer,Game Console,Xbox,FireOS 6,v3.0.5,1
+102,Computer,Game Console,Xbox,PS5,v1.2.3,1
+103,Computer,Game Console,Xbox,Switch,v3.0.5,1
+104,Computer,Game Console,Xbox,Windows 11,v1.0.0,1
+105,Computer,Game Console,Xbox,iOS 16,v3.0.5,1
+106,Computer,Game Console,Xbox,macOS Ventura,v2.0.1,1
+107,Computer,Game Console,iOS,Switch,v1.0.0,1
+108,Computer,Game Console,iOS,Switch,v2.1.0,1
+109,Computer,Game Console,iOS,Windows 11,v1.0.0,1
+110,Computer,Game Console,iOS,Windows 11,v2.1.0,1
+111,Computer,Game Console,iOS,iOS 16,v2.0.1,1
+112,Computer,Game Console,iOS,iPadOS 15,v1.2.3,1
+113,Computer,Game Console,iOS,macOS Ventura,v1.0.0,1
+114,Computer,Game Console,iOS,tvOS 14,v2.1.0,1
+115,Computer,Game Console,macOS,FireOS 6,v2.0.1,1
+116,Computer,Game Console,macOS,Windows 11,v2.0.1,1
+117,Computer,Game Console,macOS,macOS Ventura,v1.0.0,1
+118,Computer,Game Console,macOS,macOS Ventura,v2.0.1,1
+119,Computer,Game Console,macOS,macOS Ventura,v3.0.5,1
+120,Computer,Game Console,tvOS,Windows 11,v2.0.1,1
+121,Computer,Game Console,tvOS,Windows 11,v2.1.0,1
+122,Computer,Game Console,tvOS,iOS 16,v2.0.1,1
+123,Computer,Game Console,tvOS,iOS 16,v2.1.0,1
+124,Computer,Game Console,tvOS,macOS Ventura,v2.0.1,1
+125,Computer,Laptop,Android,PS5,v3.0.5,1
+126,Computer,Laptop,Android,Switch,v2.1.0,1
+127,Computer,Laptop,Android,Ubuntu 22.04,v3.0.5,1
+128,Computer,Laptop,Android,Windows 11,v2.1.0,1
+129,Computer,Laptop,Android,Windows 11,v3.0.5,1
+130,Computer,Laptop,Android,iOS 16,v1.0.0,1
+131,Computer,Laptop,Android,macOS Ventura,v1.0.0,1
+132,Computer,Laptop,Android,tvOS 14,v2.0.1,1
+133,Computer,Laptop,FireOS,Android 13,v1.0.0,1
+134,Computer,Laptop,FireOS,FireOS 6,v1.2.3,1
+135,Computer,Laptop,FireOS,Switch,v3.0.5,1
+136,Computer,Laptop,FireOS,Ubuntu 22.04,v1.2.3,1
+137,Computer,Laptop,FireOS,Xbox,v1.2.3,1
+138,Computer,Laptop,FireOS,Xbox,v2.0.1,1
+139,Computer,Laptop,FireOS,iOS 16,v3.0.5,1
+140,Computer,Laptop,FireOS,iPadOS 15,v2.0.1,1
+141,Computer,Laptop,FireOS,tvOS 14,v1.0.0,1
+142,Computer,Laptop,FireOS,tvOS 14,v2.0.1,1
+143,Computer,Laptop,Linux,Android 13,v2.1.0,1
+144,Computer,Laptop,Linux,FireOS 6,v1.0.0,1
+145,Computer,Laptop,Linux,Windows 11,v2.1.0,1
+146,Computer,Laptop,Linux,Windows 11,v3.0.5,1
+147,Computer,Laptop,Linux,iPadOS 15,v2.1.0,1
+148,Computer,Laptop,Nintendo,Android 13,v1.0.0,1
+149,Computer,Laptop,Nintendo,FireOS 6,v2.0.1,1
+150,Computer,Laptop,Nintendo,PS5,v3.0.5,1
+151,Computer,Laptop,Nintendo,Ubuntu 22.04,v2.0.1,1
+152,Computer,Laptop,Nintendo,Ubuntu 22.04,v3.0.5,1
+153,Computer,Laptop,Nintendo,Windows 11,v2.1.0,1
+154,Computer,Laptop,Nintendo,Xbox,v1.0.0,1
+155,Computer,Laptop,Nintendo,Xbox,v1.2.3,1
+156,Computer,Laptop,Nintendo,Xbox,v3.0.5,1
+157,Computer,Laptop,Nintendo,iPadOS 15,v2.0.1,1
+158,Computer,Laptop,Nintendo,tvOS 14,v3.0.5,1
+159,Computer,Laptop,Playstation,Android 13,v3.0.5,1
+160,Computer,Laptop,Playstation,Switch,v2.1.0,1
+161,Computer,Laptop,Playstation,Xbox,v2.1.0,1
+162,Computer,Laptop,Playstation,iPadOS 15,v1.2.3,1
+163,Computer,Laptop,Playstation,iPadOS 15,v2.1.0,1
+164,Computer,Laptop,Windows,FireOS 6,v2.1.0,1
+165,Computer,Laptop,Windows,Ubuntu 22.04,v1.2.3,1
+166,Computer,Laptop,Windows,Windows 11,v2.0.1,1
+167,Computer,Laptop,Windows,Windows 11,v2.1.0,0
+168,Computer,Laptop,Windows,iOS 16,v2.1.0,0
+169,Computer,Laptop,Windows,macOS Ventura,v1.2.3,1
+170,Computer,Laptop,Xbox,Android 13,v1.0.0,1
+171,Computer,Laptop,Xbox,PS5,v1.0.0,1
+172,Computer,Laptop,Xbox,macOS Ventura,v1.0.0,1
+173,Computer,Laptop,Xbox,tvOS 14,v1.2.3,1
+174,Computer,Laptop,Xbox,tvOS 14,v2.1.0,1
+175,Computer,Laptop,iOS,FireOS 6,v1.2.3,1
+176,Computer,Laptop,iOS,Switch,v1.2.3,1
+177,Computer,Laptop,iOS,Switch,v2.0.1,1
+178,Computer,Laptop,iOS,Ubuntu 22.04,v1.0.0,1
+179,Computer,Laptop,iOS,Windows 11,v1.0.0,1
+180,Computer,Laptop,iOS,Windows 11,v2.0.1,1
+181,Computer,Laptop,iOS,Windows 11,v2.1.0,1
+182,Computer,Laptop,iOS,Xbox,v3.0.5,1
+183,Computer,Laptop,iOS,macOS Ventura,v2.0.1,1
+184,Computer,Laptop,iOS,tvOS 14,v2.0.1,1
+185,Computer,Laptop,iOS,tvOS 14,v3.0.5,1
+186,Computer,Laptop,macOS,Android 13,v2.1.0,1
+187,Computer,Laptop,macOS,FireOS 6,v2.0.1,1
+188,Computer,Laptop,macOS,PS5,v1.2.3,1
+189,Computer,Laptop,macOS,PS5,v2.1.0,1
+190,Computer,Laptop,macOS,PS5,v3.0.5,1
+191,Computer,Laptop,macOS,Xbox,v2.0.1,1
+192,Computer,Laptop,macOS,iOS 16,v2.1.0,1
+193,Computer,Laptop,macOS,macOS Ventura,v1.2.3,1
+194,Computer,Laptop,macOS,tvOS 14,v2.1.0,1
+195,Computer,Laptop,tvOS,Android 13,v1.2.3,1
+196,Computer,Laptop,tvOS,Switch,v1.0.0,1
+197,Computer,Laptop,tvOS,iPadOS 15,v2.1.0,1
+198,Computer,Smart TV,Android,FireOS 6,v3.0.5,1
+199,Computer,Smart TV,Android,Switch,v2.0.1,1
+200,Computer,Smart TV,Android,macOS Ventura,v1.2.3,1
+201,Computer,Smart TV,Android,macOS Ventura,v3.0.5,1
+202,Computer,Smart TV,Android,tvOS 14,v1.2.3,1
+203,Computer,Smart TV,Android,tvOS 14,v2.1.0,1
+204,Computer,Smart TV,FireOS,Android 13,v2.0.1,1
+205,Computer,Smart TV,FireOS,Android 13,v3.0.5,1
+206,Computer,Smart TV,FireOS,FireOS 6,v1.0.0,1
+207,Computer,Smart TV,FireOS,FireOS 6,v2.0.1,1
+208,Computer,Smart TV,FireOS,Xbox,v3.0.5,1
+209,Computer,Smart TV,FireOS,macOS Ventura,v1.0.0,1
+210,Computer,Smart TV,FireOS,macOS Ventura,v3.0.5,1
+211,Computer,Smart TV,Linux,Windows 11,v2.1.0,1
+212,Computer,Smart TV,Linux,Xbox,v1.2.3,1
+213,Computer,Smart TV,Linux,iOS 16,v1.2.3,1
+214,Computer,Smart TV,Nintendo,Switch,v2.0.1,1
+215,Computer,Smart TV,Nintendo,Xbox,v2.1.0,1
+216,Computer,Smart TV,Nintendo,iPadOS 15,v1.0.0,1
+217,Computer,Smart TV,Nintendo,tvOS 14,v3.0.5,1
+218,Computer,Smart TV,Playstation,Android 13,v1.2.3,1
+219,Computer,Smart TV,Playstation,FireOS 6,v3.0.5,1
+220,Computer,Smart TV,Playstation,PS5,v1.2.3,1
+221,Computer,Smart TV,Playstation,Switch,v2.0.1,1
+222,Computer,Smart TV,Playstation,iPadOS 15,v1.0.0,1
+223,Computer,Smart TV,Windows,Windows 11,v1.2.3,1
+224,Computer,Smart TV,Windows,tvOS 14,v1.2.3,1
+225,Computer,Smart TV,Xbox,FireOS 6,v1.0.0,1
+226,Computer,Smart TV,Xbox,FireOS 6,v1.2.3,1
+227,Computer,Smart TV,Xbox,PS5,v2.0.1,1
+228,Computer,Smart TV,Xbox,PS5,v2.1.0,1
+229,Computer,Smart TV,Xbox,Ubuntu 22.04,v2.1.0,1
+230,Computer,Smart TV,Xbox,iOS 16,v2.1.0,1
+231,Computer,Smart TV,Xbox,iOS 16,v3.0.5,1
+232,Computer,Smart TV,Xbox,macOS Ventura,v1.2.3,1
+233,Computer,Smart TV,iOS,PS5,v1.2.3,1
+234,Computer,Smart TV,iOS,Switch,v1.2.3,1
+235,Computer,Smart TV,iOS,Xbox,v1.0.0,1
+236,Computer,Smart TV,iOS,iPadOS 15,v1.0.0,1
+237,Computer,Smart TV,macOS,Ubuntu 22.04,v2.1.0,1
+238,Computer,Smart TV,macOS,Xbox,v1.0.0,1
+239,Computer,Smart TV,macOS,iPadOS 15,v1.0.0,1
+240,Computer,Smart TV,macOS,macOS Ventura,v1.0.0,1
+241,Computer,Smart TV,macOS,macOS Ventura,v2.1.0,1
+242,Computer,Smart TV,tvOS,Switch,v3.0.5,1
+243,Computer,Smart TV,tvOS,Ubuntu 22.04,v1.2.3,1
+244,Computer,Smart TV,tvOS,iOS 16,v1.0.0,1
+245,Computer,Smart TV,tvOS,iPadOS 15,v3.0.5,1
+246,Computer,Smartphone,Android,Ubuntu 22.04,v3.0.5,1
+247,Computer,Smartphone,Android,iOS 16,v3.0.5,1
+248,Computer,Smartphone,FireOS,PS5,v1.2.3,1
+249,Computer,Smartphone,FireOS,PS5,v3.0.5,1
+250,Computer,Smartphone,FireOS,iOS 16,v2.0.1,1
+251,Computer,Smartphone,FireOS,iPadOS 15,v1.0.0,1
+252,Computer,Smartphone,FireOS,iPadOS 15,v1.2.3,1
+253,Computer,Smartphone,FireOS,macOS Ventura,v1.0.0,1
+254,Computer,Smartphone,Linux,Android 13,v3.0.5,1
+255,Computer,Smartphone,Linux,FireOS 6,v3.0.5,1
+256,Computer,Smartphone,Linux,Switch,v2.0.1,1
+257,Computer,Smartphone,Linux,Switch,v2.1.0,1
+258,Computer,Smartphone,Linux,Ubuntu 22.04,v1.2.3,1
+259,Computer,Smartphone,Linux,Ubuntu 22.04,v2.0.1,1
+260,Computer,Smartphone,Linux,Windows 11,v1.0.0,1
+261,Computer,Smartphone,Linux,Windows 11,v2.0.1,1
+262,Computer,Smartphone,Linux,Windows 11,v3.0.5,1
+263,Computer,Smartphone,Linux,Xbox,v1.0.0,1
+264,Computer,Smartphone,Linux,Xbox,v3.0.5,1
+265,Computer,Smartphone,Linux,iPadOS 15,v1.0.0,1
+266,Computer,Smartphone,Nintendo,Android 13,v2.0.1,1
+267,Computer,Smartphone,Nintendo,FireOS 6,v1.0.0,1
+268,Computer,Smartphone,Nintendo,PS5,v2.1.0,1
+269,Computer,Smartphone,Nintendo,Windows 11,v3.0.5,1
+270,Computer,Smartphone,Nintendo,Xbox,v3.0.5,1
+271,Computer,Smartphone,Nintendo,iOS 16,v1.0.0,1
+272,Computer,Smartphone,Nintendo,iPadOS 15,v2.1.0,1
+273,Computer,Smartphone,Nintendo,macOS Ventura,v1.0.0,1
+274,Computer,Smartphone,Playstation,Android 13,v1.2.3,1
+275,Computer,Smartphone,Playstation,Android 13,v2.1.0,1
+276,Computer,Smartphone,Playstation,PS5,v1.0.0,1
+277,Computer,Smartphone,Playstation,Ubuntu 22.04,v1.2.3,1
+278,Computer,Smartphone,Playstation,Xbox,v1.2.3,1
+279,Computer,Smartphone,Playstation,iOS 16,v1.0.0,1
+280,Computer,Smartphone,Playstation,iOS 16,v1.2.3,1
+281,Computer,Smartphone,Playstation,iPadOS 15,v1.2.3,1
+282,Computer,Smartphone,Playstation,iPadOS 15,v3.0.5,1
+283,Computer,Smartphone,Playstation,macOS Ventura,v1.0.0,1
+284,Computer,Smartphone,Playstation,macOS Ventura,v1.2.3,1
+285,Computer,Smartphone,Playstation,tvOS 14,v1.0.0,1
+286,Computer,Smartphone,Windows,PS5,v1.0.0,1
+287,Computer,Smartphone,Windows,PS5,v2.0.1,1
+288,Computer,Smartphone,Windows,Switch,v2.0.1,1
+289,Computer,Smartphone,Windows,Ubuntu 22.04,v1.2.3,1
+290,Computer,Smartphone,Windows,Windows 11,v1.2.3,1
+291,Computer,Smartphone,Windows,iOS 16,v2.1.0,1
+292,Computer,Smartphone,Windows,iPadOS 15,v3.0.5,1
+293,Computer,Smartphone,Xbox,FireOS 6,v1.2.3,1
+294,Computer,Smartphone,Xbox,Ubuntu 22.04,v1.0.0,1
+295,Computer,Smartphone,Xbox,iOS 16,v2.1.0,1
+296,Computer,Smartphone,Xbox,macOS Ventura,v2.0.1,1
+297,Computer,Smartphone,iOS,Android 13,v1.2.3,1
+298,Computer,Smartphone,iOS,Ubuntu 22.04,v1.2.3,1
+299,Computer,Smartphone,iOS,Windows 11,v2.0.1,1
+300,Computer,Smartphone,macOS,Android 13,v1.0.0,1
+301,Computer,Smartphone,macOS,Android 13,v2.1.0,1
+302,Computer,Smartphone,macOS,FireOS 6,v1.2.3,1
+303,Computer,Smartphone,macOS,Ubuntu 22.04,v2.1.0,1
+304,Computer,Smartphone,macOS,macOS Ventura,v3.0.5,1
+305,Computer,Smartphone,macOS,tvOS 14,v3.0.5,1
+306,Computer,Smartphone,tvOS,FireOS 6,v2.0.1,1
+307,Computer,Smartphone,tvOS,PS5,v3.0.5,1
+308,Computer,Smartphone,tvOS,Switch,v1.2.3,1
+309,Computer,Smartphone,tvOS,Windows 11,v2.0.1,1
+310,Computer,Smartphone,tvOS,iOS 16,v1.0.0,1
+311,Computer,Smartphone,tvOS,macOS Ventura,v1.0.0,1
+312,Computer,Tablet,Android,Android 13,v1.0.0,1
+313,Computer,Tablet,Android,Android 13,v1.2.3,1
+314,Computer,Tablet,Android,Android 13,v2.1.0,1
+315,Computer,Tablet,Android,FireOS 6,v2.0.1,1
+316,Computer,Tablet,Android,PS5,v1.2.3,1
+317,Computer,Tablet,Android,Ubuntu 22.04,v1.0.0,1
+318,Computer,Tablet,Android,Ubuntu 22.04,v3.0.5,1
+319,Computer,Tablet,Android,iPadOS 15,v1.2.3,1
+320,Computer,Tablet,Android,iPadOS 15,v2.0.1,1
+321,Computer,Tablet,FireOS,FireOS 6,v2.0.1,1
+322,Computer,Tablet,FireOS,FireOS 6,v3.0.5,1
+323,Computer,Tablet,FireOS,Switch,v2.0.1,1
+324,Computer,Tablet,FireOS,Windows 11,v1.2.3,1
+325,Computer,Tablet,FireOS,Xbox,v2.0.1,1
+326,Computer,Tablet,FireOS,iOS 16,v1.0.0,1
+327,Computer,Tablet,Linux,Android 13,v1.2.3,1
+328,Computer,Tablet,Linux,FireOS 6,v1.0.0,1
+329,Computer,Tablet,Linux,PS5,v1.2.3,1
+330,Computer,Tablet,Linux,PS5,v2.1.0,1
+331,Computer,Tablet,Linux,Switch,v2.0.1,1
+332,Computer,Tablet,Linux,Ubuntu 22.04,v3.0.5,1
+333,Computer,Tablet,Linux,Xbox,v2.0.1,1
+334,Computer,Tablet,Linux,Xbox,v2.1.0,1
+335,Computer,Tablet,Linux,iPadOS 15,v1.2.3,1
+336,Computer,Tablet,Linux,iPadOS 15,v2.1.0,1
+337,Computer,Tablet,Linux,macOS Ventura,v1.2.3,1
+338,Computer,Tablet,Linux,macOS Ventura,v3.0.5,1
+339,Computer,Tablet,Linux,tvOS 14,v1.2.3,1
+340,Computer,Tablet,Nintendo,Switch,v1.0.0,1
+341,Computer,Tablet,Nintendo,Switch,v2.1.0,1
+342,Computer,Tablet,Nintendo,Xbox,v1.2.3,1
+343,Computer,Tablet,Nintendo,macOS Ventura,v2.0.1,1
+344,Computer,Tablet,Playstation,PS5,v1.0.0,1
+345,Computer,Tablet,Playstation,Switch,v1.0.0,1
+346,Computer,Tablet,Playstation,Switch,v2.1.0,1
+347,Computer,Tablet,Playstation,Ubuntu 22.04,v2.1.0,1
+348,Computer,Tablet,Playstation,Xbox,v1.0.0,1
+349,Computer,Tablet,Playstation,Xbox,v1.2.3,1
+350,Computer,Tablet,Playstation,iPadOS 15,v2.1.0,1
+351,Computer,Tablet,Playstation,macOS Ventura,v3.0.5,1
+352,Computer,Tablet,Playstation,tvOS 14,v1.2.3,1
+353,Computer,Tablet,Playstation,tvOS 14,v3.0.5,1
+354,Computer,Tablet,Windows,PS5,v1.2.3,1
+355,Computer,Tablet,Windows,Switch,v3.0.5,1
+356,Computer,Tablet,Windows,iOS 16,v1.0.0,1
+357,Computer,Tablet,Windows,iPadOS 15,v1.0.0,1
+358,Computer,Tablet,Windows,iPadOS 15,v1.2.3,1
+359,Computer,Tablet,Windows,macOS Ventura,v1.2.3,1
+360,Computer,Tablet,Windows,macOS Ventura,v3.0.5,1
+361,Computer,Tablet,Xbox,PS5,v1.0.0,1
+362,Computer,Tablet,Xbox,iOS 16,v1.0.0,1
+363,Computer,Tablet,Xbox,macOS Ventura,v2.0.1,1
+364,Computer,Tablet,iOS,Android 13,v1.0.0,1
+365,Computer,Tablet,iOS,Ubuntu 22.04,v1.2.3,1
+366,Computer,Tablet,iOS,macOS Ventura,v2.0.1,1
+367,Computer,Tablet,iOS,tvOS 14,v1.2.3,1
+368,Computer,Tablet,iOS,tvOS 14,v3.0.5,1
+369,Computer,Tablet,macOS,FireOS 6,v2.0.1,1
+370,Computer,Tablet,macOS,PS5,v2.1.0,1
+371,Computer,Tablet,macOS,Xbox,v2.0.1,1
+372,Computer,Tablet,macOS,tvOS 14,v2.0.1,1
+373,Computer,Tablet,tvOS,Android 13,v2.1.0,1
+374,Computer,Tablet,tvOS,FireOS 6,v2.1.0,1
+375,Computer,Tablet,tvOS,PS5,v2.0.1,1
+376,Computer,Tablet,tvOS,Windows 11,v1.0.0,1
+377,Computer,Tablet,tvOS,Windows 11,v1.2.3,1
+378,Console,Desktop,Android,Android 13,v3.0.5,1
+379,Console,Desktop,Android,Ubuntu 22.04,v2.0.1,1
+380,Console,Desktop,Android,Windows 11,v1.0.0,1
+381,Console,Desktop,Android,Windows 11,v1.2.3,1
+382,Console,Desktop,Android,iOS 16,v2.1.0,1
+383,Console,Desktop,Android,tvOS 14,v1.0.0,1
+384,Console,Desktop,FireOS,Android 13,v2.0.1,1
+385,Console,Desktop,FireOS,PS5,v2.1.0,1
+386,Console,Desktop,FireOS,Switch,v1.2.3,1
+387,Console,Desktop,FireOS,Ubuntu 22.04,v2.1.0,1
+388,Console,Desktop,FireOS,iOS 16,v1.0.0,1
+389,Console,Desktop,FireOS,tvOS 14,v1.2.3,1
+390,Console,Desktop,FireOS,tvOS 14,v3.0.5,1
+391,Console,Desktop,Linux,PS5,v1.0.0,1
+392,Console,Desktop,Linux,Ubuntu 22.04,v3.0.5,1
+393,Console,Desktop,Linux,iPadOS 15,v3.0.5,1
+394,Console,Desktop,Nintendo,Android 13,v1.0.0,1
+395,Console,Desktop,Nintendo,PS5,v2.1.0,1
+396,Console,Desktop,Nintendo,Windows 11,v2.0.1,1
+397,Console,Desktop,Nintendo,Xbox,v1.2.3,1
+398,Console,Desktop,Nintendo,iPadOS 15,v1.2.3,1
+399,Console,Desktop,Nintendo,iPadOS 15,v2.1.0,1
+400,Console,Desktop,Nintendo,tvOS 14,v1.2.3,1
+401,Console,Desktop,Playstation,Android 13,v2.0.1,1
+402,Console,Desktop,Playstation,PS5,v3.0.5,1
+403,Console,Desktop,Playstation,Switch,v3.0.5,1
+404,Console,Desktop,Playstation,Ubuntu 22.04,v1.0.0,1
+405,Console,Desktop,Playstation,iPadOS 15,v2.0.1,1
+406,Console,Desktop,Playstation,iPadOS 15,v3.0.5,1
+407,Console,Desktop,Playstation,macOS Ventura,v1.2.3,1
+408,Console,Desktop,Windows,Windows 11,v1.0.0,1
+409,Console,Desktop,Windows,iOS 16,v2.1.0,1
+410,Console,Desktop,Windows,iPadOS 15,v2.1.0,1
+411,Console,Desktop,Windows,tvOS 14,v3.0.5,1
+412,Console,Desktop,Xbox,PS5,v3.0.5,1
+413,Console,Desktop,Xbox,Switch,v2.1.0,1
+414,Console,Desktop,Xbox,iPadOS 15,v2.1.0,1
+415,Console,Desktop,Xbox,macOS Ventura,v1.0.0,1
+416,Console,Desktop,Xbox,macOS Ventura,v1.2.3,1
+417,Console,Desktop,Xbox,tvOS 14,v2.1.0,1
+418,Console,Desktop,Xbox,tvOS 14,v3.0.5,1
+419,Console,Desktop,iOS,FireOS 6,v1.0.0,1
+420,Console,Desktop,iOS,Ubuntu 22.04,v2.1.0,1
+421,Console,Desktop,iOS,iPadOS 15,v2.1.0,1
+422,Console,Desktop,macOS,Android 13,v1.2.3,1
+423,Console,Desktop,macOS,Switch,v1.0.0,1
+424,Console,Desktop,macOS,Ubuntu 22.04,v1.2.3,1
+425,Console,Desktop,macOS,Xbox,v2.0.1,1
+426,Console,Desktop,macOS,iPadOS 15,v1.2.3,1
+427,Console,Desktop,macOS,macOS Ventura,v1.0.0,1
+428,Console,Desktop,macOS,macOS Ventura,v1.2.3,1
+429,Console,Desktop,tvOS,PS5,v1.2.3,1
+430,Console,Desktop,tvOS,Switch,v2.0.1,1
+431,Console,Desktop,tvOS,Ubuntu 22.04,v3.0.5,1
+432,Console,Desktop,tvOS,Xbox,v3.0.5,1
+433,Console,Desktop,tvOS,iPadOS 15,v2.0.1,1
+434,Console,Game Console,Android,Android 13,v3.0.5,1
+435,Console,Game Console,Android,FireOS 6,v3.0.5,1
+436,Console,Game Console,Android,PS5,v1.2.3,1
+437,Console,Game Console,Android,Ubuntu 22.04,v2.1.0,1
+438,Console,Game Console,Android,Xbox,v2.0.1,1
+439,Console,Game Console,Android,iPadOS 15,v1.0.0,1
+440,Console,Game Console,Android,iPadOS 15,v3.0.5,1
+441,Console,Game Console,Android,macOS Ventura,v2.0.1,1
+442,Console,Game Console,FireOS,Android 13,v1.0.0,1
+443,Console,Game Console,FireOS,FireOS 6,v1.2.3,1
+444,Console,Game Console,FireOS,Ubuntu 22.04,v1.0.0,1
+445,Console,Game Console,FireOS,Windows 11,v2.1.0,1
+446,Console,Game Console,FireOS,Xbox,v3.0.5,1
+447,Console,Game Console,FireOS,iPadOS 15,v1.2.3,1
+448,Console,Game Console,FireOS,iPadOS 15,v2.0.1,1
+449,Console,Game Console,Linux,PS5,v1.0.0,1
+450,Console,Game Console,Linux,PS5,v2.1.0,1
+451,Console,Game Console,Linux,Windows 11,v1.2.3,1
+452,Console,Game Console,Linux,macOS Ventura,v2.0.1,1
+453,Console,Game Console,Linux,macOS Ventura,v3.0.5,1
+454,Console,Game Console,Nintendo,Android 13,v1.0.0,1
+455,Console,Game Console,Nintendo,Android 13,v2.0.1,1
+456,Console,Game Console,Nintendo,PS5,v2.1.0,1
+457,Console,Game Console,Nintendo,Windows 11,v3.0.5,1
+458,Console,Game Console,Nintendo,iPadOS 15,v1.0.0,1
+459,Console,Game Console,Nintendo,macOS Ventura,v1.2.3,1
+460,Console,Game Console,Playstation,FireOS 6,v2.0.1,1
+461,Console,Game Console,Playstation,Ubuntu 22.04,v2.0.1,1
+462,Console,Game Console,Playstation,Ubuntu 22.04,v2.1.0,1
+463,Console,Game Console,Windows,Android 13,v1.2.3,1
+464,Console,Game Console,Windows,Switch,v3.0.5,1
+465,Console,Game Console,Windows,Windows 11,v1.2.3,1
+466,Console,Game Console,Windows,Xbox,v2.0.1,1
+467,Console,Game Console,Windows,iPadOS 15,v3.0.5,1
+468,Console,Game Console,Windows,macOS Ventura,v1.2.3,1
+469,Console,Game Console,Windows,tvOS 14,v2.0.1,1
+470,Console,Game Console,Xbox,FireOS 6,v1.0.0,1
+471,Console,Game Console,Xbox,FireOS 6,v3.0.5,1
+472,Console,Game Console,Xbox,Ubuntu 22.04,v2.1.0,1
+473,Console,Game Console,Xbox,Windows 11,v1.0.0,1
+474,Console,Game Console,Xbox,Windows 11,v2.0.1,1
+475,Console,Game Console,Xbox,iPadOS 15,v1.0.0,1
+476,Console,Game Console,Xbox,macOS Ventura,v1.2.3,1
+477,Console,Game Console,iOS,FireOS 6,v3.0.5,1
+478,Console,Game Console,iOS,PS5,v1.0.0,1
+479,Console,Game Console,iOS,PS5,v2.1.0,1
+480,Console,Game Console,iOS,Xbox,v1.2.3,1
+481,Console,Game Console,macOS,Android 13,v2.0.1,1
+482,Console,Game Console,macOS,PS5,v3.0.5,1
+483,Console,Game Console,macOS,Switch,v2.1.0,1
+484,Console,Game Console,macOS,Switch,v3.0.5,1
+485,Console,Game Console,macOS,Windows 11,v3.0.5,1
+486,Console,Game Console,macOS,Xbox,v3.0.5,1
+487,Console,Game Console,macOS,iOS 16,v2.1.0,1
+488,Console,Game Console,macOS,iPadOS 15,v2.1.0,1
+489,Console,Game Console,tvOS,Android 13,v1.2.3,1
+490,Console,Game Console,tvOS,PS5,v2.0.1,1
+491,Console,Game Console,tvOS,Windows 11,v2.1.0,1
+492,Console,Game Console,tvOS,Windows 11,v3.0.5,1
+493,Console,Game Console,tvOS,iPadOS 15,v1.0.0,1
+494,Console,Laptop,Android,FireOS 6,v2.1.0,1
+495,Console,Laptop,Android,Switch,v1.2.3,1
+496,Console,Laptop,Android,iOS 16,v2.1.0,1
+497,Console,Laptop,Android,iOS 16,v3.0.5,1
+498,Console,Laptop,Android,iPadOS 15,v2.1.0,1
+499,Console,Laptop,Android,tvOS 14,v1.0.0,1
+500,Console,Laptop,FireOS,PS5,v3.0.5,1
+501,Console,Laptop,FireOS,Ubuntu 22.04,v1.0.0,1
+502,Console,Laptop,FireOS,Ubuntu 22.04,v2.0.1,1
+503,Console,Laptop,FireOS,Windows 11,v2.0.1,1
+504,Console,Laptop,FireOS,Xbox,v1.0.0,1
+505,Console,Laptop,FireOS,Xbox,v2.1.0,1
+506,Console,Laptop,FireOS,iOS 16,v1.0.0,1
+507,Console,Laptop,FireOS,iOS 16,v1.2.3,1
+508,Console,Laptop,FireOS,iPadOS 15,v1.2.3,1
+509,Console,Laptop,FireOS,tvOS 14,v2.1.0,1
+510,Console,Laptop,Linux,FireOS 6,v2.0.1,1
+511,Console,Laptop,Linux,PS5,v2.0.1,1
+512,Console,Laptop,Linux,Switch,v1.0.0,1
+513,Console,Laptop,Linux,Switch,v2.0.1,1
+514,Console,Laptop,Linux,Xbox,v2.1.0,1
+515,Console,Laptop,Linux,iOS 16,v1.2.3,1
+516,Console,Laptop,Linux,iOS 16,v2.0.1,1
+517,Console,Laptop,Nintendo,Android 13,v1.2.3,1
+518,Console,Laptop,Nintendo,Android 13,v2.1.0,1
+519,Console,Laptop,Nintendo,FireOS 6,v2.0.1,1
+520,Console,Laptop,Nintendo,Xbox,v1.2.3,1
+521,Console,Laptop,Playstation,Android 13,v1.0.0,1
+522,Console,Laptop,Playstation,FireOS 6,v2.1.0,1
+523,Console,Laptop,Playstation,Windows 11,v1.0.0,1
+524,Console,Laptop,Playstation,iOS 16,v1.0.0,1
+525,Console,Laptop,Playstation,iOS 16,v2.1.0,1
+526,Console,Laptop,Playstation,macOS Ventura,v2.1.0,1
+527,Console,Laptop,Windows,Android 13,v3.0.5,1
+528,Console,Laptop,Windows,FireOS 6,v2.0.1,1
+529,Console,Laptop,Windows,FireOS 6,v2.1.0,1
+530,Console,Laptop,Windows,PS5,v3.0.5,1
+531,Console,Laptop,Windows,Ubuntu 22.04,v1.0.0,1
+532,Console,Laptop,Windows,iPadOS 15,v2.0.1,1
+533,Console,Laptop,Windows,iPadOS 15,v2.1.0,1
+534,Console,Laptop,Xbox,FireOS 6,v1.2.3,1
+535,Console,Laptop,Xbox,PS5,v1.2.3,1
+536,Console,Laptop,Xbox,Switch,v1.2.3,1
+537,Console,Laptop,Xbox,Ubuntu 22.04,v2.1.0,1
+538,Console,Laptop,Xbox,Windows 11,v1.0.0,1
+539,Console,Laptop,Xbox,Xbox,v1.0.0,1
+540,Console,Laptop,Xbox,Xbox,v3.0.5,1
+541,Console,Laptop,Xbox,iOS 16,v1.2.3,1
+542,Console,Laptop,Xbox,iPadOS 15,v1.0.0,1
+543,Console,Laptop,Xbox,macOS Ventura,v1.0.0,1
+544,Console,Laptop,Xbox,tvOS 14,v2.0.1,1
+545,Console,Laptop,iOS,FireOS 6,v2.0.1,1
+546,Console,Laptop,iOS,PS5,v2.0.1,1
+547,Console,Laptop,iOS,PS5,v3.0.5,1
+548,Console,Laptop,iOS,Windows 11,v3.0.5,1
+549,Console,Laptop,iOS,iPadOS 15,v3.0.5,1
+550,Console,Laptop,iOS,macOS Ventura,v1.0.0,1
+551,Console,Laptop,iOS,macOS Ventura,v1.2.3,1
+552,Console,Laptop,macOS,FireOS 6,v2.1.0,1
+553,Console,Laptop,macOS,PS5,v3.0.5,1
+554,Console,Laptop,macOS,Switch,v1.2.3,1
+555,Console,Laptop,macOS,macOS Ventura,v1.2.3,1
+556,Console,Laptop,macOS,macOS Ventura,v3.0.5,1
+557,Console,Laptop,macOS,tvOS 14,v2.0.1,1
+558,Console,Laptop,tvOS,Android 13,v3.0.5,1
+559,Console,Laptop,tvOS,Windows 11,v2.1.0,1
+560,Console,Laptop,tvOS,macOS Ventura,v1.2.3,1
+561,Console,Laptop,tvOS,macOS Ventura,v2.1.0,1
+562,Console,Laptop,tvOS,tvOS 14,v2.0.1,1
+563,Console,Smart TV,Android,Switch,v3.0.5,1
+564,Console,Smart TV,Android,Ubuntu 22.04,v2.0.1,1
+565,Console,Smart TV,Android,Windows 11,v1.2.3,1
+566,Console,Smart TV,Android,Xbox,v1.0.0,1
+567,Console,Smart TV,Android,Xbox,v1.2.3,1
+568,Console,Smart TV,Android,iPadOS 15,v1.0.0,1
+569,Console,Smart TV,FireOS,FireOS 6,v2.1.0,1
+570,Console,Smart TV,FireOS,Switch,v1.2.3,1
+571,Console,Smart TV,FireOS,Switch,v2.0.1,1
+572,Console,Smart TV,FireOS,Ubuntu 22.04,v1.0.0,1
+573,Console,Smart TV,FireOS,iOS 16,v1.0.0,1
+574,Console,Smart TV,FireOS,iOS 16,v3.0.5,1
+575,Console,Smart TV,FireOS,iPadOS 15,v1.0.0,1
+576,Console,Smart TV,FireOS,macOS Ventura,v2.1.0,1
+577,Console,Smart TV,FireOS,tvOS 14,v1.2.3,1
+578,Console,Smart TV,Linux,Android 13,v2.1.0,1
+579,Console,Smart TV,Linux,FireOS 6,v1.2.3,1
+580,Console,Smart TV,Linux,Switch,v2.0.1,1
+581,Console,Smart TV,Linux,Switch,v3.0.5,1
+582,Console,Smart TV,Linux,Ubuntu 22.04,v2.1.0,1
+583,Console,Smart TV,Linux,Xbox,v2.0.1,1
+584,Console,Smart TV,Linux,iPadOS 15,v1.2.3,1
+585,Console,Smart TV,Linux,tvOS 14,v1.2.3,1
+586,Console,Smart TV,Nintendo,Android 13,v3.0.5,1
+587,Console,Smart TV,Nintendo,FireOS 6,v2.1.0,1
+588,Console,Smart TV,Nintendo,Ubuntu 22.04,v2.1.0,1
+589,Console,Smart TV,Nintendo,Windows 11,v1.2.3,1
+590,Console,Smart TV,Nintendo,Xbox,v1.0.0,1
+591,Console,Smart TV,Nintendo,iOS 16,v1.2.3,1
+592,Console,Smart TV,Nintendo,iPadOS 15,v2.0.1,1
+593,Console,Smart TV,Nintendo,tvOS 14,v2.1.0,1
+594,Console,Smart TV,Playstation,iOS 16,v1.2.3,1
+595,Console,Smart TV,Playstation,iOS 16,v3.0.5,1
+596,Console,Smart TV,Playstation,macOS Ventura,v1.2.3,1
+597,Console,Smart TV,Playstation,tvOS 14,v2.0.1,1
+598,Console,Smart TV,Playstation,tvOS 14,v2.1.0,1
+599,Console,Smart TV,Windows,FireOS 6,v1.0.0,1
+600,Console,Smart TV,Windows,FireOS 6,v2.0.1,1
+601,Console,Smart TV,Windows,FireOS 6,v3.0.5,1
+602,Console,Smart TV,Windows,PS5,v1.0.0,1
+603,Console,Smart TV,Windows,PS5,v1.2.3,1
+604,Console,Smart TV,Windows,Switch,v3.0.5,1
+605,Console,Smart TV,Windows,Ubuntu 22.04,v1.0.0,1
+606,Console,Smart TV,Windows,Windows 11,v1.2.3,1
+607,Console,Smart TV,Windows,macOS Ventura,v1.2.3,1
+608,Console,Smart TV,Xbox,FireOS 6,v2.1.0,1
+609,Console,Smart TV,Xbox,Ubuntu 22.04,v2.0.1,1
+610,Console,Smart TV,Xbox,Windows 11,v1.0.0,1
+611,Console,Smart TV,Xbox,Windows 11,v2.1.0,1
+612,Console,Smart TV,Xbox,Windows 11,v3.0.5,1
+613,Console,Smart TV,Xbox,Xbox,v3.0.5,1
+614,Console,Smart TV,iOS,Ubuntu 22.04,v1.0.0,1
+615,Console,Smart TV,iOS,Windows 11,v1.0.0,1
+616,Console,Smart TV,iOS,Xbox,v3.0.5,1
+617,Console,Smart TV,iOS,macOS Ventura,v3.0.5,1
+618,Console,Smart TV,macOS,Android 13,v1.0.0,1
+619,Console,Smart TV,macOS,Ubuntu 22.04,v3.0.5,1
+620,Console,Smart TV,macOS,Xbox,v2.1.0,1
+621,Console,Smart TV,macOS,iOS 16,v2.0.1,1
+622,Console,Smart TV,macOS,iPadOS 15,v3.0.5,1
+623,Console,Smart TV,macOS,macOS Ventura,v1.2.3,1
+624,Console,Smart TV,tvOS,Android 13,v1.0.0,1
+625,Console,Smart TV,tvOS,Android 13,v2.0.1,1
+626,Console,Smart TV,tvOS,FireOS 6,v3.0.5,1
+627,Console,Smart TV,tvOS,PS5,v3.0.5,1
+628,Console,Smart TV,tvOS,Switch,v2.0.1,1
+629,Console,Smart TV,tvOS,Switch,v2.1.0,1
+630,Console,Smart TV,tvOS,Switch,v3.0.5,1
+631,Console,Smart TV,tvOS,Xbox,v1.2.3,1
+632,Console,Smart TV,tvOS,Xbox,v2.0.1,1
+633,Console,Smart TV,tvOS,tvOS 14,v1.0.0,1
+634,Console,Smart TV,tvOS,tvOS 14,v1.2.3,1
+635,Console,Smartphone,Android,Android 13,v1.0.0,1
+636,Console,Smartphone,Android,Android 13,v3.0.5,1
+637,Console,Smartphone,Android,FireOS 6,v2.1.0,1
+638,Console,Smartphone,Android,Switch,v1.0.0,1
+639,Console,Smartphone,Android,Switch,v1.2.3,1
+640,Console,Smartphone,Android,Ubuntu 22.04,v1.0.0,1
+641,Console,Smartphone,Android,Windows 11,v2.0.1,1
+642,Console,Smartphone,Android,Xbox,v2.0.1,1
+643,Console,Smartphone,Android,Xbox,v2.1.0,1
+644,Console,Smartphone,Android,macOS Ventura,v1.0.0,1
+645,Console,Smartphone,Android,macOS Ventura,v1.2.3,1
+646,Console,Smartphone,Android,macOS Ventura,v3.0.5,1
+647,Console,Smartphone,FireOS,PS5,v2.0.1,1
+648,Console,Smartphone,FireOS,Switch,v1.2.3,1
+649,Console,Smartphone,FireOS,Ubuntu 22.04,v2.1.0,1
+650,Console,Smartphone,FireOS,iPadOS 15,v1.2.3,1
+651,Console,Smartphone,FireOS,macOS Ventura,v3.0.5,1
+652,Console,Smartphone,FireOS,tvOS 14,v1.2.3,1
+653,Console,Smartphone,FireOS,tvOS 14,v2.0.1,1
+654,Console,Smartphone,Linux,Android 13,v2.0.1,1
+655,Console,Smartphone,Linux,Android 13,v3.0.5,1
+656,Console,Smartphone,Linux,FireOS 6,v2.0.1,1
+657,Console,Smartphone,Linux,Switch,v2.0.1,1
+658,Console,Smartphone,Linux,Switch,v2.1.0,1
+659,Console,Smartphone,Linux,Xbox,v3.0.5,1
+660,Console,Smartphone,Linux,iOS 16,v1.0.0,1
+661,Console,Smartphone,Linux,tvOS 14,v2.0.1,1
+662,Console,Smartphone,Nintendo,Android 13,v1.0.0,1
+663,Console,Smartphone,Nintendo,Android 13,v2.1.0,1
+664,Console,Smartphone,Nintendo,FireOS 6,v1.0.0,1
+665,Console,Smartphone,Nintendo,FireOS 6,v1.2.3,1
+666,Console,Smartphone,Nintendo,Ubuntu 22.04,v2.0.1,1
+667,Console,Smartphone,Nintendo,Ubuntu 22.04,v2.1.0,1
+668,Console,Smartphone,Nintendo,Windows 11,v1.0.0,1
+669,Console,Smartphone,Nintendo,Xbox,v1.2.3,1
+670,Console,Smartphone,Nintendo,iOS 16,v1.2.3,1
+671,Console,Smartphone,Nintendo,iOS 16,v2.0.1,1
+672,Console,Smartphone,Nintendo,tvOS 14,v1.2.3,1
+673,Console,Smartphone,Playstation,Android 13,v2.0.1,1
+674,Console,Smartphone,Playstation,Android 13,v3.0.5,1
+675,Console,Smartphone,Playstation,FireOS 6,v1.2.3,1
+676,Console,Smartphone,Playstation,FireOS 6,v2.0.1,1
+677,Console,Smartphone,Playstation,FireOS 6,v2.1.0,1
+678,Console,Smartphone,Playstation,FireOS 6,v3.0.5,1
+679,Console,Smartphone,Playstation,Switch,v1.2.3,1
+680,Console,Smartphone,Playstation,Switch,v2.1.0,1
+681,Console,Smartphone,Playstation,iOS 16,v2.1.0,1
+682,Console,Smartphone,Windows,FireOS 6,v2.1.0,1
+683,Console,Smartphone,Windows,PS5,v1.0.0,1
+684,Console,Smartphone,Windows,PS5,v2.1.0,1
+685,Console,Smartphone,Windows,Switch,v3.0.5,1
+686,Console,Smartphone,Windows,iOS 16,v1.2.3,1
+687,Console,Smartphone,Xbox,Android 13,v1.0.0,1
+688,Console,Smartphone,Xbox,Ubuntu 22.04,v2.0.1,1
+689,Console,Smartphone,Xbox,iOS 16,v1.0.0,1
+690,Console,Smartphone,Xbox,iPadOS 15,v2.0.1,1
+691,Console,Smartphone,Xbox,macOS Ventura,v2.0.1,1
+692,Console,Smartphone,Xbox,macOS Ventura,v3.0.5,1
+693,Console,Smartphone,iOS,Android 13,v2.0.1,1
+694,Console,Smartphone,iOS,FireOS 6,v2.1.0,1
+695,Console,Smartphone,iOS,Xbox,v1.0.0,1
+696,Console,Smartphone,iOS,iOS 16,v1.2.3,1
+697,Console,Smartphone,iOS,iPadOS 15,v1.0.0,1
+698,Console,Smartphone,iOS,iPadOS 15,v3.0.5,1
+699,Console,Smartphone,iOS,tvOS 14,v3.0.5,1
+700,Console,Smartphone,macOS,Android 13,v3.0.5,1
+701,Console,Smartphone,macOS,FireOS 6,v1.2.3,1
+702,Console,Smartphone,macOS,FireOS 6,v2.0.1,1
+703,Console,Smartphone,macOS,iOS 16,v1.0.0,1
+704,Console,Smartphone,macOS,iOS 16,v2.0.1,1
+705,Console,Smartphone,macOS,macOS Ventura,v1.0.0,1
+706,Console,Smartphone,macOS,tvOS 14,v2.0.1,1
+707,Console,Smartphone,tvOS,Android 13,v1.2.3,1
+708,Console,Smartphone,tvOS,PS5,v1.2.3,1
+709,Console,Smartphone,tvOS,Windows 11,v1.2.3,1
+710,Console,Smartphone,tvOS,Xbox,v2.0.1,1
+711,Console,Smartphone,tvOS,iPadOS 15,v1.0.0,1
+712,Console,Smartphone,tvOS,tvOS 14,v1.2.3,1
+713,Console,Smartphone,tvOS,tvOS 14,v3.0.5,1
+714,Console,Tablet,Android,Android 13,v2.1.0,1
+715,Console,Tablet,Android,Switch,v2.1.0,1
+716,Console,Tablet,Android,Windows 11,v1.0.0,1
+717,Console,Tablet,Android,Windows 11,v2.1.0,1
+718,Console,Tablet,Android,Xbox,v2.0.1,1
+719,Console,Tablet,Android,iPadOS 15,v2.0.1,1
+720,Console,Tablet,Android,iPadOS 15,v3.0.5,1
+721,Console,Tablet,FireOS,Android 13,v1.2.3,1
+722,Console,Tablet,FireOS,FireOS 6,v2.0.1,1
+723,Console,Tablet,FireOS,Ubuntu 22.04,v3.0.5,1
+724,Console,Tablet,FireOS,Xbox,v2.0.1,1
+725,Console,Tablet,FireOS,Xbox,v2.1.0,1
+726,Console,Tablet,FireOS,iOS 16,v1.2.3,1
+727,Console,Tablet,FireOS,iOS 16,v2.0.1,1
+728,Console,Tablet,FireOS,tvOS 14,v3.0.5,1
+729,Console,Tablet,Linux,Android 13,v2.1.0,1
+730,Console,Tablet,Linux,Windows 11,v1.2.3,1
+731,Console,Tablet,Linux,Xbox,v3.0.5,1
+732,Console,Tablet,Linux,iPadOS 15,v1.0.0,1
+733,Console,Tablet,Nintendo,Android 13,v1.0.0,1
+734,Console,Tablet,Nintendo,Switch,v2.1.0,1
+735,Console,Tablet,Nintendo,Ubuntu 22.04,v1.0.0,1
+736,Console,Tablet,Nintendo,Windows 11,v1.0.0,1
+737,Console,Tablet,Nintendo,Windows 11,v1.2.3,1
+738,Console,Tablet,Nintendo,iPadOS 15,v3.0.5,1
+739,Console,Tablet,Playstation,Android 13,v3.0.5,1
+740,Console,Tablet,Playstation,Ubuntu 22.04,v2.1.0,1
+741,Console,Tablet,Playstation,Windows 11,v2.1.0,1
+742,Console,Tablet,Playstation,Xbox,v2.0.1,1
+743,Console,Tablet,Playstation,iOS 16,v1.2.3,1
+744,Console,Tablet,Windows,Switch,v1.2.3,1
+745,Console,Tablet,Windows,Ubuntu 22.04,v2.1.0,1
+746,Console,Tablet,Windows,iOS 16,v2.0.1,1
+747,Console,Tablet,Windows,iOS 16,v3.0.5,1
+748,Console,Tablet,Windows,macOS Ventura,v1.2.3,1
+749,Console,Tablet,Windows,macOS Ventura,v2.1.0,1
+750,Console,Tablet,Xbox,Android 13,v1.2.3,1
+751,Console,Tablet,Xbox,Android 13,v2.0.1,1
+752,Console,Tablet,Xbox,FireOS 6,v1.2.3,1
+753,Console,Tablet,Xbox,PS5,v2.1.0,1
+754,Console,Tablet,Xbox,Switch,v1.2.3,1
+755,Console,Tablet,Xbox,Ubuntu 22.04,v1.2.3,1
+756,Console,Tablet,Xbox,Windows 11,v2.0.1,1
+757,Console,Tablet,Xbox,Xbox,v1.2.3,1
+758,Console,Tablet,Xbox,iOS 16,v1.2.3,1
+759,Console,Tablet,Xbox,iOS 16,v2.1.0,1
+760,Console,Tablet,Xbox,macOS Ventura,v3.0.5,1
+761,Console,Tablet,Xbox,tvOS 14,v2.0.1,1
+762,Console,Tablet,Xbox,tvOS 14,v2.1.0,1
+763,Console,Tablet,iOS,FireOS 6,v3.0.5,1
+764,Console,Tablet,iOS,Switch,v1.2.3,1
+765,Console,Tablet,iOS,Switch,v2.1.0,1
+766,Console,Tablet,iOS,Ubuntu 22.04,v2.0.1,1
+767,Console,Tablet,iOS,macOS Ventura,v2.0.1,1
+768,Console,Tablet,macOS,PS5,v1.0.0,1
+769,Console,Tablet,macOS,Switch,v3.0.5,1
+770,Console,Tablet,macOS,Ubuntu 22.04,v1.0.0,1
+771,Console,Tablet,macOS,Ubuntu 22.04,v2.1.0,1
+772,Console,Tablet,macOS,Ubuntu 22.04,v3.0.5,1
+773,Console,Tablet,macOS,iOS 16,v3.0.5,1
+774,Console,Tablet,tvOS,FireOS 6,v1.0.0,1
+775,Console,Tablet,tvOS,PS5,v1.0.0,1
+776,Console,Tablet,tvOS,Switch,v2.0.1,1
+777,Console,Tablet,tvOS,Windows 11,v3.0.5,1
+778,Console,Tablet,tvOS,Xbox,v3.0.5,1
+779,Console,Tablet,tvOS,iOS 16,v1.0.0,1
+780,Console,Tablet,tvOS,iPadOS 15,v1.2.3,1
+781,Mobile,Desktop,Android,Xbox,v2.0.1,1
+782,Mobile,Desktop,Android,iOS 16,v2.0.1,1
+783,Mobile,Desktop,Android,iPadOS 15,v3.0.5,1
+784,Mobile,Desktop,Android,macOS Ventura,v1.2.3,1
+785,Mobile,Desktop,FireOS,FireOS 6,v2.0.1,1
+786,Mobile,Desktop,FireOS,PS5,v2.1.0,1
+787,Mobile,Desktop,FireOS,Switch,v1.0.0,1
+788,Mobile,Desktop,FireOS,Windows 11,v1.0.0,1
+789,Mobile,Desktop,FireOS,iPadOS 15,v3.0.5,1
+790,Mobile,Desktop,Linux,FireOS 6,v1.2.3,1
+791,Mobile,Desktop,Linux,FireOS 6,v2.0.1,1
+792,Mobile,Desktop,Linux,Ubuntu 22.04,v1.0.0,1
+793,Mobile,Desktop,Linux,iOS 16,v2.0.1,1
+794,Mobile,Desktop,Linux,tvOS 14,v2.0.1,1
+795,Mobile,Desktop,Nintendo,Android 13,v1.0.0,1
+796,Mobile,Desktop,Nintendo,FireOS 6,v3.0.5,1
+797,Mobile,Desktop,Nintendo,Ubuntu 22.04,v1.2.3,1
+798,Mobile,Desktop,Nintendo,Ubuntu 22.04,v3.0.5,1
+799,Mobile,Desktop,Nintendo,Xbox,v1.2.3,1
+800,Mobile,Desktop,Nintendo,iPadOS 15,v1.0.0,1
+801,Mobile,Desktop,Nintendo,tvOS 14,v1.2.3,1
+802,Mobile,Desktop,Playstation,Android 13,v1.0.0,1
+803,Mobile,Desktop,Playstation,iPadOS 15,v1.2.3,1
+804,Mobile,Desktop,Playstation,iPadOS 15,v3.0.5,1
+805,Mobile,Desktop,Playstation,macOS Ventura,v1.0.0,1
+806,Mobile,Desktop,Windows,Switch,v1.0.0,1
+807,Mobile,Desktop,Windows,Switch,v2.1.0,1
+808,Mobile,Desktop,Windows,Windows 11,v1.0.0,1
+809,Mobile,Desktop,Windows,Windows 11,v2.0.1,1
+810,Mobile,Desktop,Windows,Windows 11,v3.0.5,1
+811,Mobile,Desktop,Windows,macOS Ventura,v1.2.3,1
+812,Mobile,Desktop,Xbox,Android 13,v1.2.3,1
+813,Mobile,Desktop,Xbox,FireOS 6,v3.0.5,1
+814,Mobile,Desktop,Xbox,PS5,v1.0.0,1
+815,Mobile,Desktop,Xbox,PS5,v2.1.0,1
+816,Mobile,Desktop,Xbox,Ubuntu 22.04,v2.1.0,1
+817,Mobile,Desktop,Xbox,tvOS 14,v1.0.0,1
+818,Mobile,Desktop,Xbox,tvOS 14,v1.2.3,1
+819,Mobile,Desktop,Xbox,tvOS 14,v2.1.0,1
+820,Mobile,Desktop,iOS,PS5,v1.0.0,1
+821,Mobile,Desktop,iOS,Ubuntu 22.04,v1.2.3,1
+822,Mobile,Desktop,iOS,Windows 11,v3.0.5,1
+823,Mobile,Desktop,iOS,macOS Ventura,v1.0.0,1
+824,Mobile,Desktop,macOS,Android 13,v2.1.0,1
+825,Mobile,Desktop,macOS,FireOS 6,v2.1.0,1
+826,Mobile,Desktop,macOS,Ubuntu 22.04,v1.2.3,1
+827,Mobile,Desktop,macOS,iPadOS 15,v2.1.0,1
+828,Mobile,Desktop,macOS,macOS Ventura,v3.0.5,1
+829,Mobile,Desktop,tvOS,FireOS 6,v2.1.0,1
+830,Mobile,Desktop,tvOS,PS5,v1.0.0,1
+831,Mobile,Desktop,tvOS,PS5,v1.2.3,1
+832,Mobile,Desktop,tvOS,PS5,v2.1.0,1
+833,Mobile,Desktop,tvOS,Xbox,v2.1.0,1
+834,Mobile,Desktop,tvOS,tvOS 14,v1.0.0,1
+835,Mobile,Game Console,Android,FireOS 6,v3.0.5,1
+836,Mobile,Game Console,Android,Xbox,v2.0.1,1
+837,Mobile,Game Console,Android,iPadOS 15,v1.0.0,1
+838,Mobile,Game Console,FireOS,Switch,v2.1.0,1
+839,Mobile,Game Console,FireOS,macOS Ventura,v1.0.0,1
+840,Mobile,Game Console,FireOS,tvOS 14,v3.0.5,1
+841,Mobile,Game Console,Linux,Android 13,v2.0.1,1
+842,Mobile,Game Console,Linux,FireOS 6,v1.0.0,1
+843,Mobile,Game Console,Linux,PS5,v1.0.0,1
+844,Mobile,Game Console,Linux,Switch,v3.0.5,1
+845,Mobile,Game Console,Linux,iOS 16,v2.1.0,1
+846,Mobile,Game Console,Linux,iPadOS 15,v1.0.0,1
+847,Mobile,Game Console,Linux,macOS Ventura,v3.0.5,1
+848,Mobile,Game Console,Nintendo,Android 13,v1.2.3,1
+849,Mobile,Game Console,Nintendo,Android 13,v2.0.1,1
+850,Mobile,Game Console,Nintendo,Android 13,v2.1.0,1
+851,Mobile,Game Console,Nintendo,PS5,v1.0.0,1
+852,Mobile,Game Console,Nintendo,Switch,v2.0.1,1
+853,Mobile,Game Console,Nintendo,Windows 11,v1.2.3,1
+854,Mobile,Game Console,Nintendo,Windows 11,v2.1.0,1
+855,Mobile,Game Console,Nintendo,Xbox,v1.2.3,1
+856,Mobile,Game Console,Nintendo,Xbox,v3.0.5,1
+857,Mobile,Game Console,Nintendo,iPadOS 15,v1.0.0,1
+858,Mobile,Game Console,Playstation,Windows 11,v3.0.5,1
+859,Mobile,Game Console,Playstation,Xbox,v1.0.0,1
+860,Mobile,Game Console,Playstation,iPadOS 15,v2.0.1,1
+861,Mobile,Game Console,Playstation,macOS Ventura,v2.0.1,1
+862,Mobile,Game Console,Playstation,tvOS 14,v3.0.5,1
+863,Mobile,Game Console,Windows,FireOS 6,v3.0.5,1
+864,Mobile,Game Console,Windows,Windows 11,v1.2.3,1
+865,Mobile,Game Console,Windows,iPadOS 15,v3.0.5,1
+866,Mobile,Game Console,Windows,macOS Ventura,v2.1.0,1
+867,Mobile,Game Console,Xbox,FireOS 6,v1.0.0,1
+868,Mobile,Game Console,Xbox,FireOS 6,v1.2.3,1
+869,Mobile,Game Console,Xbox,Ubuntu 22.04,v2.1.0,1
+870,Mobile,Game Console,Xbox,Windows 11,v3.0.5,1
+871,Mobile,Game Console,Xbox,iPadOS 15,v2.0.1,1
+872,Mobile,Game Console,Xbox,macOS Ventura,v1.0.0,1
+873,Mobile,Game Console,iOS,Android 13,v2.0.1,1
+874,Mobile,Game Console,iOS,FireOS 6,v1.0.0,1
+875,Mobile,Game Console,iOS,PS5,v2.1.0,1
+876,Mobile,Game Console,iOS,Switch,v1.2.3,1
+877,Mobile,Game Console,iOS,Switch,v2.0.1,1
+878,Mobile,Game Console,iOS,Ubuntu 22.04,v2.0.1,1
+879,Mobile,Game Console,iOS,Windows 11,v1.2.3,1
+880,Mobile,Game Console,iOS,iOS 16,v1.0.0,1
+881,Mobile,Game Console,macOS,Android 13,v2.1.0,1
+882,Mobile,Game Console,macOS,Ubuntu 22.04,v2.0.1,1
+883,Mobile,Game Console,macOS,Windows 11,v3.0.5,1
+884,Mobile,Game Console,macOS,iPadOS 15,v3.0.5,1
+885,Mobile,Game Console,macOS,macOS Ventura,v1.0.0,1
+886,Mobile,Game Console,macOS,macOS Ventura,v1.2.3,1
+887,Mobile,Game Console,macOS,tvOS 14,v2.0.1,1
+888,Mobile,Game Console,macOS,tvOS 14,v3.0.5,1
+889,Mobile,Game Console,tvOS,PS5,v1.0.0,1
+890,Mobile,Game Console,tvOS,Windows 11,v2.0.1,1
+891,Mobile,Game Console,tvOS,tvOS 14,v1.2.3,1
+892,Mobile,Laptop,Android,FireOS 6,v3.0.5,1
+893,Mobile,Laptop,Android,PS5,v2.0.1,1
+894,Mobile,Laptop,Android,Switch,v3.0.5,1
+895,Mobile,Laptop,Android,iOS 16,v3.0.5,1
+896,Mobile,Laptop,FireOS,PS5,v2.0.1,1
+897,Mobile,Laptop,FireOS,Ubuntu 22.04,v2.0.1,1
+898,Mobile,Laptop,FireOS,Ubuntu 22.04,v2.1.0,1
+899,Mobile,Laptop,FireOS,Ubuntu 22.04,v3.0.5,1
+900,Mobile,Laptop,FireOS,Xbox,v2.0.1,1
+901,Mobile,Laptop,FireOS,tvOS 14,v2.1.0,1
+902,Mobile,Laptop,Linux,Android 13,v1.0.0,1
+903,Mobile,Laptop,Linux,Android 13,v1.2.3,1
+904,Mobile,Laptop,Linux,PS5,v1.0.0,1
+905,Mobile,Laptop,Linux,Switch,v3.0.5,1
+906,Mobile,Laptop,Linux,iOS 16,v1.2.3,1
+907,Mobile,Laptop,Nintendo,Ubuntu 22.04,v2.0.1,1
+908,Mobile,Laptop,Nintendo,Xbox,v1.0.0,1
+909,Mobile,Laptop,Nintendo,iOS 16,v1.0.0,1
+910,Mobile,Laptop,Nintendo,iPadOS 15,v1.0.0,1
+911,Mobile,Laptop,Nintendo,iPadOS 15,v1.2.3,1
+912,Mobile,Laptop,Nintendo,iPadOS 15,v2.1.0,1
+913,Mobile,Laptop,Playstation,PS5,v3.0.5,1
+914,Mobile,Laptop,Playstation,Windows 11,v3.0.5,1
+915,Mobile,Laptop,Playstation,Xbox,v1.0.0,1
+916,Mobile,Laptop,Playstation,Xbox,v2.1.0,1
+917,Mobile,Laptop,Playstation,iPadOS 15,v1.2.3,1
+918,Mobile,Laptop,Playstation,iPadOS 15,v3.0.5,1
+919,Mobile,Laptop,Playstation,macOS Ventura,v3.0.5,1
+920,Mobile,Laptop,Windows,Android 13,v1.2.3,1
+921,Mobile,Laptop,Windows,Android 13,v2.1.0,1
+922,Mobile,Laptop,Windows,FireOS 6,v2.1.0,1
+923,Mobile,Laptop,Windows,Ubuntu 22.04,v3.0.5,1
+924,Mobile,Laptop,Windows,iPadOS 15,v2.1.0,1
+925,Mobile,Laptop,Windows,macOS Ventura,v3.0.5,1
+926,Mobile,Laptop,Windows,tvOS 14,v1.0.0,1
+927,Mobile,Laptop,Xbox,Android 13,v1.2.3,1
+928,Mobile,Laptop,Xbox,Android 13,v2.0.1,1
+929,Mobile,Laptop,Xbox,FireOS 6,v1.2.3,1
+930,Mobile,Laptop,Xbox,Switch,v2.1.0,1
+931,Mobile,Laptop,Xbox,Windows 11,v3.0.5,1
+932,Mobile,Laptop,Xbox,tvOS 14,v1.0.0,1
+933,Mobile,Laptop,Xbox,tvOS 14,v2.0.1,1
+934,Mobile,Laptop,iOS,FireOS 6,v1.0.0,1
+935,Mobile,Laptop,iOS,FireOS 6,v1.2.3,1
+936,Mobile,Laptop,iOS,Ubuntu 22.04,v3.0.5,1
+937,Mobile,Laptop,iOS,Xbox,v3.0.5,1
+938,Mobile,Laptop,iOS,iPadOS 15,v1.0.0,1
+939,Mobile,Laptop,macOS,PS5,v1.0.0,1
+940,Mobile,Laptop,macOS,Switch,v2.1.0,1
+941,Mobile,Laptop,macOS,iOS 16,v3.0.5,1
+942,Mobile,Laptop,macOS,iPadOS 15,v3.0.5,1
+943,Mobile,Laptop,macOS,macOS Ventura,v2.0.1,1
+944,Mobile,Laptop,macOS,tvOS 14,v3.0.5,1
+945,Mobile,Laptop,tvOS,Switch,v2.1.0,1
+946,Mobile,Laptop,tvOS,Ubuntu 22.04,v2.0.1,1
+947,Mobile,Laptop,tvOS,Windows 11,v1.2.3,1
+948,Mobile,Laptop,tvOS,iOS 16,v2.1.0,1
+949,Mobile,Laptop,tvOS,iPadOS 15,v1.2.3,1
+950,Mobile,Laptop,tvOS,macOS Ventura,v3.0.5,1
+951,Mobile,Smart TV,Android,FireOS 6,v1.0.0,1
+952,Mobile,Smart TV,Android,FireOS 6,v2.0.1,1
+953,Mobile,Smart TV,Android,PS5,v1.0.0,1
+954,Mobile,Smart TV,Android,Switch,v2.1.0,1
+955,Mobile,Smart TV,Android,Ubuntu 22.04,v2.1.0,1
+956,Mobile,Smart TV,Android,Windows 11,v1.2.3,1
+957,Mobile,Smart TV,Android,Windows 11,v2.1.0,1
+958,Mobile,Smart TV,Android,iPadOS 15,v1.0.0,1
+959,Mobile,Smart TV,Android,macOS Ventura,v2.1.0,1
+960,Mobile,Smart TV,Android,tvOS 14,v1.2.3,1
+961,Mobile,Smart TV,FireOS,FireOS 6,v1.0.0,1
+962,Mobile,Smart TV,FireOS,FireOS 6,v2.1.0,1
+963,Mobile,Smart TV,FireOS,FireOS 6,v3.0.5,1
+964,Mobile,Smart TV,FireOS,Xbox,v3.0.5,1
+965,Mobile,Smart TV,FireOS,iOS 16,v1.2.3,1
+966,Mobile,Smart TV,FireOS,iOS 16,v2.0.1,1
+967,Mobile,Smart TV,FireOS,iPadOS 15,v2.0.1,1
+968,Mobile,Smart TV,FireOS,iPadOS 15,v2.1.0,1
+969,Mobile,Smart TV,FireOS,macOS Ventura,v2.1.0,1
+970,Mobile,Smart TV,FireOS,tvOS 14,v2.0.1,1
+971,Mobile,Smart TV,Linux,FireOS 6,v1.0.0,1
+972,Mobile,Smart TV,Linux,PS5,v3.0.5,1
+973,Mobile,Smart TV,Linux,Switch,v1.0.0,1
+974,Mobile,Smart TV,Linux,Ubuntu 22.04,v1.0.0,1
+975,Mobile,Smart TV,Linux,Xbox,v2.1.0,1
+976,Mobile,Smart TV,Linux,iOS 16,v1.2.3,1
+977,Mobile,Smart TV,Linux,iPadOS 15,v2.0.1,1
+978,Mobile,Smart TV,Nintendo,Switch,v3.0.5,1
+979,Mobile,Smart TV,Nintendo,Ubuntu 22.04,v1.0.0,1
+980,Mobile,Smart TV,Nintendo,Ubuntu 22.04,v3.0.5,1
+981,Mobile,Smart TV,Nintendo,Windows 11,v1.0.0,1
+982,Mobile,Smart TV,Nintendo,Windows 11,v2.0.1,1
+983,Mobile,Smart TV,Nintendo,iOS 16,v1.0.0,1
+984,Mobile,Smart TV,Nintendo,iPadOS 15,v1.0.0,1
+985,Mobile,Smart TV,Nintendo,iPadOS 15,v1.2.3,1
+986,Mobile,Smart TV,Nintendo,macOS Ventura,v2.0.1,1
+987,Mobile,Smart TV,Nintendo,tvOS 14,v1.0.0,1
+988,Mobile,Smart TV,Playstation,Ubuntu 22.04,v3.0.5,1
+989,Mobile,Smart TV,Playstation,Xbox,v1.0.0,1
+990,Mobile,Smart TV,Playstation,iOS 16,v2.1.0,1
+991,Mobile,Smart TV,Playstation,tvOS 14,v2.1.0,1
+992,Mobile,Smart TV,Playstation,tvOS 14,v3.0.5,1
+993,Mobile,Smart TV,Windows,Android 13,v3.0.5,1
+994,Mobile,Smart TV,Windows,Ubuntu 22.04,v1.0.0,1
+995,Mobile,Smart TV,Windows,Ubuntu 22.04,v1.2.3,1
+996,Mobile,Smart TV,Windows,iPadOS 15,v1.0.0,1
+997,Mobile,Smart TV,Windows,iPadOS 15,v1.2.3,1
+998,Mobile,Smart TV,Windows,macOS Ventura,v2.0.1,1
+999,Mobile,Smart TV,Xbox,FireOS 6,v3.0.5,1
+1000,Mobile,Smart TV,Xbox,Switch,v3.0.5,1
+1001,Mobile,Smart TV,Xbox,Ubuntu 22.04,v1.0.0,1
+1002,Mobile,Smart TV,Xbox,Ubuntu 22.04,v2.1.0,1
+1003,Mobile,Smart TV,Xbox,Windows 11,v3.0.5,1
+1004,Mobile,Smart TV,Xbox,Xbox,v1.2.3,1
+1005,Mobile,Smart TV,Xbox,tvOS 14,v1.2.3,1
+1006,Mobile,Smart TV,iOS,PS5,v1.2.3,1
+1007,Mobile,Smart TV,iOS,PS5,v2.0.1,1
+1008,Mobile,Smart TV,iOS,iOS 16,v1.2.3,1
+1009,Mobile,Smart TV,iOS,iPadOS 15,v1.0.0,1
+1010,Mobile,Smart TV,iOS,iPadOS 15,v3.0.5,1
+1011,Mobile,Smart TV,iOS,tvOS 14,v1.0.0,1
+1012,Mobile,Smart TV,macOS,FireOS 6,v1.2.3,1
+1013,Mobile,Smart TV,macOS,Ubuntu 22.04,v2.0.1,1
+1014,Mobile,Smart TV,macOS,Windows 11,v2.0.1,1
+1015,Mobile,Smart TV,macOS,Xbox,v2.0.1,1
+1016,Mobile,Smart TV,macOS,iPadOS 15,v2.0.1,1
+1017,Mobile,Smart TV,macOS,tvOS 14,v2.1.0,1
+1018,Mobile,Smart TV,tvOS,Android 13,v2.1.0,1
+1019,Mobile,Smart TV,tvOS,FireOS 6,v2.0.1,1
+1020,Mobile,Smart TV,tvOS,Windows 11,v1.0.0,1
+1021,Mobile,Smart TV,tvOS,Xbox,v1.0.0,1
+1022,Mobile,Smart TV,tvOS,Xbox,v2.1.0,1
+1023,Mobile,Smart TV,tvOS,iOS 16,v3.0.5,1
+1024,Mobile,Smart TV,tvOS,macOS Ventura,v2.1.0,1
+1025,Mobile,Smart TV,tvOS,macOS Ventura,v3.0.5,1
+1026,Mobile,Smart TV,tvOS,tvOS 14,v1.2.3,1
+1027,Mobile,Smartphone,Android,macOS Ventura,v2.1.0,1
+1028,Mobile,Smartphone,FireOS,FireOS 6,v2.1.0,1
+1029,Mobile,Smartphone,FireOS,Ubuntu 22.04,v1.0.0,1
+1030,Mobile,Smartphone,FireOS,Ubuntu 22.04,v2.0.1,1
+1031,Mobile,Smartphone,FireOS,Xbox,v2.0.1,1
+1032,Mobile,Smartphone,FireOS,iPadOS 15,v2.0.1,1
+1033,Mobile,Smartphone,FireOS,macOS Ventura,v3.0.5,1
+1034,Mobile,Smartphone,FireOS,tvOS 14,v1.2.3,1
+1035,Mobile,Smartphone,Linux,FireOS 6,v2.0.1,1
+1036,Mobile,Smartphone,Linux,Switch,v1.2.3,1
+1037,Mobile,Smartphone,Linux,Ubuntu 22.04,v2.1.0,1
+1038,Mobile,Smartphone,Linux,Windows 11,v1.2.3,1
+1039,Mobile,Smartphone,Linux,Windows 11,v3.0.5,1
+1040,Mobile,Smartphone,Linux,macOS Ventura,v1.2.3,1
+1041,Mobile,Smartphone,Linux,macOS Ventura,v2.1.0,1
+1042,Mobile,Smartphone,Nintendo,Android 13,v2.1.0,1
+1043,Mobile,Smartphone,Nintendo,FireOS 6,v1.0.0,1
+1044,Mobile,Smartphone,Nintendo,PS5,v3.0.5,1
+1045,Mobile,Smartphone,Nintendo,Switch,v1.2.3,1
+1046,Mobile,Smartphone,Nintendo,Switch,v2.1.0,1
+1047,Mobile,Smartphone,Nintendo,Windows 11,v2.0.1,1
+1048,Mobile,Smartphone,Nintendo,iOS 16,v2.0.1,1
+1049,Mobile,Smartphone,Nintendo,iPadOS 15,v2.0.1,1
+1050,Mobile,Smartphone,Nintendo,macOS Ventura,v1.0.0,1
+1051,Mobile,Smartphone,Nintendo,tvOS 14,v3.0.5,1
+1052,Mobile,Smartphone,Playstation,FireOS 6,v1.0.0,1
+1053,Mobile,Smartphone,Playstation,FireOS 6,v2.0.1,1
+1054,Mobile,Smartphone,Playstation,Ubuntu 22.04,v2.0.1,1
+1055,Mobile,Smartphone,Playstation,iOS 16,v1.2.3,1
+1056,Mobile,Smartphone,Playstation,iOS 16,v2.1.0,1
+1057,Mobile,Smartphone,Playstation,iPadOS 15,v1.2.3,1
+1058,Mobile,Smartphone,Playstation,iPadOS 15,v2.1.0,1
+1059,Mobile,Smartphone,Playstation,tvOS 14,v1.2.3,1
+1060,Mobile,Smartphone,Windows,PS5,v2.1.0,1
+1061,Mobile,Smartphone,Windows,Ubuntu 22.04,v2.0.1,1
+1062,Mobile,Smartphone,Windows,Xbox,v3.0.5,1
+1063,Mobile,Smartphone,Windows,iOS 16,v1.0.0,1
+1064,Mobile,Smartphone,Windows,iPadOS 15,v2.1.0,1
+1065,Mobile,Smartphone,Windows,tvOS 14,v2.0.1,1
+1066,Mobile,Smartphone,Windows,tvOS 14,v2.1.0,1
+1067,Mobile,Smartphone,Xbox,FireOS 6,v1.0.0,1
+1068,Mobile,Smartphone,Xbox,FireOS 6,v2.1.0,1
+1069,Mobile,Smartphone,Xbox,Switch,v1.2.3,1
+1070,Mobile,Smartphone,Xbox,Switch,v2.1.0,1
+1071,Mobile,Smartphone,Xbox,Windows 11,v3.0.5,1
+1072,Mobile,Smartphone,Xbox,Xbox,v3.0.5,1
+1073,Mobile,Smartphone,Xbox,iOS 16,v3.0.5,1
+1074,Mobile,Smartphone,iOS,Android 13,v2.1.0,1
+1075,Mobile,Smartphone,iOS,Switch,v2.0.1,1
+1076,Mobile,Smartphone,iOS,Xbox,v2.1.0,1
+1077,Mobile,Smartphone,iOS,iOS 16,v2.0.1,1
+1078,Mobile,Smartphone,iOS,tvOS 14,v1.2.3,1
+1079,Mobile,Smartphone,macOS,Android 13,v3.0.5,1
+1080,Mobile,Smartphone,macOS,FireOS 6,v3.0.5,1
+1081,Mobile,Smartphone,macOS,Switch,v2.0.1,1
+1082,Mobile,Smartphone,macOS,Ubuntu 22.04,v1.0.0,1
+1083,Mobile,Smartphone,macOS,iOS 16,v1.2.3,1
+1084,Mobile,Smartphone,macOS,iOS 16,v2.1.0,1
+1085,Mobile,Smartphone,macOS,tvOS 14,v1.0.0,1
+1086,Mobile,Smartphone,macOS,tvOS 14,v2.0.1,1
+1087,Mobile,Smartphone,tvOS,Android 13,v2.0.1,1
+1088,Mobile,Smartphone,tvOS,PS5,v1.0.0,1
+1089,Mobile,Smartphone,tvOS,PS5,v1.2.3,1
+1090,Mobile,Smartphone,tvOS,Ubuntu 22.04,v2.1.0,1
+1091,Mobile,Smartphone,tvOS,iOS 16,v1.0.0,1
+1092,Mobile,Smartphone,tvOS,tvOS 14,v2.1.0,1
+1093,Mobile,Tablet,Android,Android 13,v1.2.3,1
+1094,Mobile,Tablet,Android,PS5,v2.1.0,1
+1095,Mobile,Tablet,Android,iOS 16,v3.0.5,1
+1096,Mobile,Tablet,FireOS,Android 13,v1.2.3,1
+1097,Mobile,Tablet,FireOS,Android 13,v2.0.1,1
+1098,Mobile,Tablet,FireOS,Switch,v1.2.3,1
+1099,Mobile,Tablet,FireOS,iOS 16,v2.0.1,1
+1100,Mobile,Tablet,FireOS,iOS 16,v2.1.0,1
+1101,Mobile,Tablet,FireOS,iPadOS 15,v1.0.0,1
+1102,Mobile,Tablet,FireOS,tvOS 14,v2.0.1,1
+1103,Mobile,Tablet,Linux,Windows 11,v3.0.5,1
+1104,Mobile,Tablet,Linux,iPadOS 15,v1.2.3,1
+1105,Mobile,Tablet,Linux,iPadOS 15,v2.0.1,1
+1106,Mobile,Tablet,Linux,macOS Ventura,v1.0.0,1
+1107,Mobile,Tablet,Nintendo,FireOS 6,v3.0.5,1
+1108,Mobile,Tablet,Nintendo,Windows 11,v2.0.1,1
+1109,Mobile,Tablet,Nintendo,iOS 16,v2.0.1,1
+1110,Mobile,Tablet,Nintendo,iPadOS 15,v1.2.3,1
+1111,Mobile,Tablet,Nintendo,macOS Ventura,v1.2.3,1
+1112,Mobile,Tablet,Playstation,Android 13,v1.0.0,1
+1113,Mobile,Tablet,Playstation,Ubuntu 22.04,v3.0.5,1
+1114,Mobile,Tablet,Playstation,Xbox,v1.0.0,1
+1115,Mobile,Tablet,Playstation,macOS Ventura,v1.0.0,1
+1116,Mobile,Tablet,Playstation,tvOS 14,v1.2.3,1
+1117,Mobile,Tablet,Windows,Android 13,v1.2.3,1
+1118,Mobile,Tablet,Windows,Android 13,v2.1.0,1
+1119,Mobile,Tablet,Windows,FireOS 6,v2.1.0,1
+1120,Mobile,Tablet,Windows,FireOS 6,v3.0.5,1
+1121,Mobile,Tablet,Windows,macOS Ventura,v1.2.3,1
+1122,Mobile,Tablet,Xbox,FireOS 6,v2.0.1,1
+1123,Mobile,Tablet,Xbox,Windows 11,v1.0.0,1
+1124,Mobile,Tablet,Xbox,Windows 11,v2.0.1,1
+1125,Mobile,Tablet,Xbox,Xbox,v2.0.1,1
+1126,Mobile,Tablet,Xbox,iOS 16,v1.2.3,1
+1127,Mobile,Tablet,iOS,FireOS 6,v1.0.0,1
+1128,Mobile,Tablet,iOS,FireOS 6,v3.0.5,1
+1129,Mobile,Tablet,iOS,PS5,v1.2.3,1
+1130,Mobile,Tablet,iOS,Ubuntu 22.04,v1.2.3,1
+1131,Mobile,Tablet,iOS,iOS 16,v1.2.3,1
+1132,Mobile,Tablet,macOS,PS5,v2.0.1,1
+1133,Mobile,Tablet,macOS,Switch,v1.2.3,1
+1134,Mobile,Tablet,macOS,Ubuntu 22.04,v1.2.3,1
+1135,Mobile,Tablet,macOS,Xbox,v1.0.0,1
+1136,Mobile,Tablet,macOS,Xbox,v2.0.1,1
+1137,Mobile,Tablet,macOS,Xbox,v3.0.5,1
+1138,Mobile,Tablet,macOS,iPadOS 15,v1.2.3,1
+1139,Mobile,Tablet,macOS,macOS Ventura,v1.0.0,1
+1140,Mobile,Tablet,tvOS,FireOS 6,v1.0.0,1
+1141,Mobile,Tablet,tvOS,FireOS 6,v2.0.1,1
+1142,Mobile,Tablet,tvOS,FireOS 6,v2.1.0,1
+1143,Mobile,Tablet,tvOS,Switch,v2.1.0,1
+1144,Mobile,Tablet,tvOS,Windows 11,v2.1.0,1
+1145,Mobile,Tablet,tvOS,Xbox,v2.0.1,1
+1146,Mobile,Tablet,tvOS,iOS 16,v2.0.1,1
+1147,Mobile,Tablet,tvOS,iPadOS 15,v2.0.1,1
+1148,Mobile,Tablet,tvOS,tvOS 14,v3.0.5,1
+1149,TV,Desktop,Android,Android 13,v1.2.3,1
+1150,TV,Desktop,Android,FireOS 6,v2.0.1,1
+1151,TV,Desktop,Android,PS5,v3.0.5,1
+1152,TV,Desktop,Android,Xbox,v1.0.0,1
+1153,TV,Desktop,Android,Xbox,v2.1.0,1
+1154,TV,Desktop,Android,iOS 16,v2.1.0,1
+1155,TV,Desktop,Android,iPadOS 15,v1.0.0,1
+1156,TV,Desktop,FireOS,FireOS 6,v2.0.1,1
+1157,TV,Desktop,FireOS,FireOS 6,v3.0.5,1
+1158,TV,Desktop,FireOS,PS5,v2.0.1,1
+1159,TV,Desktop,FireOS,Windows 11,v1.0.0,1
+1160,TV,Desktop,FireOS,iOS 16,v1.0.0,1
+1161,TV,Desktop,FireOS,tvOS 14,v3.0.5,1
+1162,TV,Desktop,Linux,Android 13,v1.0.0,1
+1163,TV,Desktop,Linux,PS5,v2.0.1,1
+1164,TV,Desktop,Linux,Ubuntu 22.04,v1.0.0,1
+1165,TV,Desktop,Linux,iOS 16,v3.0.5,1
+1166,TV,Desktop,Linux,macOS Ventura,v1.0.0,1
+1167,TV,Desktop,Linux,macOS Ventura,v1.2.3,1
+1168,TV,Desktop,Nintendo,Android 13,v2.1.0,1
+1169,TV,Desktop,Nintendo,FireOS 6,v2.1.0,1
+1170,TV,Desktop,Nintendo,PS5,v1.0.0,1
+1171,TV,Desktop,Nintendo,Switch,v2.0.1,1
+1172,TV,Desktop,Nintendo,Ubuntu 22.04,v1.0.0,1
+1173,TV,Desktop,Nintendo,Windows 11,v2.0.1,1
+1174,TV,Desktop,Nintendo,iOS 16,v1.0.0,1
+1175,TV,Desktop,Nintendo,iPadOS 15,v1.2.3,1
+1176,TV,Desktop,Nintendo,macOS Ventura,v1.2.3,1
+1177,TV,Desktop,Playstation,FireOS 6,v2.0.1,1
+1178,TV,Desktop,Playstation,Xbox,v1.0.0,1
+1179,TV,Desktop,Playstation,Xbox,v3.0.5,1
+1180,TV,Desktop,Playstation,iOS 16,v3.0.5,1
+1181,TV,Desktop,Playstation,iPadOS 15,v2.1.0,1
+1182,TV,Desktop,Playstation,tvOS 14,v3.0.5,1
+1183,TV,Desktop,Windows,Android 13,v2.1.0,1
+1184,TV,Desktop,Windows,Xbox,v1.2.3,1
+1185,TV,Desktop,Windows,iPadOS 15,v1.0.0,1
+1186,TV,Desktop,Xbox,Windows 11,v3.0.5,1
+1187,TV,Desktop,Xbox,iOS 16,v2.1.0,1
+1188,TV,Desktop,Xbox,iPadOS 15,v1.0.0,1
+1189,TV,Desktop,Xbox,tvOS 14,v1.2.3,1
+1190,TV,Desktop,iOS,Android 13,v1.0.0,1
+1191,TV,Desktop,iOS,Android 13,v1.2.3,1
+1192,TV,Desktop,iOS,PS5,v2.1.0,1
+1193,TV,Desktop,iOS,PS5,v3.0.5,1
+1194,TV,Desktop,iOS,Windows 11,v2.0.1,1
+1195,TV,Desktop,iOS,Windows 11,v2.1.0,1
+1196,TV,Desktop,iOS,iPadOS 15,v1.2.3,1
+1197,TV,Desktop,iOS,iPadOS 15,v3.0.5,1
+1198,TV,Desktop,iOS,macOS Ventura,v2.0.1,1
+1199,TV,Desktop,macOS,FireOS 6,v2.0.1,1
+1200,TV,Desktop,macOS,PS5,v1.2.3,1
+1201,TV,Desktop,macOS,PS5,v2.0.1,1
+1202,TV,Desktop,macOS,PS5,v2.1.0,1
+1203,TV,Desktop,macOS,Windows 11,v2.1.0,1
+1204,TV,Desktop,macOS,Xbox,v2.0.1,1
+1205,TV,Desktop,macOS,macOS Ventura,v1.2.3,1
+1206,TV,Desktop,macOS,tvOS 14,v1.0.0,1
+1207,TV,Desktop,macOS,tvOS 14,v2.1.0,1
+1208,TV,Desktop,tvOS,Switch,v3.0.5,1
+1209,TV,Desktop,tvOS,Windows 11,v2.1.0,1
+1210,TV,Desktop,tvOS,Xbox,v1.0.0,1
+1211,TV,Desktop,tvOS,iOS 16,v1.2.3,1
+1212,TV,Game Console,Android,PS5,v1.2.3,1
+1213,TV,Game Console,Android,Switch,v2.1.0,1
+1214,TV,Game Console,Android,Ubuntu 22.04,v1.0.0,1
+1215,TV,Game Console,Android,macOS Ventura,v2.1.0,1
+1216,TV,Game Console,Android,tvOS 14,v2.0.1,1
+1217,TV,Game Console,FireOS,FireOS 6,v2.1.0,1
+1218,TV,Game Console,FireOS,PS5,v1.0.0,1
+1219,TV,Game Console,FireOS,Switch,v2.1.0,1
+1220,TV,Game Console,FireOS,Switch,v3.0.5,1
+1221,TV,Game Console,FireOS,Ubuntu 22.04,v2.0.1,1
+1222,TV,Game Console,FireOS,Windows 11,v1.2.3,1
+1223,TV,Game Console,FireOS,Xbox,v2.1.0,1
+1224,TV,Game Console,FireOS,iPadOS 15,v2.1.0,1
+1225,TV,Game Console,FireOS,tvOS 14,v2.0.1,1
+1226,TV,Game Console,Linux,PS5,v3.0.5,1
+1227,TV,Game Console,Linux,Switch,v1.0.0,1
+1228,TV,Game Console,Linux,Switch,v2.1.0,1
+1229,TV,Game Console,Linux,iOS 16,v2.0.1,1
+1230,TV,Game Console,Linux,iOS 16,v2.1.0,1
+1231,TV,Game Console,Nintendo,Android 13,v2.0.1,1
+1232,TV,Game Console,Nintendo,PS5,v1.0.0,1
+1233,TV,Game Console,Nintendo,PS5,v2.0.1,1
+1234,TV,Game Console,Nintendo,Switch,v1.0.0,1
+1235,TV,Game Console,Nintendo,Windows 11,v1.2.3,1
+1236,TV,Game Console,Nintendo,iOS 16,v3.0.5,1
+1237,TV,Game Console,Nintendo,tvOS 14,v3.0.5,1
+1238,TV,Game Console,Playstation,FireOS 6,v2.0.1,1
+1239,TV,Game Console,Playstation,PS5,v2.1.0,1
+1240,TV,Game Console,Playstation,Ubuntu 22.04,v3.0.5,1
+1241,TV,Game Console,Playstation,Windows 11,v2.1.0,1
+1242,TV,Game Console,Playstation,Xbox,v3.0.5,1
+1243,TV,Game Console,Windows,FireOS 6,v1.0.0,1
+1244,TV,Game Console,Windows,Switch,v2.1.0,1
+1245,TV,Game Console,Windows,Ubuntu 22.04,v2.0.1,1
+1246,TV,Game Console,Windows,Ubuntu 22.04,v2.1.0,1
+1247,TV,Game Console,Windows,Windows 11,v1.2.3,1
+1248,TV,Game Console,Xbox,FireOS 6,v3.0.5,1
+1249,TV,Game Console,Xbox,PS5,v1.0.0,1
+1250,TV,Game Console,Xbox,Switch,v1.2.3,1
+1251,TV,Game Console,Xbox,iOS 16,v3.0.5,1
+1252,TV,Game Console,iOS,Ubuntu 22.04,v2.0.1,1
+1253,TV,Game Console,iOS,Xbox,v2.0.1,1
+1254,TV,Game Console,iOS,Xbox,v3.0.5,1
+1255,TV,Game Console,macOS,FireOS 6,v2.0.1,1
+1256,TV,Game Console,macOS,PS5,v2.1.0,1
+1257,TV,Game Console,macOS,Switch,v1.0.0,1
+1258,TV,Game Console,macOS,Switch,v1.2.3,1
+1259,TV,Game Console,macOS,Switch,v3.0.5,1
+1260,TV,Game Console,macOS,iPadOS 15,v1.2.3,1
+1261,TV,Game Console,macOS,iPadOS 15,v2.0.1,1
+1262,TV,Game Console,macOS,macOS Ventura,v1.0.0,1
+1263,TV,Game Console,tvOS,FireOS 6,v3.0.5,1
+1264,TV,Game Console,tvOS,Switch,v1.0.0,1
+1265,TV,Game Console,tvOS,Xbox,v3.0.5,1
+1266,TV,Game Console,tvOS,iOS 16,v1.0.0,1
+1267,TV,Game Console,tvOS,macOS Ventura,v1.0.0,1
+1268,TV,Game Console,tvOS,macOS Ventura,v2.1.0,1
+1269,TV,Game Console,tvOS,tvOS 14,v2.1.0,1
+1270,TV,Laptop,Android,Android 13,v1.2.3,1
+1271,TV,Laptop,Android,Android 13,v2.0.1,1
+1272,TV,Laptop,Android,FireOS 6,v1.0.0,1
+1273,TV,Laptop,Android,FireOS 6,v1.2.3,1
+1274,TV,Laptop,Android,PS5,v2.0.1,1
+1275,TV,Laptop,Android,PS5,v2.1.0,1
+1276,TV,Laptop,Android,Switch,v2.0.1,1
+1277,TV,Laptop,Android,Switch,v2.1.0,1
+1278,TV,Laptop,Android,Windows 11,v1.0.0,1
+1279,TV,Laptop,Android,tvOS 14,v2.1.0,1
+1280,TV,Laptop,FireOS,Android 13,v2.0.1,1
+1281,TV,Laptop,FireOS,PS5,v2.0.1,1
+1282,TV,Laptop,FireOS,PS5,v3.0.5,1
+1283,TV,Laptop,FireOS,Ubuntu 22.04,v1.0.0,1
+1284,TV,Laptop,FireOS,Windows 11,v1.0.0,1
+1285,TV,Laptop,FireOS,Xbox,v3.0.5,1
+1286,TV,Laptop,FireOS,macOS Ventura,v1.2.3,1
+1287,TV,Laptop,Linux,PS5,v1.2.3,1
+1288,TV,Laptop,Linux,Switch,v3.0.5,1
+1289,TV,Laptop,Linux,Ubuntu 22.04,v1.2.3,1
+1290,TV,Laptop,Linux,Windows 11,v1.2.3,1
+1291,TV,Laptop,Linux,iOS 16,v2.1.0,1
+1292,TV,Laptop,Linux,iPadOS 15,v1.0.0,1
+1293,TV,Laptop,Nintendo,Android 13,v2.0.1,1
+1294,TV,Laptop,Nintendo,FireOS 6,v2.0.1,1
+1295,TV,Laptop,Nintendo,PS5,v1.0.0,1
+1296,TV,Laptop,Nintendo,PS5,v3.0.5,1
+1297,TV,Laptop,Nintendo,Ubuntu 22.04,v1.2.3,1
+1298,TV,Laptop,Nintendo,Windows 11,v1.0.0,1
+1299,TV,Laptop,Nintendo,iOS 16,v1.0.0,1
+1300,TV,Laptop,Playstation,PS5,v1.2.3,1
+1301,TV,Laptop,Playstation,Switch,v1.0.0,1
+1302,TV,Laptop,Playstation,Switch,v2.0.1,1
+1303,TV,Laptop,Playstation,Ubuntu 22.04,v1.2.3,1
+1304,TV,Laptop,Playstation,macOS Ventura,v2.1.0,1
+1305,TV,Laptop,Windows,PS5,v1.2.3,1
+1306,TV,Laptop,Windows,PS5,v2.1.0,1
+1307,TV,Laptop,Windows,macOS Ventura,v3.0.5,1
+1308,TV,Laptop,Xbox,Android 13,v1.2.3,1
+1309,TV,Laptop,Xbox,Android 13,v3.0.5,1
+1310,TV,Laptop,Xbox,FireOS 6,v3.0.5,1
+1311,TV,Laptop,Xbox,PS5,v1.2.3,1
+1312,TV,Laptop,Xbox,Switch,v2.1.0,1
+1313,TV,Laptop,Xbox,Xbox,v2.0.1,1
+1314,TV,Laptop,Xbox,Xbox,v3.0.5,1
+1315,TV,Laptop,Xbox,tvOS 14,v1.2.3,1
+1316,TV,Laptop,Xbox,tvOS 14,v3.0.5,1
+1317,TV,Laptop,iOS,Android 13,v2.1.0,1
+1318,TV,Laptop,iOS,FireOS 6,v2.0.1,1
+1319,TV,Laptop,iOS,FireOS 6,v2.1.0,1
+1320,TV,Laptop,iOS,PS5,v3.0.5,1
+1321,TV,Laptop,iOS,Switch,v1.2.3,1
+1322,TV,Laptop,iOS,Ubuntu 22.04,v3.0.5,1
+1323,TV,Laptop,iOS,Windows 11,v1.0.0,1
+1324,TV,Laptop,iOS,macOS Ventura,v1.0.0,1
+1325,TV,Laptop,iOS,tvOS 14,v1.2.3,1
+1326,TV,Laptop,macOS,Android 13,v2.0.1,1
+1327,TV,Laptop,macOS,Android 13,v3.0.5,1
+1328,TV,Laptop,macOS,PS5,v2.0.1,1
+1329,TV,Laptop,macOS,Ubuntu 22.04,v2.1.0,1
+1330,TV,Laptop,macOS,Xbox,v2.0.1,1
+1331,TV,Laptop,macOS,iOS 16,v1.0.0,1
+1332,TV,Laptop,macOS,iPadOS 15,v1.2.3,1
+1333,TV,Laptop,macOS,macOS Ventura,v1.2.3,1
+1334,TV,Laptop,macOS,tvOS 14,v1.0.0,1
+1335,TV,Laptop,tvOS,FireOS 6,v2.0.1,1
+1336,TV,Laptop,tvOS,PS5,v3.0.5,1
+1337,TV,Laptop,tvOS,Ubuntu 22.04,v1.2.3,1
+1338,TV,Laptop,tvOS,Windows 11,v2.1.0,1
+1339,TV,Laptop,tvOS,Xbox,v1.0.0,1
+1340,TV,Laptop,tvOS,macOS Ventura,v2.1.0,1
+1341,TV,Laptop,tvOS,tvOS 14,v2.1.0,1
+1342,TV,Smart TV,Android,FireOS 6,v3.0.5,1
+1343,TV,Smart TV,Android,PS5,v1.2.3,1
+1344,TV,Smart TV,Android,Ubuntu 22.04,v1.2.3,1
+1345,TV,Smart TV,Android,macOS Ventura,v3.0.5,1
+1346,TV,Smart TV,Android,tvOS 14,v2.0.1,1
+1347,TV,Smart TV,FireOS,Android 13,v1.2.3,1
+1348,TV,Smart TV,FireOS,iOS 16,v2.0.1,1
+1349,TV,Smart TV,FireOS,tvOS 14,v1.2.3,1
+1350,TV,Smart TV,Linux,Android 13,v1.0.0,1
+1351,TV,Smart TV,Linux,Android 13,v1.2.3,1
+1352,TV,Smart TV,Linux,Android 13,v2.1.0,1
+1353,TV,Smart TV,Linux,Xbox,v1.2.3,1
+1354,TV,Smart TV,Linux,macOS Ventura,v1.0.0,1
+1355,TV,Smart TV,Nintendo,FireOS 6,v3.0.5,1
+1356,TV,Smart TV,Nintendo,Switch,v2.0.1,1
+1357,TV,Smart TV,Nintendo,iPadOS 15,v3.0.5,1
+1358,TV,Smart TV,Playstation,Android 13,v1.2.3,1
+1359,TV,Smart TV,Playstation,PS5,v2.0.1,1
+1360,TV,Smart TV,Playstation,Ubuntu 22.04,v1.2.3,1
+1361,TV,Smart TV,Playstation,Ubuntu 22.04,v2.1.0,1
+1362,TV,Smart TV,Playstation,Ubuntu 22.04,v3.0.5,1
+1363,TV,Smart TV,Playstation,iOS 16,v1.0.0,1
+1364,TV,Smart TV,Windows,FireOS 6,v1.2.3,1
+1365,TV,Smart TV,Windows,FireOS 6,v2.0.1,1
+1366,TV,Smart TV,Windows,Xbox,v3.0.5,1
+1367,TV,Smart TV,Windows,iOS 16,v2.1.0,1
+1368,TV,Smart TV,Windows,iPadOS 15,v1.2.3,1
+1369,TV,Smart TV,Windows,macOS Ventura,v1.2.3,1
+1370,TV,Smart TV,Windows,macOS Ventura,v2.1.0,1
+1371,TV,Smart TV,Xbox,Switch,v1.0.0,1
+1372,TV,Smart TV,Xbox,Windows 11,v1.0.0,1
+1373,TV,Smart TV,Xbox,Xbox,v1.2.3,1
+1374,TV,Smart TV,Xbox,iOS 16,v2.0.1,1
+1375,TV,Smart TV,Xbox,iOS 16,v2.1.0,1
+1376,TV,Smart TV,Xbox,macOS Ventura,v2.1.0,1
+1377,TV,Smart TV,iOS,Android 13,v2.0.1,1
+1378,TV,Smart TV,iOS,FireOS 6,v1.0.0,1
+1379,TV,Smart TV,iOS,PS5,v2.0.1,1
+1380,TV,Smart TV,iOS,iOS 16,v1.2.3,1
+1381,TV,Smart TV,iOS,iPadOS 15,v1.2.3,1
+1382,TV,Smart TV,iOS,iPadOS 15,v2.0.1,1
+1383,TV,Smart TV,iOS,tvOS 14,v2.1.0,1
+1384,TV,Smart TV,macOS,PS5,v3.0.5,1
+1385,TV,Smart TV,macOS,Switch,v1.0.0,1
+1386,TV,Smart TV,macOS,Switch,v3.0.5,1
+1387,TV,Smart TV,macOS,Ubuntu 22.04,v2.1.0,1
+1388,TV,Smart TV,macOS,Windows 11,v3.0.5,1
+1389,TV,Smart TV,macOS,Xbox,v3.0.5,1
+1390,TV,Smart TV,macOS,iOS 16,v3.0.5,1
+1391,TV,Smart TV,macOS,macOS Ventura,v1.0.0,1
+1392,TV,Smart TV,macOS,tvOS 14,v1.2.3,1
+1393,TV,Smart TV,macOS,tvOS 14,v3.0.5,1
+1394,TV,Smart TV,tvOS,Android 13,v1.0.0,1
+1395,TV,Smart TV,tvOS,FireOS 6,v1.0.0,1
+1396,TV,Smart TV,tvOS,PS5,v1.0.0,1
+1397,TV,Smart TV,tvOS,Ubuntu 22.04,v2.1.0,1
+1398,TV,Smart TV,tvOS,iOS 16,v1.2.3,1
+1399,TV,Smart TV,tvOS,iOS 16,v2.0.1,1
+1400,TV,Smart TV,tvOS,iOS 16,v2.1.0,1
+1401,TV,Smart TV,tvOS,iPadOS 15,v2.0.1,1
+1402,TV,Smart TV,tvOS,iPadOS 15,v3.0.5,1
+1403,TV,Smart TV,tvOS,macOS Ventura,v2.1.0,1
+1404,TV,Smart TV,tvOS,tvOS 14,v2.1.0,0
+1405,TV,Smartphone,Android,Windows 11,v2.0.1,1
+1406,TV,Smartphone,Android,Xbox,v1.0.0,1
+1407,TV,Smartphone,Android,iPadOS 15,v1.2.3,1
+1408,TV,Smartphone,Android,macOS Ventura,v2.0.1,1
+1409,TV,Smartphone,Android,macOS Ventura,v3.0.5,1
+1410,TV,Smartphone,FireOS,FireOS 6,v1.0.0,1
+1411,TV,Smartphone,FireOS,Switch,v3.0.5,1
+1412,TV,Smartphone,FireOS,Windows 11,v3.0.5,1
+1413,TV,Smartphone,FireOS,iPadOS 15,v1.2.3,1
+1414,TV,Smartphone,Linux,FireOS 6,v1.2.3,1
+1415,TV,Smartphone,Linux,Switch,v1.0.0,1
+1416,TV,Smartphone,Linux,Switch,v2.1.0,1
+1417,TV,Smartphone,Linux,iOS 16,v1.0.0,1
+1418,TV,Smartphone,Linux,tvOS 14,v2.1.0,1
+1419,TV,Smartphone,Nintendo,Ubuntu 22.04,v3.0.5,1
+1420,TV,Smartphone,Nintendo,Xbox,v1.0.0,1
+1421,TV,Smartphone,Nintendo,iOS 16,v1.0.0,1
+1422,TV,Smartphone,Nintendo,iOS 16,v1.2.3,1
+1423,TV,Smartphone,Nintendo,iPadOS 15,v1.0.0,1
+1424,TV,Smartphone,Nintendo,macOS Ventura,v2.1.0,1
+1425,TV,Smartphone,Playstation,Android 13,v3.0.5,1
+1426,TV,Smartphone,Playstation,FireOS 6,v2.0.1,1
+1427,TV,Smartphone,Playstation,Switch,v1.2.3,1
+1428,TV,Smartphone,Playstation,Windows 11,v1.2.3,1
+1429,TV,Smartphone,Playstation,Windows 11,v2.1.0,1
+1430,TV,Smartphone,Playstation,Xbox,v1.0.0,1
+1431,TV,Smartphone,Playstation,iPadOS 15,v1.2.3,1
+1432,TV,Smartphone,Playstation,macOS Ventura,v1.0.0,1
+1433,TV,Smartphone,Windows,PS5,v3.0.5,1
+1434,TV,Smartphone,Windows,Switch,v3.0.5,1
+1435,TV,Smartphone,Windows,Windows 11,v1.2.3,1
+1436,TV,Smartphone,Windows,Windows 11,v2.1.0,1
+1437,TV,Smartphone,Windows,Xbox,v2.1.0,1
+1438,TV,Smartphone,Xbox,Android 13,v2.1.0,1
+1439,TV,Smartphone,Xbox,Switch,v2.0.1,1
+1440,TV,Smartphone,Xbox,Ubuntu 22.04,v1.2.3,1
+1441,TV,Smartphone,Xbox,Ubuntu 22.04,v2.1.0,1
+1442,TV,Smartphone,Xbox,Ubuntu 22.04,v3.0.5,1
+1443,TV,Smartphone,Xbox,Xbox,v1.0.0,1
+1444,TV,Smartphone,Xbox,Xbox,v1.2.3,1
+1445,TV,Smartphone,Xbox,Xbox,v2.1.0,1
+1446,TV,Smartphone,Xbox,iOS 16,v1.0.0,1
+1447,TV,Smartphone,iOS,FireOS 6,v2.0.1,1
+1448,TV,Smartphone,iOS,FireOS 6,v2.1.0,1
+1449,TV,Smartphone,iOS,PS5,v1.0.0,1
+1450,TV,Smartphone,iOS,Windows 11,v1.0.0,1
+1451,TV,Smartphone,iOS,Windows 11,v1.2.3,1
+1452,TV,Smartphone,iOS,Xbox,v2.0.1,1
+1453,TV,Smartphone,iOS,Xbox,v3.0.5,1
+1454,TV,Smartphone,iOS,macOS Ventura,v2.0.1,1
+1455,TV,Smartphone,iOS,macOS Ventura,v2.1.0,1
+1456,TV,Smartphone,macOS,PS5,v2.0.1,1
+1457,TV,Smartphone,macOS,PS5,v3.0.5,1
+1458,TV,Smartphone,macOS,Ubuntu 22.04,v3.0.5,1
+1459,TV,Smartphone,macOS,tvOS 14,v2.0.1,1
+1460,TV,Smartphone,tvOS,PS5,v3.0.5,1
+1461,TV,Smartphone,tvOS,Ubuntu 22.04,v1.0.0,1
+1462,TV,Smartphone,tvOS,iOS 16,v1.0.0,1
+1463,TV,Smartphone,tvOS,iPadOS 15,v2.0.1,1
+1464,TV,Tablet,Android,Android 13,v2.1.0,1
+1465,TV,Tablet,Android,Android 13,v3.0.5,1
+1466,TV,Tablet,Android,FireOS 6,v1.2.3,1
+1467,TV,Tablet,Android,Ubuntu 22.04,v1.0.0,1
+1468,TV,Tablet,Android,Windows 11,v1.0.0,1
+1469,TV,Tablet,Android,Windows 11,v2.1.0,1
+1470,TV,Tablet,Android,Xbox,v1.2.3,1
+1471,TV,Tablet,Android,Xbox,v2.0.1,1
+1472,TV,Tablet,FireOS,Android 13,v2.0.1,1
+1473,TV,Tablet,FireOS,Switch,v1.0.0,1
+1474,TV,Tablet,FireOS,Switch,v2.0.1,1
+1475,TV,Tablet,FireOS,Ubuntu 22.04,v2.0.1,1
+1476,TV,Tablet,FireOS,Xbox,v2.1.0,1
+1477,TV,Tablet,FireOS,iPadOS 15,v1.0.0,1
+1478,TV,Tablet,FireOS,iPadOS 15,v1.2.3,1
+1479,TV,Tablet,FireOS,iPadOS 15,v3.0.5,1
+1480,TV,Tablet,FireOS,macOS Ventura,v1.2.3,1
+1481,TV,Tablet,FireOS,tvOS 14,v1.0.0,1
+1482,TV,Tablet,FireOS,tvOS 14,v2.0.1,1
+1483,TV,Tablet,Linux,PS5,v2.1.0,1
+1484,TV,Tablet,Linux,Switch,v1.0.0,1
+1485,TV,Tablet,Linux,Ubuntu 22.04,v1.0.0,1
+1486,TV,Tablet,Linux,Ubuntu 22.04,v2.1.0,1
+1487,TV,Tablet,Linux,iPadOS 15,v1.0.0,1
+1488,TV,Tablet,Linux,macOS Ventura,v2.0.1,1
+1489,TV,Tablet,Linux,tvOS 14,v2.0.1,1
+1490,TV,Tablet,Linux,tvOS 14,v3.0.5,1
+1491,TV,Tablet,Nintendo,FireOS 6,v2.1.0,1
+1492,TV,Tablet,Nintendo,Ubuntu 22.04,v2.0.1,1
+1493,TV,Tablet,Nintendo,iOS 16,v1.0.0,1
+1494,TV,Tablet,Playstation,Android 13,v2.0.1,1
+1495,TV,Tablet,Playstation,FireOS 6,v3.0.5,1
+1496,TV,Tablet,Playstation,Switch,v1.2.3,1
+1497,TV,Tablet,Playstation,Ubuntu 22.04,v2.0.1,1
+1498,TV,Tablet,Playstation,tvOS 14,v1.2.3,1
+1499,TV,Tablet,Windows,FireOS 6,v1.0.0,1
+1500,TV,Tablet,Windows,tvOS 14,v1.2.3,1
+1501,TV,Tablet,Windows,tvOS 14,v2.0.1,1
+1502,TV,Tablet,Xbox,Android 13,v2.1.0,1
+1503,TV,Tablet,Xbox,Android 13,v3.0.5,1
+1504,TV,Tablet,Xbox,Ubuntu 22.04,v1.0.0,1
+1505,TV,Tablet,Xbox,Xbox,v1.2.3,1
+1506,TV,Tablet,Xbox,iOS 16,v2.0.1,1
+1507,TV,Tablet,Xbox,iPadOS 15,v2.1.0,1
+1508,TV,Tablet,Xbox,tvOS 14,v1.0.0,1
+1509,TV,Tablet,Xbox,tvOS 14,v1.2.3,1
+1510,TV,Tablet,iOS,FireOS 6,v1.0.0,1
+1511,TV,Tablet,iOS,Switch,v2.1.0,1
+1512,TV,Tablet,iOS,Ubuntu 22.04,v2.1.0,1
+1513,TV,Tablet,iOS,Windows 11,v1.0.0,1
+1514,TV,Tablet,iOS,Windows 11,v2.1.0,1
+1515,TV,Tablet,iOS,Windows 11,v3.0.5,1
+1516,TV,Tablet,macOS,Android 13,v1.0.0,1
+1517,TV,Tablet,macOS,Ubuntu 22.04,v2.1.0,1
+1518,TV,Tablet,macOS,Windows 11,v3.0.5,1
+1519,TV,Tablet,macOS,iPadOS 15,v1.2.3,1
+1520,TV,Tablet,macOS,tvOS 14,v2.1.0,1
+1521,TV,Tablet,tvOS,Android 13,v1.0.0,1
+1522,TV,Tablet,tvOS,FireOS 6,v1.2.3,1
+1523,TV,Tablet,tvOS,PS5,v1.2.3,1
+1524,TV,Tablet,tvOS,Ubuntu 22.04,v1.2.3,1
+1525,TV,Tablet,tvOS,iOS 16,v1.2.3,1
+1526,TV,Tablet,tvOS,iPadOS 15,v2.0.1,1
+1527,TV,Tablet,tvOS,macOS Ventura,v1.2.3,1
+1528,Tablet,Desktop,Android,FireOS 6,v1.2.3,1
+1529,Tablet,Desktop,Android,FireOS 6,v3.0.5,1
+1530,Tablet,Desktop,Android,Switch,v2.1.0,1
+1531,Tablet,Desktop,Android,Xbox,v2.1.0,1
+1532,Tablet,Desktop,Android,iOS 16,v1.0.0,1
+1533,Tablet,Desktop,Android,iPadOS 15,v2.1.0,1
+1534,Tablet,Desktop,FireOS,Android 13,v1.2.3,1
+1535,Tablet,Desktop,FireOS,FireOS 6,v1.2.3,1
+1536,Tablet,Desktop,FireOS,PS5,v1.0.0,1
+1537,Tablet,Desktop,FireOS,PS5,v1.2.3,1
+1538,Tablet,Desktop,FireOS,Windows 11,v1.0.0,1
+1539,Tablet,Desktop,FireOS,Windows 11,v2.1.0,1
+1540,Tablet,Desktop,FireOS,Xbox,v2.0.1,1
+1541,Tablet,Desktop,FireOS,iPadOS 15,v2.0.1,1
+1542,Tablet,Desktop,FireOS,macOS Ventura,v1.0.0,1
+1543,Tablet,Desktop,Linux,FireOS 6,v1.0.0,1
+1544,Tablet,Desktop,Linux,PS5,v2.0.1,1
+1545,Tablet,Desktop,Linux,Ubuntu 22.04,v1.2.3,1
+1546,Tablet,Desktop,Linux,Windows 11,v1.2.3,1
+1547,Tablet,Desktop,Linux,macOS Ventura,v2.0.1,1
+1548,Tablet,Desktop,Nintendo,Android 13,v1.0.0,1
+1549,Tablet,Desktop,Nintendo,PS5,v1.0.0,1
+1550,Tablet,Desktop,Nintendo,PS5,v2.0.1,1
+1551,Tablet,Desktop,Nintendo,Xbox,v2.1.0,1
+1552,Tablet,Desktop,Nintendo,iOS 16,v2.0.1,1
+1553,Tablet,Desktop,Nintendo,tvOS 14,v1.2.3,1
+1554,Tablet,Desktop,Playstation,PS5,v2.1.0,1
+1555,Tablet,Desktop,Playstation,Windows 11,v1.2.3,1
+1556,Tablet,Desktop,Playstation,Xbox,v1.0.0,1
+1557,Tablet,Desktop,Playstation,Xbox,v1.2.3,1
+1558,Tablet,Desktop,Playstation,iOS 16,v2.1.0,1
+1559,Tablet,Desktop,Playstation,iPadOS 15,v2.0.1,1
+1560,Tablet,Desktop,Playstation,macOS Ventura,v3.0.5,1
+1561,Tablet,Desktop,Playstation,tvOS 14,v1.2.3,1
+1562,Tablet,Desktop,Windows,Windows 11,v3.0.5,1
+1563,Tablet,Desktop,Windows,iOS 16,v1.0.0,1
+1564,Tablet,Desktop,Windows,iPadOS 15,v1.0.0,1
+1565,Tablet,Desktop,Windows,macOS Ventura,v2.0.1,1
+1566,Tablet,Desktop,Xbox,Android 13,v1.0.0,1
+1567,Tablet,Desktop,iOS,FireOS 6,v2.1.0,1
+1568,Tablet,Desktop,iOS,Ubuntu 22.04,v2.0.1,1
+1569,Tablet,Desktop,iOS,Xbox,v1.2.3,1
+1570,Tablet,Desktop,iOS,Xbox,v3.0.5,1
+1571,Tablet,Desktop,macOS,Android 13,v3.0.5,1
+1572,Tablet,Desktop,macOS,Ubuntu 22.04,v2.1.0,1
+1573,Tablet,Desktop,macOS,iOS 16,v1.0.0,1
+1574,Tablet,Desktop,tvOS,FireOS 6,v2.0.1,1
+1575,Tablet,Desktop,tvOS,Windows 11,v1.2.3,1
+1576,Tablet,Desktop,tvOS,iPadOS 15,v1.2.3,1
+1577,Tablet,Desktop,tvOS,macOS Ventura,v2.1.0,1
+1578,Tablet,Game Console,Android,Android 13,v1.2.3,1
+1579,Tablet,Game Console,Android,PS5,v2.0.1,1
+1580,Tablet,Game Console,Android,Windows 11,v1.2.3,1
+1581,Tablet,Game Console,Android,iOS 16,v1.0.0,1
+1582,Tablet,Game Console,Android,iOS 16,v3.0.5,1
+1583,Tablet,Game Console,Android,tvOS 14,v1.2.3,1
+1584,Tablet,Game Console,FireOS,FireOS 6,v2.1.0,1
+1585,Tablet,Game Console,FireOS,PS5,v1.0.0,1
+1586,Tablet,Game Console,FireOS,PS5,v1.2.3,1
+1587,Tablet,Game Console,FireOS,Windows 11,v2.0.1,1
+1588,Tablet,Game Console,FireOS,Windows 11,v2.1.0,1
+1589,Tablet,Game Console,FireOS,iPadOS 15,v1.0.0,1
+1590,Tablet,Game Console,FireOS,tvOS 14,v1.2.3,1
+1591,Tablet,Game Console,Linux,Android 13,v3.0.5,1
+1592,Tablet,Game Console,Linux,PS5,v1.0.0,1
+1593,Tablet,Game Console,Linux,PS5,v1.2.3,1
+1594,Tablet,Game Console,Linux,Switch,v2.0.1,1
+1595,Tablet,Game Console,Linux,Windows 11,v2.0.1,1
+1596,Tablet,Game Console,Nintendo,Android 13,v1.2.3,1
+1597,Tablet,Game Console,Nintendo,iOS 16,v3.0.5,1
+1598,Tablet,Game Console,Nintendo,tvOS 14,v1.0.0,1
+1599,Tablet,Game Console,Nintendo,tvOS 14,v1.2.3,1
+1600,Tablet,Game Console,Playstation,Android 13,v1.0.0,1
+1601,Tablet,Game Console,Playstation,PS5,v1.0.0,1
+1602,Tablet,Game Console,Playstation,Ubuntu 22.04,v2.1.0,1
+1603,Tablet,Game Console,Playstation,Xbox,v2.1.0,1
+1604,Tablet,Game Console,Windows,Android 13,v1.0.0,1
+1605,Tablet,Game Console,Windows,FireOS 6,v2.1.0,1
+1606,Tablet,Game Console,Windows,FireOS 6,v3.0.5,1
+1607,Tablet,Game Console,Windows,PS5,v2.0.1,1
+1608,Tablet,Game Console,Windows,PS5,v2.1.0,1
+1609,Tablet,Game Console,Windows,Windows 11,v2.0.1,1
+1610,Tablet,Game Console,Windows,Xbox,v1.2.3,1
+1611,Tablet,Game Console,Windows,macOS Ventura,v2.0.1,1
+1612,Tablet,Game Console,Xbox,FireOS 6,v1.0.0,1
+1613,Tablet,Game Console,Xbox,PS5,v1.2.3,1
+1614,Tablet,Game Console,Xbox,Switch,v2.0.1,1
+1615,Tablet,Game Console,Xbox,Xbox,v1.2.3,1
+1616,Tablet,Game Console,Xbox,iOS 16,v3.0.5,1
+1617,Tablet,Game Console,Xbox,tvOS 14,v1.2.3,1
+1618,Tablet,Game Console,iOS,Android 13,v2.0.1,1
+1619,Tablet,Game Console,iOS,PS5,v2.1.0,1
+1620,Tablet,Game Console,iOS,Windows 11,v1.2.3,1
+1621,Tablet,Game Console,iOS,iOS 16,v1.2.3,1
+1622,Tablet,Game Console,iOS,iPadOS 15,v3.0.5,1
+1623,Tablet,Game Console,iOS,macOS Ventura,v3.0.5,1
+1624,Tablet,Game Console,iOS,tvOS 14,v2.0.1,1
+1625,Tablet,Game Console,macOS,PS5,v2.1.0,1
+1626,Tablet,Game Console,macOS,iOS 16,v2.1.0,1
+1627,Tablet,Game Console,macOS,iOS 16,v3.0.5,1
+1628,Tablet,Game Console,macOS,tvOS 14,v1.2.3,1
+1629,Tablet,Game Console,tvOS,Android 13,v1.0.0,1
+1630,Tablet,Game Console,tvOS,Windows 11,v1.0.0,1
+1631,Tablet,Game Console,tvOS,Windows 11,v3.0.5,1
+1632,Tablet,Game Console,tvOS,Xbox,v1.2.3,1
+1633,Tablet,Game Console,tvOS,iOS 16,v2.0.1,1
+1634,Tablet,Game Console,tvOS,macOS Ventura,v2.1.0,1
+1635,Tablet,Laptop,Android,Android 13,v1.2.3,1
+1636,Tablet,Laptop,Android,FireOS 6,v3.0.5,1
+1637,Tablet,Laptop,Android,PS5,v1.0.0,1
+1638,Tablet,Laptop,Android,Ubuntu 22.04,v1.2.3,1
+1639,Tablet,Laptop,Android,tvOS 14,v1.0.0,1
+1640,Tablet,Laptop,Android,tvOS 14,v2.0.1,1
+1641,Tablet,Laptop,FireOS,Android 13,v2.1.0,1
+1642,Tablet,Laptop,FireOS,FireOS 6,v2.0.1,1
+1643,Tablet,Laptop,FireOS,PS5,v1.0.0,1
+1644,Tablet,Laptop,FireOS,Switch,v2.1.0,1
+1645,Tablet,Laptop,FireOS,Windows 11,v1.0.0,1
+1646,Tablet,Laptop,FireOS,Windows 11,v1.2.3,1
+1647,Tablet,Laptop,FireOS,iOS 16,v1.0.0,1
+1648,Tablet,Laptop,FireOS,iPadOS 15,v3.0.5,1
+1649,Tablet,Laptop,FireOS,tvOS 14,v2.1.0,1
+1650,Tablet,Laptop,Linux,PS5,v1.0.0,1
+1651,Tablet,Laptop,Linux,PS5,v2.0.1,1
+1652,Tablet,Laptop,Linux,Switch,v2.1.0,1
+1653,Tablet,Laptop,Linux,Switch,v3.0.5,1
+1654,Tablet,Laptop,Linux,Ubuntu 22.04,v2.0.1,1
+1655,Tablet,Laptop,Linux,iOS 16,v2.1.0,1
+1656,Tablet,Laptop,Linux,iPadOS 15,v1.0.0,1
+1657,Tablet,Laptop,Linux,macOS Ventura,v1.2.3,1
+1658,Tablet,Laptop,Linux,tvOS 14,v1.0.0,1
+1659,Tablet,Laptop,Nintendo,PS5,v3.0.5,1
+1660,Tablet,Laptop,Nintendo,Ubuntu 22.04,v2.1.0,1
+1661,Tablet,Laptop,Nintendo,Ubuntu 22.04,v3.0.5,1
+1662,Tablet,Laptop,Nintendo,iPadOS 15,v2.1.0,1
+1663,Tablet,Laptop,Playstation,Android 13,v2.1.0,1
+1664,Tablet,Laptop,Playstation,Android 13,v3.0.5,1
+1665,Tablet,Laptop,Playstation,Ubuntu 22.04,v1.2.3,1
+1666,Tablet,Laptop,Playstation,macOS Ventura,v2.0.1,1
+1667,Tablet,Laptop,Playstation,tvOS 14,v2.0.1,1
+1668,Tablet,Laptop,Windows,Android 13,v3.0.5,1
+1669,Tablet,Laptop,Windows,Switch,v3.0.5,1
+1670,Tablet,Laptop,Windows,macOS Ventura,v1.0.0,1
+1671,Tablet,Laptop,Windows,tvOS 14,v1.2.3,1
+1672,Tablet,Laptop,Xbox,PS5,v2.0.1,1
+1673,Tablet,Laptop,Xbox,Ubuntu 22.04,v1.0.0,1
+1674,Tablet,Laptop,Xbox,Ubuntu 22.04,v3.0.5,1
+1675,Tablet,Laptop,Xbox,iPadOS 15,v3.0.5,1
+1676,Tablet,Laptop,Xbox,tvOS 14,v1.0.0,1
+1677,Tablet,Laptop,iOS,Android 13,v1.0.0,1
+1678,Tablet,Laptop,iOS,Switch,v1.0.0,1
+1679,Tablet,Laptop,iOS,Switch,v2.1.0,1
+1680,Tablet,Laptop,iOS,iOS 16,v1.2.3,1
+1681,Tablet,Laptop,iOS,iOS 16,v2.0.1,1
+1682,Tablet,Laptop,iOS,macOS Ventura,v1.0.0,1
+1683,Tablet,Laptop,macOS,Android 13,v3.0.5,1
+1684,Tablet,Laptop,macOS,Ubuntu 22.04,v1.0.0,1
+1685,Tablet,Laptop,macOS,tvOS 14,v1.2.3,1
+1686,Tablet,Laptop,tvOS,Android 13,v1.2.3,1
+1687,Tablet,Laptop,tvOS,Android 13,v2.1.0,1
+1688,Tablet,Laptop,tvOS,FireOS 6,v2.0.1,1
+1689,Tablet,Laptop,tvOS,Ubuntu 22.04,v1.0.0,1
+1690,Tablet,Laptop,tvOS,Windows 11,v1.0.0,1
+1691,Tablet,Smart TV,Android,Android 13,v1.2.3,1
+1692,Tablet,Smart TV,Android,Android 13,v3.0.5,1
+1693,Tablet,Smart TV,Android,FireOS 6,v1.2.3,1
+1694,Tablet,Smart TV,Android,PS5,v2.0.1,1
+1695,Tablet,Smart TV,Android,Ubuntu 22.04,v1.0.0,1
+1696,Tablet,Smart TV,Android,Xbox,v3.0.5,1
+1697,Tablet,Smart TV,Android,iOS 16,v3.0.5,1
+1698,Tablet,Smart TV,Android,iPadOS 15,v1.2.3,1
+1699,Tablet,Smart TV,Android,iPadOS 15,v3.0.5,1
+1700,Tablet,Smart TV,Android,tvOS 14,v1.2.3,1
+1701,Tablet,Smart TV,FireOS,Android 13,v1.2.3,1
+1702,Tablet,Smart TV,FireOS,Android 13,v2.0.1,1
+1703,Tablet,Smart TV,FireOS,FireOS 6,v1.0.0,1
+1704,Tablet,Smart TV,FireOS,PS5,v1.0.0,1
+1705,Tablet,Smart TV,FireOS,PS5,v3.0.5,1
+1706,Tablet,Smart TV,FireOS,Switch,v2.0.1,1
+1707,Tablet,Smart TV,FireOS,Ubuntu 22.04,v2.0.1,1
+1708,Tablet,Smart TV,FireOS,Xbox,v3.0.5,1
+1709,Tablet,Smart TV,FireOS,iPadOS 15,v2.0.1,1
+1710,Tablet,Smart TV,FireOS,iPadOS 15,v2.1.0,1
+1711,Tablet,Smart TV,Linux,Android 13,v1.0.0,1
+1712,Tablet,Smart TV,Linux,Android 13,v2.1.0,1
+1713,Tablet,Smart TV,Linux,Ubuntu 22.04,v1.0.0,1
+1714,Tablet,Smart TV,Linux,Ubuntu 22.04,v1.2.3,1
+1715,Tablet,Smart TV,Linux,Ubuntu 22.04,v2.1.0,1
+1716,Tablet,Smart TV,Linux,iPadOS 15,v1.0.0,1
+1717,Tablet,Smart TV,Linux,tvOS 14,v3.0.5,1
+1718,Tablet,Smart TV,Nintendo,Android 13,v2.0.1,1
+1719,Tablet,Smart TV,Nintendo,PS5,v2.1.0,1
+1720,Tablet,Smart TV,Nintendo,PS5,v3.0.5,1
+1721,Tablet,Smart TV,Nintendo,Switch,v1.0.0,1
+1722,Tablet,Smart TV,Nintendo,iOS 16,v1.2.3,1
+1723,Tablet,Smart TV,Nintendo,macOS Ventura,v2.0.1,1
+1724,Tablet,Smart TV,Playstation,FireOS 6,v1.0.0,1
+1725,Tablet,Smart TV,Playstation,Ubuntu 22.04,v2.0.1,1
+1726,Tablet,Smart TV,Playstation,Ubuntu 22.04,v2.1.0,1
+1727,Tablet,Smart TV,Playstation,Xbox,v1.0.0,1
+1728,Tablet,Smart TV,Playstation,iOS 16,v3.0.5,1
+1729,Tablet,Smart TV,Playstation,tvOS 14,v3.0.5,1
+1730,Tablet,Smart TV,Windows,FireOS 6,v1.0.0,1
+1731,Tablet,Smart TV,Windows,macOS Ventura,v3.0.5,1
+1732,Tablet,Smart TV,Windows,tvOS 14,v1.2.3,1
+1733,Tablet,Smart TV,Xbox,iOS 16,v2.0.1,1
+1734,Tablet,Smart TV,Xbox,iOS 16,v2.1.0,1
+1735,Tablet,Smart TV,Xbox,tvOS 14,v2.1.0,1
+1736,Tablet,Smart TV,iOS,Android 13,v1.2.3,1
+1737,Tablet,Smart TV,iOS,FireOS 6,v1.0.0,1
+1738,Tablet,Smart TV,iOS,PS5,v2.0.1,1
+1739,Tablet,Smart TV,iOS,PS5,v2.1.0,1
+1740,Tablet,Smart TV,iOS,Ubuntu 22.04,v1.0.0,1
+1741,Tablet,Smart TV,iOS,iOS 16,v2.0.1,1
+1742,Tablet,Smart TV,iOS,iOS 16,v3.0.5,1
+1743,Tablet,Smart TV,iOS,iPadOS 15,v1.0.0,1
+1744,Tablet,Smart TV,iOS,iPadOS 15,v1.2.3,1
+1745,Tablet,Smart TV,macOS,PS5,v1.2.3,1
+1746,Tablet,Smart TV,macOS,Switch,v2.1.0,1
+1747,Tablet,Smart TV,macOS,Ubuntu 22.04,v2.0.1,1
+1748,Tablet,Smart TV,macOS,iPadOS 15,v3.0.5,1
+1749,Tablet,Smart TV,macOS,tvOS 14,v3.0.5,1
+1750,Tablet,Smart TV,tvOS,FireOS 6,v1.2.3,1
+1751,Tablet,Smart TV,tvOS,Switch,v3.0.5,1
+1752,Tablet,Smart TV,tvOS,Xbox,v2.1.0,1
+1753,Tablet,Smart TV,tvOS,iPadOS 15,v1.2.3,1
+1754,Tablet,Smart TV,tvOS,iPadOS 15,v2.0.1,1
+1755,Tablet,Smartphone,Android,FireOS 6,v1.0.0,1
+1756,Tablet,Smartphone,Android,PS5,v2.0.1,1
+1757,Tablet,Smartphone,Android,Switch,v2.1.0,1
+1758,Tablet,Smartphone,Android,Windows 11,v2.0.1,1
+1759,Tablet,Smartphone,Android,Xbox,v1.2.3,1
+1760,Tablet,Smartphone,Android,iOS 16,v1.0.0,1
+1761,Tablet,Smartphone,Android,iPadOS 15,v1.0.0,1
+1762,Tablet,Smartphone,Android,macOS Ventura,v2.1.0,1
+1763,Tablet,Smartphone,FireOS,Android 13,v2.1.0,1
+1764,Tablet,Smartphone,FireOS,Switch,v3.0.5,1
+1765,Tablet,Smartphone,FireOS,Windows 11,v2.1.0,1
+1766,Tablet,Smartphone,FireOS,Xbox,v2.0.1,1
+1767,Tablet,Smartphone,FireOS,iOS 16,v2.0.1,1
+1768,Tablet,Smartphone,FireOS,iPadOS 15,v2.1.0,1
+1769,Tablet,Smartphone,FireOS,tvOS 14,v2.1.0,1
+1770,Tablet,Smartphone,Linux,Android 13,v2.1.0,1
+1771,Tablet,Smartphone,Linux,Android 13,v3.0.5,1
+1772,Tablet,Smartphone,Linux,PS5,v3.0.5,1
+1773,Tablet,Smartphone,Linux,Switch,v2.1.0,1
+1774,Tablet,Smartphone,Linux,Switch,v3.0.5,1
+1775,Tablet,Smartphone,Linux,Windows 11,v2.0.1,1
+1776,Tablet,Smartphone,Linux,iOS 16,v1.0.0,1
+1777,Tablet,Smartphone,Linux,tvOS 14,v1.2.3,1
+1778,Tablet,Smartphone,Linux,tvOS 14,v2.1.0,1
+1779,Tablet,Smartphone,Nintendo,Android 13,v1.2.3,1
+1780,Tablet,Smartphone,Nintendo,Android 13,v2.1.0,1
+1781,Tablet,Smartphone,Nintendo,Xbox,v2.0.1,1
+1782,Tablet,Smartphone,Nintendo,iOS 16,v1.2.3,1
+1783,Tablet,Smartphone,Nintendo,iPadOS 15,v1.2.3,1
+1784,Tablet,Smartphone,Nintendo,iPadOS 15,v3.0.5,1
+1785,Tablet,Smartphone,Nintendo,tvOS 14,v1.0.0,1
+1786,Tablet,Smartphone,Playstation,Ubuntu 22.04,v1.0.0,1
+1787,Tablet,Smartphone,Playstation,iOS 16,v1.2.3,1
+1788,Tablet,Smartphone,Windows,Android 13,v3.0.5,1
+1789,Tablet,Smartphone,Windows,PS5,v2.0.1,1
+1790,Tablet,Smartphone,Windows,Ubuntu 22.04,v1.2.3,1
+1791,Tablet,Smartphone,Windows,Ubuntu 22.04,v2.1.0,1
+1792,Tablet,Smartphone,Windows,Windows 11,v1.0.0,1
+1793,Tablet,Smartphone,Windows,Windows 11,v1.2.3,1
+1794,Tablet,Smartphone,Windows,Windows 11,v2.1.0,1
+1795,Tablet,Smartphone,Windows,Xbox,v1.2.3,1
+1796,Tablet,Smartphone,Windows,iPadOS 15,v1.2.3,1
+1797,Tablet,Smartphone,Windows,tvOS 14,v1.2.3,1
+1798,Tablet,Smartphone,Xbox,Android 13,v2.1.0,1
+1799,Tablet,Smartphone,Xbox,Ubuntu 22.04,v2.1.0,1
+1800,Tablet,Smartphone,Xbox,Windows 11,v1.2.3,1
+1801,Tablet,Smartphone,Xbox,Windows 11,v2.1.0,1
+1802,Tablet,Smartphone,Xbox,Xbox,v3.0.5,1
+1803,Tablet,Smartphone,Xbox,iOS 16,v1.0.0,1
+1804,Tablet,Smartphone,Xbox,iPadOS 15,v2.0.1,1
+1805,Tablet,Smartphone,Xbox,tvOS 14,v3.0.5,1
+1806,Tablet,Smartphone,iOS,FireOS 6,v1.2.3,1
+1807,Tablet,Smartphone,iOS,Switch,v1.2.3,1
+1808,Tablet,Smartphone,iOS,iOS 16,v1.0.0,1
+1809,Tablet,Smartphone,iOS,iPadOS 15,v1.2.3,1
+1810,Tablet,Smartphone,iOS,macOS Ventura,v1.0.0,1
+1811,Tablet,Smartphone,iOS,macOS Ventura,v3.0.5,1
+1812,Tablet,Smartphone,iOS,tvOS 14,v1.0.0,1
+1813,Tablet,Smartphone,iOS,tvOS 14,v3.0.5,1
+1814,Tablet,Smartphone,macOS,Ubuntu 22.04,v1.0.0,1
+1815,Tablet,Smartphone,macOS,Ubuntu 22.04,v3.0.5,1
+1816,Tablet,Smartphone,macOS,Windows 11,v2.0.1,1
+1817,Tablet,Smartphone,macOS,Xbox,v2.1.0,1
+1818,Tablet,Smartphone,macOS,iOS 16,v1.2.3,1
+1819,Tablet,Smartphone,macOS,iPadOS 15,v3.0.5,1
+1820,Tablet,Smartphone,macOS,macOS Ventura,v1.0.0,1
+1821,Tablet,Smartphone,macOS,tvOS 14,v1.0.0,1
+1822,Tablet,Smartphone,macOS,tvOS 14,v2.1.0,1
+1823,Tablet,Smartphone,tvOS,FireOS 6,v2.0.1,1
+1824,Tablet,Smartphone,tvOS,Windows 11,v3.0.5,1
+1825,Tablet,Smartphone,tvOS,iOS 16,v1.0.0,1
+1826,Tablet,Smartphone,tvOS,iOS 16,v2.1.0,1
+1827,Tablet,Smartphone,tvOS,macOS Ventura,v1.2.3,1
+1828,Tablet,Tablet,Android,Android 13,v2.1.0,1
+1829,Tablet,Tablet,Android,FireOS 6,v1.2.3,1
+1830,Tablet,Tablet,Android,PS5,v2.0.1,1
+1831,Tablet,Tablet,Android,Xbox,v2.0.1,1
+1832,Tablet,Tablet,Android,Xbox,v3.0.5,1
+1833,Tablet,Tablet,Android,iPadOS 15,v2.1.0,1
+1834,Tablet,Tablet,Android,iPadOS 15,v3.0.5,1
+1835,Tablet,Tablet,FireOS,Android 13,v2.1.0,1
+1836,Tablet,Tablet,FireOS,FireOS 6,v3.0.5,1
+1837,Tablet,Tablet,FireOS,tvOS 14,v1.0.0,1
+1838,Tablet,Tablet,Linux,FireOS 6,v2.1.0,1
+1839,Tablet,Tablet,Linux,Switch,v1.0.0,1
+1840,Tablet,Tablet,Linux,Switch,v2.0.1,1
+1841,Tablet,Tablet,Linux,Windows 11,v3.0.5,1
+1842,Tablet,Tablet,Linux,iPadOS 15,v1.0.0,1
+1843,Tablet,Tablet,Nintendo,Android 13,v1.0.0,1
+1844,Tablet,Tablet,Nintendo,Android 13,v3.0.5,1
+1845,Tablet,Tablet,Nintendo,FireOS 6,v1.0.0,1
+1846,Tablet,Tablet,Nintendo,Switch,v1.0.0,1
+1847,Tablet,Tablet,Nintendo,iOS 16,v1.2.3,1
+1848,Tablet,Tablet,Playstation,Android 13,v2.0.1,1
+1849,Tablet,Tablet,Playstation,Android 13,v2.1.0,1
+1850,Tablet,Tablet,Playstation,Android 13,v3.0.5,1
+1851,Tablet,Tablet,Playstation,FireOS 6,v1.2.3,1
+1852,Tablet,Tablet,Playstation,PS5,v1.2.3,1
+1853,Tablet,Tablet,Playstation,Windows 11,v2.0.1,1
+1854,Tablet,Tablet,Windows,FireOS 6,v1.0.0,1
+1855,Tablet,Tablet,Windows,FireOS 6,v2.0.1,1
+1856,Tablet,Tablet,Windows,Switch,v1.0.0,1
+1857,Tablet,Tablet,Windows,Windows 11,v1.0.0,1
+1858,Tablet,Tablet,Windows,Xbox,v1.0.0,1
+1859,Tablet,Tablet,Windows,iOS 16,v1.0.0,1
+1860,Tablet,Tablet,Windows,iPadOS 15,v1.2.3,1
+1861,Tablet,Tablet,Xbox,Switch,v2.1.0,1
+1862,Tablet,Tablet,Xbox,iPadOS 15,v1.2.3,1
+1863,Tablet,Tablet,Xbox,tvOS 14,v1.2.3,1
+1864,Tablet,Tablet,iOS,FireOS 6,v1.0.0,1
+1865,Tablet,Tablet,iOS,FireOS 6,v3.0.5,1
+1866,Tablet,Tablet,iOS,Switch,v1.0.0,1
+1867,Tablet,Tablet,iOS,Windows 11,v1.0.0,1
+1868,Tablet,Tablet,iOS,Windows 11,v2.0.1,1
+1869,Tablet,Tablet,iOS,Xbox,v3.0.5,1
+1870,Tablet,Tablet,iOS,macOS Ventura,v3.0.5,1
+1871,Tablet,Tablet,macOS,Android 13,v2.0.1,1
+1872,Tablet,Tablet,macOS,Android 13,v3.0.5,1
+1873,Tablet,Tablet,macOS,FireOS 6,v1.0.0,1
+1874,Tablet,Tablet,macOS,FireOS 6,v3.0.5,1
+1875,Tablet,Tablet,macOS,Windows 11,v1.2.3,1
+1876,Tablet,Tablet,macOS,iPadOS 15,v2.0.1,1
+1877,Tablet,Tablet,macOS,tvOS 14,v2.0.1,1
+1878,Tablet,Tablet,macOS,tvOS 14,v3.0.5,1
+1879,Tablet,Tablet,tvOS,PS5,v2.0.1,1
+1880,Tablet,Tablet,tvOS,PS5,v2.1.0,1
+1881,Tablet,Tablet,tvOS,Windows 11,v3.0.5,1

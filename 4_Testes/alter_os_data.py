@@ -5,7 +5,7 @@ import psycopg2
 
 # Caminho base
 base_dir = os.path.dirname(os.path.abspath(__file__))
-csv_path = os.path.join(base_dir, 'data_generation/csv_csv', 'SESSIONS.csv')
+csv_path = os.path.join(base_dir, '..', '3_Implementacao', '3_1_Dados_Fonte', '3_1_1_CSV', 'SESSIONS.csv')
 
 # Ler o CSV atual
 with open(csv_path, 'r', newline='') as f:
@@ -15,7 +15,7 @@ with open(csv_path, 'r', newline='') as f:
 
 # Adicionar um novo registo
 new_row = {
-    'SESSION_CODE': 'SESSION_00000101',
+    'SESSION_CODE': 'SESSION_00001001',
     'USER_CODE': 'USER_00000000001',
     'CONTENT_CODE': 'CONTENT_00000022',
     'TIME': '2024-05-20 14:30:00',
@@ -32,7 +32,7 @@ print(f"Novo registo adicionado")
 
 # Atualizar registo existente
 for row in rows:
-    if row['SESSION_CODE'] == 'SESSION_00000001':
+    if row['SESSION_CODE'] == 'SESSION_00000002':
         row.update({
             'USER_CODE': 'USER_00000000001',
             'CONTENT_CODE': 'CONTENT_00000022',
@@ -45,7 +45,7 @@ for row in rows:
             'APP_VERSION': 'v2.1.0',
             'IS_UP_TO_DATE': '0'
         })
-        print("Registo SESSION_00000001 atualizado.")
+        print("Registo SESSION_00000002 atualizado.")
         break
 
 # Reescrever o CSV
@@ -55,7 +55,7 @@ with open(csv_path, 'w', newline='') as f:
     writer.writerows(rows)
 
 # Scripts a executar
-sql_dir = os.path.join(base_dir, 'sql_scripts')
+sql_dir = os.path.join(base_dir, 'scripts_alterar_dados')
 scripts = {
     'mysql': os.path.join(sql_dir, 'Alter_MySQL_Data.sql'),
     'pg1': os.path.join(sql_dir, 'Alter_PostgreSQL1_Data.sql'),

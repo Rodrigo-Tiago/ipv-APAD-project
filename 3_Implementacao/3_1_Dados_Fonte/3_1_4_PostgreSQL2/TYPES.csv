@@ -1,6 +1,6 @@
 type_id,type_designation,is_up_to_date
-1,Movie,0
-2,TV Show,0
-3,Mini Movie,0
-4,Docuseries,0
-5,One-Off,0
+1,Movie,1
+2,TV Show,1
+3,Mini Movie,1
+4,Docuseries,1
+5,One-Off,1

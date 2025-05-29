@@ -1,16 +1,17 @@
 {
-  "name": "SemanticModel",
+  "name": "CuboStreamFlix",
   "compatibilityLevel": 1600,
   "model": {
+    "name": "Modelo",
     "culture": "pt-PT",
     "dataSources": [
       {
         "type": "structured",
-        "name": "SQL/localhost:1433;DM_DimensionalModel",
+        "name": "SQL/localhost,1433;DM_DimensionalModel",
         "connectionDetails": {
           "protocol": "tds",
           "address": {
-            "server": "localhost:1433",
+            "server": "localhost,1433",
             "database": "DM_DimensionalModel"
           },
           "authentication": null,
@@ -76,6 +77,21 @@
             "name": "DIRECTOR",
             "dataType": "string",
             "sourceColumn": "DIRECTOR"
+          },
+          {
+            "name": "INITIAL_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "INITIAL_DATE"
+          },
+          {
+            "name": "FINAL_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "FINAL_DATE"
+          },
+          {
+            "name": "ACTIVE",
+            "dataType": "boolean",
+            "sourceColumn": "ACTIVE"
           }
         ],
         "partitions": [
@@ -86,7 +102,7 @@
               "type": "m",
               "expression": [
                 "let",
-                "    Source = #\"SQL/localhost:1433;DM_DimensionalModel\",",
+                "    Source = #\"SQL/localhost,1433;DM_DimensionalModel\",",
                 "    dbo_CONTENTS = Source{[Schema=\"dbo\",Item=\"CONTENTS\"]}[Data]",
                 "in",
                 "    dbo_CONTENTS"
@@ -137,7 +153,7 @@
               "type": "m",
               "expression": [
                 "let",
-                "    Source = #\"SQL/localhost:1433;DM_DimensionalModel\",",
+                "    Source = #\"SQL/localhost,1433;DM_DimensionalModel\",",
                 "    dbo_DEVICES = Source{[Schema=\"dbo\",Item=\"DEVICES\"]}[Data]",
                 "in",
                 "    dbo_DEVICES"
@@ -180,6 +196,11 @@
             "sourceColumn": "SESSION_CODE"
           },
           {
+            "name": "SOURCE",
+            "dataType": "string",
+            "sourceColumn": "SOURCE"
+          },
+          {
             "name": "WATCHED_DURATION",
             "dataType": "int64",
             "sourceColumn": "WATCHED_DURATION"
@@ -198,18 +219,12 @@
               "type": "m",
               "expression": [
                 "let",
-                "    Source = #\"SQL/localhost:1433;DM_DimensionalModel\",",
+                "    Source = #\"SQL/localhost,1433;DM_DimensionalModel\",",
                 "    dbo_SESSIONS = Source{[Schema=\"dbo\",Item=\"SESSIONS\"]}[Data]",
                 "in",
                 "    dbo_SESSIONS"
               ]
             }
-          }
-        ],
-        "measures": [
-          {
-            "name": "Total Duration",
-            "expression": " SUM(SESSIONS[WATCHED_DURATION])"
           }
         ]
       },
@@ -270,7 +285,7 @@
               "type": "m",
               "expression": [
                 "let",
-                "    Source = #\"SQL/localhost:1433;DM_DimensionalModel\",",
+                "    Source = #\"SQL/localhost,1433;DM_DimensionalModel\",",
                 "    dbo_TIMES = Source{[Schema=\"dbo\",Item=\"TIMES\"]}[Data]",
                 "in",
                 "    dbo_TIMES"
@@ -346,6 +361,21 @@
             "name": "STREET_ADDRESS",
             "dataType": "string",
             "sourceColumn": "STREET_ADDRESS"
+          },
+          {
+            "name": "INITIAL_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "INITIAL_DATE"
+          },
+          {
+            "name": "FINAL_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "FINAL_DATE"
+          },
+          {
+            "name": "ACTIVE",
+            "dataType": "boolean",
+            "sourceColumn": "ACTIVE"
           }
         ],
         "partitions": [
@@ -356,7 +386,7 @@
               "type": "m",
               "expression": [
                 "let",
-                "    Source = #\"SQL/localhost:1433;DM_DimensionalModel\",",
+                "    Source = #\"SQL/localhost,1433;DM_DimensionalModel\",",
                 "    dbo_USERS = Source{[Schema=\"dbo\",Item=\"USERS\"]}[Data]",
                 "in",
                 "    dbo_USERS"
@@ -368,28 +398,28 @@
     ],
     "relationships": [
       {
-        "name": "413bee2a-73cc-46d0-bbdb-8e68bef68c33",
+        "name": "7e28e179-983a-4dfe-84dd-bfcd051ce552",
         "fromTable": "SESSIONS",
         "fromColumn": "CONTENT_ID",
         "toTable": "CONTENTS",
         "toColumn": "CONTENT_ID"
       },
       {
-        "name": "f326b97a-e20b-4e1f-ad2e-c661e7cde023",
+        "name": "31a6f64c-2001-4445-8977-ed308ffc2e11",
         "fromTable": "SESSIONS",
         "fromColumn": "DEVICE_ID",
         "toTable": "DEVICES",
         "toColumn": "DEVICE_ID"
       },
       {
-        "name": "82723d11-1042-4e65-b1ee-6f3e08c3ce7b",
+        "name": "a48ffba1-2ea3-4efb-94aa-da96bdd197bc",
         "fromTable": "SESSIONS",
         "fromColumn": "TIME_ID",
         "toTable": "TIMES",
         "toColumn": "TIME_ID"
       },
       {
-        "name": "6719b20a-beff-4e24-83af-5120d1e6d962",
+        "name": "aac5cfaf-4e73-4df2-a9b4-e595ba2a66e9",
         "fromTable": "SESSIONS",
         "fromColumn": "USER_ID",
         "toTable": "USERS",
@@ -402,6 +432,5 @@
         "value": "700"
       }
     ]
-  },
-  "id": "SemanticModel"
+  }
 }

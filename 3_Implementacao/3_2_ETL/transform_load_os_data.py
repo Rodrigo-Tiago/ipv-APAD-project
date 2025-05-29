@@ -553,12 +553,26 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
                         imported_count += 1
             print(f"{imported_count} Importados {updated_count} Atualizados para {table}")
         elif table == "SESSIONS":
-            # Criar dicionário com os DEVICE_ID reais
+            # Criar dicionário com os IDs reais
             cur.execute("SELECT device_id, platform, device_type, os_family, os_name, app_version FROM DEVICES")
             device_rows = cur.fetchall()
             device_lookup = {
                 (r[1], r[2], r[3], r[4], r[5]): r[0]
                 for r in device_rows
+            }
+
+            cur.execute("SELECT user_id, user_code, source FROM USERS WHERE ACTIVE = 1")
+            user_rows = cur.fetchall()
+            user_lookup = {
+                (r[1], r[2]): r[0]
+                for r in user_rows
+            }
+
+            cur.execute("SELECT content_id, content_code, source FROM CONTENTS WHERE ACTIVE = 1")
+            content_rows = cur.fetchall()
+            content_lookup = {
+                (r[1], r[2]): r[0]
+                for r in content_rows
             }
 
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -569,13 +583,15 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
                     columns.remove('is_up_to_date')
 
                 device_id_index = columns.index('device_id')
+                user_id_index = columns.index('user_id')
+                content_id_index = columns.index('content_id')
 
                 for raw_values in reader:
                     if raw_values[is_up_to_date_index] != '0':
                         continue
 
                     # Substituir o device_id temporário pelo real
-                    # Primeiro, carregar CSV dos devices para obter os campos identificadores
+                    # Primeiro, carregar CSV para obter os campos identificadores
                     device_csv_path = os.path.join(csv_dir, 'DEVICES.csv')
                     with open(device_csv_path, 'r', encoding='utf-8') as dev_f:
                         dev_reader = csv.reader(dev_f)
@@ -596,6 +612,39 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
                                 real_device_id = device_lookup.get(key)
                                 if real_device_id:
                                     raw_values[device_id_index] = str(real_device_id)
+                                break
+
+                    # Substituir user_id temporário pelo real
+                    temp_user_id = raw_values[user_id_index]
+                    # Procurar na USERS CSV para saber user_code e source do user temporário
+                    user_csv_path = os.path.join(csv_dir, 'USERS.csv')
+                    with open(user_csv_path, 'r', encoding='utf-8') as user_f:
+                        user_reader = csv.reader(user_f)
+                        user_columns = next(user_reader)
+                        user_index = {name: idx for idx, name in enumerate(user_columns)}
+
+                        for user_row in user_reader:
+                            if user_row[user_index['user_id']] == temp_user_id:
+                                user_key = (user_row[user_index['user_code']], user_row[user_index['source']])
+                                real_user_id = user_lookup.get(user_key)
+                                if real_user_id:
+                                    raw_values[user_id_index] = str(real_user_id)
+                                break
+
+                    # Substituir content_id temporário pelo real
+                    temp_content_id = raw_values[content_id_index]
+                    content_csv_path = os.path.join(csv_dir, 'CONTENTS.csv')
+                    with open(content_csv_path, 'r', encoding='utf-8') as content_f:
+                        content_reader = csv.reader(content_f)
+                        content_columns = next(content_reader)
+                        content_index = {name: idx for idx, name in enumerate(content_columns)}
+
+                        for content_row in content_reader:
+                            if content_row[content_index['content_id']] == temp_content_id:
+                                content_key = (content_row[content_index['content_code']], content_row[content_index['source']])
+                                real_content_id = content_lookup.get(content_key)
+                                if real_content_id:
+                                    raw_values[content_id_index] = str(real_content_id)
                                 break
 
                     # Processamento normal (igual ao resto das tabelas)
@@ -672,7 +721,7 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
 
                             insert_sql = f"INSERT INTO {table} ({','.join(insert_columns)}) VALUES ({placeholders})"
                             cur.execute(insert_sql, insert_values)
-                            imported_count += 1
+                            updated_count += 1
                         else:
                             # Atualizações apenas de campos tipo 1 (no mesmo registo ativo)
                             update_cols = [col for col in columns if col not in scd_cols + key_columns and values_dict[col] != str(db_row_dict.get(col, ''))]

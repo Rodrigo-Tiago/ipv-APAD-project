@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{6870E480-7721-4708-BFB8-9AE898AA21B3}") = "StreamFlix_Cube", "StreamFlix_Cube\StreamFlix_Cube.smproj", "{8CE414BB-95B2-4C99-9E03-51BA72086E22}"
+Project("{6870E480-7721-4708-BFB8-9AE898AA21B3}") = "CuboStreamFlix", "CuboStreamFlix\CuboStreamFlix.smproj", "{8CE414BB-95B2-4C99-9E03-51BA72086E22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +18,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {34FCFE0C-D306-45B2-A19E-8B39A1ADB955}
+		SolutionGuid = {D49642D7-D9D6-42C3-AFE7-9B300BB074CD}
 	EndGlobalSection
 EndGlobal
