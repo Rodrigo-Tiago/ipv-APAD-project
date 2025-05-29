@@ -19,6 +19,8 @@
         },
         "credential": {
           "AuthenticationKind": "UsernamePassword",
+          "kind": "SQL",
+          "path": "localhost,1433;DM_DimensionalModel",
           "Username": "sa",
           "EncryptConnection": false
         }
@@ -274,7 +276,8 @@
           {
             "name": "MONTH_NAME",
             "dataType": "string",
-            "sourceColumn": "MONTH_NAME"
+            "sourceColumn": "MONTH_NAME",
+            "sortByColumn": "MONTH"
           }
         ],
         "partitions": [
@@ -376,6 +379,13 @@
             "name": "ACTIVE",
             "dataType": "boolean",
             "sourceColumn": "ACTIVE"
+          },
+          {
+            "type": "calculated",
+            "name": "UserSourceKey",
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "expression": " USERS[USER_CODE] & \" - \" & USERS[SOURCE]"
           }
         ],
         "partitions": [
@@ -398,28 +408,28 @@
     ],
     "relationships": [
       {
-        "name": "7e28e179-983a-4dfe-84dd-bfcd051ce552",
+        "name": "783086b3-af87-45c6-b1fc-0c077061038c",
         "fromTable": "SESSIONS",
         "fromColumn": "CONTENT_ID",
         "toTable": "CONTENTS",
         "toColumn": "CONTENT_ID"
       },
       {
-        "name": "31a6f64c-2001-4445-8977-ed308ffc2e11",
+        "name": "1919d22e-f378-474c-a4fe-cb94332ad28f",
         "fromTable": "SESSIONS",
         "fromColumn": "DEVICE_ID",
         "toTable": "DEVICES",
         "toColumn": "DEVICE_ID"
       },
       {
-        "name": "a48ffba1-2ea3-4efb-94aa-da96bdd197bc",
+        "name": "13868218-c6f6-4a44-b291-dce779bdccf2",
         "fromTable": "SESSIONS",
         "fromColumn": "TIME_ID",
         "toTable": "TIMES",
         "toColumn": "TIME_ID"
       },
       {
-        "name": "aac5cfaf-4e73-4df2-a9b4-e595ba2a66e9",
+        "name": "78b3eb3b-1d17-4378-88d6-16e0f3c96a67",
         "fromTable": "SESSIONS",
         "fromColumn": "USER_ID",
         "toTable": "USERS",
