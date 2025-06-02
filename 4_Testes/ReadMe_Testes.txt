@@ -9,7 +9,7 @@ Contém os scripts SQL com comandos de INSERT e UPDATE preparados para introduzi
 ➡ alter_os_data.py
 
 Script Python responsável por executar os comandos dos ficheiros .sql em cada um dos sistemas operacionais, aplicando as alterações de dados.
-Após executar esta script, é necessário voltar a correr o processo de ETL, de forma a que as alterações efetuadas sejam refletidas no modelo dimensional.
+Após executar esta script, é necessário voltar a correr o processo de ETL ("extract_os_data.py" e "transform_load_os_data.py"), de forma a que as alterações efetuadas sejam refletidas no modelo dimensional.
 
 ➡ Testes_Validacao.pdf
 
