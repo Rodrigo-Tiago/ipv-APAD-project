@@ -94,6 +94,13 @@
             "name": "ACTIVE",
             "dataType": "boolean",
             "sourceColumn": "ACTIVE"
+          },
+          {
+            "type": "calculated",
+            "name": "ContentSourceKey",
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "expression": " CONTENTS[CONTENT_CODE] & \" - \" & CONTENTS[SOURCE]"
           }
         ],
         "partitions": [
@@ -408,28 +415,28 @@
     ],
     "relationships": [
       {
-        "name": "783086b3-af87-45c6-b1fc-0c077061038c",
+        "name": "1fac6110-4dd3-4ad9-ae85-aa25e5259615",
         "fromTable": "SESSIONS",
         "fromColumn": "CONTENT_ID",
         "toTable": "CONTENTS",
         "toColumn": "CONTENT_ID"
       },
       {
-        "name": "1919d22e-f378-474c-a4fe-cb94332ad28f",
+        "name": "3b299308-e465-419e-9492-54dabc442ce7",
         "fromTable": "SESSIONS",
         "fromColumn": "DEVICE_ID",
         "toTable": "DEVICES",
         "toColumn": "DEVICE_ID"
       },
       {
-        "name": "13868218-c6f6-4a44-b291-dce779bdccf2",
+        "name": "0ceec7cd-2ed3-455f-893a-031b4c584784",
         "fromTable": "SESSIONS",
         "fromColumn": "TIME_ID",
         "toTable": "TIMES",
         "toColumn": "TIME_ID"
       },
       {
-        "name": "78b3eb3b-1d17-4378-88d6-16e0f3c96a67",
+        "name": "7264bfce-88fb-494f-9a99-cf27ff6206f4",
         "fromTable": "SESSIONS",
         "fromColumn": "USER_ID",
         "toTable": "USERS",

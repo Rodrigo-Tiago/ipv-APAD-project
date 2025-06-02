@@ -1087,7 +1087,7 @@ IndxAKName=%TABLE%_AK
 IndxFKName=%REFR%_FK
 IndxThreshold=
 PreserveMode=Yes</a:ModelOptionsText>
-<a:RepositoryFilename>C:\Users\rtg4m\Documents\GitHub\ipv-APAD-project\2_Analise\powerdesigner\PostgreSQL2\PostgreSQL2.ldm</a:RepositoryFilename>
+<a:RepositoryFilename>D:\Mestrado\1 Ano\2 Semestre\APAD\Projeto\Sistemas Operacionais\PostgreSQL2\PostgreSQL2.ldm</a:RepositoryFilename>
 <c:GeneratedModels>
 <o:Shortcut Id="o3">
 <a:ObjectID>B7124852-085C-45F3-BCA9-00274079AE0E</a:ObjectID>
@@ -1722,7 +1722,7 @@ Shadow=0
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
 <o:RelationshipSymbol Id="o6">
-<a:Rect>((-7409,40535), (12753,51460))</a:Rect>
+<a:Rect>((-7372,40535), (12753,51503))</a:Rect>
 <a:ListOfPoints>((12353,50457),(-4222,50457),(-4222,40935))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4627</a:ArrowStyle>
@@ -1742,7 +1742,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:RelationshipSymbol>
 <o:RelationshipSymbol Id="o10">
-<a:Rect>((-5495,40535), (12923,44808))</a:Rect>
+<a:Rect>((-5458,40535), (12923,44808))</a:Rect>
 <a:ListOfPoints>((12523,43105),(-2983,43105),(-2983,40935))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4627</a:ArrowStyle>
@@ -1782,7 +1782,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:RelationshipSymbol>
 <o:RelationshipSymbol Id="o16">
-<a:Rect>((-8759,26424), (12762,30697))</a:Rect>
+<a:Rect>((-8722,26424), (12762,30697))</a:Rect>
 <a:ListOfPoints>((12362,27589),(-4222,27589),(-4222,30297))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4627</a:ArrowStyle>
@@ -1802,9 +1802,8 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:RelationshipSymbol>
 <o:RelationshipSymbol Id="o19">
-<a:ModificationDate>1748643351</a:ModificationDate>
-<a:Rect>((-7961,6652), (12278,10348))</a:Rect>
-<a:ListOfPoints>((-4286,7052),(-4286,9448),(11878,9448))</a:ListOfPoints>
+<a:Rect>((-21,4201), (7253,9923))</a:Rect>
+<a:ListOfPoints>((3616,5530),(3616,9523))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4632</a:ArrowStyle>
 <a:LineColor>11184640</a:LineColor>
@@ -1823,9 +1822,8 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:RelationshipSymbol>
 <o:RelationshipSymbol Id="o23">
-<a:ModificationDate>1748643351</a:ModificationDate>
-<a:Rect>((20253,11445), (27603,16171))</a:Rect>
-<a:ListOfPoints>((23928,11845),(23928,15771))</a:ListOfPoints>
+<a:Rect>((3366,8698), (12702,10644))</a:Rect>
+<a:ListOfPoints>((3766,9598),(12302,9598))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>5906</a:ArrowStyle>
 <a:LineColor>11184640</a:LineColor>
@@ -1864,7 +1862,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:RelationshipSymbol>
 <o:RelationshipSymbol Id="o29">
-<a:Rect>((-785,-4903), (13298,-79))</a:Rect>
+<a:Rect>((-747,-4903), (13298,-79))</a:Rect>
 <a:ListOfPoints>((12898,-3857),(3677,-3857),(3677,-479))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4627</a:ArrowStyle>
@@ -1884,7 +1882,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:RelationshipSymbol>
 <o:RelationshipSymbol Id="o32">
-<a:Rect>((-1238,-11003), (13350,104))</a:Rect>
+<a:Rect>((-1200,-11003), (13350,104))</a:Rect>
 <a:ListOfPoints>((12950,-9957),(1949,-9957),(1949,-296))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4627</a:ArrowStyle>
@@ -1904,7 +1902,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:RelationshipSymbol>
 <o:RelationshipSymbol Id="o35">
-<a:Rect>((-15144,22248), (-10120,31493))</a:Rect>
+<a:Rect>((-15107,22248), (-10158,31493))</a:Rect>
 <a:ListOfPoints>((-12632,31093),(-12632,22648))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4627</a:ArrowStyle>
@@ -1924,7 +1922,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:RelationshipSymbol>
 <o:RelationshipSymbol Id="o38">
-<a:Rect>((-15748,5191), (-9524,13171))</a:Rect>
+<a:Rect>((-15711,5191), (-9562,13171))</a:Rect>
 <a:ListOfPoints>((-12636,5591),(-12636,12745))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>4627</a:ArrowStyle>
@@ -1954,7 +1952,6 @@ DESTINATION 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -1975,7 +1972,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -1996,7 +1992,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -2017,7 +2012,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -2038,7 +2032,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -2059,7 +2052,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -2080,7 +2072,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -2091,9 +2082,9 @@ LABL 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:EntitySymbol>
 <o:EntitySymbol Id="o24">
-<a:ModificationDate>1748643350</a:ModificationDate>
+<a:ModificationDate>1747839889</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((12985,15771), (34871,20565))</a:Rect>
+<a:Rect>((12302,7126), (34188,11920))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
 <a:FillColor>16777136</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2101,7 +2092,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -2122,7 +2112,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -2143,7 +2132,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -2164,7 +2152,6 @@ LABL 0 Arial,8,N</a:FontList>
 DISPNAME 0 Arial,8,N
 Attributes 0 Arial,8,N
 EntityPrimaryAttribute 0 Arial,8,U
-EntityForeignAttribute 0 Arial,8,N
 Identifiers 0 Arial,8,N
 LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
@@ -2175,9 +2162,9 @@ LABL 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:EntitySymbol>
 <o:EntitySymbol Id="o21">
-<a:ModificationDate>1748643351</a:ModificationDate>
+<a:ModificationDate>1747839889</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((11878,7051), (32062,11845))</a:Rect>
+<a:Rect>((-6475,7126), (13709,11920))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
 <a:FillColor>16759472</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>

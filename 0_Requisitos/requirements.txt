@@ -1,0 +1,6 @@
+Faker
+psycopg2
+mysql-connector-python
+pandas
+numpy
+pyodbc
