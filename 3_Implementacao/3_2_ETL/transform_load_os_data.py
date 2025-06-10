@@ -675,12 +675,14 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
             with open(file_path, 'r', encoding='utf-8') as f:
                 reader = csv.reader(f)
                 columns = next(reader)
-                if 'is_up_to_date' in columns:
-                    is_up_to_date_index = columns.index('is_up_to_date')
-                    columns.remove('is_up_to_date')
+                columns = [col.upper() for col in columns]  # Normaliza para maiúsculas
 
-                scd_cols = scd_type_23_columns.get(table, [])
-                key_columns = composite_keys.get(table)
+                if 'IS_UP_TO_DATE' in columns:
+                    is_up_to_date_index = columns.index('IS_UP_TO_DATE')
+                    columns.remove('IS_UP_TO_DATE')
+
+                scd_cols = [col.upper() for col in scd_type_23_columns.get(table, [])]
+                key_columns = [col.upper() for col in composite_keys.get(table)]
 
                 for raw_values in reader:
                     if raw_values[is_up_to_date_index] != '0':
@@ -698,14 +700,20 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
                     cur.execute(f"SELECT * FROM {table} WHERE {where_clause} AND ACTIVE = 1", key_values)
                     row = cur.fetchone()
 
-                    pk_col = 'user_id' if table == 'USERS' else 'content_id'
+                    pk_col = 'USER_ID' if table == 'USERS' else 'CONTENT_ID'
 
                     if row: # Se o registo já existe
-                        db_columns = [desc[0] for desc in cur.description]
+                        db_columns = [desc[0].upper() for desc in cur.description]
                         db_row_dict = dict(zip(db_columns, row))
 
                         # Verificar alterações tipo 2.3 (que implicam novo registo)
-                        has_scd23_change = any(values_dict[col] != str(db_row_dict.get(col, '')) for col in scd_cols)
+                        def normalize(v):
+                            return str(v).strip().lower() if v is not None else ''
+
+                        has_scd23_change = any(
+                            normalize(values_dict.get(col)) != normalize(db_row_dict.get(col))
+                            for col in scd_cols
+                        )
 
                         if has_scd23_change:
                             # Inativar registo atual
@@ -724,7 +732,10 @@ def import_dimensional_model(csv_dir, server, dbname, user, password, table_list
                             updated_count += 1
                         else:
                             # Atualizações apenas de campos tipo 1 (no mesmo registo ativo)
-                            update_cols = [col for col in columns if col not in scd_cols + key_columns and values_dict[col] != str(db_row_dict.get(col, ''))]
+                            update_cols = [
+                                col for col in columns
+                                if col not in scd_cols + key_columns + [pk_col] and values_dict[col] != str(db_row_dict.get(col, ''))
+                            ]
 
                             if update_cols:
                                 update_clause = ', '.join([f"{col} = ?" for col in update_cols])
